@@ -25,6 +25,14 @@ export default async function Home({ params }: Props) {
             <div className="hero-overlay" />
             <ScrollReveal animation="fade-in" threshold={0}>
               <div className="hero-content">
+                <div className="heading-with-seal hero-seal">
+                  <span className="seal-mark lg" aria-hidden="true">
+                    印
+                  </span>
+                  <span className="eyebrow hero-eyebrow">
+                    {t("hero.eyebrow")}
+                  </span>
+                </div>
                 <h1 className="hero-title">{t("hero.title")}</h1>
                 <p className="hero-subtitle">{t("hero.subtitle")}</p>
                 <div className="hero-buttons">
@@ -41,9 +49,14 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
+      <div className="scroll-divider" aria-hidden="true" />
+
       {/* Advantages Section */}
       <section className="advantages">
         <div className="container">
+          <div className="advantages-eyebrow-row">
+            <span className="eyebrow">{t("advantages.eyebrow")}</span>
+          </div>
           <div className="advantages-grid">
             {[0, 1, 2].map((i) => (
               <ScrollReveal key={i} animation="fade-up" delay={i * 150}>
@@ -68,9 +81,14 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
+      <div className="scroll-divider" aria-hidden="true" />
+
       {/* Destinations Section */}
       <section className="destinations">
         <div className="container">
+          <div className="destinations-eyebrow-row">
+            <span className="eyebrow">{t("destinations.eyebrow")}</span>
+          </div>
           {[0, 1, 2, 3].map((i) => (
             <ScrollReveal
               key={i}
@@ -112,9 +130,17 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
+      <div className="scroll-divider" aria-hidden="true" />
+
       {/* Testimonials Section */}
       <section className="testimonials">
         <div className="container">
+          <div className="testimonials-heading-row">
+            <span className="seal-mark" aria-hidden="true">
+              印
+            </span>
+            <span className="eyebrow">{t("testimonials.eyebrow")}</span>
+          </div>
           <h2 className="section-title">{t("testimonialsHeading")}</h2>
           <div className="testimonials-grid">
             {[0, 1, 2, 3].map((i) => (

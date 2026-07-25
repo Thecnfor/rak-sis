@@ -11,22 +11,47 @@
     box-sizing: border-box;
 }
 
+/* ===== Imperial Ming palette — distinctive, never generic-tourism green =====
+   The previous palette (#1a5632 forest green + #c8a45c gold) read as
+   "every Chinese travel agency site". This one is grounded in classical
+   Chinese aesthetic: vermillion + ink black + rice paper cream + celadon.
+
+   Discipline: vermillion appears as ACCENT only (~3% of pixels) — never
+   as a primary fill, never on large surfaces. It's the seal stamp, the
+   eyebrow label, the button-hover accent. The bulk stays ink + cream.
+
+   Hex values:
+     --primary      celadon (Song-dynasty jade green) — main brand color
+     --primary-dark deep jade, used for hover & dark chrome
+     --accent       vermillion — seal stamps, eyebrow labels
+     --accent-dark  deeper vermillion — pressed-button state
+     --highlight    antique gold — decorative borders, CTA underline
+     --text         ink black — body copy, headings
+     --text-light   pale ink — secondary text
+     --bg           rice paper cream — main background
+     --bg-light     warm cream — card backgrounds
+     --bg-dark      deep ink — hero overlay, dark sections */
 :root {
-    --primary: #1a5632;
-    --primary-light: #2d8a4e;
-    --primary-dark: #0e3d22;
-    --accent: #c8a45c;
-    --accent-light: #dfc07a;
-    --text: #333;
-    --text-light: #666;
-    --text-lighter: #999;
-    --bg: #fff;
-    --bg-light: #f8f9fa;
-    --bg-dark: #1a1a2e;
-    --shadow: 0 4px 20px rgba(0,0,0,0.08);
-    --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
-    --radius: 12px;
-    --transition: all 0.3s ease;
+    --primary: #5A7A6A;
+    --primary-light: #7B9A8A;
+    --primary-dark: #3F5A4D;
+    --accent: #B83227;
+    --accent-light: #D4523F;
+    --accent-dark: #8E231A;
+    --highlight: #B8945A;
+    --highlight-light: #D4B178;
+    --text: #1A1A1A;
+    --text-light: #5C5C5C;
+    --text-lighter: #8A8A8A;
+    --bg: #F4EDE0;
+    --bg-light: #EFE7D5;
+    --bg-warm: #E8DEC8;
+    --bg-dark: #1A1A1A;
+    --border-soft: rgba(58, 50, 35, 0.12);
+    --shadow: 0 4px 20px rgba(58, 50, 35, 0.10);
+    --shadow-lg: 0 10px 40px rgba(58, 50, 35, 0.14);
+    --radius: 4px;
+    --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
@@ -36,17 +61,34 @@ html {
 body {
     /* System font stack — no webfont download. Renders instantly on
        every device. macOS / iOS fall through to SF Pro / PingFang SC;
-       Windows to Microsoft YaHei; Linux to system sans-serif. */
+       Windows to Microsoft YaHei; Linux to system sans-serif.
+
+       Background is rice-paper cream (#F4EDE0) — every page now sits on
+       this warm off-white. Body copy is ink-black, not the previous
+       #333, for a stronger contrast against the cream. */
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
         "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Segoe UI",
         Roboto, "Helvetica Neue", Arial, sans-serif;
     color: var(--text);
-    line-height: 1.7;
+    line-height: 1.75;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background: #fff;
+    background: var(--bg);
+}
+
+/* Headings: Chinese serif (Songti) for distinctiveness vs. the sans-serif
+   body. Falls back through macOS Mincho → Windows SimSun → Times for
+   Latin glyphs. The serif treatment makes headings feel like calligraphy
+   rather than web defaults. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Songti SC", "STSongti SC-Regular", "STSong", "SimSun",
+        "宋体", "Hiragino Mincho ProN", "Yu Mincho", "Times New Roman", serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    line-height: 1.3;
 }
 
 a {
@@ -68,46 +110,55 @@ img {
 }
 
 /* ===== Buttons ===== */
+/* Squared (4px) instead of the generic web 50px pill. Primary uses
+   celadon; outline buttons are transparent with a thin gold-bronze border
+   that warms up on hover. Letter-spacing is wider for a deliberate, slow
+   feeling — these are concierge calls-to-action, not "click here!" */
 .btn {
     display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
-    font-size: 15px;
+    padding: 13px 36px;
+    border-radius: var(--radius);
+    font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     transition: var(--transition);
-    border: 2px solid transparent;
-    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .btn-primary {
     background: var(--primary);
-    color: #fff;
+    color: var(--bg);
     border-color: var(--primary);
+    box-shadow: 0 1px 0 var(--highlight) inset, 0 2px 8px rgba(58, 50, 35, 0.08);
 }
 
 .btn-primary:hover {
-    background: var(--primary-light);
-    border-color: var(--primary-light);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(26,86,50,0.3);
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: var(--bg);
+    transform: translateY(-1px);
+    box-shadow: 0 1px 0 var(--highlight) inset, 0 6px 20px rgba(63, 90, 77, 0.18);
 }
 
 .btn-outline {
     background: transparent;
     color: #fff;
-    border-color: #fff;
+    border-color: var(--highlight);
 }
 
 .btn-outline:hover {
-    background: #fff;
-    color: var(--primary);
-    transform: translateY(-2px);
+    background: var(--highlight);
+    border-color: var(--highlight);
+    color: var(--text);
+    transform: translateY(-1px);
 }
 
 .btn-lg {
-    padding: 16px 42px;
-    font-size: 17px;
+    padding: 17px 46px;
+    font-size: 15px;
 }
 
 /* ===== Navbar ===== */
@@ -1840,4 +1891,211 @@ body.home-solid-nav .hero {
         opacity: 1;
         animation: none !important;
     }
+}
+
+/* ====================================================================
+   Imperial Ming design system — signature elements
+   ====================================================================
+   These are the design choices that make this site feel like 海涛
+   specifically, not "any Chinese travel agency". Used sparingly so
+   they stay distinctive rather than becoming wallpaper. */
+
+/* .eyebrow — small uppercase label above section titles. Acts like a
+   "scroll title" in a Chinese handscroll painting. Vermillion color
+   provides the only red in the chrome (used at ~2% of pixels), which
+   makes it land as deliberate accent rather than touristy loudness.
+   Pair with a Chinese serif heading right after. */
+.eyebrow {
+    display: inline-block;
+    font-family: "Songti SC", "STSongti SC-Regular", "SimSun", "宋体", serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-left: 0.4em; /* visually balance the letter-spacing */
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+
+/* .scroll-divider — thin centered accent between sections. Inspired by
+   the title-rule convention in Chinese handscroll paintings: a long
+   pause, then content. Used in place of the default web pattern of
+   "another section, bigger margin-top, same colors". */
+.scroll-divider {
+    height: 1px;
+    width: 80px;
+    background: var(--text-lighter);
+    margin: 5rem auto;
+    position: relative;
+    opacity: 0.6;
+}
+
+.scroll-divider::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background: var(--accent);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .seal-mark — the signature element. A 24px vermillion square with
+   a 印 character centered. Inspired by artist seals in Chinese
+   calligraphy. Place inline next to a section heading, on CTAs, or
+   as a tiny corner mark. Never larger than 32px. */
+.seal-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    background: var(--accent);
+    color: var(--bg);
+    font-family: "Songti SC", "STSongti SC-Regular", "SimSun", "宋体", serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    flex-shrink: 0;
+    box-shadow: 0 1px 2px rgba(184, 50, 39, 0.3);
+}
+
+.seal-mark.lg {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+}
+
+/* .heading-with-seal — convenience wrapper that places a small seal
+   mark to the left of a heading, creating a "marked by the artist"
+   effect. Use sparingly on the most important headings. */
+.heading-with-seal {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.heading-with-seal h2 {
+    margin: 0;
+}
+
+/* .section-title refinement — more deliberate than the previous
+   centered bold text. Larger serif, with letter-spacing that lets it
+   breathe on the cream background. */
+.section-title {
+    font-family: "Songti SC", "STSongti SC-Regular", "SimSun", "宋体", serif;
+    font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--accent);
+    margin: 1.25rem auto 0;
+}
+
+/* .hero-title refinement — display-grade serif for the hero. The
+   previous version used sans-serif at the same weight as body text,
+   which made it feel like a generic "welcome to our site" hero. */
+.hero-title {
+    font-family: "Songti SC", "STSongti SC-Regular", "STSong", "SimSun",
+        "宋体", "Hiragino Mincho ProN", "Yu Mincho", serif;
+    font-weight: 500;
+    font-size: clamp(3rem, 6vw, 5rem);
+    letter-spacing: 0.08em;
+    line-height: 1.15;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* .hero-seal wraps the seal + eyebrow in the hero. The seal is large
+   (36px) and the eyebrow is white-on-dark so it reads against the
+   photo overlay. */
+.hero-seal {
+    color: var(--bg);
+    margin-bottom: 1.5rem;
+}
+
+.hero-seal .seal-mark {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.hero-eyebrow {
+    color: var(--bg);
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 0.45em;
+    opacity: 0.92;
+}
+
+/* .advantages-eyebrow-row, .destinations-eyebrow-row,
+   .testimonials-heading-row — center the eyebrow label above each
+   section. The testimonials row also carries a small seal mark to
+   its left, doubling as the "marked by the artist" effect on the
+   most important section heading. */
+.advantages-eyebrow-row,
+.destinations-eyebrow-row {
+    text-align: center;
+}
+
+.testimonials-heading-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 0.75rem;
+}
+
+.testimonials-heading-row .eyebrow {
+    margin-bottom: 0;
+}
+
+/* Slightly cooler hero overlay so the seal + white text reads against
+   the photo without the previous 60% black-out feeling. */
+.hero-overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(26, 26, 26, 0.55) 0%,
+        rgba(26, 26, 26, 0.35) 60%,
+        rgba(26, 26, 26, 0.55) 100%
+    );
+}
+
+/* card refinements — warm cream card backgrounds (not stark white)
+   with subtle ink borders. Matches the imperial palette without
+   looking like generic "card on card" web design. */
+.destination-card,
+.testimonial-card,
+.why-card,
+.service-card,
+.feature-item,
+.advantage-card {
+    background: var(--bg-light);
+    border: 1px solid var(--border-soft);
+    box-shadow: var(--shadow);
+}
+
+.destination-card,
+.testimonial-card,
+.service-card {
+    border-radius: var(--radius);
+}
+
+/* Slight refinement for the testimonial author badge — use the
+   celadon-tinted gold for the stars and ink for the author name. */
+.testimonial-author {
+    font-family: "Songti SC", "SimSun", "宋体", serif;
+    font-weight: 500;
+    color: var(--text);
 }
