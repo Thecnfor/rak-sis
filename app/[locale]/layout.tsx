@@ -14,6 +14,21 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("description"),
+    metadataBase: new URL(
+      process.env.NEXT_PUBLIC_SITE_URL ?? "https://haitao-travel.example.com",
+    ),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      siteName: t("title"),
+      locale: "zh_TW",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
     alternates: {
       canonical: "/",
       languages: Object.fromEntries(
