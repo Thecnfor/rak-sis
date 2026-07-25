@@ -139,7 +139,7 @@ The class is required for `body:not(.home-solid-nav) .nav-link.active` selectors
 5. **Next.js 16 has breaking changes** — always check `node_modules/next/dist/docs/` (sections: `01-getting-started`, `02-guides`, `03-api-reference`, `04-glossary.md`) before adding framework features. `AGENTS.md` reinforces this.
 6. **Middleware file is `proxy.ts`, not `middleware.ts`** — Next 16 renamed it. Place at project root.
 7. **`react-hooks/set-state-in-effect` is intentionally disabled** in `eslint.config.mjs`. The `useEffect(() => setOpen(false), [pathname])` pattern in `Navbar` is allowed; don't re-enable the rule.
-8. **`output: "standalone"`** in `next.config.ts` produces a self-contained build. Don't remove it without updating deployment docs.
+8. **`output: "standalone"` is NOT enabled** — kept the standard `pnpm start` working out of the box. If you containerize later, add it back to `next.config.ts`.
 
 ## CI / Deployment
 

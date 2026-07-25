@@ -23,10 +23,6 @@ const nextConfig: NextConfig = {
   // Don't advertise the framework version in the response header.
   poweredByHeader: false,
 
-  // Single self-contained build for smaller Docker images and easier
-  // serverless deployment.
-  output: "standalone",
-
   // Strict security headers on every response.
   async headers() {
     return [

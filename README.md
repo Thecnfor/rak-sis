@@ -128,8 +128,8 @@ These are deliberate and preserved across edits:
 Any Next.js 16-compatible host works:
 
 - **Vercel** — push to a Vercel-connected repo, set `NEXT_PUBLIC_SITE_URL` env var, done.
-- **Self-hosted Node** — `pnpm build` produces `.next/standalone/` (self-contained server). Copy `public/` and `.next/static/` alongside, then `node .next/standalone/server.js`.
-- **Docker** — use `node:22-alpine` and the `standalone` output. The Dockerfile pattern is out of scope here.
+- **Self-hosted Node** — `pnpm build && pnpm start` (standard Next.js server, no special handling).
+- **Docker / standalone** — if you containerize later, add `output: "standalone"` to `next.config.ts`, then `node .next/standalone/server.js` (with `public/` and `.next/static/` copied alongside).
 
 Set `NEXT_PUBLIC_SITE_URL` to your production hostname (used by sitemap, robots, OG metadata).
 
