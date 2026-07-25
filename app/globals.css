@@ -11,47 +11,23 @@
     box-sizing: border-box;
 }
 
-/* ===== Imperial Ming palette — distinctive, never generic-tourism green =====
-   The previous palette (#1a5632 forest green + #c8a45c gold) read as
-   "every Chinese travel agency site". This one is grounded in classical
-   Chinese aesthetic: vermillion + ink black + rice paper cream + celadon.
-
-   Discipline: vermillion appears as ACCENT only (~3% of pixels) — never
-   as a primary fill, never on large surfaces. It's the seal stamp, the
-   eyebrow label, the button-hover accent. The bulk stays ink + cream.
-
-   Hex values:
-     --primary      celadon (Song-dynasty jade green) — main brand color
-     --primary-dark deep jade, used for hover & dark chrome
-     --accent       vermillion — seal stamps, eyebrow labels
-     --accent-dark  deeper vermillion — pressed-button state
-     --highlight    antique gold — decorative borders, CTA underline
-     --text         ink black — body copy, headings
-     --text-light   pale ink — secondary text
-     --bg           rice paper cream — main background
-     --bg-light     warm cream — card backgrounds
-     --bg-dark      deep ink — hero overlay, dark sections */
+/* ===== Palette ===== */
 :root {
-    --primary: #5A7A6A;
-    --primary-light: #7B9A8A;
-    --primary-dark: #3F5A4D;
-    --accent: #B83227;
-    --accent-light: #D4523F;
-    --accent-dark: #8E231A;
-    --highlight: #B8945A;
-    --highlight-light: #D4B178;
-    --text: #1A1A1A;
-    --text-light: #5C5C5C;
-    --text-lighter: #8A8A8A;
-    --bg: #F4EDE0;
-    --bg-light: #EFE7D5;
-    --bg-warm: #E8DEC8;
-    --bg-dark: #1A1A1A;
-    --border-soft: rgba(58, 50, 35, 0.12);
-    --shadow: 0 4px 20px rgba(58, 50, 35, 0.10);
-    --shadow-lg: 0 10px 40px rgba(58, 50, 35, 0.14);
-    --radius: 4px;
-    --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    --primary: #1a5632;
+    --primary-light: #2d8a4e;
+    --primary-dark: #0e3d22;
+    --accent: #c8a45c;
+    --accent-light: #dfc07a;
+    --text: #333;
+    --text-light: #666;
+    --text-lighter: #999;
+    --bg: #fff;
+    --bg-light: #f8f9fa;
+    --bg-dark: #1a1a2e;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+    --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+    --radius: 12px;
+    --transition: all 0.3s ease;
 }
 
 html {
@@ -61,16 +37,12 @@ html {
 body {
     /* System font stack — no webfont download. Renders instantly on
        every device. macOS / iOS fall through to SF Pro / PingFang SC;
-       Windows to Microsoft YaHei; Linux to system sans-serif.
-
-       Background is rice-paper cream (#F4EDE0) — every page now sits on
-       this warm off-white. Body copy is ink-black, not the previous
-       #333, for a stronger contrast against the cream. */
+       Windows to Microsoft YaHei; Linux to system sans-serif. */
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
         "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Segoe UI",
         Roboto, "Helvetica Neue", Arial, sans-serif;
     color: var(--text);
-    line-height: 1.75;
+    line-height: 1.7;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -110,58 +82,59 @@ img {
 }
 
 /* ===== Buttons ===== */
-/* Squared (4px) instead of the generic web 50px pill. Primary uses
-   celadon; outline buttons are transparent with a thin gold-bronze border
-   that warms up on hover. Letter-spacing is wider for a deliberate, slow
-   feeling — these are concierge calls-to-action, not "click here!" */
 .btn {
     display: inline-block;
-    padding: 13px 36px;
-    border-radius: var(--radius);
-    font-size: 14px;
+    padding: 12px 32px;
+    border-radius: 50px;
+    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
     transition: var(--transition);
-    border: 1px solid transparent;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    position: relative;
+    border: 2px solid transparent;
+    letter-spacing: 0.5px;
 }
 
 .btn-primary {
     background: var(--primary);
-    color: var(--bg);
+    color: #fff;
     border-color: var(--primary);
-    box-shadow: 0 1px 0 var(--highlight) inset, 0 2px 8px rgba(58, 50, 35, 0.08);
 }
 
 .btn-primary:hover {
-    background: var(--primary-dark);
-    border-color: var(--primary-dark);
-    color: var(--bg);
-    transform: translateY(-1px);
-    box-shadow: 0 1px 0 var(--highlight) inset, 0 6px 20px rgba(63, 90, 77, 0.18);
+    background: var(--primary-light);
+    border-color: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(26,86,50,0.3);
 }
 
 .btn-outline {
     background: transparent;
     color: #fff;
-    border-color: var(--highlight);
+    border-color: #fff;
 }
 
 .btn-outline:hover {
-    background: var(--highlight);
-    border-color: var(--highlight);
-    color: var(--text);
-    transform: translateY(-1px);
+    background: #fff;
+    color: var(--primary);
+    transform: translateY(-2px);
 }
 
 .btn-lg {
-    padding: 17px 46px;
-    font-size: 15px;
+    padding: 16px 42px;
+    font-size: 17px;
 }
 
-/* ===== Navbar ===== */
+/* ===== Navbar =====
+   Three states, all with the same transition animation:
+   1. Default — light frosted glass over the page-header area. Sits over
+      white destination/about/contact headers. Smoothly fades in.
+   2. Scrolled — solid white with subtle shadow. The "you've scrolled"
+      state.
+   3. Home (body.home-solid-nav) — dark frosted glass over the hero photo.
+      White text reads against the dark tint.
+   The body.home-solid-nav class is toggled by the inline script in
+   app/[locale]/layout.tsx (true only when pathname === '/'). */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -170,15 +143,18 @@ img {
     z-index: 1000;
     padding: 14px 0;
     transition: var(--transition);
-    background: transparent;
+    /* Default: light frosted glass — readable over the white page-header
+       on destination / about / contact pages, transparent enough to feel
+       like the page is bleeding through. */
+    background: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Frosted glass for the home page when the user hasn't scrolled yet.
-   Sits over the hero image — a subtle dark tint + backdrop blur
-   keeps the white text readable while letting the photo bleed
-   through. Switches to solid white the moment the user scrolls
-   (via .navbar.scrolled) or when navigating to any other page
-   (via body:not(.home-solid-nav) .navbar). */
+/* Home page: dark frosted glass over the hero photo. White text reads
+   against the dark tint. Only fires when NOT scrolled — once the user
+   scrolls, the regular scrolled style takes over. */
 body.home-solid-nav .navbar:not(.scrolled) {
     background: rgba(0, 0, 0, 0.18);
     -webkit-backdrop-filter: blur(14px) saturate(140%);
@@ -187,11 +163,72 @@ body.home-solid-nav .navbar:not(.scrolled) {
 }
 
 .navbar.scrolled {
-    background: rgba(255,255,255,0.97);
+    background: rgba(255, 255, 255, 0.97);
     padding: 6px 0;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    border-bottom-color: transparent;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Navbar text — defaults to dark ink so it reads over the light frosted
+   background. The home override flips it to white for the dark frosted
+   state. The scrolled state is also dark. */
+.nav-links a,
+.logo-text,
+.logo-sub,
+.logo-name {
+    color: var(--text);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--primary);
+}
+
+.lang-btn {
+    color: var(--text);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-dropdown-toggle {
+    color: var(--text);
+}
+
+.nav-dropdown-toggle:hover,
+.nav-dropdown-toggle.active {
+    color: var(--primary);
+}
+
+.hamburger span {
+    background: var(--text);
+}
+
+/* Home page: white text on dark frosted glass (overrides the dark
+   default above so links stay readable on the hero photo). */
+body.home-solid-nav .navbar:not(.scrolled) .nav-links a,
+body.home-solid-nav .navbar:not(.scrolled) .logo-text,
+body.home-solid-nav .navbar:not(.scrolled) .logo-sub,
+body.home-solid-nav .navbar:not(.scrolled) .logo-name,
+body.home-solid-nav .navbar:not(.scrolled) .lang-btn,
+body.home-solid-nav .navbar:not(.scrolled) .nav-dropdown-toggle {
+    color: #fff;
+}
+
+body.home-solid-nav .navbar:not(.scrolled) .hamburger span {
+    background: #fff;
+}
+
+body.home-solid-nav .navbar:not(.scrolled) .nav-links a:hover,
+body.home-solid-nav .navbar:not(.scrolled) .nav-links a.active {
+    color: var(--accent-light);
+}
+
+body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* .navbar.scrolled text rules — kept for backward compat with the
+   previous version. The default is already dark text, but explicit
+   .scrolled rules ensure no specificity regression. */
 .navbar.scrolled .nav-links a,
 .navbar.scrolled .logo-text,
 .navbar.scrolled .logo-sub {
@@ -212,44 +249,6 @@ body.home-solid-nav .navbar:not(.scrolled) {
 }
 
 .navbar.scrolled .hamburger span {
-    background: var(--text);
-}
-
-/* On non-home pages the navbar must always be solid so links stay readable
-   above the white page-header-plain (destination pages). */
-body:not(.home-solid-nav) .navbar {
-    background: rgba(255,255,255,0.97);
-    padding: 6px 0;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-}
-
-body:not(.home-solid-nav) .navbar .nav-links a,
-body:not(.home-solid-nav) .navbar .logo-text,
-body:not(.home-solid-nav) .navbar .logo-sub,
-body:not(.home-solid-nav) .navbar .logo-name {
-    color: var(--text);
-}
-
-body:not(.home-solid-nav) .navbar .nav-links a:hover,
-body:not(.home-solid-nav) .navbar .nav-links a.active {
-    color: var(--primary);
-}
-
-body:not(.home-solid-nav) .navbar .lang-btn {
-    color: var(--text);
-    border-color: rgba(0,0,0,0.2);
-}
-
-body:not(.home-solid-nav) .navbar .nav-dropdown-toggle {
-    color: var(--text);
-}
-
-body:not(.home-solid-nav) .navbar .nav-dropdown-toggle:hover,
-body:not(.home-solid-nav) .navbar .nav-dropdown-toggle.active {
-    color: var(--primary);
-}
-
-body:not(.home-solid-nav) .navbar .hamburger span {
     background: var(--text);
 }
 
@@ -2072,24 +2071,16 @@ body.home-solid-nav .hero {
     );
 }
 
-/* card refinements — warm cream card backgrounds (not stark white)
-   with subtle ink borders. Matches the imperial palette without
-   looking like generic "card on card" web design. */
-.destination-card,
-.testimonial-card,
-.why-card,
-.service-card,
-.feature-item,
-.advantage-card {
-    background: var(--bg-light);
-    border: 1px solid var(--border-soft);
-    box-shadow: var(--shadow);
-}
-
+/* card refinements — keep default white card backgrounds to match the
+   reverted palette, but add subtle ink-tinted borders so they read as
+   "considered" rather than "default". */
 .destination-card,
 .testimonial-card,
 .service-card {
+    background: var(--bg);
+    border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: var(--radius);
+    box-shadow: var(--shadow);
 }
 
 /* Slight refinement for the testimonial author badge — use the
