@@ -330,7 +330,12 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 }
 
 .nav-links a {
-    color: #fff;
+    /* Default to ink color — navbar sits over the light frosted glass
+       background on non-home pages. The body.home-solid-nav rule further
+       down flips it to white for the dark frosted state on the home page
+       hero. (Original rule had color:#fff which made text invisible
+       against the light frosted background — that's the bug.) */
+    color: var(--text);
     padding: 6px 8px;
     font-size: 18px;
     font-weight: 700;
@@ -906,7 +911,15 @@ body.home-solid-nav .hero {
 .cta-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.55);
+    /* Stronger overlay (0.55 → 0.7) + gradient darker behind the text so
+       white heading + body stay legible against the busy mountain photo.
+       White text + bright sky/peak areas at 0.55 was the previous bug. */
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.72) 0%,
+        rgba(0, 0, 0, 0.55) 50%,
+        rgba(0, 0, 0, 0.78) 100%
+    );
 }
 
 .cta-content {
@@ -917,13 +930,17 @@ body.home-solid-nav .hero {
 .cta-content h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    /* Belt-and-suspenders: even if a future photo has a bright sky region
+       under the heading, the shadow keeps "別再猶豫，聯系我們吧" readable. */
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.65);
 }
 
 .cta-content p {
     font-size: 16px;
     line-height: 2;
     margin-bottom: 30px;
-    opacity: 0.9;
+    opacity: 0.95;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
 }
 
 .cta-phone {
