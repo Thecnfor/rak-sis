@@ -16,7 +16,11 @@ export default function MobileLangSwitcher() {
   const switchTo = (newLocale: Locale) => {
     setOpen(false);
     if (newLocale === locale) return;
-    router.replace(`/${newLocale}${pathname === "/" ? "" : pathname}`);
+    // Pass the locale-stripped pathname with an explicit `locale` option so
+    // next-intl's router doesn't double-prefix with the current locale.
+    router.replace(pathname === "/" ? "/" : pathname, {
+      locale: newLocale,
+    });
   };
 
   useEffect(() => {

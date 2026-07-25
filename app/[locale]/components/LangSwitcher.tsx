@@ -16,7 +16,13 @@ export default function LangSwitcher() {
   const switchTo = (newLocale: Locale) => {
     setOpen(false);
     if (newLocale === locale) return;
-    router.replace(`/${newLocale}${pathname === "/" ? "" : pathname}`);
+    // Pass the locale-stripped pathname with an explicit `locale` option so
+    // next-intl's router doesn't double-prefix with the current locale.
+    // (`router.replace("/zh-TW/about")` would be treated as a relative
+    // path and get prefixed with the current locale → "/zh-CN/zh-TW/about".)
+    router.replace(pathname === "/" ? "/" : pathname, {
+      locale: newLocale,
+    });
   };
 
   // Close dropdown when clicking outside the wrapper.
