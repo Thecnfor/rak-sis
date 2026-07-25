@@ -1,348 +1,707 @@
 {
-  "首頁": "Laman Utama",
-  "關於我們": "Tentang Kami",
-  "聯系我們": "Hubungi Kami",
-  "旅游地点": "Destinasi Pelancongan",
-  "了解更多": "Ketahui Lebih Lanjut",
-  "客戶評價": "Ulasan Pelanggan",
-  "快速鏈接": "Pautan Pantas",
-  "聯系方式": "Maklumat Hubungan",
-  "關注我們": "Ikuti Kami",
-  "熱門景點": "Tarikan Popular",
-  "景點概況": "Gambaran Keseluruhan Tarikan",
-  "翻譯中...": "Menterjemah...",
-  "別再猶豫，聯系我們吧": "Jangan ragu lagi, hubungi kami",
-  "提交": "Hantar",
-  "名字": "Nama",
-  "郵箱": "E-mel",
-  "評論或消息": "Komen atau Mesej",
-  "請輸入您的名字": "Masukkan nama anda",
-  "請輸入您的郵箱": "Masukkan e-mel anda",
-  "請輸入您的消息": "Masukkan mesej anda",
-  "發送信息或者聯系我們的社交媒體": "Hantar mesej kepada kami atau hubungi kami di media sosial",
-  "點擊立即咨詢": "Klik untuk Bertanya Sekarang",
-  "海涛旅行定制": "Haitao Travel Custom",
-  "海涛旅行定制 品質無憂": "Haitao Travel Custom — Kualiti Tanpa Kebimbangan",
-  "品質保證": "Jaminan Kualiti",
-  "安全保障": "Jaminan Keselamatan",
-  "售後保障": "Jaminan Selepas Jualan",
-  "五星級服務": "Perkhidmatan Lima Bintang",
-  "專業團隊": "Pasukan Profesional",
-  "個性定制": "Penyesuaian Peribadi",
-  "VIP通道": "Akses VIP",
-  "純玩無購物": "Perjalanan Tulen, Tanpa Berhenti Membeli-belah",
-  "自有車隊": "Armada Sendiri",
-  "行程規劃": "Perancangan Itinerari",
-  "酒店預訂": "Tempahan Hotel",
-  "導遊服務": "Perkhidmatan Pemandu Pelancong",
-  "包車服務": "Perkhidmatan Sewa Kereta Persendirian",
-  "24小時管家": "Penyelia 24 Jam",
-  "24小時管家，貼心服務": "Penyelia 24 Jam, Sentiasa di Perkhidmatan Anda",
-  "您的旅遊專家，期待您的到來": "Pakar pelancongan anda, mengalu-alukan kedatangan anda",
-  "服務優勢": "Kelebihan Perkhidmatan",
-  "品牌優勢": "Kelebihan Jenama",
-  "資源整合": "Integrasi Sumber",
-  "我們的服務": "Perkhidmatan Kami",
-  "我們的特色": "Sorotan Kami",
-  "為何選擇海涛旅行定制": "Mengapa Memilih Haitao Custom Travel",
-  "重慶旅遊": "Pelancongan Chongqing",
-  "重庆旅遊": "Pelancongan Chongqing",
-  "四川旅遊": "Pelancongan Sichuan",
-  "廣西旅遊": "Pelancongan Guangxi",
-  "雲南旅遊": "Lawatan Yunnan",
-  "云南旅游": "Pelancongan Yunnan",
-  "貴州旅遊": "Pelancongan Guizhou",
-  "張家界旅遊": "Pelancongan Zhangjiajie",
-  "北京旅遊": "Pelancongan Beijing",
-  "西安旅遊": "Pelancongan Xi'an",
-  "旅行中國": "Melancong ke China",
-  "奇山異水四川": "Sichuan — Pergunungan dan Perairan Ajaib",
-  "人間仙境張家界": "Zhangjiajie — Negeri Dongeng di Bumi",
-  "秀甲天下壯美廣西": "Guangxi — Keindahan Mengagumkan",
-  "魔幻之城重慶": "Bandar Ajaib Chongqing",
-  "切換選單": "Tukar Menu",
-  "繁體中文": "Bahasa Cina Tradisional",
-  "简体中文": "Bahasa Cina Ringkas",
-  "English": "Bahasa Inggeris",
-  "日本語": "Bahasa Jepun",
-  "한국어": "Bahasa Korea",
-  "ภาษาไทย": "Bahasa Thai",
-  "Tiếng Việt": "Bahasa Vietnam",
-  "Bahasa Melayu": "Bahasa Melayu",
-  "Email 郵箱": "E-mel",
-  "Phone 電話": "Telefon",
-  "WeChat 微信": "WeChat",
-  "Offices 地址": "Pejabat",
-  "來自海涛旅行定制官網的新消息": "Mesej baharu dari Laman Web Rasmi",
-  "深耕旅遊市場多年，獨家資源更具超高性價比": "Pengalaman bertahun-tahun dalam pasaran pelancongan, dengan sumber eksklusif yang memberikan nilai tiada tandingan",
-  "以線上旅遊服務商為主，24小時管家，貼心為您服務": "Sebagai penyedia perkhidmatan pelancongan dalam talian, kami menawarkan perkhidmatan penyelia 24 jam untuk ketenangan fikiran anda",
-  "售前售中售後全面的運營團隊，讓您零操心，更省心": "Pasukan khusus menyokong anda sebelum, semasa, dan selepas perjalanan — benar-benar tanpa kebimbangan",
-  "旅遊更純粹，致力於提升旅行者的消費體驗": "Perjalanan paling tulen, berdedikasi untuk meningkatkan pengalaman setiap pengembara",
-  "所有車輛均為公司自有車隊，持正規資質，5-55座車型齊全": "Semua kenderaan dimiliki syarikat dengan lesen yang sah, tersedia dalam pelbagai saiz dari 5 hingga 55 tempat duduk",
-  "無需人擠人，快速通道免排隊": "Langkau orang ramai dengan akses keutamaan — tiada perlu beratur",
-  "500余名員工，270名資深導遊": "Lebih 500 pekerja dan 270 pemandu pelancong berpengalaman",
-  "專業團隊為您量身定制旅行路線": "Pasukan pakar kami mereka laluan perjalanan yang diperibadikan untuk anda",
-  "集團旗下高奢酒店113家，高奢民宿27家": "Akses kepada 113 hotel mewah dan 27 rumah tetamu butik premium dalam kumpulan kami",
-  "各语种資深專業導遊270人": "270 pemandu pelancong profesional yang fasih dalam pelbagai bahasa",
-  "自有車隊，專職駕齡5年以上司機": "Armada sendiri dengan pemandu profesional, masing-masing mempunyai pengalaman lebih 5 tahun",
-  "嚴選優質資源，確保每一次旅行都是精品體驗": "Sumber premium yang dipilih dengan teliti memastikan setiap perjalanan adalah pengalaman yang halus",
-  "根據您的時間、愛好等靈活定制行程": "Itinerari fleksibel yang direka mengikut jadual dan minat anda",
-  "全程旅遊服務保障，讓您安心出行": "Sokongan pelancongan menyeluruh untuk ketenangan fikiran sepenuhnya sepanjang perjalanan",
-  "海涛旅行定制，品質無憂，純玩無購物是我們的承諾，讓旅遊回歸純粹是我們的目標。": "Haitao Travel Custom menjanjikan kualiti tanpa kebimbangan, pelancongan tulen tanpa hentian membeli-belah. Matlamat kami adalah mengembalikan pelancongan kepada bentuknya yang asli.",
-  "提供中國著名景點的旅遊服務和攻略，包括重庆旅遊、張家界、雲南、四川、北京等多個目的地": "Perkhidmatan melancong dan panduan ke tarikan terkenal di China, termasuk Chongqing, Zhangjiajie, Yunnan, Sichuan, Beijing dan banyak lagi destinasi",
-  "提供全方位的服務，包括旅遊咨詢、包車、酒店預訂、景點門票、導遊服務、合同保障": "Perkhidmatan menyeluruh termasuk khidmat nasihat melancong, sewaan kereta, tempahan hotel, tiket tarikan, perkhidmatan pemandu pelancong dan jaminan kontrak",
-  "我們旅行社經過多年積累，已經與上百家資源供應商達成深度合作，能提供特價機票、酒店和景點門票": "Selepas bertahun-tahun, agensi pelancongan kami telah menjalinkan kerjasama mendalam dengan lebih daripada seratus pembekal sumber, mampu menawarkan tiket penerbangan, hotel dan tiket tarikan pada harga istimewa",
-  "洪崖洞的燈火輝煌，解放碑的繁華熱鬧，磁器口的古色古香": "Cahaya gemerlapan Hongyadong, kesibukan Jiefangbei, dan pesona bersejarah Ciqikou",
-  "一個將壯麗山川與人間煙火完美融合的秘境之地": "Sebuah alam tersembunyi di mana gunung dan sungai yang megah menyatu dengan sempurna bersama kehidupan seharian",
-  "集文化、藝術和旅遊於一體": "Menggabungkan budaya, seni dan pelancongan dalam satu",
-  "阿凡達拍攝地，獨特喀斯特地貌，壯觀而奇妙的自然景觀": "Lokasi penggambaran Avatar, landskap kars yang unik, pemandangan semula jadi yang megah dan menakjubkan",
-  "重慶，一座魔幻之城，山水相依，人文薈萃。在這裏，你可以領略到長江的壯闊，感受到山城的魅力，品味到地道的火鍋，體驗到獨特的巴渝文化。 洪崖洞的灯火辉煌，解放碑的繁华热闹，磁器口的古色古香，每一处都散发着迷人的魅力。無論是首次到重庆，還是深度二刷，都能找到適合自己的旅行節奏。": "Chongqing — sebuah kota magis di mana gunung dan sungai bertemu, kaya dengan warisan budaya. Di sini, anda boleh menyaksikan keagungan Sungai Yangtze, merasai daya tarikan kota pergunungan, menikmati hotpot asli dan mengalami budaya Bayu yang unik. Cahaya gemerlapan Hongyadong, kesibukan Jiefangbei, serta pesona purba Ciqikou — setiap sudut memesona. Sama ada lawatan pertama atau kunjungan kedua yang lebih mendalam, anda pasti menemui rentak perjalanan yang sesuai untuk anda.",
-  "四川省，簡稱「川」或「蜀」，總面積為48.6萬平方千米，是中國的第五大省區。四川地形復雜多樣，地貌東西差異大，地勢呈西高東低的特點，由山地、丘陵、平原、盆地和高原構成。四川盆地是中國四大盆地之一，擁有豐富的歷史文化遺產，如九寨溝、黃龍、都江堰、青城山、樂山大佛、峨眉山等著名景點。此外，四川是一個多民族的大家庭，境內有中國第二大藏區、最大彜區和中國唯一羌族自治縣，每年都會舉行各種各樣的民族節慶活動。": "Wilayah Sichuan, disingkat sebagai \"Chuan\" atau \"Shu\", berkeluasan 486,000 km persegi, wilayah kelima terbesar di China. Bentuk muka buminya pelbagai dan kompleks, berbeza jelas antara timur dan barat — tinggi di barat, rendah di timur — terdiri daripada gunung, bukit, dataran, lembangan dan dataran tinggi. Lembangan Sichuan ialah salah satu daripada empat lembangan besar di China, kaya dengan warisan sejarah dan budaya termasuk Jiuzhaigou, Huanglong, Dujiangyan, Gunung Qingcheng, Leshan Giant Buddha dan Gunung Emei. Sichuan juga sebuah keluarga pelbagai etnik yang rancak, mempunyai kawasan Tibetan kedua terbesar di China, kawasan Yi terbesar, dan satu-satunya wilayah autonomi Qiang di negara ini — dengan pelbagai perayaan etnik diadakan sepanjang tahun.",
-  "廣西，一個將壯麊山川與人間煙火完美融合的秘境之地。這裡一半是詩畫般的自然風光，一半是熱氣騰騰的市井生活，構成了一種獨特而迷人的旅行體驗。 在廣西，每一處都是風景畫，山青水秀，我成了畫中遊走的墨點～南寧青秀山，綠意漫進心底，呼吸都是草木的清香。柳州螺螄粉，熱辣味蕾的狂歡，桂林山水，宋詞裡的工筆，美得如詩如畫。": "Guangxi ialah alam tersembunyi di mana gunung dan sungai yang megah bertemu dengan kehangatan kehidupan seharian. Separuh daripadanya adalah alam semula jadi yang puitis dan indah seperti lukisan, manakala separuh lagi adalah kesibukan jalanan tempatan yang meriah — bersama-sama ia menenun pengalaman melancong yang tiada tandingannya. Di Guangxi, setiap sudut adalah lukisan landskap: bukit zamrud dan air jernih, di mana anda menjadi satu pukulan berus yang menjelajah adegan itu. Gunung Qingxiu Nanning memenuhi hati anda dengan kehijauan, setiap nafas berbau kesegaran daun dan rumput. Luosifen Liuzhou ialah pesta rasa pedas yang berani. Gunung dan sungai Guilin bagaikan seni halus berus puisi Dinasti Song — indah melebihi kata-kata.",
-  "貴州，一個將山水奇境與民族風情完美交融的秘境之地。這裏一半是磅礴大氣的自然造化，一半是多彩濃郁的人文畫卷，構成了一種獨特而迷人的旅行體驗。在貴州，每一幀都是屏保畫，山雄水秀，我成了畫中暢遊的墨點～安順黃果樹，水霧撲面清涼，耳畔皆是轟鳴的壯闊。荔波小七孔，碧潭凝翠如玉，泛舟便是畫中遊。銅仁梵淨山，孤峰直插雲端，登頂方覺天地寬。黔東南西江苗寨，萬家燈火如星，入夜便是最暖的人間。遵義赤水丹霞，紅岩飛瀑相映，穿行仿佛穿越侏羅紀。": "Guizhou ialah sebuah alam tersembunyi tempat keajaiban gunung dan perairan berpadu sempurna dengan budaya etnik. Separuh daripadanya ialah ciptaan alam yang megah, separuh lagi hamparan budaya yang kaya dengan warna, lalu membentuk pengalaman perjalanan yang unik dan mempesona. Di Guizhou, setiap bingkai ibarat gambar hiasan skrin; di celah gunung yang gagah dan air yang indah, saya menjadi titik dakwat yang bebas mengembara dalam lukisan～Di Huangguoshu, Anshun, percikan air yang dingin menyapa wajah, sementara deruan hebat memenuhi telinga. Di Xiaoqikong, Libo, kolam hijau zamrud berkilau bak jed, dan menaiki perahu terasa seperti mengembara dalam lukisan. Di Gunung Fanjing, Tongren, puncak tunggal menjulang menembusi awan; hanya setelah tiba di puncak barulah keluasan langit dan bumi terasa. Di Perkampungan Miao Xijiang, tenggara Guizhou, cahaya ribuan rumah bersinar bak bintang, lalu menjadi pemandangan kehidupan yang paling hangat apabila malam menjelma. Di muka bumi Danxia Chishui, Zunyi, tebing merah dan air terjun saling memantulkan keindahan; berjalan melaluinya terasa seakan merentas zaman Jura.",
-  "彩雲之南，這裏有希爾頓書中的香巴拉，有洛克眼中的世外桃源，有藏族人心中神聖的梅裏雪山，這裏四季花長開，景色四季不同，高山、湖泊、花海、雪山、梯田、各種事物組成了這裏最美的風景。 昆明是雲南省的省會，四季如春，風景優美。麗江這座歷史悠久的古鎮有著很多風景名勝，是納西族人的主要聚居地。大理是雲南最早文化的發祥地，風花雪月是大理著名四景。西雙版納是一個具有著亞熱帶風情的地方，是孔雀和大象的故鄉。迪慶藏族自治州（香格裏拉）是希爾頓眼中的世外桃源，也是朝拜聖地、徒步天堂。": "Selatan Awan — Yunnan. Di sini terletaknya Shangri-La, Gunung Salji Meili yang suci. Kunming yang seperti musim bunga, bandar purba Lijiang, Dali yang romantis, Xishuangbanna tropika, dan Shangri-La — tapak ziarah dan syurga trekking.",
-  "北京，一座薈萃千年帝都氣象與現代國際風範的宏偉之城。這裏一半是金瓦紅牆的皇家氣派，一半是胡同巷弄的市井煙火，構成了一種大氣而醇厚的旅行體驗。在北京，每一步都是歷史的回響，故宮的深邃、長城的雄壯、天壇的肅穆、頤和園的秀美、天安門的莊嚴，每一處都在訴說著華夏文明的輝煌與厚重。無論你是初訪京華，還是舊地重遊，都能在古今交織的畫卷中，找到屬於自己的那份感動與敬畏。": "Beijing — kota megah menggabungkan keagungan imperial seribu tahun dengan gaya moden. Setiap langkah adalah gema sejarah: Kota Larangan, Tembok Besar, Kuil Syurga, Istana Musim Panas, Dataran Tiananmen.",
-  "西安，一座古都傳奇，千年積澱，盛世留痕。在這裏，你可以觸摸秦磚漢瓦的溫度，聆聽絲路駝鈴的迴響，品味羊肉泡饃的醇厚，沉浸於十三朝興衰的厚重史詩。兵馬俑的千軍萬馬，古城牆的雄渾壯闊，大雁塔的梵音裊裊，大唐不夜城的流光溢彩，每一處都在訴說著長安的故事。無論你是初次造訪，還是再度歸來，都能在古今交錯的光影裏，找到屬於自己的那一頁長安記憶。": "Xi'an — ibu kota purba legenda dengan seribu tahun sejarah. Sentuh bata Qin dan jubin Han, dengar loceng unta Jalan Sutera, rasa sup kambing, tenggelam dalam epik tiga belas dinasti.",
-  "洪崖洞": "Hongyadong",
-  "仙女山": "Gunung Xiannu",
-  "天生三橋": "Tiga Jambatan Semula Jadi",
-  "蚩尤九黎城": "Bandar Chiyou Jiuli",
-  "烏江畫廊": "Galeri Sungai Wu",
-  "九寨溝風景區": "Kawasan Pemandangan Jiuzhaigou",
-  "畢棚溝風景區": "Kawasan Pemandangan Bipenggou",
-  "黃龍風景名勝區": "Kawasan Pemandangan Huanglong",
-  "四姑娘山景區": "Kawasan Pemandangan Gunung Siguniang",
-  "若爾蓋熱爾大草原": "Padang Rumput Ruoergai Re'er",
-  "張家界國家森林公園": "Taman Negara Zhangjiajie",
-  "天門山國家森林公園": "Taman Negara Gunung Tianmen",
-  "天子山": "Gunung Tianzi",
-  "張家界黃龍洞": "Gua Huanglong Zhangjiajie",
-  "張家界大峽谷": "Gaung Besar Zhangjiajie",
-  "桂林": "Guilin",
-  "北海": "Beihai",
-  "南寧": "Nanning",
-  "柳州": "Liuzhou",
-  "崇左": "Chongzuo",
-  "洱海": "Tasik Erhai",
-  "瀘沽湖國家級風景名勝區": "Kawasan Indah Tasik Lugu",
-  "麗江古城": "Bandar Purba Lijiang",
-  "玉龍雪山": "Gunung Salji Naga Jed",
-  "束河古鎮": "Bandar Purba Shuhe",
-  "故宮博物院": "Muzium Istana",
-  "八達嶺長城": "Tembok Besar Badaling",
-  "天壇公園": "Taman Kuil Syurga",
-  "頤和園": "Istana Musim Panas",
-  "天安門廣場": "Dataran Tiananmen",
-  "秦始皇兵馬俑博物館": "Muzium Pahlawan Terracotta",
-  "西安城牆": "Tembok Kota Xi'an",
-  "大雁塔 & 大雁塔廣場": "Pagoda Angsa Liar Besar & Dataran",
-  "大唐不夜城": "Tang Paradise",
-  "陝西歷史博物館": "Muzium Sejarah Shaanxi",
-  "梵淨山": "Gunung Fanjing",
-  "西江千戶苗寨": "Kampung Miao Xijiang",
-  "荔波小七孔": "Xiaoqikong, Libo",
-  "黃果樹瀑布": "Air Terjun Huangguoshu",
-  "赤水丹霞旅遊區": "Kawasan Pelancongan Chishui Danxia",
-  "一步一移皆風景，感受歲月沉澱之美": "Setiap langkah menghidangkan pemandangan; rasai keindahan yang diasuh waktu",
-  "漫步其中, 彷彿置身仙境, 感受大自然的溫柔與寧靜": "Berjalan di sini bagaikan berada di alam peri, merasai kelembutan dan ketenangan alam semula jadi",
-  "地质奇迹：解读天生三桥的旷世之美": "Keajaiban geologi: mentafsirkan keindahan abadi Tiga Jambatan Semula Jadi.",
-  "重庆最大的苗寨，以苗族传统文化为特色，规模庞大，堪称一绝": "Kampung Miao terbesar di Chongqing, menampilkan budaya tradisional Miao dalam skala besar — benar-benar tiada tandingan.",
-  "鍾情于山川湖海的壯闊，偏愛古鎮小巷的靜謐": "Mengagumi kemegahan gunung dan tasik, sambil menghargai ketenangan lorong-lorong bandar lama.",
-  "春和景明，花開浪漫；夏綠九寨，恣意清涼": "Musim bunga cerah, bunga mewa romantis; musim panas hijau Jiuzhaigou, nyaman dan dingin.",
-  "徒步愛好者的凈土，國內非常知名的紅葉觀賞聖地": "Syurga peminat mendaki dan antara tempat paling terkenal di China untuk melihat daun merah musim luruh",
-  "色彩豐艷的鈣化池和罕見的巖溶地貌": "Kolam travertin yang berwarna-warni cerah dan bentuk muka bumi karst yang jarang ditemui",
-  "僅次於呼倫貝爾草原的中國第二大草原": "Padang rumput kedua terbesar di China, selepas Padang Rumput Hulunbuir",
-  "高海拔山峰，懸崖峭壁，玻璃棧道，大自然的鬼斧神工": "Puncak altitud tinggi, cenuram curam, laluan langit kaca — karya agung alam semula jadi",
-  "可觀雲濤、月輝、霞日、冬雪四大奇觀": "Empat keajaiban ikonik — laut awan, cahaya bulan, langit senja yang bercahaya, dan salji musim sejuk",
-  "中國唯一可夜遊的溶洞，囊括眾多鐘乳石": "Satu-satunya gua di China yang boleh dilawati pada waktu malam, penuh dengan stalaktit dan stalagmit yang tidak terkira",
-  "站在大峽谷玻璃橋上，谷底風光盡收眼底": "Berdiri di Jambatan Kaca Gaung Besar untuk pemandangan menyeluruh gaung di bawah",
-  "你的一句甲天下 ，我便到了真桂林": "\"Terbaik di bawah langit\" — saat anda menyebut kata-kata itu, anda tahu anda benar-benar telah tiba di Guilin",
-  "一座“因海而名，伴海而生”的海滨小城": "Sebuah kota kecil di pesisir yang “dinamakan kerana laut dan lahir bersama laut”",
-  "一座山水与工业交织、烟火与诗意共存的独特城市": "Sebuah kota unik tempat gunung dan sungai berpadu dengan industri, serta denyut kehidupan seharian wujud bersama keindahan puitis",
-  "一半人間煙火 ，一半詩畫夢境": "Separuh denyut kehidupan harian , separuh alam mimpi bak puisi dan lukisan",
-  "崇文尚禮、蔗糖之都，駱越故里，詩酒華章": "Kota yang menjunjung ilmu dan adab、ibu kota gula, tanah asal Luo Yue, puisi serta arak merangkai bab yang gemilang",
-  "巨龍盤山，雄峙北疆": "Naga raksasa melingkar gunung, berdiri megah di utara",
-  "朱牆金瓦，一眼千年": "Dinding merah, jubin emas — seribu tahun dalam sekilas",
-  "天圓地方，靜祈豐年": "Langit bulat, bumi segi empat — berdoa senyap untuk tahun yang makmur",
-  "湖山相映，皇家畫境": "Tasik dan bukit bercermin — lukisan imperial hidup",
-  "國門之央，萬眾歸心": "Jantung negara, di mana semua hati bertemu",
-  "華夏文明的地下寶庫，濃縮三千年王朝興衰的殿堂": "Perbendaharaan bawah tanah tamadun China — dewan menyuling 3,000 tahun sejarah dinasti",
-  "燈火如晝、遊人如織的盛唐風情步行街": "Jalan pejalan kaki gaya Dinasti Tang yang terang-benderang dan sibuk",
-  "中國現存最完整、規模最宏大的古代城垣建築": "Tembok kota purba terbesar dan terpelihara terbaik di China",
-  "唐代高僧玄奘譯經之地與古城最浪漫的唐文化地標": "Tempat sami Tang Xuanzang menterjemah kitab — mercu tanda budaya Tang paling romantis",
-  "高原湖泊自然風光和摩梭母系民族文化": "Pemandangan tasik tanah tinggi dan budaya matriarki Mosuo",
-  "古城內木樓青瓦，舉頭即可遙望玉龍雪山": "Bangunan kayu berjubin kelabu — dongak dan lihat Gunung Salji Naga Jed",
-  "蒼山洱海畔，風花雪月間": "Di tepi Gunung Cangshan dan Tasik Erhai, di antara angin, bunga, salji dan bulan",
-  "與麗江古城相比，這裏更加幽靜": "Berbanding Lijiang, di sini lebih tenang",
-  "離赤道最近的雪山群，也是北半球最南端的大雪山": "Pergunungan salji paling hampir dengan khatulistiwa — paling selatan di Hemisfera Utara",
-  "納西人心中的神山，主峰扇子陡海拔5596米左右，常年在雲霧纏繞之中，是一座未被征服的處女峰。由12座雪峰組成，雪山自然旅遊資源豐富，可分為雪域、冰川、高山草甸、原始森林景觀等。雪山氣勢磅礴，玲瓏秀麗，隨著時令的變化，在不同高度依次開放的杜鵑花組成了雪山最美的風景。": "Gunung suci orang Naxi — puncak utama Shanzidou pada 5,596m, sentiasa diselubungi kabus, puncak dara yang belum ditakluki.",
-  "一個讓人心動的夢幻之地！每一步都是與大自然的浪漫邂逅，秀美風光如詩如畫，讓人忘卻塵囂。山間清風拂面，綠意滿眼，簡直是避暑天堂！草原、森林、山峯，每一處都藏着自然的祕密，等你來探索。": "Sebuah tempat impian yang menawan hati! Setiap langkah adalah pertemuan romantis dengan alam semula jadi — pemandangan indah bagaikan puisi, membuatkan anda melupakan kesibukan dunia. Bayu gunung menyapu wajah, kehijauan memenuhi mata, syurga untukmelarikan diri dari panas! Padang rumput, hutan, puncak — setiap sudut menyimpan rahsia alam yang menunggu untuk diterokai.",
-  "如果你時間比較緊，建議不要進入洪崖洞內部。": "Jika masa anda terhad, disarankan jangan masuk ke dalam Hongyadong.",
-  "最佳观赏时间：建议晚上19:00-23:00去洪崖洞看夜景。": "Waktu tontonan terbaik: lawati Hongyadong antara 19:00-23:00 untuk pemandangan malam.",
-  "周邊景點：洪崖洞旁邊就是千廝門大橋，步行十幾分鍾就能到解放碑。": "Tempat menarik berdekatan: Jambatan Qiansimen terletak betul-betul di sebelah Hongyadong, hanya berjalan kaki belasan minit untuk ke Jiefangbei.",
-  "清避開人流高峯：節假日10:00-12點爲入園高峯期。": "Elakkan kesesakan: pukul 10:00-12:00 pada hari cuti ialah waktu puncak kemasukan.",
-  "仙女山年均氣溫僅18℃，夏季需備薄外套，冬季需穿羽絨服。": "Gunung Xiannu mempunyai suhu purata tahunan hanya 18°C. Bawa jaket nipis pada musim panas dan baju bulu pada musim sejuk.",
-  "可搭配武隆天生三桥安排一日游。": "Boleh digandingkan dengan Tiga Jambatan Semula Jadi Wulong untuk lawatan seharian.",
-  "可與仙女山旅遊區同日連線遊玩。": "Boleh digandingkan dengan kawasan pelancongan Gunung Xiannu pada hari yang sama.",
-  "建議穿舒適鞋，景區步行距離較長。": "Pakai kasut yang selesa — jarak berjalan di kawasan tarikan agak jauh.",
-  "建議穿防滑運動鞋，雨後路面會偏濕。": "Pakai kasut sukan anti-gelincir — laluan menjadi licin selepas hujan.",
-  "遊览古镇时，记得穿一双舒适的鞋子，这样才能在青石板路上轻松行走。": "Semasa melawat bandar purba, pakai kasut selesa untuk laluan batu.",
-  "建議早入園，先走袁家界與金鞭溪主線，再視體力安排天子山或楊家界，既省時也更容易避開高峰人流。": "Masuk awal dan mulakan dengan laluan utama Yuanjiajie dan Jinbianxi, kemudian, bergantung pada tenaga, tambahkan Gunung Tianzi atau Yangjiajie — menjimatkan masa dan membantu mengelak waktu paling sibuk.",
-  "秋季彩林與湖水色彩層次最豐富，若時間允許可預留一整天深度游覽，步行與觀光車搭配體驗更完整。": "Musim luruh memberikan warna hutan dan tasik yang paling berlapis. Jika masa mengizinkan, luangkan sepanjang hari untuk lawatan mendalam — gabungan berjalan kaki dan bas pelancongan memberikan pengalaman paling lengkap.",
-  "豐水期（6-8月）水勢最為磅礴震撼，建議上午順光時段觀賞，可結合天星橋、陡坡塘形成一日精華遊線，穿行水簾洞需備雨衣。": "Pada musim air tinggi (Jun-Ogos), alirannya paling gagah dan mengagumkan. Anda disarankan berkunjung pada waktu pagi ketika cahaya sesuai, kemudian gabungkan Jambatan Tianxing dan Doupotang dalam laluan sorotan sehari. Sediakan baju hujan untuk melalui Gua Tirai Air.",
-  "紅葉季和初雪季是熱門時段，建議提前預定門票與交通，並根據天氣準備防風保暖裝備。": "Musim daun merah dan salji pertama adalah waktu puncak — tempah tiket dan pengangkutan lebih awal, dan bawa peralatan tahan angin serta sejuk sesuai cuaca.",
-  "九道門、九黎宮、九黎神柱三項建築已被列入大世界吉尼斯之最。": "Pintu Sembilan, Istana Jiuli dan Tiang Suci Jiuli — ketiga-tiga struktur ini tersenarai dalam Guinness World Records.",
-  "民俗互動有攔門酒、高山流水宴、篝火晚會，夜間免費區可以免費參與。": "Pengalaman budaya termasuk arak penghadang pintu, jamuan air mengalir dan malam unggun api — semua percuma di kawasan malam percuma.",
-  "老重慶的靈魂棲息地，不來一次怎知它的如夢似幻？走進這裏，彷彿穿越古今，歷史風韻撲面而來，讓人沉醉不已。江邊漫步，洪崖洞的壯麗與長江的奔騰交相輝映，美不勝收!": "Tempat bersemadi jiwa Chongqing lama — anda hanya akan tahu keajaiban bagaikan mimpi ini apabila melawat sendiri. Masuk ke sini, terasa bagaikan menjelajah zaman, pesona sejarah menyelubungi anda sehingga membuatkan anda terlupa dunia. Berjalan di tepi sungai, keagungan Hongyadong dan deruan Sungai Yangtze saling melengkapi — keindahan yang tiada tandingan!",
-  "作爲世界自然遺產和《變形金剛4》取景地，這裏的三座億萬年形成的天然石橋堪稱地質奇觀。站在天龍橋下仰頭看235米的橋體，或是穿越黑龍橋幽暗的洞穴聽珍珠泉叮咚，那種震撼很難用語言形容。": "Tapak Warisan Dunia semula jadi dan lokasi penggambaran Transformers: Age of Extinction, tiga jambatan batu semula jadi yang terbentuk ratusan juta tahun lalu ini sungguh keajaiban geologi. Berdiri di bawah Jambatan Tianlong menatap badan jambatan setinggi 235 meter, atau menyusuri gua gelap Jambatan Heilong mendengar deruan Mata Air Mutiara — kekaguman itu sukar diungkapkan dengan kata-kata.",
-  "重慶境內展示苗族文化最完整的窗口，40餘處傳統建築藏着根雕、服飾、竹竿舞的千年密碼。全國唯一祭祀“華夏三祖”之一蚩尤的聖地，還原了九黎部落遷徙歷史，是苗族文化認同的精神地標。": "Jendela paling lengkap terhadap budaya Miao di Chongqing, dengan lebih 40 bangunan tradisional yang menyembunyikan kod seribu tahun tentang ukiran kayu, pakaian dan tarian tongkat buluh. Satu-satunya tempat di China yang menyembah Chiyou — salah seorang daripada \"Tiga Leluhur Huaxia\" — dan menghidupkan semula sejarah perpindahan puak Jiuli. Tanda aras spiritual identiti budaya Miao.",
-  "張先生": "Encik Zhang",
-  "張女士": "Puan Zhang",
-  "王先生": "Encik Wang",
-  "王女士": "Puan Wang",
-  "一碗螺蛳粉，两颗卤蛋，三五好友，柳州的记忆，简单而美好。": "Semangkuk mi siput sungai, dua biji telur rebus berempah dan beberapa orang sahabat—kenangan di Liuzhou begitu sederhana namun indah.",
-  "先嗦一碗老友粉，再逛一夜市，這纔是邕城正確打開方式。": "Hirup semangkuk mi Laoyou dahulu, kemudian jelajahi pasar malam—itulah cara terbaik untuk menikmati Kota Yong.",
-  "桂林天氣多變，一定要提前查看天氣預報，找個好點的天氣去。": "Cuaca di Guilin mudah berubah, jadi pastikan anda menyemak ramalan lebih awal dan pilih hari yang cuacanya baik untuk berkunjung.",
-  "景點很分散，別一天排太滿，慢逛更舒服。": "Tarikan terletak berjauhan, jadi jangan padatkan jadual sehari; meneroka dengan santai lebih menyenangkan.",
-  "建議早晨前往，避開人流高峰並感受當地生活氣息。": "Lawati pada waktu pagi untuk elak orang ramai dan alami kehidupan tempatan.",
-  "可乘坐纜車上山，再徒步登臨北四樓或好漢坡。": "Naik kereta kabel ke atas, kemudian mendaki ke Menara Keempat Utara atau Lereng Wira.",
-  "可乘遊船穿行昆明湖，體驗不同的觀景視角。": "Naik bot merentasi Tasik Kunming untuk perspektif berbeza.",
-  "可安排白天逛古城巷道與木府，夜晚感受古城燈光與在地音樂，整體體驗會更完整。": "Terokai lorong purba dan Mu Mansion pada siang hari, nikmati lampu bandar dan muzik tempatan pada waktu malam.",
-  "可結合中國國家博物館一併安排，博物館免費但需提前預約。": "Gabungkan dengan Muzium Negara China — masuk percuma tetapi tempahan awal diperlukan.",
-  "可體驗趕海（捕捉魚蝦、撿拾貝殼，通常在下午5點後開始）。": "Anda boleh merasai pengalaman mencari hasil laut ketika air surut (menangkap ikan dan udang serta mengutip cangkerang, biasanya bermula selepas pukul lima petang).",
-  "建議避開週末和節假日，清晨或下午較晚時段人流較少。": "Elak hujung minggu dan cuti umum — awal pagi atau lewat petang kurang orang ramai.",
-  "建議至少留出半天時間，沿著中軸線從午門到神武門緩步穿行。": "Luangkan sekurang-kurangnya setengah hari berjalan di sepanjang paksi tengah dari Pintu Meridian ke Pintu Keberanian Ilahi.",
-  "山上溫差較大，春秋季節備一件薄外套。": "Suhu di gunung berbeza-beza — bawa jaket ringan pada musim bunga dan luruh.",
-  "四季皆宜，春秋兩季景色尤佳。": "Cantik sepanjang tahun, terutamanya pada musim bunga dan luruh.",
-  "園區較大，建議預留2-3小時遊覽時間。": "Taman ini luas — luangkan 2-3 jam untuk lawatan anda.",
-  "園區較大，建議預留半天以上時間。": "Kawasan ini agak luas — luangkan sekurang-kurangnya setengah hari.",
-  "園區面積大，建議預留半天時間悠閒遊覽。": "Kawasan luas — luangkan setengah hari untuk lawatan santai.",
-  "春季（3-5月）和秋季（9-11月）是桂林旅遊的最佳時間。": "Musim bunga (Mac-Mei) dan musim luruh (September-November) ialah waktu terbaik untuk melancong ke Guilin.",
-  "每日升旗儀式時間隨日出而定，建議提前查詢並提早到場。": "Upacara menaikkan bendera harian berubah mengikut matahari terbit — semak awal dan tiba awal.",
-  "進入廣場需安檢，請隨身攜帶身份證件。": "Pemeriksaan keselamatan diperlukan untuk memasuki dataran — sila bawa kad pengenalan.",
-  "避開週末和節假日高峰，工作日早上開門時段人流相對較少。": "Elak waktu puncak hujung minggu dan cuti — pagi hari bekerja kurang pengunjung.",
-  "故宮門票需提前在官方渠道預約，現場不售票。": "Tiket Kota Larangan mesti ditempah awal melalui saluran rasmi — tiada jualan di tapak.",
-  "祈年殿、迴音壁、圜丘壇為核心看點，不可錯過。": "Dewan Doa Tuaian Baik, Dinding Gema, dan Altar Gundukan Bulat adalah wajib dilihat.",
-  "如果天氣晴好，建議重點停留觀景台區域；若遇雲海天氣，天子山的峰林觀感會非常震撼，出片率也更高。": "Pada hari cerah, luangkan lebih banyak masa di platform tontonan utama. Jika bernasib baik dapat hari dengan laut awan, pemandangan hutan puncak di sini sangat menakjubkan — dan sangat fotogenik.",
-  "如果想在海南行程中加入文化元素，南山是非常值得安排的一站，長輩和家庭游客普遍評價較高。": "Jika anda ingin menambah elemen budaya dalam jadual Chongqing, Bandar Chiyou Jiuli adalah perhentian yang wajar diatur — dipuji tinggi oleh pelancong warga emas dan keluarga.",
-  "記住，放慢腳步、用心感受，才能真正領略天生三橋的震撼與神奇，是「輕觀光」的理想目的地。": "Ingat — perlahanlah dan rasa dengan hati, anda akan benar-benar menghayati kekaguman dan keajaiban Tiga Jambatan Semula Jadi. Ia destinasi ideal untuk pelancongan santai.",
-  "當夕陽爲仙女山披上金紗，林間的風聲與鳥鳴漸漸低吟，這一天的旅程不僅是眼睛的盛宴，更是心靈的治癒。": "Apabila matahari senja menyelubungi Gunung Xiannu dengan cahaya keemasan, deruan angin hutan dan kicauan burung perlahan menemani — perjalanan hari ini bukan sekadar jamuan untuk mata, tetapi juga penyembuhan jiwa.",
-  "總要去趟桂林吧，吹吹漓江邊上的風，走一走興坪古鎮，去趟陽朔漓江二十元人民幣風景區，感受下桂林山水甲天下的魅力。": "Luangkanlah masa untuk ke Guilin, rasai hembusan angin di tepi Sungai Li, bersiar-siar di bandar lama Xingping, kunjungi lokasi pemandangan Sungai Li di Yangshuo yang tertera pada wang kertas dua puluh yuan, dan hayati pesona panorama Guilin yang dikatakan terindah di dunia.",
-  "若你偏好安靜慢遊，束河比大研更適合長時間停留，喝咖啡、拍照、散步的體驗都更從容。": "Jika anda lebih suka perjalanan perlahan yang tenang, Shuhe lebih baik daripada Dayan untuk penginapan lebih lama.",
-  "放慢节奏——当晨雾中的渔火与暮色里的船歌成为记忆坐标时，乌江的魂便悄然入心。": "Perlahan — apabila cahaya ikan di kabus pagi dan lagu perahu di senja menjadi penanda ingatan, jiwa Sungai Wu akan diam-diam meresap ke dalam hati.",
-  "九寨溝是一條被森林所覆蓋的山溝，因有九個藏族村寨坐落在這片高山湖泊群中而得名。世界自然遺產、國家AAAAA級旅遊景區。九寨溝以高山湖泊群、瀑布、彩林、雪峰、藍冰和藏族風情並稱「九寨溝六絕」，號稱「水景之王」。": "Jiuzhaigou ialah sebuah lembah gunung yang diliputi hutan, dinamakan sempena sembilan kampung Tibetan yang terletak di tengah gugusan tasik alpine. Tapak Warisan Dunia semula jadi dan Kawasan Pemandangan AAAAA kebangsaan, Jiuzhaigou diraikan dengan \"Enam Keajaiban\" — gugusan tasik alpine, air terjun, hutan berwarna-warni, puncak bersalji, ais biru dan budaya Tibetan — menjadikannya \"Raja Pemandangan Air.\"",
-  "位於張家界國家森林公園的北部，東臨索溪峪景區，因明初土家族領袖向大坤自號「向王天子」而得名。最高點海拔約1262.5米，最低點海拔約534米，在這裏有機會可以觀賞到雲霧、月夜、霞日、冬雪四大奇觀。": "Located in northern Zhangjiajie National Forest Park, Tianzi Mountain was named after a Ming-era Tujia leader. It rises 1,262.5m at its peak with four wonders: sea of clouds, moonlit nights, rosy dawns, and winter snow.",
-  "作為世界第八大奇蹟，這裏出土了數以千計與真人等高的陶俑、陶馬，每一尊兵俑的面容神態都獨一無二，陣列森嚴，氣勢磅礴，生動再現了兩千多年前大秦帝國的虎狼之師與皇家儀仗。": "The 8th wonder of the world — thousands of life-sized terracotta soldiers and horses, each with unique facial features, standing in solemn formation. They vividly recreate the mighty army and royal guard of the Qin Empire from 2,000 years ago.",
-  "南寧，一座將自然風光、歷史底蘊與市井煙火完美融合的城市。這裏既有青山的秀美與江水的靈動，也有街巷的古老與夜市的沸騰。": "Nanning ialah kota yang menggabungkan keindahan alam, warisan sejarah dan kemeriahan kehidupan setempat dengan sempurna. Di sini, kehijauan bukit dan aliran sungai yang lincah berpadu dengan lorong-lorong lama serta pasar malam yang meriah.",
-  "南寧天氣溼熱，防曬 + 雨傘必備。": "Cuaca Nanning panas dan lembap, jadi perlindungan matahari + payung wajib dibawa.",
-  "南寧以其包容的姿態，將山水之秀、歷史之厚與生活之趣編織在一起，等待旅行者前來細細品味。": "Dengan sikap yang terbuka dan mesra, Nanning menganyam keindahan gunung serta sungai, kekayaan sejarah dan keseronokan hidup, menanti pengembara datang menikmatinya perlahan-lahan.",
-  "大雁塔本身是方形樓閣式磚塔，古樸莊重，內藏貝葉經等珍貴佛教文物，登塔可俯瞰南郊全景。如今以大雁塔為中心，南北廣場延伸出巨大的文化休閒空間：北廣場擁有亞洲最大的矩陣音樂噴泉，夜晚燈光變幻、水柱隨樂舞動；南廣場則正對塔身，是拍攝塔影倒映水池的經典機位，整片區域古塔、綠蔭、雕塑與遊人交織，充滿生活氣息。": "Big Wild Goose Pagoda is a square brick pagoda housing rare Buddhist relics. Climb for panoramic southern views. The north square hosts Asia's largest musical fountain; the south square is perfect for photos. The whole area blends ancient charm with lively leisure.",
-  "天壇是明清兩代皇帝「祭天」「祈穀」的場所，是中國現存最大的古代祭祀性建築群。世界文化遺產、國家AAAAA級旅遊景區。園內的祈年殿、迴音壁、圜丘壇以精巧的力學與聲學設計聞名，古柏森森，莊嚴肅穆。建議早晨前往，看當地市民在此晨練下棋，感受皇家祭壇與市井煙火併存的獨特氛圍。": "The Temple of Heaven was where Ming and Qing emperors offered sacrifices for good harvests — the largest ancient sacrificial complex in China. A UNESCO site featuring the Hall of Prayer, Echo Wall, and Circular Mound Altar. Visit in the morning to see locals exercising.",
-  "天安門廣場位於北京城市中軸線上，是世界上最大的城市廣場，國家象徵和政治活動的重要場所。廣場中央矗立著人民英雄紀念碑，北端是莊嚴的天安門城樓，東側為中國國家博物館，西側為人民大會堂。每日升旗儀式莊重肅穆，吸引無數人徹夜守候。": "Tiananmen Square — the world's largest city square, located on Beijing's central axis. The Monument to the People's Heroes stands at its center, with Tiananmen Tower to the north. Daily flag-raising ceremonies draw crowds who wait through the night.",
-  "洪崖洞集巴渝文化、魔幻景觀、市井煙火於一體，合理規劃可避開人流高峯，深度體驗山城魅力。": "Hongyadong menggabungkan budaya Bayu, pemandangan magis dan kehidupan seharian masyarakat. Rancang lawatan dengan bijak untuk mengelak kesesakan dan nikmati sepenuhnya pesona kota pergunungan ini.",
-  "其魅力不止於一碗鮮香熱辣的螺螄粉，更在於江流曲似九迴腸的百里柳江風光、滿城綻放的春日紫荊，以及深厚的歷史文脈與濃郁的民族風情。": "Its charm goes beyond a bowl of spicy luosifen — it's the winding Liujiang River, spring bauhinia blossoms, deep history, and rich ethnic culture.",
-  "初次到訪可優先雙橋溝觀光線路，體力友好且景觀密度高；重度徒步玩家再安排長坪溝深度路線。": "Pengunjung sulung harus bermula dengan laluan lawatan Lembah Shuangqiao yang mesra tenaga dan padat dengan pemandangan; pejalan kaki serius boleh menambah laluan lebih dalam ke Lembah Changping.",
-  "位於麗江古城西北，依山傍水，比大研古鎮幽靜古樸。古鎮後山是玉龍雪山的余脈，山巒青秀纏綿，林木蒼翠。鎮內大石橋、大覺宮保留完好，壁畫描繪了佛教中的人物形象。是世界文化遺產麗江古城的重要組成部分，於2005年入選CCTV「中國魅力名鎮」。": "Shuhe Ancient Town lies northwest of Lijiang, nestled by mountains and water — quieter than Dayan. Backed by the Jade Dragon Snow Mountain foothills, it features well-preserved stone bridges and temples. Part of the Lijiang UNESCO World Heritage site.",
-  "茶馬古道上最著名的城鎮之一，已有八九百年歷史。古城內木樓青瓦，古街石巷，小橋流水，站在古城東大街上，舉頭即可遙望玉龍雪山。中國以整座古城申報世界文化遺產獲得成功的兩座古城之一，是中國民居中具有鮮明特色和風格的類型之一。": "One of the most famous towns on the Ancient Tea Horse Road with 800-900 years of history. Wooden buildings with grey tiles, stone lanes, bridges over streams — look up from East Street and see Jade Dragon Snow Mountain. One of two ancient towns in China successfully inscribed as UNESCO World Heritage sites in their entirety.",
-  "荔波小七孔是一片以七孔古橋為核心的喀斯特地貌奇觀，因清代一座七孔石橋橫跨響水河而得名。國家AAAAA級旅遊景區，世界自然遺產「中國南方喀斯特」的重要組成部分。以碧水幽潭、疊水飛瀑、水上森林、溶洞暗河和布依族風情並稱「小七孔五韻」，被譽為「地球腰帶上的綠寶石」。": "Xiaoqikong, Libo ialah keajaiban muka bumi batu kapur karst yang berpusat pada jambatan purba tujuh gerbang, dinamakan sempena jambatan batu tujuh gerbang zaman Qing yang merentasi Sungai Xiangshui. Tempat ini merupakan tarikan pelancongan negara bertaraf AAAAA dan bahagian penting Tapak Warisan Alam Dunia「Karst China Selatan」. Air zamrud serta kolam sunyi, air terjun bertingkat, hutan di atas air, gua batu kapur bersama sungai bawah tanah, dan budaya Buyi dikenali bersama sebagai「Lima Pesona Xiaoqikong」, lalu memberinya gelaran「Zamrud di Tali Pinggang Bumi」.",
-  "黃果樹瀑布是中國最大、世界知名的大瀑布，因當地廣泛分佈的黃葛榕而得名。國家AAAAA級旅遊景區，世界自然遺產預備名錄。以雄渾的水勢、六向觀瀑的奇觀、水簾洞內外的變幻以及喀斯特峽谷風光並稱「黃果樹四絕」，被譽為「中華第一瀑」。": "Air Terjun Huangguoshu ialah air terjun terbesar di China dan terkenal di seluruh dunia, dinamakan sempena pokok beringin tempatan yang tumbuh meluas di kawasan ini. Tempat ini merupakan tarikan pelancongan negara bertaraf AAAAA dan tersenarai dalam senarai tentatif Warisan Alam Dunia. Aliran airnya yang gagah, keajaiban melihat air terjun dari enam arah, perubahan pemandangan di dalam serta di luar Gua Tirai Air, dan panorama gaung batu kapur karst dikenali bersama sebagai「Empat Keajaiban Huangguoshu」, lalu memberinya gelaran「Air Terjun Nombor Satu China」.",
-  "赤水丹霞是中國面積最大的丹霞地貌區之一，因赤紅砂岩與翠竹飛瀑交相輝映而得名。世界自然遺產「中國丹霞」組成部分，國家AAAAA級旅遊景區。以丹霞絕壁、瀑布群、竹海森林、桫欏遺存和紅色文化並稱「赤水五絕」，被譽為「丹霞之冠、千瀑之市」。": "Chishui Danxia is one of China's largest Danxia landform areas — named for its red sandstone cliffs contrasting with green bamboo and waterfalls. Part of the UNESCO China Danxia site. Known for Danxia cliffs, waterfalls, bamboo forests, cycad fossils, and red culture.",
-  "集山、水、洞於一身的張家界地貌的博物館，在此可觀賞到北溫帶喀斯特地形的全部風景。峽谷裏植被茂盛，空氣清新，飛流瀑布、小溪泉水隨處可見，猶如一個天然大氧吧。除了欣賞大自然風光，景區最值得一玩的就是目前世界最高、跨度最長的玻璃橋。站在張家界大峽谷玻璃橋上，腳下400米處的谷底風光盡收眼底。": "Muzium semula jadi bagi landskap Zhangjiajie dalam bentuk kecil — gunung, air, dan gua semuanya di satu tempat — di mana pelawat boleh mengagumi seluruh panorama landskap karst hemisfera utara dalam satu lawatan. Gaung ini tebal dengan tumbuh-tumbuhan subur dan udara segar, dengan air terjun mengalir dan anak sungai merenyu di hampir setiap sudut — bar oksigen semula jadi yang sebenar. Selain pemandangan yang menakjubkan, sorotan wajib cuba di taman ini ialah jambatan kaca tertinggi dan terpanjang di dunia. Berdiri di Jambatan Kaca Gaung Besar Zhangjiajie, anda melihat terus ke dasar gaung 400 meter di bawah.",
-  "熱爾大草原是僅次於呼倫貝爾草原的中國第二大草原，著名的天然濕地花湖就在熱爾大草原上。草原上湖泊密布，牛羊遍地，路上遇到一些牧民的藏家樂可以提供吃飯和騎馬等活動。夏季七八月份是來這裏最好的時間，可以看到漫山遍野的野花。": "Padang Rumput Re'er ialah padang rumput kedua terbesar di China, kedua selepas Padang Rumput Hulunbuir, dan merupakan rumah kepada Tasik Bunga — tanah lembap semula jadi yang terkenal. Padang rumput bertaburan dengan tasik dan dipenuhi kawanan lembu serta biri-biri; di sepanjang jalan, inap desa gaya Tibet yang dikendalikan oleh penggembala menawarkan makanan dan menunggang kuda. Masa terbaik untuk melawat ialah Julai dan Ogos pada musim panas, apabila cerun bukit dipenuhi bunga liar.",
-  "故宮是明清兩代的皇家宮殿，又稱紫禁城，是世界現存規模最大、保存最完整的木質結構古建築群。作為世界文化遺產和國家AAAAA級旅遊景區，故宮珍藏文物超百萬件，凝固著中華文明的頂級工藝與美學。建議至少留出半天時間，沿著中軸線從午門到神武門緩步穿行，感受六百年宮廷歲月的厚重與迴響。": "The Forbidden City — the imperial palace of the Ming and Qing dynasties — is the world's largest and best-preserved ancient wooden architectural complex. A UNESCO World Heritage site housing over a million cultural relics. Stroll along the central axis from the Meridian Gate to the Gate of Divine Prowess and feel the weight of 600 years of history.",
-  "頤和園是清朝乾隆、光緒年間營建的皇家行宮御苑，以昆明湖、萬壽山為基址，汲取江南園林造景手法而成，是中國現存規模最大、保存最完整的皇家園林。世界文化遺產、國家AAAAA級旅遊景區。佛香閣、長廊、十七孔橋等景點錯落有致，四季皆宜，春秋尤佳。可乘遊船穿行湖上，或在長廊下慢行細賞彩繪故事。": "The Summer Palace — built during the Qianlong and Guangxu reigns — is China's largest and best-preserved imperial garden, centered on Kunming Lake and Longevity Hill with Jiangnan-style landscaping. A UNESCO site featuring the Tower of Buddhist Incense, the Long Corridor, and the Seventeen-Arch Bridge.",
-  "這座國家級博物館擁有37萬餘件藏品，從史前陶器、商周青銅重器，到漢代瓦當、唐代金銀器和壁畫，序列完整且精品率極高，其中鑲金獸首瑪瑙杯、舞馬銜杯紋銀壺等國寶級文物更是舉世聞名。展廳按時間軸鋪陳，行走其間，如同翻閱一部立體的中國古代史，每一件器物都承載著周秦漢唐的輝煌記憶。": "This national museum houses 370,000+ artifacts spanning from prehistoric pottery to Shang-Zhou bronzes, Han tiles, Tang gold and silverware, and murals. The agate cup with gold animal head and the silver pot with dancing horse are world-famous national treasures. Walking through the time-ordered halls is like reading a three-dimensional history of ancient China.",
-  "這座環繞古城中心的明代城牆，全長約13.7公里，牆頂寬闊平坦，可以步行、騎行或乘坐電瓶車漫遊。青磚灰瓦間，垛口、敵樓、甕城等防禦設施保存完好，立於城頭，向內是古色古香的街巷民居，向外是高樓林立的現代都市，古今對望的畫面令人感慨萬千。": "This Ming Dynasty city wall encircles the ancient center for 13.7km — its broad top is perfect for walking, cycling, or taking an electric car. Battlements, watchtowers, and barbicans remain well-preserved. Standing on the wall, you see ancient streets inside and modern skyscrapers outside — a striking contrast of past and present.",
-  "這座邊城不靠大廣場和商圈熱鬧，也不靠網紅打卡的噱頭，真正抓住人的，是山水裡天然的靜。轉個彎就撞見的風景，像藏在口袋裡的私房錢，放心又踏實。": "Kota sempadan ini tidak bergantung pada dataran besar, kawasan beli-belah yang sibuk atau gimik lokasi bergambar popular. Hal yang benar-benar menawan hati ialah ketenangan semula jadi di celah gunung dan perairannya. Pemandangan yang muncul setiap kali membelok terasa seperti wang simpanan rahsia di dalam poket—menenangkan dan meyakinkan.",
-  "門票免費但需提前數日在「陝西歷史博物館」官方公眾號實名預約，憑身份證入館；館內文物密集，信息量極大，建議租用講解器或跟團人工講解，否則容易走馬觀花，至少預留2.5小時參觀時間。": "Free entry but requires real-name reservation days in advance via the official Shaanxi History Museum WeChat account. ID required for entry. The densely packed exhibits merit an audio guide or tour guide — otherwise easy to skim. Allow at least 2.5 hours.",
-  "在這裏，你可以感受到大自然的獨特魅力。無論是德天跨國大瀑布的壯觀景象，還是明仕田園的寧靜美好，都能讓你流連忘返。每一處風景都有其獨特的魅力，讓你的旅行充滿驚喜和感動。": "Di sini, anda dapat merasai pesona alam yang tersendiri. Sama ada kehebatan Air Terjun Rentas Sempadan Detian atau keindahan desa Mingshi yang damai, kedua-duanya membuatkan anda berat hati untuk beredar. Setiap pemandangan memiliki daya tarikan unik yang memenuhi perjalanan anda dengan kejutan dan detik menyentuh hati.",
-  "德天的水霧、明仕的稻田、花山的巖畫，都是崇左寫給世界的詩。": "Kabus air Detian、sawah padi Mingshi、dan lukisan tebing Huashan, semuanya puisi yang ditulis Chongzuo untuk dunia.",
-  "銀灘如星河傾灑，潿洲島演繹海與火山的千年戀歌，老街煙火與海上日出交織成最治癒的浪漫。": "Pantai Perak berkilau seakan Bima Sakti tercurah, Pulau Weizhou mengalunkan kisah cinta seribu tahun antara laut dengan gunung berapi, manakala denyut kehidupan di jalan lama berpadu dengan matahari terbit di laut menjadi suasana romantis yang paling menenangkan jiwa.",
-  "柳候公園，與風共舞，登山賞綠，盡享自然之美。": "Di Taman Liuhou, menarilah bersama angin, daki bukit untuk menikmati kehijauan dan hayati keindahan alam sepenuhnya.",
-  "柳州工业博物馆，探寻岁月痕迹，感悟时光流转。": "Di Muzium Perindustrian Liuzhou, jejaki kesan tahun-tahun silam dan hayati peredaran masa.",
-  "夏季是赤水大瀑布和佛光岩的最佳觀賞期，建議穿防滑涼鞋以便親水體驗，三大景段間距離較遠，自駕或包車遊玩更自由，全程需預留完整一天。": "Summer is the best season for Chishui Waterfall and Foguang Rock — wear non-slip sandals for water access. The three scenic sections are far apart, so driving or chartering is best. Reserve a full day.",
-  "潿洲島船票提前15天搶，銀灘日出6點人最少。": "Dapatkan tiket feri ke Pulau Weizhou lima belas hari lebih awal; Pantai Perak paling lengang ketika matahari terbit pada pukul enam pagi.",
-  "推薦入住湖畔客棧，清晨看湖面薄霧、傍晚看落日，是瀘沽湖最具氛圍的兩個時段。": "Stay at a lakeside inn — morning mist on the lake and evening sunset are Lugu Lake's most atmospheric moments.",
-  "推薦將索道、玻璃棧道與天門洞連線安排，拍照時段以上午或傍晚為佳，雲霧與山體層次更有氛圍。": "Rancang laluan gabungan yang menghubungkan kereta kabel, laluan langit kaca, dan Tianmen Cave — dan sasarkan waktu foto pada awal pagi atau lewat petang, apabila kabus ringan menambahkan kedalaman yang indah pada gunung.",
-  "建議按「步行觀洞 + 暗河乘船」順序體驗，整體節奏更舒適，也能更完整感受溶洞燈光與岩溶地貌細節。": "Experience in this order: walk through the cave first, then take the underground river boat — a more comfortable pace that lets you fully appreciate the cave lighting and karst details.",
-  "建議搭配黃河九曲第一灣一同遊覽，傍晚光線與草原天際線非常出片，適合安排日落時段拍攝。": "Pasangkan lawatan ini dengan Lenturan Pertama Sungai Kuning Sembilan Lenturan — cahaya senja berlatarkan ufuk padang rumput sangat cantik untuk difoto, jadi rencanakan lawatan pada waktu matahari terbenam.",
-  "春梯疊翠，夏夜流螢；秋收金浪，冬火映樓": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
-  "春湍夏瀑，水霧生煙；秋清冬凝，別樣洞天": "Aliran musim bunga dan air terjun musim panas menerbitkan kabus bak asap；musim luruh jernih, musim sejuk membeku, alam gua menampilkan pesona berbeza",
-  "春潭凝翠，夏林探幽；秋霧鎖橋，冬水如鏡": "Kolam musim bunga menghimpun warna zamrud, rimba musim panas mengundang penerokaan sunyi；kabus musim luruh menyelubungi jambatan, air musim sejuk bak cermin",
-  "春竹滴翠，夏瀑生涼；秋林盡染，冬霧迷蒙": "Spring bamboo drips emerald, summer waterfalls bring coolness; autumn forests blaze with color, winter mist veils everything.",
-  "春雲漫卷，夏翠欲滴；秋高氣爽，冬雪披紗": "Awan musim bunga bergulung lembut, kehijauan musim panas tampak segar menitis；langit musim luruh tinggi dan nyaman, salji musim sejuk menyelubungi bak kain layah",
-  "春秋兩季天氣最穩定，雲海出現概率高，登紅雲金頂需手腳並用攀援鐵索，務必穿防滑鞋並關注天氣預警，門票需提前在官方平台預約。": "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform.",
-  "傍晚時分登城最佳，可同時欣賞落日餘暉與城市燈火；城牆騎行非常受歡迎，但路面為磚石鋪就，略有不平，騎行時注意安全，南門（永寧門）段夜景最為璀璨。": "Best to ascend at dusk to enjoy both sunset glow and city lights. Cycling on the wall is popular but the brick surface is uneven — be careful. The South Gate (Yongning Gate) section has the most brilliant night views.",
-  "傍晚時分登觀景台可同時捕捉日落餘暉與燈火初上的交接瞬間，建議住一晚深度體驗苗家生活，清晨的寨子煙霧繚繞比夜景更顯寧靜。": "Naik ke platform pemandangan pada waktu senja untuk menangkap momen apabila cahaya matahari terbenam bertemu dengan lampu pertama pada waktu malam. Disyorkan bermalam untuk pengalaman mendalam kehidupan Miao—kabut pagi yang berlegar melalui kampung menjadikan suasana yang lebih tenang daripada pemandangan malam.",
-  "建議晚上19:30之後前往，燈光完全點亮後才進入最佳觀賞狀態；想與不倒翁小姐姐互動合影，需提前在官方平台查看當日表演時間並排隊，週末人流量極大，注意保管隨身物品。": "Go after 19:30 when the lights are fully on for the best experience. To interact and take photos with the roly-poly performers, check the schedule on the official platform and queue up. Weekends are extremely crowded — mind your belongings.",
-  "建議環海騎行或包車慢遊，將雙廊、喜洲、才村串聯，一天即可體驗湖景、人文與在地美食三種節奏。": "Cycle around Erhai or take a leisurely charter to connect Shuanglang, Xizhou, and Caicun — experience lake views, local culture, and regional cuisine all in one day.",
-  "必遊景點：漓江、象鼻山、陽朔西街、龍脊梯田以及兩江四湖。": "Tarikan wajib dikunjungi: Sungai Li, Bukit Belalai Gajah, Jalan Barat Yangshuo, Teres Padi Longji serta Dua Sungai dan Empat Tasik.",
-  "高海拔區域建議按景區提示逐步適應，並搭配藍月谷等低海拔景點，行程舒適度更高。": "At high altitudes, acclimatize gradually following park guidance. Pair with lower-altitude spots like Blue Moon Valley for a more comfortable itinerary.",
-  "江面温差较大，需备防风外套；雨季关注景区实时通航公告。": "Suhu di permukaan sungai berubah-ubah — bawalah jaket kalis angin. Pada musim hujan, ikuti notis pelayaran langsung daripada kawasan tarikan.",
-  "雨季路滑，鞋子要防滑，雨衣比雨傘好用，手要空出來扶欄杆。": "Laluan licin pada musim hujan, jadi pakai kasut bertapak antigelincir. Baju hujan lebih praktikal daripada payung dan membolehkan tangan anda bebas memegang susur tangan.",
-  "邊境有管制，拍照避開軍警和哨所，聽工作人員安排不逞能。": "Kawasan sempadan dikawal. Elakkan mengambil gambar anggota tentera, polis atau pondok kawalan, dan patuhi arahan petugas tanpa bertindak melulu.",
-  "晴天逆光時段可拍到更通透的海面層次。": "Pada hari cerah, menembak menentang cahaya menghasilkan lapisan permukaan air yang lebih jernih.",
-  "黃龍海拔相對較高，建議放慢節奏並注意補水，晴天中午前後觀彩池色彩效果通常更佳。": "Huanglong terletak pada ketinggian yang agak tinggi — berjalanlah perlahan, kekal hidrat, dan sasarkan sekitar tengah hari pada hari cerah apabila warna kolam paling cemerlang.",
-  "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的\"人在畫中游\"。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。": "Air sungai hijau bak giok, perahu layar melayang di tengah kabus — itulah benar-benar \"melancong dalam lukisan\". Puncak tinggi, lembah dalam, jeram dan gaung bersambung-sambung, air terjun mengalir, pokok tua dan sulur hijau — membentuk keajaiban semula jadi yang menakjubkan.",
-  "游览古镇时，记得穿一双舒适的鞋子，这样才能在青石板路上轻松行走。": "Apabila menjelajah bandar lama, pakai kasut yang selesa supaya dapat berjalan dengan mudah di atas jalan batu.",
-  "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閒度假於一體的大型原生態旅遊風景區。": "Bersempadan dengan Rizab Alam Semula Jadi Wolong di sebelah timur dan Kawasan Pemandangan Gunung Siguniang di sebelah selatan, ia membentuk bersama Gunung Siguniang dan Wolong \"Tapak Warisan Dunia Koridor Panda Gergasi\". Taman ini mempunyai 82 tarikan semula jadi, bertaburan seperti mutiara bersinar merentasi enam sub-wilayahnya. Ia merupakan destinasi pelancongan eko yang luas menggabungkanmenikmati pemandangan asli, ekspedisi mendaki gunung, penerokaan kutub, ski dan luncur ais, serta percutian santai.",
-  "中國唯一保護完好的高原濕地，以彩池、雪山、峽谷、森林「四絕」著稱於世。景區內的鈣化池池水隨著周圍景色和陽光照射角度，能變幻出五彩的顏色，又被譽為「人間瑤池」。黃龍以規模宏大、結構奇巧、色彩豐艷的地表鈣華景觀為主景，以罕見的巖溶地貌蜚聲中外。": "Tanah lembap tanah tinggi yang terpelihara dengan baik satu-satunya di China, terkenal di seluruh dunia dengan \"Empat Keajaiban\" — kolam berwarna-warni, gunung bersalji, gaung yang dalam, dan hutan purba. Kolam travertin bertukar melalui pelbagai warna pelangi apabila pemandangan sekeliling dan sudut cahaya matahari berubah, menjadikannya digelar \"Kolam Impian di Bumi\". Huanglong diraikan kerana skalanya yang megah, struktur yang bijak, pemandangan travertin permukaan yang berwarna-warni cerah, serta pembentukan karst yang jarang ditemui dan terkenal di seluruh dunia.",
-  "有「中國阿爾卑斯山」之稱的高海拔雪山，徒步愛好者的天堂": "Puncak bersalji altitud tinggi yang digelar \"Alps China\" — syurga bagi peminat mendaki",
-  "四姑娘山是橫斷山脈東部邊緣邛崍山系的最高峰，由四座連綿不斷的山峰組成，這四座山峰長年冰雪覆蓋，如同頭披白紗的四位少女，依次屹立在長坪溝和海子溝兩道銀河之上。四姑娘山一直是徒步愛好者的天堂，峽谷山道崎嶇狹長，冰山上融化的瀑布溪水慢慢流過；而翻過了山谷，則是寬闊的、開滿鮮花的高山草甸，景色非常柔美。": "Gunung Siguniang ialah puncak tertinggi Banjaran Qionglai di tepi timur Banjaran Hengduan, terdiri daripada empat puncak bersambung yang sentiasa bersalji, bagaikan empat gadis yang berkain putih, berdiri berturut-turut di atas dua sungai perak di Lembah Changping dan Lembah Haizi. Ia sudah lama menjadi syurga pejalan kaki — laluan gaung adalah lasak dan sempit, dengan air lebur dari puncak bersalju menitis perlahan dalam anak sungai; di sebalik rabung terbentang padang rumput alpine yang luas penuh dengan bunga liar, melukis pemandangan yang lembut dan indah.",
-  "張家界的核心景區為武陵源風景名勝區，一般說到張家界旅遊主要是遊武陵源。武陵源風景名勝區由張家界國家森林公園、天子山自然保護區、索溪峪自然保護區、楊家界自然保護區組成。市區內著名的熱門景點還有天門山國家森林公園，心跳刺激的玻璃棧道和神奇迷幻的天門洞始終為遊客所津津樂道，被喻為「張家界新傳奇」。距離市郊不遠的「中華最佳洞府」黃龍洞、「人間瑤池」寶峰湖等也可乘公交車或打的到達。此外，市郊處的「百裏畫廊」茅巖河漂流，桑植縣的「亞洲第一大洞」九天洞，芙蓉鎮及「天下第一漂」的猛洞河漂流都是觀光遊覽的佳處。": "Kawasan teras Zhangjiajie ialah Kawasan Pemandangan Wulingyuan — apabila orang menyebut melancong ke Zhangjiajie, mereka biasanya merujuk Wulingyuan. Kawasan Pemandangan Wulingyuan terdiri daripada Taman Negara Zhangjiajie, Rizab Alam Semula Jadi Gunung Tianzi, Rizab Alam Semula Jadi Suoxiyu, dan Rizab Alam Semula Jadi Yangjiajie. Tarikan bandar popular lain termasuk Taman Negara Gunung Tianmen, dengan laluan langit kaca yang mendebarkan dan Tianmen Cave yang ajaib serta dreamy — sentiasa menjadi kegemaran pelawat dan digelar \"legenda baru Zhangjiajie\". Tidak jauh dari bandar, \"Gua Terbaik di China\" — Gua Huanglong — dan \"Kolam Impian di Bumi\" Tasik Baofeng boleh dicapai dengan bas atau teksi. Di pinggir bandar, arung jeram \"Galeri Seratus Li\" Sungai Maoyan, \"Gua No. 1 Asia\" Jiutian Cave di Kaunti Sangzhi, Bandar Furong dan arung jeram \"Arung Jeram No. 1 Dunia\" Sungai Mengdong semuanya merupakan tempat terbaik untuk lawatan.",
-  "中國第一個國家森林公園，是「縮小的仙境，擴大的盆景」": "Taman negara pertama di China — \"kayangan kecil dan bonsai besar\"",
-  "分為黃石寨、琵琶溪、金鞭溪、鷂子寨、畬刀溝、袁家界等景區，是遊玩張家界不可不去的核心景點。處於峰林演化史的青年期，地貌奇特，石峰林立，形態各異，樹木茂盛；坡陡溝深，氣候暖濕。黃石寨是張家界國家森林公園境內最著名的景區，素有「不到黃石寨，枉到張家界」之說。": "Dibahagikan kepada sub-kawasan termasuk Huangshizhai, Pipaxi, Jinbianxi, Yaozizhai, Shudaogou, dan Yuanjiajie, ia adalah teras penting bagi mana-mana lawatan ke Zhangjiajie. Dari segi geologi, ia berada pada peringkat muda evolusi hutan puncak, dengan bentuk muka bumi yang sangat luar biasa: tiang batu tersusun padat dalam bentuk yang tidak terhitung, tumbuh-tumbuhan subur, cerun curam, jurang dalam, dan iklim yang hangat serta lembap. Huangshizhai ialah seksyen paling terkenal dalam Taman Negara Zhangjiajie — ada peribahasa yang berkata \"Anda belum benar-benar melawat Zhangjiajie jika belum ke Huangshizhai.\"",
-  "天門山因自然奇觀「天門洞」而得名。遊覽天門山時，可以在纜車中俯瞰腳山中美景。核心景點是天門山寺。一定要體驗建在懸崖峭壁上的玻璃棧道，看到腳下的萬丈深谷，膽戰心驚之余，感受淩空行走的快樂。天門山有三條遊覽線可以選擇，都是景區中的經典景色。": "Gunung Tianmen mendapat namanya daripada keajaiban semula jadi \"Gua Pintu Syurga\". Semasa anda menaiki kereta kabel, pemandangan gunung di bawah terbentang di kaki anda. Kemuncak utamanya ialah Kuil Gunung Tianmen. Laluan langit kaca yang dibina di sepanjang cenuram tajam memang wajib dikunjungi — menatap ke lembah yang sangat dalam sambil berjalan di udara memberikan keseronokan yang sekali seumur hidup. Gunung Tianmen menawarkan tiga laluan lawatan klasik, setiap satu dengan sorotan ikonik tersendiri.",
-  "位於張家界國家森林公園的北部，東臨索溪峪景區，因明初土家族領袖向大坤自號「向王天子」而得名。最高點海拔約1262.5米，最低點海拔約534米，在這裏有機會可以觀賞到雲霧、月夜、霞日、冬雪四大奇觀。億萬年前的天子山是一片汪洋大海，後來經過複雜而漫長的地質過程，形成了御筆峰等奇異的地質景觀。": "Terletak di utara Taman Negara Zhangjiajie dan bersempadan dengan kawasan pemandangan Suoxiyu di sebelah timur, Gunung Tianzi mendapat namanya daripada pemimpin Tujia awal Dinasti Ming Xiang Dakun, yang menggelarkan dirinya \"Raja Xiang, Anak Syurga\". Titik tertinggi mencapai kira-kira 1,262.5 meter dan titik terendah kira-kira 534 meter; pelawat di sini boleh menyaksikan empat keajaiban khas — awan berlegar, malam bercahaya bulan, langit senja yang bercahaya, dan salji musim sejuk. Beratus juta tahun dahulu, Gunung Tianzi pernah berada di bawah lautan luas; melalui proses geologi yang panjang dan kompleks, ia terbentang menjadi bentuk muka bumi yang aneh hari ini, termasuk puncak Yubi (Berus Diraja) yang terkenal.",
-  "黃龍洞以高闊的洞天、幽深的暗河、密集的石筍而出名，洞中最高處垂直高度約100多米，整個洞內洞中有洞，洞中有河。標誌性景點是已生長了二十萬年的「定海神針」，高達20米的石筍柱，最細處直徑只有10厘米，景區為此投保了一億元保險金。洞中有「水陸兼備」的遊覽觀光線路。": "Gua Huanglong terkenal dengan siling gua yang menjulang tinggi, sungai bawah tanah yang dalam, dan hutan stalagmit yang padat. Gua ini naik lebih daripada 100 meter pada titik tertinggi — dan seluruh sistem gua mengandungi gua dalam gua dan sungai yang mengalir melaluinya. Tarikan ikoniknya ialah \"Jarum Penstabil Laut\" (Dinghai Shenzhen), sebuah stalagmit yang telah berkembang selama 200,000 tahun dan menjulang 20 meter tinggi — namun hanya 10 sentimeter lebar pada titik paling sempit — begitu bernilai sehingga taman telah insuranskannya pada 100 juta yuan. Gua ini menawarkan kedua-dua laluan berjalan dan naik bot, supaya pelawat boleh meneroka di atas tanah dan air.",
-  "建議按「步行觀洞 + 暗河乘船」順序體驗，整體節奏更舒適，也能更完整感受溶洞燈光與巖溶地貌細節。": "Untuk rentak paling selesa — dan peluang terbaik menikmati pencahayaan gua serta butiran karst — lakukan bahagian berjalan kaki dahulu, kemudian naik bot di sungai bawah tanah.",
-  "玻璃橋建議提前預約時段，並預留充足排隊與步行時間；若偏好拍照，可選非高峰時段上橋體驗更佳。": "Tempah slot masa jambatan kaca lebih awal dan berikan masa yang cukup untuk beratur dan berjalan. Jurugambar akan menikmati jambatan paling banyak pada waktu luar puncak.",
-  "\"桂林山水甲天下，陽朔山水甲桂林\"是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!": "\"Pemandangan Guilin mengatasi seluruh dunia; pemandangan Yangshuo mengatasi malah Guilin\" merupakan ringkasan paling tepat bagi tanah ini. Sungai Li ialah jiwa dan intipati Guangxi — airnya yang jernih menjalin melalui hutan puncak karst biru-hijau, berkembang menjadi lukisan landskap semula jadi yang hidup.",
-  "北海，一個被許多人忽視的旅遊勝地，卻足以讓人“待着就不想走”。它的魅力不在於“驚豔”，而在於“舒服”——那種讓人身心放鬆，迴歸生活本真的感受。": "Beihai ialah destinasi pelancongan yang sering terlepas pandang, namun cukup memikat hingga membuat orang “tinggal lalu tidak mahu pergi”. Pesonanya bukan pada sesuatu yang “memukau”, tetapi pada rasa “selesa”——perasaan yang menenangkan tubuh dan fikiran serta mengembalikan kita kepada kehidupan yang sederhana dan sejati.",
-  "其魅力不止於一碗鮮香熱辣的螺螄粉，更在於“江流曲似九迴腸”的百里柳江風光、滿城綻放的春日紫荊，以及深厚的歷史文脈與濃郁的民族風情。": "Pesonanya bukan sekadar semangkuk mi siput sungai yang segar, harum dan pedas, malah turut terletak pada panorama Sungai Liu yang terbentang jauh dengan “aliran berliku bak sembilan lilitan”, bunga bauhinia yang mekar di seluruh kota pada musim bunga, serta warisan sejarah yang mendalam dan budaya etnik yang kaya.",
-  "這裏山清水秀，景色宜人，被譽爲“世界第一大盆景”。在這裏，能感受民族風情的濃郁氣息，嘗一口地道美食，賞一賞自然風光，美好不期而遇。": "Tempat ini memiliki bukit menghijau, air yang jernih dan pemandangan nyaman, lalu digelar “bonsai semula jadi terbesar di dunia”. Di sini, anda dapat menghayati budaya etnik yang kaya, merasai makanan tempatan yang asli, menikmati keindahan alam dan menemui detik indah tanpa diduga.",
-  "夏季水量充沛，可在水上森林體驗「踏瀑戲水」的清涼互動，建議一早入園避開團隊高峰，步行與觀光車交替遊覽更愜意。": "Air melimpah pada musim panas, membolehkan anda menikmati pengalaman menyegarkan「meredah air terjun dan bermain air」di hutan atas air. Masuklah seawal pagi untuk mengelakkan waktu puncak rombongan pelawat, dan selang-selikan berjalan kaki dengan menaiki kenderaan persiaran agar lawatan lebih santai.",
-  "我們深信，旅行是有溫度的": "Kami percaya bahawa melancong itu penuh kehangatan",
-  "我們希望能在這個冰冷冷的世界裏": "Kami berharap di dunia yang dingin ini",
-  "用我們的專業與熱情，帶給你一抹屬於旅行的溫度": "memberikan anda sedikit kehangatan melancong dengan kepakaran dan semangat kami",
-  "海涛旅行定制熱枕期盼您來中國旅行！": "Haitao Travel Customization dengan penuh harapan mengalu-alukan kedatangan anda melancong ke China!",
-  "琳美人": "Puan Lin",
-  "我很喜歡這次的旅行，見識了重慶的美，感受了祖國的大好河山風光，領隊們都很負責，管家小週會每天發佈溫馨提示，喜歡導遊陶子，還會推薦好吃好玩的地方，景點遊玩有些需要自費也不強求看個人意願這點我跟喜歡，一路也會給我們講解重慶的文化特色，大家一起玩很開心，會推薦想來玩的朋友們，有機會還會再來，有緣再見。": "Saya sangat menyukai percutian ini, dapat melihat keindahan Chongqing dan merasai landskap permai negara kita. Ketua-ketua kumpulan sangat bertanggungjawab, penyambut tetamu Xiao Zhou menghantar peringatan yang mesra setiap hari. Saya gemar pemandu Taozi, yang turut mencadangkan tempat makan dan bermain yang menarik. Beberapa tarikan mempunyai aktiviti tambahan yang perlu dibayar sendiri, tetapi tidak dipaksa — saya sangat menyukai perkara ini. Sepanjang perjalanan, mereka turut berkongsi ciri budaya Chongqing. Semua seronok bermain bersama, saya akan cadangkan kepada kawan-kawan yang ingin datang, dan akan datang lagi jika ada peluang, jumpa lagi!",
-  "M53****383": "M53****383",
-  "行程安排合理，不用趕路，接送機師傅準時，態度特別好，還幫着提行李，導遊業務水平高，有責任心，對大家很親切，小董和小黎還給大家講了好多關於重慶的由來等，還幫着遊客拍照，大家一起玩特別開心，酒店乾淨舒適，早餐豐盛，下次出遊還選寰遊。": "Jadual perjalanan disusun dengan munasabah, tidak perlu terburu-buru. Pemandu pemindahan lapangan terbang menepati masa, sikap sangat baik, turut membantu mengangkat bagasi. Pemandu pelancong mahir dan bertanggungjawab, ramah dengan semua orang. Xiao Dong dan Xiao Li turut berkongsi banyak kisah tentang asal-usul Chongqing, dan membantu mengambil gambar untuk pelancong. Semua bermain bersama dengan sangat seronok, hotel bersih dan selesa, sarapan pagi yang mengenyangkan, percutian akan datang masih memilih Huanyou.",
-  "匿名用户": "Pengguna Tanpa Nama",
-  "酒店住的很舒服，乾淨、空間也很大。 導遊講解思路清晰，好好聽就知道應該怎麼玩，一個人也完全不用怕。滿意！ 風景也很好看，景區裏邊也很乾淨。明年秋天應該還會再來。把剩下沒逛完的景點補足。這次時間不夠稍稍留了一些小遺憾！": "Penginapan sangat selesa, bersih dan luas. Pemandu pelancong memberikan penerangan yang jelas dan teratur; dengar sahaja pasti tahu cara bermain, pergi bersendirian pun tidak perlu takut. Sangat berpuas hati! Pemandangannya juga cantik, kawasan tarikan juga bersih. Musim luruh tahun depan mungkin akan datang lagi, untuk melengkapkan tempat yang belum dilawati. Kali ini masa tidak cukup menyebabkan sedikit kekecewaan kecil!",
-  "整體來說還是很滿意的，時間比較充裕。不算很趕時間。導遊年輕有活力，安排的也不錯。從成都出發開始，小露就給我們每個家庭發通知短信 ，注意事項 。司機開車很穩當，團餐也還行。風景確實好漂亮，累並快樂着，不虛此行。": "Secara keseluruhan saya sangat berpuas hati, masa agak lapang, tidak terasa terburu-buru. Pemandu pelancong muda dan bertenaga, susunannya juga bagus. Sejak bermula dari Chengdu, Xiao Lu menghantar mesej pemberitahuan kepada setiap keluarga, dengan perkara yang perlu diberi perhatian. Pemandu memandu dengan stabil, makanan berkumpulan juga ok. Pemandangannya memang cantik, penat tetapi gembira, perjalanan yang berbaloi.",
-  "我們深信，旅行是有溫度的<br>我們希望能在這個冰冷冷的世界裏<br>用我們的專業與熱情，帶給你一抹屬於旅行的溫度<br>海涛旅行定制熱枕期盼您來中國旅行！": "Kami percaya bahawa melancong itu penuh kehangatan.<br>Kami berharap di dunia yang dingin ini<br>memberikan anda sedikit kehangatan melancong dengan kepakaran dan semangat kami.<br>Haitao Travel Custom dengan penuh harapan mengalu-alukan kedatangan anda melancong ke China!",
-  "中國張家界市永定區逸城公園": "Taman Yicheng, Daerah Yongding, Bandar Zhangjiajie, China",
-  "海涛旅行定制有限公司，是一家提供中高端旅遊服務的在線旅行服務商。自成立以來，一直秉承著「質量第一、信譽至上、以人為本」的經營理念服務於遊客，註重商業信譽，同時也樹立了專註品質的行業口碑。": "Haitao Custom Travel ialah agensi pelancongan dalam talian premium yang menyediakan perkhidmatan pelancongan mewah. Sejak ditubuhkan, kami berpegang teguh pada falsafah \"Kualiti Diutamakan, Reputasi Tertinggi, Berpusatkan Pelanggan,\" berkhidmat untuk pelancong dengan penuh integriti dan membina reputasi industri yang kukuh untuk kualiti.",
-  "目前在與線上旅遊平臺攜程、Facebook、Google均有深度合作。公司現有員工500余人等，其中各语种資深專業導遊270人，年接待遊客量達十萬余人次。經過數年的發展，打造了一支能力全面的運營團隊並建立了較為完善的售後服務體系，海涛旅行定制，品質無憂，純玩無購物是我們的承諾，讓旅遊回歸純粹是我們的目標。海涛旅行定制不仅仅有传统跟团游服务，集团公司旗下高奢酒店113家，高奢民宿27家，还可进行行程线路规划、酒店、当地用车导、门票等打包预定等全程旅游服务保障，也可根据您的需求进行个性化定制，区别于传统跟团游及自由行，根据您的时间、爱好等灵活定制，旅途全程更加省心安全有保障。": "Kami menjalinkan kerjasama erat dengan platform pelancongan terkemuka seperti Ctrip, Facebook dan Google. Pasukan kami mempunyai lebih daripada 500 pekerja, termasuk 270 pemandu pelancong profesional berbilang bahasa, dan kami mengalu-alukan lebih 100,000 pelancong setiap tahun. Selepas bertahun-tahun berkembang, kami telah membina pasukan operasi yang menyeluruh dan sistem perkhidmatan selepas jualan yang lengkap. Kualiti tanpa kebimbangan dan lawatan tanpa pembelian adalah janji kami; mengembalikan pelancongan kepada bentuk asalnya yang tulen adalah misi kami. Selain lawatan kumpulan tradisional, kumpulan kami mengendalikan 113 hotel mewah dan 27 rumah tetamu butik premium. Kami juga menawarkan perkhidmatan perancangan perjalanan menyeluruh merangkumi itinerari, hotel, pengangkutan tempatan, tiket tarikan dan tempahan pakej — semuanya disesuaikan dengan keperluan anda. Tidak seperti lawatan kumpulan standard atau percutian sendiri, kami mereka perjalanan fleksibel mengikut jadual dan minat anda, memastikan pengalaman yang tenang dan selamat dari awal hingga akhir.",
-  "私人定制滿足您對旅行的任何需求": "Perjalanan khas yang direka untuk setiap keperluan yang anda bayangkan",
-  "海涛旅行定制全體員工期待您的到來！": "Seluruh pasukan Haitao Custom Travel tidak sabar untuk mengalu-alukan anda!",
-  "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎": "Sungai bagai zamrud hijau, perahu berhias melayari kabus — di sini anda benar-benar \"di dalam lukisan\". Puncak tinggi, lembah dalam, air terjun deras, pokok purba dan sulur membentuk landskap yang mengagumkan.",
-  "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨": "Ke timur bersambung dengan Rizab Alam semula Jadi Wolong, ke selatan bersambung dengan Gunung Siguniang — bersama membentuk \"Tapak Warisan Dunia Koridor Panda Gergasi\". Taman ini mempunyai 82 tarikan semula jadi.",
-  "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，": "Peribahasa \"Pemandangan Guilin mengatasi dunia, pemandangan Yangshuo mengatasi Guilin\" merumuskannya dengan tepat. Sungai Li ialah intipati dan jiwa Guangxi — air jernih mengalir di antara puncak karst berwarna nila.",
-  "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。": "Gunung Fanjing ialah puncak utama Pergunungan Wuling, dinamakan berdasarkan makna Buddha 'Tanah Suci Brahma'. Warisan Dunia Semulajadi,tarikan AAAAAA negara,dan salah satu dari lima gunung Buddha utama China.Dikenali sebagai 'Kota di Langit', dengan empat keajaiban: Puncak Emas Awan Merah yang curam, Batu Cendawan yang aneh, Laut Awan dan Cahaya Buddha yang berubah-ubah, serta Monyet hidung pesek Guizhou yang jarang.",
-  "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繍工藝和苗族飛歌古歌並稱「西江五韻」，被譽爲「中國苗都」。": "Kampung Miao Xijiang Qianhu ialah penempatan Miao terbesar di dunia, dinamakan kerana ribuan rumah berkaki yang tersusun bertingkat di dua lereng gunung. Destinasi pelancongan AAAA negara dan pekan bersejarah budaya China, dikenali sebagai 'Ibu Kota Miao China' dengan lima daya tarikan: pemandangan malam dengan cahaya rumah yang tidak terhitung, seni bina rumah berkaki Miao, majlis toast 'gunung dan air mengalir', kraftangan perak, dan lagu-lagu kuno 'Terbang' Miao.",
-  "大理「風花雪月」四大名景之一，外形如同耳朵，是由西洱河塌陷形成的高原湖泊。共有三島、四洲、五湖、九曲，湖水清澈見底，被稱作「群山間的無瑕美玉」。沿湖的人氣村落有「洱海神光」的雙廊、《心花怒放》取景地的才村、以白族民居建築為特色的喜洲。": "Satu daripada empat tempat tarikan terkenal Dali 'Angin, Bunga, Salji, Bulan', tasik Erhai berbentuk seperti telinga, terbentuk daripada keruntuhan Sungai Erhai Barat. Dikenal sebagai 'Jade Mulia Tanpa Cacat Antara Gunung', dengan tiga pulau, empat pulau kecil, lima tasik, dan sembilan kelokan yang berbelit. kampung-kampung tepi tasik yang popular termasuk Shuanglang dengan 'Cahaya Ilahi Erhai', Caicun tempat filem 'Blueless' dirakam, dan Xizhou yang terkenal dengan seni bina rumah ethnicity Bai.",
-  "瀘沽湖為川滇兩省界湖，湖周邊主要居住著摩梭人、彜族和普米族。湖水清澈蔚藍，是雲南海拔最高的湖泊，也是中國最深的淡水湖之一，充滿了神秘的色彩。景區四周崇山峻嶺，一年有三個月以上積雪期，森林資源豐富，被人們譽為「蓬萊仙境」。主要景點有格姆女神索道、小草海、瀘沽三島等，電瓶車環湖是最熱門的遊玩方式。": "Tasik Lugu merupakan tasik sempadan antara wilayah Sichuan dan Yunnan, dengan penduduk utama daripada kaum Mosuo, Yi dan Pumi. Airnya yang jernih berwarna biru menjadikan ia tasik tertinggi di Yunnan dan salah satu tasik air tawar paling dalam di China, penuh dengan misteri. Dikelilingi gunung tinggi dengan salji turun lebih tiga bulan setahun dan hutan yang kaya, ia dikenali sebagai \"Negeri Khatulistiwa\". Tarikan utama termasuk kereta kabel Dewi, Laut Rumput Kecil, Tiga Pulau Lugu — lawatan menggunakan kereta elektrik adalah cara paling popular untuk melawat.",
-  "八達嶺長城是明長城中保存最完好、最具代表性的一段，也是萬里長城最早向遊人開放的地段，被譽為「天下九塞之一」。世界文化遺產、國家AAAAA級旅遊景區。這裏山勢險峻，城牆巍峨，敵樓密集，四季風光各異。可乘坐纜車上山，再徒步登臨北四樓或好漢坡，俯瞰層巒疊嶂間的巨龍蜿蜒。": "Bahagian Badaling ialah bahagian yang paling terpelihara dan paling reprezentatif bagi Tembok Besar era Ming, dan yang pertama dibuka kepada pelancong —digelar sebagai salah satu daripada Sembilan Kubu Besar China. Tapak Warisan Dunia dan kawasan peranginan berbintang 5A kebangsaan, ia menampilkan landskap yang curam, tembok yang menjulang tinggi, dan menara pengawal yang rapat dengan pemandangan yang berbeza merentasi keempat-empat musim. Naik kereta kabel ke atas, kemudian mendaki ke Menara Empat Utara atau Peak Hero untuk pemandangan naga yang meliuk-liuk melalui puncak-puncak.",
-  "天安門廣場位於北京城市中軸線上，是世界上最大的城市廣場，國家象徵和政治活動的重要場所。廣場中央矗立著人民英雄紀念碑，北端是莊嚴的天安門城樓，東側為中國國家博物館，西側為人民大會堂。每日升旗儀式莊重肅穆，吸引無數人徹夜守候。可結合國博參觀一併安排，在歷史與現實中感受華夏血脈的賡續與榮光。": "Dataran Tiananmen terletak pada paksi tengah Beijing dan merupakan dataran Bandar yang terbesar di dunia, berfungsi sebagai simbol negara yang penting dan venue untuk aktiviti politik. Di tengahnya berdiri Monumen Wira Rakyat, menara gerbang Tiananmen yang megah terletak di hujung utara, Muzium Negara China di sebelah timur, dan Dewan Rakyat di sebelah barat. Upacara raises bendera harian yang bermaru dan murni menarik ramai yang menunggu sepanjang malam. Anda boleh menggabungkan lawatan dengan Muzium Negara untuk mengalami kesinambungan dan kegemilangan tamadun China antara sejarah dan masa kini.",
-  "震驚世界的「地下軍陣」和秦代軍事藝術的巔峰之作": "\"Tentera bawah tanah\" yang mengejutkan dunia — kemuncak seni ketenteraan zaman dinasti Qin.",
-  "作為世界第八大奇蹟，這裏出土了數以千計與真人等高的陶俑、陶馬，每一尊兵俑的面容神態都獨一無二，陣列森嚴，氣勢磅礴，生動再現了兩千多年前大秦帝國的虎狼之師與皇家儀仗。整個遺址坑道規模宏大，細節令人嘆為觀止，是探尋中國第一個大一統王朝精神氣魄的必到之地。": "Diiktiraf sebagai Keajaiban Kelapan Dunia, tapak ini telah menggali ribuan askar dan kuda terracotta bersaiz penuh, setiap muka askar adalah unik dan berbeza, diatur dalam formasi yang teguh dengan keagungan yang menghancurkan, secara hidup semula jadi askaran harimau dan perhimpunan diraja Empayar Qin yang agung lebih dua ribu tahun lalu. Skala lubang tapak arkeologi itu sangat besar dan tahap butiran yang menakjubkan — destinasi yang wajib dikunjungi untuk sesiapa yang ingin mengalami semangat dinasti bersatu pertama China.",
-  "兵馬俑位於臨潼區，距離西安市區約1小時車程，建議單獨留出至少半天時間遊覽；參觀時請緊隨講解或使用語音導覽，否則容易「只見泥人不見歷史」。": "Askaran Terracotta terletak di Daerah Lintong, lebih kurang satu jam pemanduan dari pusat Xi'an. Adalah disyorkan untuk meluangkan sekurang-kurangnya setengah hari untuk lawatan ini. Pastikan anda mengikut jelajah berpandu atau menggunakan panduan audio semasa lawatan — jika tidak, anda berisiko melihat hanya patung tanah liat tanpa memahami konteks sejarah.",
-  "噴泉表演每晚固定時間上演，建議提前占位；南廣場周邊的大悅城三樓觀景台是免費拍攝塔身全貌的絕佳角度，比地面更出片。": "Pertunjukan air pancut diadakan pada waktu tetap setiap malam — datang awal untuk mendapat tempat. Dek pemerhatian percuma di tingkat 3 Joy City berhampiran dataran selatan ialah sudut terbaik merakam keseluruhan pagoda.",
-  "這條南北走向的仿唐街區，入夜後金碧輝煌，紅燈籠、唐風建築、巨型雕塑陣列依次鋪開，仿佛將《長安十二時辰》的畫卷直接搬到了現實。街道上穿插著不倒翁小姐姐、懸浮兵馬俑、李白對詩等免費街頭行為藝術表演，兩側商鋪售賣唐制漢服、文創和非遺小吃，無論觀賞、拍照還是沉浸式「穿越」，都能獲得極大滿足。": "Daerah berilhamkan zaman Tang yang membentang dari utara ke selatan ini tampil gemerlapan selepas malam menjelma. Tanglung merah, seni bina gaya Tang dan deretan arca gergasi tersusun satu demi satu, seolah-olah dunia The Longest Day in Chang’an dibawa terus ke alam nyata. Persembahan seni jalanan percuma seperti penari patung goyang, Pahlawan Terracotta terapung dan cabaran berbalas puisi Li Bai diselitkan di sepanjang jalan, sementara kedai di kedua-dua sisi menjual hanfu gaya Tang, cenderamata kreatif berunsur budaya dan snek warisan tidak ketara. Sama ada untuk menonton, bergambar atau menikmati pengalaman “merentas masa” yang imersif, kunjungan ini pasti memberikan kepuasan yang luar biasa.",
-  "彩雲之南，這裏有希爾頓書中的香巴拉，有洛克眼中的世外桃源，有藏族人心中神聖的梅裏雪山，這裏四季花長開，景色四季不同，高山、湖泊、花海、雪山、梯田、各种事物組成了這裏最美的風景。 昆明是雲南省的省會，四季如春，風景優美。麗江這座歷史悠久的古鎮有著很多風景名勝，是納西族人的主要聚居地。大理是雲南最早文化的發祥地，風花雪月是大理著名四景。西雙版納是一個具有著亞熱帶風情的地方，是孔雀和大象的故鄉。迪慶藏族自治州（香格裏拉）是希爾頓眼中的世外桃源，也是朝拜聖地、徒步天堂。": "Sebelah selatan Awan Berwarna—Yunnan menyembunyikan Shangri-La dari halaman buku Hilton, dan Gunung Salju Meili yang disucikan oleh orang Tibet. Bunga mekar sepanjang tahun di sini dengan gunung, tasik, laut bunga, puncak bersalji, dan terras sawah membentuk landskap yang memukau. Kunming, ibu negara wilayah, menikmati cuaca springlike sepanjang tahun. Lijiang, sebuah kota kuno yang kaya dengan keindahan semulajadi, adalah tempat tinggal utama orang Naxi. Dali, tempat kelahiran budaya paling awal Yunnan, memiliki empat tempat menarik yang terkenal: 'Angin, Bunga, Salji, Bulan.' Xishuangbanna menawarkan pesona tropics sebagai tanah air merak dan gajah. DPrefektur Autonomi Tibet Qing (Shangri-La) adalah kedua-dua tapak ziarah dan syurga untuk pelancong.",
-  "赤水丹霞是中國面積最大的丹霞地貌區之一，因赤紅砂岩與翠竹飛瀑交相輝映而得名。世界自然遺產「中國丹霞」組成部分，國家AAAAA級旅遊景區。以丹霞絕壁、瀑布群、竹海森林、桫欏遺存和紅色文化並稱「赤水五絕」，被譽爲「丹霞之冠、千瀑之市」。": "Chishui Danxia adalah salah satu kawasan bentuk tanah Danxia terbesar di China, dinamakan kerana kontras yang menakjubkan antara tebing batu pasir merah dan hutan buluh hijau dengan air terjun yang mengalir deras. Sebagai sebahagian daripada Warisan Dunia Semulajadi 'Danxia China', kawasan pelancongan AAAAA ini dikenali sebagai 'Mahkota Danxia, Bandar Seribu Air Terjun' dengan lima ciri hebat: tebing Danxia, kelompok air terjun, hutan laut buluh, peninggalan cycad purba, dan budaya merah revolusi.",
-  "© 2026 海涛旅行定制. All Rights Reserved.": "© 2026 Haitao Travel Custom. Hak Cipta Terpelihara.",
-  "WhatsApp": "WhatsApp",
-  "China Travel": "Pelancongan China",
-  "私人定制滿足您對旅行的任何需求<br/>海涛旅行定制全體員工期待您的到來！": "Pelancongan tersuai yang memenuhi semua keperluan perjalanan anda<br/>Seluruh pasukan Haitao Travel Custom tidak sabar menanti ketibaan anda!",
-  "旅游地点 <i class=\"fas fa-chevron-down\"></i>": "Destinasi Pelancongan",
-  "TOP 1": "No. 1",
-  "TOP 2": "No. 2",
-  "TOP 3": "No. 3",
-  "TOP 4": "No. 4",
-  "TOP 5": "No. 5"
+  "Metadata": {
+    "title": "Haitao Travel Custom",
+    "description": "海涛旅行定制，品質無憂，純玩無購物。提供中國著名景點的旅遊服務和攻略，包括重庆、張家界、雲南、四川、廣西等多個目的地。"
+  },
+  "Navbar": {
+    "brand": "Haitao Travel Custom",
+    "main": {
+      "home": "Laman Utama",
+      "about": "Tentang Kami",
+      "contact": "Hubungi Kami"
+    },
+    "travelLabel": "Destinasi Pelancongan",
+    "travel": {
+      "chongqing": "Pelancongan Chongqing",
+      "sichuan": "Pelancongan Sichuan",
+      "zhangjiajie": "Pelancongan Zhangjiajie",
+      "guizhou": "Pelancongan Guizhou",
+      "guangxi": "Pelancongan Guangxi",
+      "yunnan": "Pelancongan Yunnan",
+      "beijing": "Pelancongan Beijing",
+      "xian": "Pelancongan Xi'an"
+    },
+    "aria": {
+      "menu": "Tukar Menu"
+    }
+  },
+  "Footer": {
+    "brand": "Haitao Travel Custom",
+    "tagline": "Haitao Travel Custom menjanjikan kualiti tanpa kebimbangan, pelancongan tulen tanpa hentian membeli-belah. Matlamat kami adalah mengembalikan pelancongan kepada bentuknya yang asli.",
+    "quickLinks": "Pautan Pantas",
+    "quickItems": {
+      "home": "Laman Utama",
+      "about": "Tentang Kami",
+      "chongqing": "Pelancongan Chongqing",
+      "guangxi": "Pelancongan Guangxi",
+      "sichuan": "Pelancongan Sichuan",
+      "zhangjiajie": "Pelancongan Zhangjiajie",
+      "yunnan": "Pelancongan Yunnan",
+      "contact": "Hubungi Kami"
+    },
+    "contactHeading": "Maklumat Hubungan",
+    "phone": "193 8679 6662",
+    "whatsapp": "+852 84392791",
+    "email": "418144878@qq.com",
+    "address": "Taman Yicheng, Daerah Yongding, Bandar Zhangjiajie, China",
+    "followUs": "Ikuti Kami",
+    "copyright": "© 2026 Haitao Travel Custom. Hak Cipta Terpelihara."
+  },
+  "Home": {
+    "hero": {
+      "title": "Melancong ke China",
+      "subtitle": "Pelancongan China",
+      "ctaAbout": "Tentang Kami",
+      "ctaContact": "Hubungi Kami"
+    },
+    "advantages": {
+      "items": [
+        {
+          "title": "Integrasi Sumber",
+          "desc": "Perkhidmatan melancong dan panduan ke tarikan terkenal di China, termasuk Chongqing, Zhangjiajie, Yunnan, Sichuan, Beijing dan banyak lagi destinasi"
+        },
+        {
+          "title": "Kelebihan Perkhidmatan",
+          "desc": "Perkhidmatan menyeluruh termasuk khidmat nasihat melancong, sewaan kereta, tempahan hotel, tiket tarikan, perkhidmatan pemandu pelancong dan jaminan kontrak"
+        },
+        {
+          "title": "Kelebihan Jenama",
+          "desc": "Selepas bertahun-tahun, agensi pelancongan kami telah menjalinkan kerjasama mendalam dengan lebih daripada seratus pembekal sumber, mampu menawarkan tiket penerbangan, hotel dan tiket tarikan pada harga istimewa"
+        }
+      ]
+    },
+    "destinationCards": [
+      {
+        "alt": "重庆",
+        "title": "Bandar Ajaib Chongqing",
+        "desc": "Cahaya gemerlapan Hongyadong, kesibukan Jiefangbei, dan pesona bersejarah Ciqikou"
+      },
+      {
+        "alt": "广西",
+        "title": "Guangxi — Keindahan Mengagumkan",
+        "desc": "Sebuah alam tersembunyi di mana gunung dan sungai yang megah menyatu dengan sempurna bersama kehidupan seharian"
+      },
+      {
+        "alt": "四川",
+        "title": "Sichuan — Pergunungan dan Perairan Ajaib",
+        "desc": "Menggabungkan budaya, seni dan pelancongan dalam satu"
+      },
+      {
+        "alt": "張家界",
+        "title": "Zhangjiajie — Negeri Dongeng di Bumi",
+        "desc": "Lokasi penggambaran Avatar, landskap kars yang unik, pemandangan semula jadi yang megah dan menakjubkan"
+      }
+    ],
+    "learnMore": "Ketahui Lebih Lanjut",
+    "testimonialsHeading": "Ulasan Pelanggan",
+    "testimonials": [
+      {
+        "alt": "Puan Zhang",
+        "author": "Puan Lin",
+        "body": "Saya sangat menyukai percutian ini, dapat melihat keindahan Chongqing dan merasai landskap permai negara kita. Ketua-ketua kumpulan sangat bertanggungjawab, penyambut tetamu Xiao Zhou menghantar peringatan yang mesra setiap hari. Saya gemar pemandu Taozi, yang turut mencadangkan tempat makan dan bermain yang menarik. Beberapa tarikan mempunyai aktiviti tambahan yang perlu dibayar sendiri, tetapi tidak dipaksa — saya sangat menyukai perkara ini. Sepanjang perjalanan, mereka turut berkongsi ciri budaya Chongqing. Semua seronok bermain bersama, saya akan cadangkan kepada kawan-kawan yang ingin datang, dan akan datang lagi jika ada peluang, jumpa lagi!"
+      },
+      {
+        "alt": "Encik Zhang",
+        "author": "M53****383",
+        "body": "Jadual perjalanan disusun dengan munasabah, tidak perlu terburu-buru. Pemandu pemindahan lapangan terbang menepati masa, sikap sangat baik, turut membantu mengangkat bagasi. Pemandu pelancong mahir dan bertanggungjawab, ramah dengan semua orang. Xiao Dong dan Xiao Li turut berkongsi banyak kisah tentang asal-usul Chongqing, dan membantu mengambil gambar untuk pelancong. Semua bermain bersama dengan sangat seronok, hotel bersih dan selesa, sarapan pagi yang mengenyangkan, percutian akan datang masih memilih Huanyou."
+      },
+      {
+        "alt": "Encik Wang",
+        "author": "Pengguna Tanpa Nama",
+        "body": "酒店住的很舒服，乾淨、空間也很大。導遊講解思路清晰，好好聽就知道應該怎麼玩，一個人也完全不用怕。滿意！風景也很好看，景區裏邊也很乾淨。明年秋天應該還會再來。把剩下沒逛完的景點補足。這次時間不夠稍稍留了一些小遺憾！"
+      },
+      {
+        "alt": "Puan Wang",
+        "author": "Puan Wang",
+        "body": "整體來說還是很滿意的，時間比較充裕。不算很趕時間。導遊年輕有活力，安排的也不錯。從成都出發開始，小露就給我們每個家庭發通知短信，注意事項 。司機開車很穩當，團餐也還行。風景確實好漂亮，累並快樂着，不虛此行。"
+      }
+    ],
+    "ctaHeading": "Jangan ragu lagi, hubungi kami",
+    "ctaBody": [
+      "Kami percaya bahawa melancong itu penuh kehangatan",
+      "Kami berharap di dunia yang dingin ini",
+      "memberikan anda sedikit kehangatan melancong dengan kepakaran dan semangat kami",
+      "Haitao Travel Customization dengan penuh harapan mengalu-alukan kedatangan anda melancong ke China!"
+    ],
+    "ctaPhone": "193 8679 6662"
+  },
+  "About": {
+    "pageTitle": "Haitao Travel Custom — Kualiti Tanpa Kebimbangan",
+    "pageSubtitle": "Pakar pelancongan anda, mengalu-alukan kedatangan anda",
+    "aboutHeading": "Tentang Kami",
+    "aboutBody": [
+      "Haitao Custom Travel ialah agensi pelancongan dalam talian premium yang menyediakan perkhidmatan pelancongan mewah. Sejak ditubuhkan, kami berpegang teguh pada falsafah \"Kualiti Diutamakan, Reputasi Tertinggi, Berpusatkan Pelanggan,\" berkhidmat untuk pelancong dengan penuh integriti dan membina reputasi industri yang kukuh untuk kualiti.",
+      "Kami menjalinkan kerjasama erat dengan platform pelancongan terkemuka seperti Ctrip, Facebook dan Google. Pasukan kami mempunyai lebih daripada 500 pekerja, termasuk 270 pemandu pelancong profesional berbilang bahasa, dan kami mengalu-alukan lebih 100,000 pelancong setiap tahun. Selepas bertahun-tahun berkembang, kami telah membina pasukan operasi yang menyeluruh dan sistem perkhidmatan selepas jualan yang lengkap. Kualiti tanpa kebimbangan dan lawatan tanpa pembelian adalah janji kami; mengembalikan pelancongan kepada bentuk asalnya yang tulen adalah misi kami. Selain lawatan kumpulan tradisional, kumpulan kami mengendalikan 113 hotel mewah dan 27 rumah tetamu butik premium. Kami juga menawarkan perkhidmatan perancangan perjalanan menyeluruh merangkumi itinerari, hotel, pengangkutan tempatan, tiket tarikan dan tempahan pakej — semuanya disesuaikan dengan keperluan anda. Tidak seperti lawatan kumpulan standard atau percutian sendiri, kami mereka perjalanan fleksibel mengikut jadual dan minat anda, memastikan pengalaman yang tenang dan selamat dari awal hingga akhir."
+    ],
+    "whyHeading": "Mengapa Memilih Haitao Custom Travel",
+    "why": [
+      {
+        "title": "Perkhidmatan Lima Bintang",
+        "desc": "Pengalaman bertahun-tahun dalam pasaran pelancongan, dengan sumber eksklusif yang memberikan nilai tiada tandingan"
+      },
+      {
+        "title": "Penyelia 24 Jam",
+        "desc": "Sebagai penyedia perkhidmatan pelancongan dalam talian, kami menawarkan perkhidmatan penyelia 24 jam untuk ketenangan fikiran anda"
+      },
+      {
+        "title": "Jaminan Selepas Jualan",
+        "desc": "Pasukan khusus menyokong anda sebelum, semasa, dan selepas perjalanan — benar-benar tanpa kebimbangan"
+      },
+      {
+        "title": "Perjalanan Tulen, Tanpa Berhenti Membeli-belah",
+        "desc": "Perjalanan paling tulen, berdedikasi untuk meningkatkan pengalaman setiap pengembara"
+      },
+      {
+        "title": "Armada Sendiri",
+        "desc": "Semua kenderaan dimiliki syarikat dengan lesen yang sah, tersedia dalam pelbagai saiz dari 5 hingga 55 tempat duduk"
+      },
+      {
+        "title": "Akses VIP",
+        "desc": "Langkau orang ramai dengan akses keutamaan — tiada perlu beratur"
+      }
+    ],
+    "servicesHeading": "Perkhidmatan Kami",
+    "services": [
+      {
+        "title": "Perancangan Itinerari",
+        "desc": "Pasukan pakar kami mereka laluan perjalanan yang diperibadikan untuk anda"
+      },
+      {
+        "title": "Tempahan Hotel",
+        "desc": "Akses kepada 113 hotel mewah dan 27 rumah tetamu butik premium dalam kumpulan kami"
+      },
+      {
+        "title": "Perkhidmatan Pemandu Pelancong",
+        "desc": "270 pemandu pelancong profesional yang fasih dalam pelbagai bahasa"
+      },
+      {
+        "title": "Perkhidmatan Sewa Kereta Persendirian",
+        "desc": "Armada sendiri dengan pemandu profesional, masing-masing mempunyai pengalaman lebih 5 tahun"
+      }
+    ],
+    "featuresHeading": "Sorotan Kami",
+    "features": [
+      {
+        "title": "Jaminan Kualiti",
+        "desc": "Sumber premium yang dipilih dengan teliti memastikan setiap perjalanan adalah pengalaman yang halus"
+      },
+      {
+        "title": "Pasukan Profesional",
+        "desc": "Lebih 500 pekerja dan 270 pemandu pelancong berpengalaman"
+      },
+      {
+        "title": "Penyesuaian Peribadi",
+        "desc": "Itinerari fleksibel yang direka mengikut jadual dan minat anda"
+      },
+      {
+        "title": "Jaminan Keselamatan",
+        "desc": "Sokongan pelancongan menyeluruh untuk ketenangan fikiran sepenuhnya sepanjang perjalanan"
+      }
+    ],
+    "ctaTitle": "Penyelia 24 Jam, Sentiasa di Perkhidmatan Anda",
+    "ctaBody": [
+      "Perjalanan khas yang direka untuk setiap keperluan yang anda bayangkan",
+      "Seluruh pasukan Haitao Custom Travel tidak sabar untuk mengalu-alukan anda!"
+    ]
+  },
+  "Contact": {
+    "title": "Hubungi Kami",
+    "cards": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "hint": "Klik untuk Bertanya Sekarang"
+      },
+      "wechat": {
+        "label": "WeChat",
+        "hint": ""
+      },
+      "phone": {
+        "label": "Telefon",
+        "hint": "193 8679 6662"
+      },
+      "email": {
+        "label": "E-mel",
+        "hint": "418144878@qq.com"
+      },
+      "offices": {
+        "label": "Pejabat",
+        "hint": "Taman Yicheng, Daerah Yongding, Bandar Zhangjiajie, China"
+      }
+    },
+    "formHeading": "Hantar mesej kepada kami atau hubungi kami di media sosial",
+    "formSubject": "Mesej baharu dari Laman Web Rasmi",
+    "form": {
+      "nameLabel": "Nama",
+      "namePlaceholder": "Masukkan nama anda",
+      "emailLabel": "E-mel",
+      "emailPlaceholder": "Masukkan e-mel anda",
+      "messageLabel": "Komen atau Mesej",
+      "messagePlaceholder": "Masukkan mesej anda",
+      "submit": "Hantar"
+    }
+  },
+  "DestinationView": {
+    "overviewHeading": "Gambaran Keseluruhan Tarikan",
+    "topSpotsHeading": "Tarikan Popular",
+    "rankLabel": "TOP {rank}",
+    "ctaTitle": "Jangan ragu lagi, hubungi kami",
+    "ctaBody": [
+      "Kami percaya bahawa melancong itu penuh kehangatan",
+      "Kami berharap di dunia yang dingin ini",
+      "memberikan anda sedikit kehangatan melancong dengan kepakaran dan semangat kami",
+      "Haitao Travel Customization dengan penuh harapan mengalu-alukan kedatangan anda melancong ke China!"
+    ]
+  },
+  "Destinations": {
+    "chongqing": {
+      "title": "Pelancongan Chongqing",
+      "overview": "Chongqing — sebuah kota magis di mana gunung dan sungai bertemu, kaya dengan warisan budaya. Di sini, anda boleh menyaksikan keagungan Sungai Yangtze, merasai daya tarikan kota pergunungan, menikmati hotpot asli dan mengalami budaya Bayu yang unik. Cahaya gemerlapan Hongyadong, kesibukan Jiefangbei, serta pesona purba Ciqikou — setiap sudut memesona. Sama ada lawatan pertama atau kunjungan kedua yang lebih mendalam, anda pasti menemui rentak perjalanan yang sesuai untuk anda.",
+      "spots": {
+        "1": {
+          "title": "Hongyadong",
+          "subtitle": "Setiap langkah menghidangkan pemandangan; rasai keindahan yang diasuh waktu",
+          "description": "Tempat bersemadi jiwa Chongqing lama — anda hanya akan tahu keajaiban bagaikan mimpi ini apabila melawat sendiri. Masuk ke sini, terasa bagaikan menjelajah zaman, pesona sejarah menyelubungi anda sehingga membuatkan anda terlupa dunia. Berjalan di tepi sungai, keagungan Hongyadong dan deruan Sungai Yangtze saling melengkapi — keindahan yang tiada tandingan!",
+          "notes": [
+            "Jika masa anda terhad, disarankan jangan masuk ke dalam Hongyadong.",
+            "Waktu tontonan terbaik: lawati Hongyadong antara 19:00-23:00 untuk pemandangan malam.",
+            "Tempat menarik berdekatan: Jambatan Qiansimen terletak betul-betul di sebelah Hongyadong, hanya berjalan kaki belasan minit untuk ke Jiefangbei."
+          ],
+          "closing": "Hongyadong menggabungkan budaya Bayu, pemandangan magis dan kehidupan seharian masyarakat. Rancang lawatan dengan bijak untuk mengelak kesesakan dan nikmati sepenuhnya pesona kota pergunungan ini."
+        },
+        "2": {
+          "title": "Gunung Xiannu",
+          "subtitle": "Berjalan di sini bagaikan berada di alam peri, merasai kelembutan dan ketenangan alam semula jadi",
+          "description": "Sebuah tempat impian yang menawan hati! Setiap langkah adalah pertemuan romantis dengan alam semula jadi — pemandangan indah bagaikan puisi, membuatkan anda melupakan kesibukan dunia. Bayu gunung menyapu wajah, kehijauan memenuhi mata, syurga untukmelarikan diri dari panas! Padang rumput, hutan, puncak — setiap sudut menyimpan rahsia alam yang menunggu untuk diterokai.",
+          "notes": [
+            "Elakkan kesesakan: pukul 10:00-12:00 pada hari cuti ialah waktu puncak kemasukan.",
+            "Gunung Xiannu mempunyai suhu purata tahunan hanya 18°C. Bawa jaket nipis pada musim panas dan baju bulu pada musim sejuk.",
+            "Boleh digandingkan dengan Tiga Jambatan Semula Jadi Wulong untuk lawatan seharian."
+          ],
+          "closing": "Apabila matahari senja menyelubungi Gunung Xiannu dengan cahaya keemasan, deruan angin hutan dan kicauan burung perlahan menemani — perjalanan hari ini bukan sekadar jamuan untuk mata, tetapi juga penyembuhan jiwa."
+        },
+        "3": {
+          "title": "Tiga Jambatan Semula Jadi",
+          "subtitle": "Keajaiban geologi: mentafsirkan keindahan abadi Tiga Jambatan Semula Jadi.",
+          "description": "Tapak Warisan Dunia semula jadi dan lokasi penggambaran Transformers: Age of Extinction, tiga jambatan batu semula jadi yang terbentuk ratusan juta tahun lalu ini sungguh keajaiban geologi. Berdiri di bawah Jambatan Tianlong menatap badan jambatan setinggi 235 meter, atau menyusuri gua gelap Jambatan Heilong mendengar deruan Mata Air Mutiara — kekaguman itu sukar diungkapkan dengan kata-kata.",
+          "notes": [
+            "Pakai kasut yang selesa — jarak berjalan di kawasan tarikan agak jauh.",
+            "Pada hari cerah, menembak menentang cahaya menghasilkan lapisan permukaan air yang lebih jernih.",
+            "Boleh digandingkan dengan kawasan pelancongan Gunung Xiannu pada hari yang sama."
+          ],
+          "closing": "Ingat — perlahanlah dan rasa dengan hati, anda akan benar-benar menghayati kekaguman dan keajaiban Tiga Jambatan Semula Jadi. Ia destinasi ideal untuk pelancongan santai."
+        },
+        "4": {
+          "title": "Bandar Chiyou Jiuli",
+          "subtitle": "Kampung Miao terbesar di Chongqing, menampilkan budaya tradisional Miao dalam skala besar — benar-benar tiada tandingan.",
+          "description": "Jendela paling lengkap terhadap budaya Miao di Chongqing, dengan lebih 40 bangunan tradisional yang menyembunyikan kod seribu tahun tentang ukiran kayu, pakaian dan tarian tongkat buluh. Satu-satunya tempat di China yang menyembah Chiyou — salah seorang daripada \"Tiga Leluhur Huaxia\" — dan menghidupkan semula sejarah perpindahan puak Jiuli. Tanda aras spiritual identiti budaya Miao.",
+          "notes": [
+            "Kawasan ini agak luas — luangkan sekurang-kurangnya setengah hari.",
+            "Pintu Sembilan, Istana Jiuli dan Tiang Suci Jiuli — ketiga-tiga struktur ini tersenarai dalam Guinness World Records.",
+            "Pengalaman budaya termasuk arak penghadang pintu, jamuan air mengalir dan malam unggun api — semua percuma di kawasan malam percuma."
+          ],
+          "closing": "Jika anda ingin menambah elemen budaya dalam jadual Chongqing, Bandar Chiyou Jiuli adalah perhentian yang wajar diatur — dipuji tinggi oleh pelancong warga emas dan keluarga."
+        },
+        "5": {
+          "title": "Galeri Sungai Wu",
+          "subtitle": "Mengagumi kemegahan gunung dan tasik, sambil menghargai ketenangan lorong-lorong bandar lama.",
+          "description": "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。",
+          "notes": [
+            "Pakai kasut sukan anti-gelincir — laluan menjadi licin selepas hujan.",
+            "Suhu di permukaan sungai berubah-ubah — bawalah jaket kalis angin. Pada musim hujan, ikuti notis pelayaran langsung daripada kawasan tarikan.",
+            "Apabila menjelajah bandar lama, pakai kasut yang selesa supaya dapat berjalan dengan mudah di atas jalan batu."
+          ],
+          "closing": "Perlahan — apabila cahaya ikan di kabus pagi dan lagu perahu di senja menjadi penanda ingatan, jiwa Sungai Wu akan diam-diam meresap ke dalam hati."
+        }
+      }
+    },
+    "sichuan": {
+      "title": "Pelancongan Sichuan",
+      "overview": "Wilayah Sichuan, disingkat sebagai \"Chuan\" atau \"Shu\", berkeluasan 486,000 km persegi, wilayah kelima terbesar di China. Bentuk muka buminya pelbagai dan kompleks, berbeza jelas antara timur dan barat — tinggi di barat, rendah di timur — terdiri daripada gunung, bukit, dataran, lembangan dan dataran tinggi. Lembangan Sichuan ialah salah satu daripada empat lembangan besar di China, kaya dengan warisan sejarah dan budaya termasuk Jiuzhaigou, Huanglong, Dujiangyan, Gunung Qingcheng, Leshan Giant Buddha dan Gunung Emei. Sichuan juga sebuah keluarga pelbagai etnik yang rancak, mempunyai kawasan Tibetan kedua terbesar di China, kawasan Yi terbesar, dan satu-satunya wilayah autonomi Qiang di negara ini — dengan pelbagai perayaan etnik diadakan sepanjang tahun.",
+      "spots": {
+        "1": {
+          "title": "Kawasan Pemandangan Jiuzhaigou",
+          "subtitle": "Musim bunga cerah, bunga mewa romantis; musim panas hijau Jiuzhaigou, nyaman dan dingin.",
+          "description": "Jiuzhaigou ialah sebuah lembah gunung yang diliputi hutan, dinamakan sempena sembilan kampung Tibetan yang terletak di tengah gugusan tasik alpine. Tapak Warisan Dunia semula jadi dan Kawasan Pemandangan AAAAA kebangsaan, Jiuzhaigou diraikan dengan \"Enam Keajaiban\" — gugusan tasik alpine, air terjun, hutan berwarna-warni, puncak bersalji, ais biru dan budaya Tibetan — menjadikannya \"Raja Pemandangan Air.\"",
+          "notes": [
+            "Musim luruh memberikan warna hutan dan tasik yang paling berlapis. Jika masa mengizinkan, luangkan sepanjang hari untuk lawatan mendalam — gabungan berjalan kaki dan bas pelancongan memberikan pengalaman paling lengkap."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Kawasan Pemandangan Bipenggou",
+          "subtitle": "Syurga peminat mendaki dan antara tempat paling terkenal di China untuk melihat daun merah musim luruh",
+          "description": "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閑度假於一體的大型原生態旅遊風景區。",
+          "notes": [
+            "Musim daun merah dan salji pertama adalah waktu puncak — tempah tiket dan pengangkutan lebih awal, dan bawa peralatan tahan angin serta sejuk sesuai cuaca."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Kawasan Pemandangan Huanglong",
+          "subtitle": "Kolam travertin yang berwarna-warni cerah dan bentuk muka bumi karst yang jarang ditemui",
+          "description": "Tanah lembap tanah tinggi yang terpelihara dengan baik satu-satunya di China, terkenal di seluruh dunia dengan \"Empat Keajaiban\" — kolam berwarna-warni, gunung bersalji, gaung yang dalam, dan hutan purba. Kolam travertin bertukar melalui pelbagai warna pelangi apabila pemandangan sekeliling dan sudut cahaya matahari berubah, menjadikannya digelar \"Kolam Impian di Bumi\". Huanglong diraikan kerana skalanya yang megah, struktur yang bijak, pemandangan travertin permukaan yang berwarna-warni cerah, serta pembentukan karst yang jarang ditemui dan terkenal di seluruh dunia.",
+          "notes": [
+            "Huanglong terletak pada ketinggian yang agak tinggi — berjalanlah perlahan, kekal hidrat, dan sasarkan sekitar tengah hari pada hari cerah apabila warna kolam paling cemerlang."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Kawasan Pemandangan Gunung Siguniang",
+          "subtitle": "Puncak bersalji altitud tinggi yang digelar \"Alps China\" — syurga bagi peminat mendaki",
+          "description": "Gunung Siguniang ialah puncak tertinggi Banjaran Qionglai di tepi timur Banjaran Hengduan, terdiri daripada empat puncak bersambung yang sentiasa bersalji, bagaikan empat gadis yang berkain putih, berdiri berturut-turut di atas dua sungai perak di Lembah Changping dan Lembah Haizi. Ia sudah lama menjadi syurga pejalan kaki — laluan gaung adalah lasak dan sempit, dengan air lebur dari puncak bersalju menitis perlahan dalam anak sungai; di sebalik rabung terbentang padang rumput alpine yang luas penuh dengan bunga liar, melukis pemandangan yang lembut dan indah.",
+          "notes": [
+            "Pengunjung sulung harus bermula dengan laluan lawatan Lembah Shuangqiao yang mesra tenaga dan padat dengan pemandangan; pejalan kaki serius boleh menambah laluan lebih dalam ke Lembah Changping."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Padang Rumput Ruoergai Re'er",
+          "subtitle": "Padang rumput kedua terbesar di China, selepas Padang Rumput Hulunbuir",
+          "description": "Padang Rumput Re'er ialah padang rumput kedua terbesar di China, kedua selepas Padang Rumput Hulunbuir, dan merupakan rumah kepada Tasik Bunga — tanah lembap semula jadi yang terkenal. Padang rumput bertaburan dengan tasik dan dipenuhi kawanan lembu serta biri-biri; di sepanjang jalan, inap desa gaya Tibet yang dikendalikan oleh penggembala menawarkan makanan dan menunggang kuda. Masa terbaik untuk melawat ialah Julai dan Ogos pada musim panas, apabila cerun bukit dipenuhi bunga liar.",
+          "notes": [
+            "Pasangkan lawatan ini dengan Lenturan Pertama Sungai Kuning Sembilan Lenturan — cahaya senja berlatarkan ufuk padang rumput sangat cantik untuk difoto, jadi rencanakan lawatan pada waktu matahari terbenam."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "zhangjiajie": {
+      "title": "Pelancongan Zhangjiajie",
+      "overview": "Kawasan teras Zhangjiajie ialah Kawasan Pemandangan Wulingyuan — apabila orang menyebut melancong ke Zhangjiajie, mereka biasanya merujuk Wulingyuan. Kawasan Pemandangan Wulingyuan terdiri daripada Taman Negara Zhangjiajie, Rizab Alam Semula Jadi Gunung Tianzi, Rizab Alam Semula Jadi Suoxiyu, dan Rizab Alam Semula Jadi Yangjiajie. Tarikan bandar popular lain termasuk Taman Negara Gunung Tianmen, dengan laluan langit kaca yang mendebarkan dan Tianmen Cave yang ajaib serta dreamy — sentiasa menjadi kegemaran pelawat dan digelar \"legenda baru Zhangjiajie\". Tidak jauh dari bandar, \"Gua Terbaik di China\" — Gua Huanglong — dan \"Kolam Impian di Bumi\" Tasik Baofeng boleh dicapai dengan bas atau teksi. Di pinggir bandar, arung jeram \"Galeri Seratus Li\" Sungai Maoyan, \"Gua No. 1 Asia\" Jiutian Cave di Kaunti Sangzhi, Bandar Furong dan arung jeram \"Arung Jeram No. 1 Dunia\" Sungai Mengdong semuanya merupakan tempat terbaik untuk lawatan.",
+      "spots": {
+        "1": {
+          "title": "Taman Negara Zhangjiajie",
+          "subtitle": "Taman negara pertama di China — \"kayangan kecil dan bonsai besar\"",
+          "description": "Dibahagikan kepada sub-kawasan termasuk Huangshizhai, Pipaxi, Jinbianxi, Yaozizhai, Shudaogou, dan Yuanjiajie, ia adalah teras penting bagi mana-mana lawatan ke Zhangjiajie. Dari segi geologi, ia berada pada peringkat muda evolusi hutan puncak, dengan bentuk muka bumi yang sangat luar biasa: tiang batu tersusun padat dalam bentuk yang tidak terhitung, tumbuh-tumbuhan subur, cerun curam, jurang dalam, dan iklim yang hangat serta lembap. Huangshizhai ialah seksyen paling terkenal dalam Taman Negara Zhangjiajie — ada peribahasa yang berkata \"Anda belum benar-benar melawat Zhangjiajie jika belum ke Huangshizhai.\"",
+          "notes": [
+            "Masuk awal dan mulakan dengan laluan utama Yuanjiajie dan Jinbianxi, kemudian, bergantung pada tenaga, tambahkan Gunung Tianzi atau Yangjiajie — menjimatkan masa dan membantu mengelak waktu paling sibuk."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Taman Negara Gunung Tianmen",
+          "subtitle": "Puncak altitud tinggi, cenuram curam, laluan langit kaca — karya agung alam semula jadi",
+          "description": "Gunung Tianmen mendapat namanya daripada keajaiban semula jadi \"Gua Pintu Syurga\". Semasa anda menaiki kereta kabel, pemandangan gunung di bawah terbentang di kaki anda. Kemuncak utamanya ialah Kuil Gunung Tianmen. Laluan langit kaca yang dibina di sepanjang cenuram tajam memang wajib dikunjungi — menatap ke lembah yang sangat dalam sambil berjalan di udara memberikan keseronokan yang sekali seumur hidup. Gunung Tianmen menawarkan tiga laluan lawatan klasik, setiap satu dengan sorotan ikonik tersendiri.",
+          "notes": [
+            "Rancang laluan gabungan yang menghubungkan kereta kabel, laluan langit kaca, dan Tianmen Cave — dan sasarkan waktu foto pada awal pagi atau lewat petang, apabila kabus ringan menambahkan kedalaman yang indah pada gunung."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Gunung Tianzi",
+          "subtitle": "Empat keajaiban ikonik — laut awan, cahaya bulan, langit senja yang bercahaya, dan salji musim sejuk",
+          "description": "Terletak di utara Taman Negara Zhangjiajie dan bersempadan dengan kawasan pemandangan Suoxiyu di sebelah timur, Gunung Tianzi mendapat namanya daripada pemimpin Tujia awal Dinasti Ming Xiang Dakun, yang menggelarkan dirinya \"Raja Xiang, Anak Syurga\". Titik tertinggi mencapai kira-kira 1,262.5 meter dan titik terendah kira-kira 534 meter; pelawat di sini boleh menyaksikan empat keajaiban khas — awan berlegar, malam bercahaya bulan, langit senja yang bercahaya, dan salji musim sejuk. Beratus juta tahun dahulu, Gunung Tianzi pernah berada di bawah lautan luas; melalui proses geologi yang panjang dan kompleks, ia terbentang menjadi bentuk muka bumi yang aneh hari ini, termasuk puncak Yubi (Berus Diraja) yang terkenal.",
+          "notes": [
+            "Pada hari cerah, luangkan lebih banyak masa di platform tontonan utama. Jika bernasib baik dapat hari dengan laut awan, pemandangan hutan puncak di sini sangat menakjubkan — dan sangat fotogenik."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Gua Huanglong Zhangjiajie",
+          "subtitle": "Satu-satunya gua di China yang boleh dilawati pada waktu malam, penuh dengan stalaktit dan stalagmit yang tidak terkira",
+          "description": "Gua Huanglong terkenal dengan siling gua yang menjulang tinggi, sungai bawah tanah yang dalam, dan hutan stalagmit yang padat. Gua ini naik lebih daripada 100 meter pada titik tertinggi — dan seluruh sistem gua mengandungi gua dalam gua dan sungai yang mengalir melaluinya. Tarikan ikoniknya ialah \"Jarum Penstabil Laut\" (Dinghai Shenzhen), sebuah stalagmit yang telah berkembang selama 200,000 tahun dan menjulang 20 meter tinggi — namun hanya 10 sentimeter lebar pada titik paling sempit — begitu bernilai sehingga taman telah insuranskannya pada 100 juta yuan. Gua ini menawarkan kedua-dua laluan berjalan dan naik bot, supaya pelawat boleh meneroka di atas tanah dan air.",
+          "notes": [
+            "Experience in this order: walk through the cave first, then take the underground river boat — a more comfortable pace that lets you fully appreciate the cave lighting and karst details."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Gaung Besar Zhangjiajie",
+          "subtitle": "Berdiri di Jambatan Kaca Gaung Besar untuk pemandangan menyeluruh gaung di bawah",
+          "description": "Muzium semula jadi bagi landskap Zhangjiajie dalam bentuk kecil — gunung, air, dan gua semuanya di satu tempat — di mana pelawat boleh mengagumi seluruh panorama landskap karst hemisfera utara dalam satu lawatan. Gaung ini tebal dengan tumbuh-tumbuhan subur dan udara segar, dengan air terjun mengalir dan anak sungai merenyu di hampir setiap sudut — bar oksigen semula jadi yang sebenar. Selain pemandangan yang menakjubkan, sorotan wajib cuba di taman ini ialah jambatan kaca tertinggi dan terpanjang di dunia. Berdiri di Jambatan Kaca Gaung Besar Zhangjiajie, anda melihat terus ke dasar gaung 400 meter di bawah.",
+          "notes": [
+            "Tempah slot masa jambatan kaca lebih awal dan berikan masa yang cukup untuk beratur dan berjalan. Jurugambar akan menikmati jambatan paling banyak pada waktu luar puncak."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "guangxi": {
+      "title": "Pelancongan Guangxi",
+      "overview": "Guangxi ialah alam tersembunyi di mana gunung dan sungai yang megah bertemu dengan kehangatan kehidupan seharian. Separuh daripadanya adalah alam semula jadi yang puitis dan indah seperti lukisan, manakala separuh lagi adalah kesibukan jalanan tempatan yang meriah — bersama-sama ia menenun pengalaman melancong yang tiada tandingannya. Di Guangxi, setiap sudut adalah lukisan landskap: bukit zamrud dan air jernih, di mana anda menjadi satu pukulan berus yang menjelajah adegan itu. Gunung Qingxiu Nanning memenuhi hati anda dengan kehijauan, setiap nafas berbau kesegaran daun dan rumput. Luosifen Liuzhou ialah pesta rasa pedas yang berani. Gunung dan sungai Guilin bagaikan seni halus berus puisi Dinasti Song — indah melebihi kata-kata.",
+      "spots": {
+        "1": {
+          "title": "Guilin",
+          "subtitle": "\"Terbaik di bawah langit\" — saat anda menyebut kata-kata itu, anda tahu anda benar-benar telah tiba di Guilin",
+          "description": "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!",
+          "notes": [
+            "Tarikan wajib dikunjungi: Sungai Li, Bukit Belalai Gajah, Jalan Barat Yangshuo, Teres Padi Longji serta Dua Sungai dan Empat Tasik.",
+            "Musim bunga (Mac-Mei) dan musim luruh (September-November) ialah waktu terbaik untuk melancong ke Guilin.",
+            "Cuaca di Guilin mudah berubah, jadi pastikan anda menyemak ramalan lebih awal dan pilih hari yang cuacanya baik untuk berkunjung."
+          ],
+          "closing": "Luangkanlah masa untuk ke Guilin, rasai hembusan angin di tepi Sungai Li, bersiar-siar di bandar lama Xingping, kunjungi lokasi pemandangan Sungai Li di Yangshuo yang tertera pada wang kertas dua puluh yuan, dan hayati pesona panorama Guilin yang dikatakan terindah di dunia."
+        },
+        "2": {
+          "title": "Beihai",
+          "subtitle": "Sebuah kota kecil di pesisir yang “dinamakan kerana laut dan lahir bersama laut”",
+          "description": "Beihai ialah destinasi pelancongan yang sering terlepas pandang, namun cukup memikat hingga membuat orang “tinggal lalu tidak mahu pergi”. Pesonanya bukan pada sesuatu yang “memukau”, tetapi pada rasa “selesa”——perasaan yang menenangkan tubuh dan fikiran serta mengembalikan kita kepada kehidupan yang sederhana dan sejati.",
+          "notes": [
+            "Dapatkan tiket feri ke Pulau Weizhou lima belas hari lebih awal; Pantai Perak paling lengang ketika matahari terbit pada pukul enam pagi.",
+            "Anda boleh merasai pengalaman mencari hasil laut ketika air surut (menangkap ikan dan udang serta mengutip cangkerang, biasanya bermula selepas pukul lima petang)."
+          ],
+          "closing": "Pantai Perak berkilau seakan Bima Sakti tercurah, Pulau Weizhou mengalunkan kisah cinta seribu tahun antara laut dengan gunung berapi, manakala denyut kehidupan di jalan lama berpadu dengan matahari terbit di laut menjadi suasana romantis yang paling menenangkan jiwa."
+        },
+        "3": {
+          "title": "Nanning",
+          "subtitle": "Separuh denyut kehidupan harian , separuh alam mimpi bak puisi dan lukisan",
+          "description": "Nanning ialah kota yang menggabungkan keindahan alam, warisan sejarah dan kemeriahan kehidupan setempat dengan sempurna. Di sini, kehijauan bukit dan aliran sungai yang lincah berpadu dengan lorong-lorong lama serta pasar malam yang meriah.",
+          "notes": [
+            "Cuaca Nanning panas dan lembap, jadi perlindungan matahari + payung wajib dibawa.",
+            "Tarikan terletak berjauhan, jadi jangan padatkan jadual sehari; meneroka dengan santai lebih menyenangkan.",
+            "Hirup semangkuk mi Laoyou dahulu, kemudian jelajahi pasar malam—itulah cara terbaik untuk menikmati Kota Yong."
+          ],
+          "closing": "Dengan sikap yang terbuka dan mesra, Nanning menganyam keindahan gunung serta sungai, kekayaan sejarah dan keseronokan hidup, menanti pengembara datang menikmatinya perlahan-lahan."
+        },
+        "4": {
+          "title": "Liuzhou",
+          "subtitle": "Sebuah kota unik tempat gunung dan sungai berpadu dengan industri, serta denyut kehidupan seharian wujud bersama keindahan puitis",
+          "description": "Pesonanya bukan sekadar semangkuk mi siput sungai yang segar, harum dan pedas, malah turut terletak pada panorama Sungai Liu yang terbentang jauh dengan “aliran berliku bak sembilan lilitan”, bunga bauhinia yang mekar di seluruh kota pada musim bunga, serta warisan sejarah yang mendalam dan budaya etnik yang kaya.",
+          "notes": [
+            "Di Taman Liuhou, menarilah bersama angin, daki bukit untuk menikmati kehijauan dan hayati keindahan alam sepenuhnya.",
+            "Di Muzium Perindustrian Liuzhou, jejaki kesan tahun-tahun silam dan hayati peredaran masa.",
+            "Semangkuk mi siput sungai, dua biji telur rebus berempah dan beberapa orang sahabat—kenangan di Liuzhou begitu sederhana namun indah."
+          ],
+          "closing": "Tempat ini memiliki bukit menghijau, air yang jernih dan pemandangan nyaman, lalu digelar “bonsai semula jadi terbesar di dunia”. Di sini, anda dapat menghayati budaya etnik yang kaya, merasai makanan tempatan yang asli, menikmati keindahan alam dan menemui detik indah tanpa diduga."
+        },
+        "5": {
+          "title": "Chongzuo",
+          "subtitle": "Kota yang menjunjung ilmu dan adab、ibu kota gula, tanah asal Luo Yue, puisi serta arak merangkai bab yang gemilang",
+          "description": "Kota sempadan ini tidak bergantung pada dataran besar, kawasan beli-belah yang sibuk atau gimik lokasi bergambar popular. Hal yang benar-benar menawan hati ialah ketenangan semula jadi di celah gunung dan perairannya. Pemandangan yang muncul setiap kali membelok terasa seperti wang simpanan rahsia di dalam poket—menenangkan dan meyakinkan.",
+          "notes": [
+            "Kabus air Detian、sawah padi Mingshi、dan lukisan tebing Huashan, semuanya puisi yang ditulis Chongzuo untuk dunia.",
+            "Kawasan sempadan dikawal. Elakkan mengambil gambar anggota tentera, polis atau pondok kawalan, dan patuhi arahan petugas tanpa bertindak melulu.",
+            "Laluan licin pada musim hujan, jadi pakai kasut bertapak antigelincir. Baju hujan lebih praktikal daripada payung dan membolehkan tangan anda bebas memegang susur tangan."
+          ],
+          "closing": "Di sini, anda dapat merasai pesona alam yang tersendiri. Sama ada kehebatan Air Terjun Rentas Sempadan Detian atau keindahan desa Mingshi yang damai, kedua-duanya membuatkan anda berat hati untuk beredar. Setiap pemandangan memiliki daya tarikan unik yang memenuhi perjalanan anda dengan kejutan dan detik menyentuh hati."
+        }
+      }
+    },
+    "guizhou": {
+      "title": "Pelancongan Guizhou",
+      "overview": "Guizhou ialah sebuah alam tersembunyi tempat keajaiban gunung dan perairan berpadu sempurna dengan budaya etnik. Separuh daripadanya ialah ciptaan alam yang megah, separuh lagi hamparan budaya yang kaya dengan warna, lalu membentuk pengalaman perjalanan yang unik dan mempesona. Di Guizhou, setiap bingkai ibarat gambar hiasan skrin; di celah gunung yang gagah dan air yang indah, saya menjadi titik dakwat yang bebas mengembara dalam lukisan～Di Huangguoshu, Anshun, percikan air yang dingin menyapa wajah, sementara deruan hebat memenuhi telinga. Di Xiaoqikong, Libo, kolam hijau zamrud berkilau bak jed, dan menaiki perahu terasa seperti mengembara dalam lukisan. Di Gunung Fanjing, Tongren, puncak tunggal menjulang menembusi awan; hanya setelah tiba di puncak barulah keluasan langit dan bumi terasa. Di Perkampungan Miao Xijiang, tenggara Guizhou, cahaya ribuan rumah bersinar bak bintang, lalu menjadi pemandangan kehidupan yang paling hangat apabila malam menjelma. Di muka bumi Danxia Chishui, Zunyi, tebing merah dan air terjun saling memantulkan keindahan; berjalan melaluinya terasa seakan merentas zaman Jura.",
+      "spots": {
+        "1": {
+          "title": "Air Terjun Huangguoshu",
+          "subtitle": "Aliran musim bunga dan air terjun musim panas menerbitkan kabus bak asap；musim luruh jernih, musim sejuk membeku, alam gua menampilkan pesona berbeza",
+          "description": "Air Terjun Huangguoshu ialah air terjun terbesar di China dan terkenal di seluruh dunia, dinamakan sempena pokok beringin tempatan yang tumbuh meluas di kawasan ini. Tempat ini merupakan tarikan pelancongan negara bertaraf AAAAA dan tersenarai dalam senarai tentatif Warisan Alam Dunia. Aliran airnya yang gagah, keajaiban melihat air terjun dari enam arah, perubahan pemandangan di dalam serta di luar Gua Tirai Air, dan panorama gaung batu kapur karst dikenali bersama sebagai「Empat Keajaiban Huangguoshu」, lalu memberinya gelaran「Air Terjun Nombor Satu China」.",
+          "notes": [
+            "Pada musim air tinggi (Jun-Ogos), alirannya paling gagah dan mengagumkan. Anda disarankan berkunjung pada waktu pagi ketika cahaya sesuai, kemudian gabungkan Jambatan Tianxing dan Doupotang dalam laluan sorotan sehari. Sediakan baju hujan untuk melalui Gua Tirai Air."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Xiaoqikong, Libo",
+          "subtitle": "Kolam musim bunga menghimpun warna zamrud, rimba musim panas mengundang penerokaan sunyi；kabus musim luruh menyelubungi jambatan, air musim sejuk bak cermin",
+          "description": "Xiaoqikong, Libo ialah keajaiban muka bumi batu kapur karst yang berpusat pada jambatan purba tujuh gerbang, dinamakan sempena jambatan batu tujuh gerbang zaman Qing yang merentasi Sungai Xiangshui. Tempat ini merupakan tarikan pelancongan negara bertaraf AAAAA dan bahagian penting Tapak Warisan Alam Dunia「Karst China Selatan」. Air zamrud serta kolam sunyi, air terjun bertingkat, hutan di atas air, gua batu kapur bersama sungai bawah tanah, dan budaya Buyi dikenali bersama sebagai「Lima Pesona Xiaoqikong」, lalu memberinya gelaran「Zamrud di Tali Pinggang Bumi」.",
+          "notes": [
+            "Air melimpah pada musim panas, membolehkan anda menikmati pengalaman menyegarkan「meredah air terjun dan bermain air」di hutan atas air. Masuklah seawal pagi untuk mengelakkan waktu puncak rombongan pelawat, dan selang-selikan berjalan kaki dengan menaiki kenderaan persiaran agar lawatan lebih santai."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Gunung Fanjing",
+          "subtitle": "Awan musim bunga bergulung lembut, kehijauan musim panas tampak segar menitis；langit musim luruh tinggi dan nyaman, salji musim sejuk menyelubungi bak kain layah",
+          "description": "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區，中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。",
+          "notes": [
+            "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Kampung Miao Xijiang",
+          "subtitle": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
+          "description": "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區，中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繡工藝和苗族飛歌古歌並稱「西江五韻」，被譽為「中國苗都」。",
+          "notes": [
+            "Naik ke platform pemandangan pada waktu senja untuk menangkap momen apabila cahaya matahari terbenam bertemu dengan lampu pertama pada waktu malam. Disyorkan bermalam untuk pengalaman mendalam kehidupan Miao—kabut pagi yang berlegar melalui kampung menjadikan suasana yang lebih tenang daripada pemandangan malam."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Kawasan Pelancongan Chishui Danxia",
+          "subtitle": "Spring bamboo drips emerald, summer waterfalls bring coolness; autumn forests blaze with color, winter mist veils everything.",
+          "description": "Chishui Danxia is one of China's largest Danxia landform areas — named for its red sandstone cliffs contrasting with green bamboo and waterfalls. Part of the UNESCO China Danxia site. Known for Danxia cliffs, waterfalls, bamboo forests, cycad fossils, and red culture.",
+          "notes": [
+            "Summer is the best season for Chishui Waterfall and Foguang Rock — wear non-slip sandals for water access. The three scenic sections are far apart, so driving or chartering is best. Reserve a full day."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "yunnan": {
+      "title": "Lawatan Yunnan",
+      "overview": "Selatan Awan — Yunnan. Di sini terletaknya Shangri-La, Gunung Salji Meili yang suci. Kunming yang seperti musim bunga, bandar purba Lijiang, Dali yang romantis, Xishuangbanna tropika, dan Shangri-La — tapak ziarah dan syurga trekking.",
+      "spots": {
+        "1": {
+          "title": "Tasik Erhai",
+          "subtitle": "Di tepi Gunung Cangshan dan Tasik Erhai, di antara angin, bunga, salji dan bulan",
+          "description": "Satu daripada empat tempat tarikan terkenal Dali 'Angin, Bunga, Salji, Bulan', tasik Erhai berbentuk seperti telinga, terbentuk daripada keruntuhan Sungai Erhai Barat. Dikenal sebagai 'Jade Mulia Tanpa Cacat Antara Gunung', dengan tiga pulau, empat pulau kecil, lima tasik, dan sembilan kelokan yang berbelit. kampung-kampung tepi tasik yang popular termasuk Shuanglang dengan 'Cahaya Ilahi Erhai', Caicun tempat filem 'Blueless' dirakam, dan Xizhou yang terkenal dengan seni bina rumah ethnicity Bai.",
+          "notes": [
+            "Cycle around Erhai or take a leisurely charter to connect Shuanglang, Xizhou, and Caicun — experience lake views, local culture, and regional cuisine all in one day."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Kawasan Indah Tasik Lugu",
+          "subtitle": "Pemandangan tasik tanah tinggi dan budaya matriarki Mosuo",
+          "description": "Tasik Lugu merupakan tasik sempadan antara wilayah Sichuan dan Yunnan, dengan penduduk utama daripada kaum Mosuo, Yi dan Pumi. Airnya yang jernih berwarna biru menjadikan ia tasik tertinggi di Yunnan dan salah satu tasik air tawar paling dalam di China, penuh dengan misteri. Dikelilingi gunung tinggi dengan salji turun lebih tiga bulan setahun dan hutan yang kaya, ia dikenali sebagai \"Negeri Khatulistiwa\". Tarikan utama termasuk kereta kabel Dewi, Laut Rumput Kecil, Tiga Pulau Lugu — lawatan menggunakan kereta elektrik adalah cara paling popular untuk melawat.",
+          "notes": [
+            "Stay at a lakeside inn — morning mist on the lake and evening sunset are Lugu Lake's most atmospheric moments."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Bandar Purba Lijiang",
+          "subtitle": "Bangunan kayu berjubin kelabu — dongak dan lihat Gunung Salji Naga Jed",
+          "description": "One of the most famous towns on the Ancient Tea Horse Road with 800-900 years of history. Wooden buildings with grey tiles, stone lanes, bridges over streams — look up from East Street and see Jade Dragon Snow Mountain. One of two ancient towns in China successfully inscribed as UNESCO World Heritage sites in their entirety.",
+          "notes": [
+            "Terokai lorong purba dan Mu Mansion pada siang hari, nikmati lampu bandar dan muzik tempatan pada waktu malam."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Gunung Salji Naga Jed",
+          "subtitle": "Pergunungan salji paling hampir dengan khatulistiwa — paling selatan di Hemisfera Utara",
+          "description": "Gunung suci orang Naxi — puncak utama Shanzidou pada 5,596m, sentiasa diselubungi kabus, puncak dara yang belum ditakluki.",
+          "notes": [
+            "At high altitudes, acclimatize gradually following park guidance. Pair with lower-altitude spots like Blue Moon Valley for a more comfortable itinerary."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Bandar Purba Shuhe",
+          "subtitle": "Berbanding Lijiang, di sini lebih tenang",
+          "description": "Shuhe Ancient Town lies northwest of Lijiang, nestled by mountains and water — quieter than Dayan. Backed by the Jade Dragon Snow Mountain foothills, it features well-preserved stone bridges and temples. Part of the Lijiang UNESCO World Heritage site.",
+          "notes": [
+            "Jika anda lebih suka perjalanan perlahan yang tenang, Shuhe lebih baik daripada Dayan untuk penginapan lebih lama."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "beijing": {
+      "title": "Pelancongan Beijing",
+      "overview": "Beijing — kota megah menggabungkan keagungan imperial seribu tahun dengan gaya moden. Setiap langkah adalah gema sejarah: Kota Larangan, Tembok Besar, Kuil Syurga, Istana Musim Panas, Dataran Tiananmen.",
+      "spots": {
+        "1": {
+          "title": "Muzium Istana",
+          "subtitle": "Dinding merah, jubin emas — seribu tahun dalam sekilas",
+          "description": "The Forbidden City — the imperial palace of the Ming and Qing dynasties — is the world's largest and best-preserved ancient wooden architectural complex. A UNESCO World Heritage site housing over a million cultural relics. Stroll along the central axis from the Meridian Gate to the Gate of Divine Prowess and feel the weight of 600 years of history.",
+          "notes": [
+            "Luangkan sekurang-kurangnya setengah hari berjalan di sepanjang paksi tengah dari Pintu Meridian ke Pintu Keberanian Ilahi.",
+            "Tiket Kota Larangan mesti ditempah awal melalui saluran rasmi — tiada jualan di tapak.",
+            "Elak waktu puncak hujung minggu dan cuti — pagi hari bekerja kurang pengunjung."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Tembok Besar Badaling",
+          "subtitle": "Naga raksasa melingkar gunung, berdiri megah di utara",
+          "description": "Bahagian Badaling ialah bahagian yang paling terpelihara dan paling reprezentatif bagi Tembok Besar era Ming, dan yang pertama dibuka kepada pelancong —digelar sebagai salah satu daripada Sembilan Kubu Besar China. Tapak Warisan Dunia dan kawasan peranginan berbintang 5A kebangsaan, ia menampilkan landskap yang curam, tembok yang menjulang tinggi, dan menara pengawal yang rapat dengan pemandangan yang berbeza merentasi keempat-empat musim. Naik kereta kabel ke atas, kemudian mendaki ke Menara Empat Utara atau Peak Hero untuk pemandangan naga yang meliuk-liuk melalui puncak-puncak.",
+          "notes": [
+            "Naik kereta kabel ke atas, kemudian mendaki ke Menara Keempat Utara atau Lereng Wira.",
+            "Elak hujung minggu dan cuti umum — awal pagi atau lewat petang kurang orang ramai.",
+            "Suhu di gunung berbeza-beza — bawa jaket ringan pada musim bunga dan luruh."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Taman Kuil Syurga",
+          "subtitle": "Langit bulat, bumi segi empat — berdoa senyap untuk tahun yang makmur",
+          "description": "The Temple of Heaven was where Ming and Qing emperors offered sacrifices for good harvests — the largest ancient sacrificial complex in China. A UNESCO site featuring the Hall of Prayer, Echo Wall, and Circular Mound Altar. Visit in the morning to see locals exercising.",
+          "notes": [
+            "Lawati pada waktu pagi untuk elak orang ramai dan alami kehidupan tempatan.",
+            "Dewan Doa Tuaian Baik, Dinding Gema, dan Altar Gundukan Bulat adalah wajib dilihat.",
+            "Taman ini luas — luangkan 2-3 jam untuk lawatan anda."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Istana Musim Panas",
+          "subtitle": "Tasik dan bukit bercermin — lukisan imperial hidup",
+          "description": "The Summer Palace — built during the Qianlong and Guangxu reigns — is China's largest and best-preserved imperial garden, centered on Kunming Lake and Longevity Hill with Jiangnan-style landscaping. A UNESCO site featuring the Tower of Buddhist Incense, the Long Corridor, and the Seventeen-Arch Bridge.",
+          "notes": [
+            "Cantik sepanjang tahun, terutamanya pada musim bunga dan luruh.",
+            "Naik bot merentasi Tasik Kunming untuk perspektif berbeza.",
+            "Kawasan luas — luangkan setengah hari untuk lawatan santai."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Dataran Tiananmen",
+          "subtitle": "Jantung negara, di mana semua hati bertemu",
+          "description": "Dataran Tiananmen terletak pada paksi tengah Beijing dan merupakan dataran Bandar yang terbesar di dunia, berfungsi sebagai simbol negara yang penting dan venue untuk aktiviti politik. Di tengahnya berdiri Monumen Wira Rakyat, menara gerbang Tiananmen yang megah terletak di hujung utara, Muzium Negara China di sebelah timur, dan Dewan Rakyat di sebelah barat. Upacara raises bendera harian yang bermaru dan murni menarik ramai yang menunggu sepanjang malam. Anda boleh menggabungkan lawatan dengan Muzium Negara untuk mengalami kesinambungan dan kegemilangan tamadun China antara sejarah dan masa kini.",
+          "notes": [
+            "Upacara menaikkan bendera harian berubah mengikut matahari terbit — semak awal dan tiba awal.",
+            "Gabungkan dengan Muzium Negara China — masuk percuma tetapi tempahan awal diperlukan.",
+            "Pemeriksaan keselamatan diperlukan untuk memasuki dataran — sila bawa kad pengenalan."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "xian": {
+      "title": "Pelancongan Xi'an",
+      "overview": "Xi'an — ibu kota purba legenda dengan seribu tahun sejarah. Sentuh bata Qin dan jubin Han, dengar loceng unta Jalan Sutera, rasa sup kambing, tenggelam dalam epik tiga belas dinasti.",
+      "spots": {
+        "1": {
+          "title": "Muzium Pahlawan Terracotta",
+          "subtitle": "\"Tentera bawah tanah\" yang mengejutkan dunia — kemuncak seni ketenteraan zaman dinasti Qin.",
+          "description": "Diiktiraf sebagai Keajaiban Kelapan Dunia, tapak ini telah menggali ribuan askar dan kuda terracotta bersaiz penuh, setiap muka askar adalah unik dan berbeza, diatur dalam formasi yang teguh dengan keagungan yang menghancurkan, secara hidup semula jadi askaran harimau dan perhimpunan diraja Empayar Qin yang agung lebih dua ribu tahun lalu. Skala lubang tapak arkeologi itu sangat besar dan tahap butiran yang menakjubkan — destinasi yang wajib dikunjungi untuk sesiapa yang ingin mengalami semangat dinasti bersatu pertama China.",
+          "notes": [
+            "Askaran Terracotta terletak di Daerah Lintong, lebih kurang satu jam pemanduan dari pusat Xi'an. Adalah disyorkan untuk meluangkan sekurang-kurangnya setengah hari untuk lawatan ini. Pastikan anda mengikut jelajah berpandu atau menggunakan panduan audio semasa lawatan — jika tidak, anda berisiko melihat hanya patung tanah liat tanpa memahami konteks sejarah."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Tembok Kota Xi'an",
+          "subtitle": "Tembok kota purba terbesar dan terpelihara terbaik di China",
+          "description": "This Ming Dynasty city wall encircles the ancient center for 13.7km — its broad top is perfect for walking, cycling, or taking an electric car. Battlements, watchtowers, and barbicans remain well-preserved. Standing on the wall, you see ancient streets inside and modern skyscrapers outside — a striking contrast of past and present.",
+          "notes": [
+            "Best to ascend at dusk to enjoy both sunset glow and city lights. Cycling on the wall is popular but the brick surface is uneven — be careful. The South Gate (Yongning Gate) section has the most brilliant night views."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Pagoda Angsa Liar Besar & Dataran",
+          "subtitle": "Tempat sami Tang Xuanzang menterjemah kitab — mercu tanda budaya Tang paling romantis",
+          "description": "Big Wild Goose Pagoda is a square brick pagoda housing rare Buddhist relics. Climb for panoramic southern views. The north square hosts Asia's largest musical fountain; the south square is perfect for photos. The whole area blends ancient charm with lively leisure.",
+          "notes": [
+            "Pertunjukan air pancut diadakan pada waktu tetap setiap malam — datang awal untuk mendapat tempat. Dek pemerhatian percuma di tingkat 3 Joy City berhampiran dataran selatan ialah sudut terbaik merakam keseluruhan pagoda."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Tang Paradise",
+          "subtitle": "Jalan pejalan kaki gaya Dinasti Tang yang terang-benderang dan sibuk",
+          "description": "Daerah berilhamkan zaman Tang yang membentang dari utara ke selatan ini tampil gemerlapan selepas malam menjelma. Tanglung merah, seni bina gaya Tang dan deretan arca gergasi tersusun satu demi satu, seolah-olah dunia The Longest Day in Chang’an dibawa terus ke alam nyata. Persembahan seni jalanan percuma seperti penari patung goyang, Pahlawan Terracotta terapung dan cabaran berbalas puisi Li Bai diselitkan di sepanjang jalan, sementara kedai di kedua-dua sisi menjual hanfu gaya Tang, cenderamata kreatif berunsur budaya dan snek warisan tidak ketara. Sama ada untuk menonton, bergambar atau menikmati pengalaman “merentas masa” yang imersif, kunjungan ini pasti memberikan kepuasan yang luar biasa.",
+          "notes": [
+            "Go after 19:30 when the lights are fully on for the best experience. To interact and take photos with the roly-poly performers, check the schedule on the official platform and queue up. Weekends are extremely crowded — mind your belongings."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Muzium Sejarah Shaanxi",
+          "subtitle": "Perbendaharaan bawah tanah tamadun China — dewan menyuling 3,000 tahun sejarah dinasti",
+          "description": "This national museum houses 370,000+ artifacts spanning from prehistoric pottery to Shang-Zhou bronzes, Han tiles, Tang gold and silverware, and murals. The agate cup with gold animal head and the silver pot with dancing horse are world-famous national treasures. Walking through the time-ordered halls is like reading a three-dimensional history of ancient China.",
+          "notes": [
+            "Free entry but requires real-name reservation days in advance via the official Shaanxi History Museum WeChat account. ID required for entry. The densely packed exhibits merit an audio guide or tour guide — otherwise easy to skim. Allow at least 2.5 hours."
+          ],
+          "closing": ""
+        }
+      }
+    }
+  },
+  "Cta": {
+    "defaultLabel": "Ketahui Lebih Lanjut",
+    "defaultPhone": "193 8679 6662"
+  },
+  "Locales": {
+    "zh-TW": "Bahasa Cina Tradisional",
+    "zh-CN": "Bahasa Cina Ringkas",
+    "en": "Bahasa Inggeris",
+    "th": "Bahasa Thai",
+    "vi": "Bahasa Vietnam",
+    "ms": "Bahasa Melayu",
+    "id": "Bahasa Indonesia"
+  }
 }

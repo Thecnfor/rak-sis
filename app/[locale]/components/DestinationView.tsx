@@ -2,25 +2,38 @@ import { getTranslations } from "next-intl/server";
 import Footer from "./Footer";
 import Cta from "./Cta";
 import ScrollReveal from "./ScrollReveal";
-import type { Destination } from "../destinations";
+import type { DestinationMeta } from "../destinations";
 
 type Props = {
-  data: Destination;
+  data: DestinationMeta;
 };
 
 export default async function DestinationView({ data }: Props) {
-  // The translation dictionary is keyed by zh-TW source string. We pass
-  // the source text as the key, so next-intl returns the localized
-  // translation. notes[] is an array of zh-TW source strings, so each
-  // element becomes its own translation key.
-  const t = await getTranslations();
+  // Look up all destination text via the locale-aware JSON under
+  // `Destinations.<slug>`. The slug is the namespace root, spots are
+  // nested under `spots.<rank>.<field>`, and `notes` is an array under
+  // `spots.<rank>.notes`.
+  const td = await getTranslations(`Destinations.${data.slug}`);
+  const t = await getTranslations("DestinationView");
+
+  const ctaBody = (
+    <>
+      {t("ctaBody.0")}
+      <br />
+      {t("ctaBody.1")}
+      <br />
+      {t("ctaBody.2")}
+      <br />
+      {t("ctaBody.3")}
+    </>
+  );
 
   return (
     <>
       <ScrollReveal animation="fade-in" threshold={0}>
         <section className="page-header page-header-plain">
           <div className="page-header-content">
-            <h1>{t(data.title)}</h1>
+            <h1>{td("title")}</h1>
           </div>
         </section>
       </ScrollReveal>
@@ -29,8 +42,8 @@ export default async function DestinationView({ data }: Props) {
         <section className="dest-overview">
           <div className="container">
             <div className="dest-overview-content">
-              <h3>{t("景點概況")}</h3>
-              <p>{t(data.overview)}</p>
+              <h3>{t("overviewHeading")}</h3>
+              <p>{td("overview")}</p>
             </div>
           </div>
         </section>
@@ -38,55 +51,52 @@ export default async function DestinationView({ data }: Props) {
 
       <section className="top-spots">
         <div className="container">
-          <h2>{t("熱門景點")}</h2>
-          {data.spots.map((s, i) => (
-            <ScrollReveal key={s.rank} animation="fade-up" delay={i * 100}>
-              <article className="spot-card">
-                <div className="spot-img">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={s.image}
-                    alt={t(s.title)}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </div>
-                <div className="spot-info">
-                  <span className="spot-rank">TOP {s.rank}</span>
-                  <h3>{t(s.title)}</h3>
-                  <p className="spot-subtitle">{t(s.subtitle)}</p>
-                  <p>{t(s.description)}</p>
-                  {s.notes.length > 0 && (
-                    <ul className="spot-notes">
-                      {s.notes.map((n: string, j: number) => (
-                        <li key={j}>{t(n)}</li>
-                      ))}
-                    </ul>
-                  )}
-                  {s.closing && <p>{t(s.closing)}</p>}
-                </div>
-              </article>
-            </ScrollReveal>
-          ))}
+          <h2>{t("topSpotsHeading")}</h2>
+          {data.spots.map((s, i) => {
+            // Read the notes array via t.raw so next-intl returns the
+            // underlying array (not a formatted string).
+            const notes = td.raw(`spots.${s.rank}.notes`) as string[];
+            const closing = td(`spots.${s.rank}.closing`);
+
+            return (
+              <ScrollReveal key={s.rank} animation="fade-up" delay={i * 100}>
+                <article className="spot-card">
+                  <div className="spot-img">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={s.image}
+                      alt={td(`spots.${s.rank}.title`)}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <div className="spot-info">
+                    <span className="spot-rank">
+                      {t("rankLabel", { rank: s.rank })}
+                    </span>
+                    <h3>{td(`spots.${s.rank}.title`)}</h3>
+                    <p className="spot-subtitle">
+                      {td(`spots.${s.rank}.subtitle`)}
+                    </p>
+                    <p>{td(`spots.${s.rank}.description`)}</p>
+                    {notes.length > 0 && (
+                      <ul className="spot-notes">
+                        {notes.map((n, j) => (
+                          <li key={j}>{n}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {closing && <p>{closing}</p>}
+                  </div>
+                </article>
+              </ScrollReveal>
+            );
+          })}
         </div>
       </section>
 
       <ScrollReveal animation="fade-up">
-        <Cta
-          bg={data.ctaBg}
-          title={t("別再猶豫，聯系我們吧")}
-          body={
-            <>
-              {t("我們深信，旅行是有溫度的")}
-              <br />
-              {t("我們希望能在這個冰冷冷的世界裏")}
-              <br />
-              {t("用我們的專業與熱情，帶給你一抹屬於旅行的溫度")}
-              <br />
-              {t("海涛旅行定制熱枕期盼您來中國旅行！")}
-            </>
-          }
-        />
+        <Cta bg={data.ctaBg} title={t("ctaTitle")} body={ctaBody} />
       </ScrollReveal>
 
       <Footer />

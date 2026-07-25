@@ -18,12 +18,10 @@ const TRAVEL_SLUGS = [
 ] as const;
 
 export default function Navbar() {
-  const t = useTranslations();
+  const t = useTranslations("Navbar");
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  // `usePathname` from next-intl/navigation already strips the locale
-  // prefix — pathname is "/about" not "/zh-TW/about".
   const pathname = usePathname() ?? "/";
   const isHome = pathname === "/";
   const dropdownRef = useRef<HTMLLIElement>(null);
@@ -31,26 +29,14 @@ export default function Navbar() {
   const hamburgerRef = useRef<HTMLButtonElement>(null);
 
   const MAIN_ITEMS = [
-    { href: "/", label: t("首頁") },
-    { href: "/about", label: t("關於我們") },
-    { href: "/contact", label: t("聯系我們") },
+    { href: "/", label: t("main.home") },
+    { href: "/about", label: t("main.about") },
+    { href: "/contact", label: t("main.contact") },
   ];
 
   const TRAVEL_ITEMS = TRAVEL_SLUGS.map((slug) => ({
     href: `/${slug}`,
-    // Each translation key matches the existing zh-TW label in Navbar's old TRAVEL_ITEMS.
-    label: t(
-      {
-        chongqing: "重庆旅遊",
-        sichuan: "四川旅遊",
-        zhangjiajie: "張家界旅遊",
-        guizhou: "貴州旅遊",
-        guangxi: "廣西旅遊",
-        yunnan: "云南旅游",
-        beijing: "北京旅遊",
-        xian: "西安旅遊",
-      }[slug],
-    ),
+    label: t(`travel.${slug}`),
   }));
 
   useEffect(() => {
@@ -61,10 +47,6 @@ export default function Navbar() {
   }, []);
 
   // Keep <body class="home-solid-nav"> in sync with the current route.
-  // The initial value is set by an inline script in the locale layout, but
-  // client-side navigation between pages does not re-run that script.
-  // Destination pages must NOT have this class, otherwise the
-  // body:not(.home-solid-nav) rules (e.g. active-link color) never match.
   useEffect(() => {
     document.body.classList.toggle("home-solid-nav", isHome);
   }, [isHome]);
@@ -106,8 +88,8 @@ export default function Navbar() {
       <div className="nav-container">
         <Link className="logo" href="/">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt={t("海涛旅行定制")} className="logo-img" />
-          <span className="logo-name">{t("海涛旅行定制")}</span>
+          <img src="/logo.png" alt={t("brand")} className="logo-img" />
+          <span className="logo-name">{t("brand")}</span>
         </Link>
         <ul className={`nav-links${open ? " open" : ""}`} id="navLinks" ref={navLinksRef}>
           {MAIN_ITEMS.map((item) => {
@@ -133,7 +115,7 @@ export default function Navbar() {
               className={`nav-dropdown-toggle${isTravelActive ? " active" : ""}`}
               onClick={() => setDropdownOpen((v) => !v)}
             >
-              {t("旅游地点")} <i className="fas fa-chevron-down" />
+              {t("travelLabel")} <i className="fas fa-chevron-down" />
             </button>
             <ul className="nav-dropdown-menu">
               {TRAVEL_ITEMS.map((item) => {
@@ -168,7 +150,7 @@ export default function Navbar() {
             id="hamburger"
             ref={hamburgerRef}
             onClick={() => setOpen((v) => !v)}
-            aria-label={t("切換選單")}
+            aria-label={t("aria.menu")}
           >
             <span />
             <span />

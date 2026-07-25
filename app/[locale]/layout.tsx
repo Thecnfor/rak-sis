@@ -2,23 +2,18 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params,
-}: LayoutProps<"/[locale]">): Promise<Metadata> {
-  // The locale is read inside the default export below; generateMetadata
-  // only needs title/description which are locale-agnostic.
-  await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Metadata");
   return {
-    title: "海涛旅行定制",
-    description:
-      "海涛旅行定制，品質無憂，純玩無購物。提供中國著名景點的旅遊服務和攻略，包括重庆、張家界、雲南、四川、廣西等多個目的地。",
+    title: t("title"),
+    description: t("description"),
     alternates: {
       canonical: "/",
       languages: Object.fromEntries(
@@ -70,10 +65,9 @@ export default async function LocaleLayout({
             uses a system font stack — see :root font-family in globals.css. */}
       </head>
       <body suppressHydrationWarning>
-        {/* Toggle `body.home-solid-nav` for the locale root only. The class
-            is required by CSS rules like body:not(.home-solid-nav) .nav-link.active,
-            which must NOT match on destination pages. Segment-count check
-            works for /zh-TW, /zh-TW/, /en, /en/, and rejects /zh-TW/about. */}
+        {/* Toggle `body.home-solid-nav` for the locale root only. Segment-
+            count check works for /zh-TW, /zh-TW/, /en, /en/ (1 segment → set),
+            and rejects /zh-TW/about, /en/chongqing (2 segments → unset). */}
         <Script id="body-home-class" strategy="beforeInteractive">
           {`(function(){
             var segs = location.pathname.split('/').filter(Boolean);

@@ -1,348 +1,707 @@
 {
-  "首頁": "Trang chủ",
-  "關於我們": "Về chúng tôi",
-  "聯系我們": "Liên hệ chúng tôi",
-  "旅游地点": "Điểm du lịch",
-  "了解更多": "Tìm hiểu thêm",
-  "客戶評價": "Đánh giá của khách hàng",
-  "快速鏈接": "Liên kết nhanh",
-  "聯系方式": "Thông tin liên hệ",
-  "關注我們": "Theo dõi chúng tôi",
-  "熱門景點": "Thắng cảnh nổi tiếng",
-  "景點概況": "Tổng quan thắng cảnh",
-  "翻譯中...": "Đang dịch...",
-  "別再猶豫，聯系我們吧": "Đừng ngần ngại, hãy liên hệ với chúng tôi",
-  "提交": "Gửi",
-  "名字": "Tên",
-  "郵箱": "Email",
-  "評論或消息": "Bình luận hoặc tin nhắn",
-  "請輸入您的名字": "Nhập tên của bạn",
-  "請輸入您的郵箱": "Nhập email của bạn",
-  "請輸入您的消息": "Nhập tin nhắn của bạn",
-  "發送信息或者聯系我們的社交媒體": "Gửi tin nhắn cho chúng tôi hoặc liên hệ qua mạng xã hội",
-  "點擊立即咨詢": "Nhấn để tư vấn ngay",
-  "海涛旅行定制": "Haitao Travel Custom",
-  "海涛旅行定制 品質無憂": "Haitao Travel Custom — Chất lượng không lo lắng",
-  "品質保證": "Đảm bảo chất lượng",
-  "安全保障": "Đảm bảo an toàn",
-  "售後保障": "Bảo hành sau bán",
-  "五星級服務": "Dịch vụ năm sao",
-  "專業團隊": "Đội ngũ chuyên nghiệp",
-  "個性定制": "Cá nhân hóa theo yêu cầu",
-  "VIP通道": "Lối vào VIP",
-  "純玩無購物": "Du lịch thuần túy, không mua sắm",
-  "自有車隊": "Đội xe riêng",
-  "行程規劃": "Lập kế hoạch hành trình",
-  "酒店預訂": "Đặt khách sạn",
-  "導遊服務": "Dịch vụ hướng dẫn viên",
-  "包車服務": "Dịch vụ thuê xe riêng",
-  "24小時管家": "Quản gia 24 giờ",
-  "24小時管家，貼心服務": "Quản gia 24 giờ, luôn sẵn sàng phục vụ bạn",
-  "您的旅遊專家，期待您的到來": "Chuyên gia du lịch của bạn, mong chờ được đón tiếp bạn",
-  "服務優勢": "Ưu điểm dịch vụ",
-  "品牌優勢": "Ưu điểm thương hiệu",
-  "資源整合": "Tích hợp tài nguyên",
-  "我們的服務": "Dịch vụ của chúng tôi",
-  "我們的特色": "Điểm nổi bật của chúng tôi",
-  "為何選擇海涛旅行定制": "Tại sao chọn Haitao Custom Travel",
-  "重慶旅遊": "Du lịch Trùng Khánh",
-  "重庆旅遊": "Du lịch Trùng Khánh",
-  "四川旅遊": "Du lịch Tứ Xuyên",
-  "廣西旅遊": "Du lịch Quảng Tây",
-  "雲南旅遊": "Tour Vân Nam",
-  "云南旅游": "Du lịch Vân Nam",
-  "貴州旅遊": "Du lịch Quý Châu",
-  "張家界旅遊": "Du lịch Trương Gia Giới",
-  "北京旅遊": "Du lịch Bắc Kinh",
-  "西安旅遊": "Du lịch Tây An",
-  "旅行中國": "Du lịch Trung Quốc",
-  "奇山異水四川": "Tứ Xuyên — Núi non kỳ thú",
-  "人間仙境張家界": "Trương Gia Giới — Tiên cảnh nhân gian",
-  "秀甲天下壯美廣西": "Quảng Tây — Vẻ đẹp vượt trội khắp thiên hạ",
-  "魔幻之城重慶": "Thành phố kỳ diệu Trùng Khánh",
-  "切換選單": "Chuyển đổi menu",
-  "繁體中文": "Tiếng Trung phồn thể",
-  "简体中文": "Tiếng Trung giản thể",
-  "English": "Tiếng Anh",
-  "日本語": "Tiếng Nhật",
-  "한국어": "Tiếng Hàn",
-  "ภาษาไทย": "Tiếng Thái",
-  "Tiếng Việt": "Tiếng Việt",
-  "Bahasa Melayu": "Tiếng Mã Lai",
-  "Email 郵箱": "Email",
-  "Phone 電話": "Điện thoại",
-  "WeChat 微信": "WeChat",
-  "Offices 地址": "Văn phòng",
-  "來自海涛旅行定制官網的新消息": "Tin nhắn mới từ trang web chính thức",
-  "深耕旅遊市場多年，獨家資源更具超高性價比": "Nhiều năm kinh nghiệm sâu rộng trong ngành du lịch, với nguồn lực độc quyền mang lại giá trị vượt trội",
-  "以線上旅遊服務商為主，24小時管家，貼心為您服務": "Là nhà cung cấp dịch vụ du lịch trực tuyến, chúng tôi cung cấp dịch vụ quản gia suốt 24 giờ để bạn yên tâm",
-  "售前售中售後全面的運營團隊，讓您零操心，更省心": "Đội ngũ toàn diện hỗ trợ bạn trước, trong và sau chuyến đi — hoàn toàn không lo lắng",
-  "旅遊更純粹，致力於提升旅行者的消費體驗": "Du lịch thuần túy nhất, cam kết nâng cao trải nghiệm của mọi du khách",
-  "所有車輛均為公司自有車隊，持正規資質，5-55座車型齊全": "Tất cả phương tiện đều thuộc sở hữu của công ty với giấy phép hợp lệ, có đầy đủ các loại xe từ 5 đến 55 chỗ",
-  "無需人擠人，快速通道免排隊": "Bỏ qua đám đông với lối vào ưu tiên — không phải xếp hàng",
-  "500余名員工，270名資深導遊": "Hơn 500 nhân viên và 270 hướng dẫn viên dày dạn kinh nghiệm",
-  "專業團隊為您量身定制旅行路線": "Đội ngũ chuyên gia của chúng tôi thiết kế lộ trình du lịch riêng cho bạn",
-  "集團旗下高奢酒店113家，高奢民宿27家": "Tiếp cận 113 khách sạn sang trọng và 27 nhà nghỉ cao cấp trong tập đoàn",
-  "各语种資深專業導遊270人": "270 hướng dẫn viên chuyên nghiệp thành thạo nhiều ngôn ngữ",
-  "自有車隊，專職駕齡5年以上司機": "Đội xe riêng với tài xế chuyên nghiệp, mỗi người có hơn 5 năm kinh nghiệm",
-  "嚴選優質資源，確保每一次旅行都是精品體驗": "Lựa chọn cẩn thận các nguồn lực cao cấp để đảm bảo mỗi chuyến đi đều là trải nghiệm tinh tế",
-  "根據您的時間、愛好等靈活定制行程": "Hành trình linh hoạt được thiết kế theo lịch trình và sở thích của bạn",
-  "全程旅遊服務保障，讓您安心出行": "Hỗ trợ du lịch toàn diện để bạn hoàn toàn yên tâm trên mọi hành trình",
-  "海涛旅行定制，品質無憂，純玩無購物是我們的承諾，讓旅遊回歸純粹是我們的目標。": "Haitao Travel Custom cam kết chất lượng không lo lắng, du lịch tinh túy không mua sắm. Mục tiêu của chúng tôi là đưa du lịch trở về với sự thuần khiết.",
-  "提供中國著名景點的旅遊服務和攻略，包括重庆旅遊、張家界、雲南、四川、北京等多個目的地": "Cung cấp dịch vụ du lịch và cẩm nang cho các thắng cảnh nổi tiếng của Trung Quốc, bao gồm Trùng Khánh, Trương Gia Giới, Vân Nam, Tứ Xuyên, Bắc Kinh và nhiều điểm đến khác",
-  "提供全方位的服務，包括旅遊咨詢、包車、酒店預訂、景點門票、導遊服務、合同保障": "Cung cấp dịch vụ toàn diện, bao gồm tư vấn du lịch, thuê xe riêng, đặt phòng khách sạn, vé tham quan, hướng dẫn viên và bảo đảm hợp đồng",
-  "我們旅行社經過多年積累，已經與上百家資源供應商達成深度合作，能提供特價機票、酒店和景點門票": "Qua nhiều năm tích lũy, công ty du lịch của chúng tôi đã thiết lập hợp tác sâu rộng với hơn một trăm nhà cung cấp tài nguyên, có thể cung cấp vé máy bay, khách sạn và vé tham quan giá ưu đãi",
-  "洪崖洞的燈火輝煌，解放碑的繁華熱鬧，磁器口的古色古香": "Ánh đèn rực rỡ của Hồng Nhai Động, sự nhộn nhịp của Giải Phóng Bài, và nét cổ kính của Từ Khí Khẩu",
-  "一個將壯麗山川與人間煙火完美融合的秘境之地": "Vùng đất bí ẩn nơi núi sông hùng vĩ hòa quyện hoàn hảo với khói lửa nhân gian",
-  "集文化、藝術和旅遊於一體": "Hội tụ văn hóa, nghệ thuật và du lịch trong một",
-  "阿凡達拍攝地，獨特喀斯特地貌，壯觀而奇妙的自然景觀": "Nơi quay phim Avatar, địa hình karst độc đáo, phong cảnh thiên nhiên hùng vĩ và kỳ thú",
-  "重慶，一座魔幻之城，山水相依，人文薈萃。在這裏，你可以領略到長江的壯闊，感受到山城的魅力，品味到地道的火鍋，體驗到獨特的巴渝文化。 洪崖洞的灯火辉煌，解放碑的繁华热闹，磁器口的古色古香，每一处都散发着迷人的魅力。無論是首次到重庆，還是深度二刷，都能找到適合自己的旅行節奏。": "Trùng Khánh — một thành phố huyền ảo, núi non và sông nước giao hòa, văn hóa nhân văn hội tụ. Nơi đây, bạn có thể chiêm ngưỡng vẻ hùng vĩ của sông Dương Tử, cảm nhận sức hút của thành phố miền núi, thưởng thức lẩu đúng điệu và trải nghiệm văn hóa Ba Dư độc đáo. Ánh đèn rực rỡ của Hồng Nhai Động, sự nhộn nhịp của Giải Phóng Bi, nét cổ kính của Từ Khí Khẩu — mỗi nơi đều tỏa ra sức hút mê hoặc. Dù là lần đầu đến Trùng Khánh hay quay lại khám phá sâu hơn, bạn đều tìm thấy nhịp điệu du lịch phù hợp với mình.",
-  "四川省，簡稱「川」或「蜀」，總面積為48.6萬平方千米，是中國的第五大省區。四川地形復雜多樣，地貌東西差異大，地勢呈西高東低的特點，由山地、丘陵、平原、盆地和高原構成。四川盆地是中國四大盆地之一，擁有豐富的歷史文化遺產，如九寨溝、黃龍、都江堰、青城山、樂山大佛、峨眉山等著名景點。此外，四川是一個多民族的大家庭，境內有中國第二大藏區、最大彜區和中國唯一羌族自治縣，每年都會舉行各種各樣的民族節慶活動。": "Tỉnh Tứ Xuyên, viết tắt là \"Xuyên\" hoặc \"Thục\", tổng diện tích 486.000 km², là tỉnh lớn thứ năm của Trung Quốc. Địa hình đa dạng phức tạp, chênh lệch rõ rệt giữa đông – tây, cao ở phía tây và thấp ở phía đông, gồm núi, đồi, đồng bằng, lưu vực và cao nguyên. Lưu vực Tứ Xuyên là một trong bốn lưu vực lớn của Trung Quốc, sở hữu nhiều di sản văn hóa lịch sử như Cửu Trại Câu, Hoàng Long, Đô Giang Yển, Thanh Thành Sơn, Lạc Sơn Đại Phật và Nga Mi Sơn. Ngoài ra, Tứ Xuyên còn là đại gia đình đa dân tộc, có khu vực Tây Tạng lớn thứ hai của Trung Quốc, khu vực Di lớn nhất và huyện tự trị Khương duy nhất của Trung Quốc — với vô vàn lễ hội dân tộc được tổ chức quanh năm.",
-  "廣西，一個將壯麊山川與人間煙火完美融合的秘境之地。這裡一半是詩畫般的自然風光，一半是熱氣騰騰的市井生活，構成了一種獨特而迷人的旅行體驗。 在廣西，每一處都是風景畫，山青水秀，我成了畫中遊走的墨點～南寧青秀山，綠意漫進心底，呼吸都是草木的清香。柳州螺螄粉，熱辣味蕾的狂歡，桂林山水，宋詞裡的工筆，美得如詩如畫。": "Quảng Tây là vùng đất bí ẩn nơi những ngọn núi và sông hùng vĩ hòa quyện với hơi ấm của cuộc sống đời thường. Một nửa là thiên nhiên thơ mộng, đẹp như tranh, nửa còn lại là sự nhộn nhịp của các con phố địa phương — cùng nhau dệt nên một trải nghiệm du lịch không giống bất kỳ nơi nào khác. Ở Quảng Tây, mỗi góc đều là một bức tranh phong cảnh: đồi xanh ngọc và nước trong vắt, nơi bạn trở thành một nét bút lang thang trong khung cảnh. Núi Thanh Tú của Nam Ninh lấp đầy trái tim bạn bằng sắc xanh, mỗi hơi thở đều thoảng mùi tươi mát của lá và cỏ. Lưu Châu lạo sức phấn (Luosifen) là một bữa tiệc của vị cay nồng đầy táo bạo. Núi sông Quế Lâm tựa như nét bút lông tinh tế trong một bài thơ nhà Tống — đẹp đẽ khó lòng diễn tả.",
-  "貴州，一個將山水奇境與民族風情完美交融的秘境之地。這裏一半是磅礴大氣的自然造化，一半是多彩濃郁的人文畫卷，構成了一種獨特而迷人的旅行體驗。在貴州，每一幀都是屏保畫，山雄水秀，我成了畫中暢遊的墨點～安順黃果樹，水霧撲面清涼，耳畔皆是轟鳴的壯闊。荔波小七孔，碧潭凝翠如玉，泛舟便是畫中遊。銅仁梵淨山，孤峰直插雲端，登頂方覺天地寬。黔東南西江苗寨，萬家燈火如星，入夜便是最暖的人間。遵義赤水丹霞，紅岩飛瀑相映，穿行仿佛穿越侏羅紀。": "Quý Châu là miền đất bí ẩn nơi kỳ quan non nước hòa quyện hoàn hảo cùng bản sắc dân tộc. Một nửa là tạo tác thiên nhiên hùng vĩ khoáng đạt, một nửa là bức tranh văn hóa rực rỡ đậm đà, cùng tạo nên trải nghiệm du lịch độc đáo và mê hoặc. Ở Quý Châu, mỗi khung hình đều đẹp như ảnh nền màn hình; giữa núi non hùng vĩ và sông nước hữu tình, tôi hóa thành một chấm mực thỏa sức ngao du trong tranh～Tại thác Hoàng Quả Thụ ở An Thuận, hơi nước mát lạnh táp vào mặt, bên tai là tiếng thác gầm vang đầy tráng lệ. Ở Tiểu Thất Khổng, Lệ Ba, hồ biếc ngưng sắc xanh như ngọc, chèo thuyền là bước vào cõi tranh. Tại Núi Phạm Tịnh ở Đồng Nhân, đỉnh núi cô độc xuyên thẳng tầng mây; lên đến đỉnh mới cảm nhận trời đất bao la. Ở làng Miêu Tây Giang vùng Đông Nam Quý Châu, muôn nhà lên đèn tựa sao trời; khi đêm xuống, nơi đây hóa thành chốn nhân gian ấm áp nhất. Tại vùng Đan Hà Xích Thủy ở Tuân Nghĩa, vách đá đỏ và thác bay soi chiếu lẫn nhau; đi xuyên qua tựa như trở về kỷ Jura.",
-  "彩雲之南，這裏有希爾頓書中的香巴拉，有洛克眼中的世外桃源，有藏族人心中神聖的梅裏雪山，這裏四季花長開，景色四季不同，高山、湖泊、花海、雪山、梯田、各種事物組成了這裏最美的風景。 昆明是雲南省的省會，四季如春，風景優美。麗江這座歷史悠久的古鎮有著很多風景名勝，是納西族人的主要聚居地。大理是雲南最早文化的發祥地，風花雪月是大理著名四景。西雙版納是一個具有著亞熱帶風情的地方，是孔雀和大象的故鄉。迪慶藏族自治州（香格裏拉）是希爾頓眼中的世外桃源，也是朝拜聖地、徒步天堂。": "Phía Nam của những đám mây — Vân Nam. Nơi đây có Shangri-La, núi tuyết Meili linh thiêng. Côn Minh mùa xuân, phố cổ Lệ Giang, Đại Lý lãng mạn, Xishuangbanna nhiệt đới, và Shangri-La — thánh địa hành hương và thiên đường trekking.",
-  "北京，一座薈萃千年帝都氣象與現代國際風範的宏偉之城。這裏一半是金瓦紅牆的皇家氣派，一半是胡同巷弄的市井煙火，構成了一種大氣而醇厚的旅行體驗。在北京，每一步都是歷史的回響，故宮的深邃、長城的雄壯、天壇的肅穆、頤和園的秀美、天安門的莊嚴，每一處都在訴說著華夏文明的輝煌與厚重。無論你是初訪京華，還是舊地重遊，都能在古今交織的畫卷中，找到屬於自己的那份感動與敬畏。": "Bắc Kinh — thành phố tráng lệ pha trộn giữa vẻ uy nghi ngàn năm đế đô và phong cách hiện đại. Mỗi bước chân là tiếng vọng lịch sử: Tử Cấm Thành, Vạn Lý Trường Thành, Thiên Đàn, Di Hòa Viên, Quảng trường Thiên An Môn.",
-  "西安，一座古都傳奇，千年積澱，盛世留痕。在這裏，你可以觸摸秦磚漢瓦的溫度，聆聽絲路駝鈴的迴響，品味羊肉泡饃的醇厚，沉浸於十三朝興衰的厚重史詩。兵馬俑的千軍萬馬，古城牆的雄渾壯闊，大雁塔的梵音裊裊，大唐不夜城的流光溢彩，每一處都在訴說著長安的故事。無論你是初次造訪，還是再度歸來，都能在古今交錯的光影裏，找到屬於自己的那一頁長安記憶。": "Tây An — cố đô huyền thoại với nghìn năm lịch sử. Chạm vào gạch Tần ngói Hán, lắng nghe tiếng lạc đà trên Con đường Tơ lụa, nếm súp thịt cừu, đắm mình trong sử thi mười ba triều đại.",
-  "洪崖洞": "Hồng Nhai Động",
-  "仙女山": "Nữ Tiên Sơn",
-  "天生三橋": "Tam Kiều Thiên Sinh",
-  "蚩尤九黎城": "Thành Xủ Vu Cửu Lê",
-  "烏江畫廊": "Bức Tranh Sông Ô",
-  "九寨溝風景區": "Khu thắng cảnh Cửu Trại Câu",
-  "畢棚溝風景區": "Khu thắng cảnh Bích Bình Câu",
-  "黃龍風景名勝區": "Khu thắng cảnh danh lam thắng cảnh Hoàng Long",
-  "四姑娘山景區": "Khu thắng cảnh Núi Tứ Cô Nương",
-  "若爾蓋熱爾大草原": "Đồng cỏ Nhiệt Nhĩ Nhĩ Gải",
-  "張家界國家森林公園": "Vườn Quốc gia Trương Gia Giới",
-  "天門山國家森林公園": "Vườn Quốc gia Núi Thiên Môn",
-  "天子山": "Núi Thiên Tử",
-  "張家界黃龍洞": "Động Hoàng Long Trương Gia Giới",
-  "張家界大峽谷": "Hẻm núi Lớn Trương Gia Giới",
-  "桂林": "Quế Lâm",
-  "北海": "Bắc Hải",
-  "南寧": "Nam Ninh",
-  "柳州": "Liễu Châu",
-  "崇左": "Sùng Tả",
-  "洱海": "Hồ Nhĩ Hải",
-  "瀘沽湖國家級風景名勝區": "Khu thắng cảnh hồ Lô Cô",
-  "麗江古城": "Phố cổ Lệ Giang",
-  "玉龍雪山": "Núi tuyết Ngọc Long",
-  "束河古鎮": "Phố cổ Thúc Hà",
-  "故宮博物院": "Bảo tàng Cố Cung",
-  "八達嶺長城": "Bát Đạt Lĩnh Trường Thành",
-  "天壇公園": "Công viên Thiên Đàn",
-  "頤和園": "Di Hòa Viên",
-  "天安門廣場": "Quảng trường Thiên An Môn",
-  "秦始皇兵馬俑博物館": "Bảo tàng Tượng Binh Mã Tần Thủy Hoàng",
-  "西安城牆": "Tường thành Tây An",
-  "大雁塔 & 大雁塔廣場": "Tháp Đại Nhạn & Quảng trường",
-  "大唐不夜城": "Đại Đường Bất Dạ Thành",
-  "陝西歷史博物館": "Bảo tàng Lịch sử Thiểm Tây",
-  "梵淨山": "Núi Phạm Tịnh",
-  "西江千戶苗寨": "Làng Miêu Thiên Hộ Tây Giang",
-  "荔波小七孔": "Tiểu Thất Khổng, Lệ Ba",
-  "黃果樹瀑布": "Thác Hoàng Quả Thụ",
-  "赤水丹霞旅遊區": "Khu du lịch Đan Hà Xích Thủy",
-  "一步一移皆風景，感受歲月沉澱之美": "Mỗi bước đi là một cảnh đẹp, cảm nhận vẻ đẹp được thời gian tô điểm",
-  "漫步其中, 彷彿置身仙境, 感受大自然的溫柔與寧靜": "Dạo bước nơi đây, tưởng như lạc vào tiên cảnh, cảm nhận sự dịu dàng và tĩnh lặng của thiên nhiên",
-  "地质奇迹：解读天生三桥的旷世之美": "Kỳ quan địa chất: giải mã vẻ đẹp vượt thời gian của Tam Kiều Thiên Sinh.",
-  "重庆最大的苗寨，以苗族传统文化为特色，规模庞大，堪称一绝": "Làng Miêu lớn nhất Trùng Khánh, nổi bật với văn hóa truyền thống tộc người Miêu, quy mô đồ sộ — độc đáo bậc nhất.",
-  "鍾情于山川湖海的壯闊，偏愛古鎮小巷的靜謐": "Mê đắm vẻ hùng vĩ của sông núi, yêu thích sự tĩnh lặng của những con hẻm phố cổ.",
-  "春和景明，花開浪漫；夏綠九寨，恣意清涼": "Mùa xuân tươi sáng, hoa nở lãng mạn; mùa hè xanh mướt Cửu Trại Câu, mát lạnh thỏa thích.",
-  "徒步愛好者的凈土，國內非常知名的紅葉觀賞聖地": "Thiên đường của những người yêu thích đi bộ đường dài và là một trong những địa điểm ngắm lá đỏ nổi tiếng nhất Trung Quốc",
-  "色彩豐艷的鈣化池和罕見的巖溶地貌": "Những hồ đá vôi đầy màu sắc rực rỡ và các dạng địa hình karst hiếm có",
-  "僅次於呼倫貝爾草原的中國第二大草原": "Đồng cỏ lớn thứ hai của Trung Quốc, chỉ sau Đồng cỏ Hô Luân Bu Bắc",
-  "高海拔山峰，懸崖峭壁，玻璃棧道，大自然的鬼斧神工": "Đỉnh núi ở độ cao lớn, vách đá dựng đứng, cầu đi bộ bằng kính — kiệt tác của tạo hóa",
-  "可觀雲濤、月輝、霞日、冬雪四大奇觀": "Bốn kỳ quan đặc trưng — biển mây, ánh trăng, bầu trời hoàng hôn rực rỡ và tuyết mùa đông",
-  "中國唯一可夜遊的溶洞，囊括眾多鐘乳石": "Động duy nhất của Trung Quốc có thể tham quan vào ban đêm, chứa đựng vô số măng đá và thạch nhũ",
-  "站在大峽谷玻璃橋上，谷底風光盡收眼底": "Đứng trên Cầu Kính Hẻm Núi Lớn để ngắm toàn cảnh hẻm núi phía dưới",
-  "你的一句甲天下 ，我便到了真桂林": "\"Đệ nhất thiên hạ\" — ngay khi bạn thốt ra những lời ấy, bạn biết mình đã thực sự đến Quế Lâm",
-  "一座“因海而名，伴海而生”的海滨小城": "Một thành phố biển nhỏ “mang tên từ biển và sinh ra cùng biển”",
-  "一座山水与工业交织、烟火与诗意共存的独特城市": "Một thành phố độc đáo nơi non nước đan xen với công nghiệp, nhịp sống đời thường song hành cùng chất thơ",
-  "一半人間煙火 ，一半詩畫夢境": "Một nửa là hơi thở đời thường , một nửa là cõi mộng nên thơ như tranh",
-  "崇文尚禮、蔗糖之都，駱越故里，詩酒華章": "Nơi trọng văn chuộng lễ、kinh đô mía đường, quê xưa của Lạc Việt, thi ca và rượu viết nên áng hoa chương",
-  "巨龍盤山，雄峙北疆": "Rồng khổng lồ cuộn quanh núi, đứng gác phương bắc",
-  "朱牆金瓦，一眼千年": "Tường son ngói vàng, nghìn năm trong một cái nhìn",
-  "天圓地方，靜祈豐年": "Trời tròn đất vuông, lặng lẽ cầu năm mới bội thu",
-  "湖山相映，皇家畫境": "Hồ núi phản chiếu — bức tranh hoàng gia sống động",
-  "國門之央，萬眾歸心": "Trung tâm quốc gia, nơi mọi trái tim hội tụ",
-  "華夏文明的地下寶庫，濃縮三千年王朝興衰的殿堂": "Kho tàng ngầm của văn minh Hoa Hạ — điện đường cô đọng 3.000 năm lịch sử",
-  "燈火如晝、遊人如織的盛唐風情步行街": "Phố đi bộ phong cách Đại Đường rực rỡ ánh đèn và đông đúc",
-  "中國現存最完整、規模最宏大的古代城垣建築": "Tường thành cổ đại hoàn chỉnh và lớn nhất còn tồn tại ở Trung Quốc",
-  "唐代高僧玄奘譯經之地與古城最浪漫的唐文化地標": "Nơi nhà sư Đường Huyền Trang dịch kinh — địa danh văn hóa Đường lãng mạn nhất",
-  "高原湖泊自然風光和摩梭母系民族文化": "Phong cảnh hồ cao nguyên và văn hóa mẫu hệ Mosuo",
-  "古城內木樓青瓦，舉頭即可遙望玉龍雪山": "Nhà gỗ ngói xanh — ngước lên là thấy núi tuyết Ngọc Long",
-  "蒼山洱海畔，風花雪月間": "Bên núi Thương Sơn và hồ Nhĩ Hải, giữa gió hoa tuyết nguyệt",
-  "與麗江古城相比，這裏更加幽靜": "So với Lệ Giang, nơi đây càng yên tĩnh hơn",
-  "離赤道最近的雪山群，也是北半球最南端的大雪山": "Dãy núi tuyết gần xích đạo nhất, cũng là núi tuyết lớn ở cực nam bán cầu bắc",
-  "納西人心中的神山，主峰扇子陡海拔5596米左右，常年在雲霧纏繞之中，是一座未被征服的處女峰。由12座雪峰組成，雪山自然旅遊資源豐富，可分為雪域、冰川、高山草甸、原始森林景觀等。雪山氣勢磅礴，玲瓏秀麗，隨著時令的變化，在不同高度依次開放的杜鵑花組成了雪山最美的風景。": "Ngọn núi thiêng của người Naxi — đỉnh chính Shanzidou cao 5.596m, quanh năm mây phủ, là đỉnh núi trinh nguyên chưa bị chinh phục.",
-  "一個讓人心動的夢幻之地！每一步都是與大自然的浪漫邂逅，秀美風光如詩如畫，讓人忘卻塵囂。山間清風拂面，綠意滿眼，簡直是避暑天堂！草原、森林、山峯，每一處都藏着自然的祕密，等你來探索。": "Một nơi mộng mơ khiến lòng người xao xuyến! Mỗi bước chân là một cuộc gặp gỡ lãng mạn với thiên nhiên — phong cảnh thơ mộng khiến bạn quên đi ồn ào thế tục. Gió núi mát lạnh lướt qua mặt, mắt tràn ngập sắc xanh, đúng là thiên đường tránh nóng! Đồng cỏ, rừng cây, đỉnh núi — mỗi nơi đều ẩn giấu bí mật của tự nhiên, đang chờ bạn khám phá.",
-  "如果你時間比較緊，建議不要進入洪崖洞內部。": "Nếu thời gian eo hẹp, bạn không cần vào bên trong Hồng Nhai Động.",
-  "最佳观赏时间：建议晚上19:00-23:00去洪崖洞看夜景。": "Thời gian ngắm cảnh đẹp nhất: nên đến Hồng Nhai Động từ 19:00 đến 23:00 để ngắm cảnh đêm.",
-  "周邊景點：洪崖洞旁邊就是千廝門大橋，步行十幾分鍾就能到解放碑。": "Điểm tham quan lân cận: cầu Thiên Tư Môn nằm ngay cạnh Hồng Nhai Động, đi bộ chừng mười mấy phút là đến Giải Phóng Bi.",
-  "清避開人流高峯：節假日10:00-12點爲入園高峯期。": "Hãy tránh giờ cao điểm: 10:00-12:00 vào các ngày lễ là giờ vào cổng đông nhất.",
-  "仙女山年均氣溫僅18℃，夏季需備薄外套，冬季需穿羽絨服。": "Nữ Tiên Sơn có nhiệt độ trung bình năm chỉ 18°C. Mùa hè cần mang áo khoác mỏng, mùa đông cần mặc áo lông vũ.",
-  "可搭配武隆天生三桥安排一日游。": "Có thể kết hợp với Tam Kiều Thiên Sinh Vũ Long trong một ngày.",
-  "可與仙女山旅遊區同日連線遊玩。": "Có thể kết hợp tham quan cùng ngày với khu du lịch Nữ Tiên Sơn.",
-  "建議穿舒適鞋，景區步行距離較長。": "Nên mang giày thoải mái, khoảng cách đi bộ trong khu thắng cảnh khá dài.",
-  "建議穿防滑運動鞋，雨後路面會偏濕。": "Nên mang giày thể thao chống trơn, mặt đường sẽ khá ẩm sau mưa.",
-  "遊览古镇时，记得穿一双舒适的鞋子，这样才能在青石板路上轻松行走。": "Khi tham quan phố cổ, nhớ mang giày thoải mái để đi trên đường đá.",
-  "建議早入園，先走袁家界與金鞭溪主線，再視體力安排天子山或楊家界，既省時也更容易避開高峰人流。": "Nên vào cổng sớm, bắt đầu với tuyến chính Viên Gia Giới và Kim Biên Khê, sau đó tùy sức mà thêm Núi Thiên Tử hoặc Dương Gia Giới — vừa tiết kiệm thời gian vừa tránh được giờ đông đúc nhất.",
-  "秋季彩林與湖水色彩層次最豐富，若時間允許可預留一整天深度游覽，步行與觀光車搭配體驗更完整。": "Mùa thu là lúc rừng sắc màu và mặt hồ có lớp màu phong phú nhất. Nếu có thời gian, hãy dành trọn một ngày để khám phá sâu — kết hợp đi bộ và xe du lịch sẽ cho trải nghiệm trọn vẹn nhất.",
-  "豐水期（6-8月）水勢最為磅礴震撼，建議上午順光時段觀賞，可結合天星橋、陡坡塘形成一日精華遊線，穿行水簾洞需備雨衣。": "Vào mùa nước lớn (tháng 6-8), dòng thác hùng vĩ và ngoạn mục nhất. Nên tham quan buổi sáng khi ánh sáng thuận, đồng thời kết hợp cầu Thiên Tinh và Đẩu Pha Đường thành hành trình tinh hoa trong một ngày. Hãy chuẩn bị áo mưa khi đi xuyên động Thủy Liêm.",
-  "紅葉季和初雪季是熱門時段，建議提前預定門票與交通，並根據天氣準備防風保暖裝備。": "Mùa lá đỏ và mùa tuyết rơi đầu tiên là thời điểm cao điểm — nên đặt vé và phương tiện đi lại trước, đồng thời chuẩn bị trang phục chống gió và giữ ấm phù hợp với thời tiết.",
-  "九道門、九黎宮、九黎神柱三項建築已被列入大世界吉尼斯之最。": "Cửu Đạo Môn, Cửu Lê Cung và Cửu Lê Thần Trụ — ba công trình đều được ghi vào Kỷ lục Guinness Thế giới.",
-  "民俗互動有攔門酒、高山流水宴、篝火晚會，夜間免費區可以免費參與。": "Các hoạt động dân gian gồm rượu chặn cửa, tiệc cao sơn lưu thủy và đêm lửa trại — đều miễn phí tại khu vực ban đêm mở cửa.",
-  "老重慶的靈魂棲息地，不來一次怎知它的如夢似幻？走進這裏，彷彿穿越古今，歷史風韻撲面而來，讓人沉醉不已。江邊漫步，洪崖洞的壯麗與長江的奔騰交相輝映，美不勝收!": "Nơi trú ngụ của tâm hồn Trùng Khánh cổ — làm sao biết được vẻ mộng ảo nếu chưa đặt chân đến. Bước vào đây, bạn tưởng như xuyên qua thời gian, hơi thở lịch sử ùa đến khiến lòng ngây ngất. Dạo bước bên sông, vẻ hùng vĩ của Hồng Nhai Động và dòng Dương Tử cuồn cuộn tôn vinh lẫn nhau, đẹp đến mức khó tả!",
-  "作爲世界自然遺產和《變形金剛4》取景地，這裏的三座億萬年形成的天然石橋堪稱地質奇觀。站在天龍橋下仰頭看235米的橋體，或是穿越黑龍橋幽暗的洞穴聽珍珠泉叮咚，那種震撼很難用語言形容。": "Là Di sản Thiên nhiên Thế giới và bối cảnh quay của Transformers: Age of Extinction, ba cây cầu đá tự nhiên hình thành cách đây hàng trăm triệu năm này là một kỳ quan địa chất đích thực. Đứng dưới cầu Thiên Long ngước nhìn thân cầu cao 235 mét, hay xuyên qua hang động tối tăm của cầu Hắc Long lắng nghe tiếng suối Trân Châu leng keng — sự choáng ngợp khó có thể diễn tả bằng lời.",
-  "重慶境內展示苗族文化最完整的窗口，40餘處傳統建築藏着根雕、服飾、竹竿舞的千年密碼。全國唯一祭祀“華夏三祖”之一蚩尤的聖地，還原了九黎部落遷徙歷史，是苗族文化認同的精神地標。": "Cửa sổ hoàn thiện nhất về văn hóa Miêu tại Trùng Khánh, với hơn 40 công trình truyền thống ẩn chứa mật mã nghìn năm của điêu khắc gỗ, trang phục và múa sào tre. Nơi duy nhất tại Trung Quốc thờ phụng Xủ Vu — một trong \"Tam Tổ Hoa Hạ\" — và tái hiện lịch sử di cư của bộ tộc Cửu Lê. Một biểu tượng tâm linh của bản sắc văn hóa Miêu.",
-  "張先生": "Ông Trương",
-  "張女士": "Bà Trương",
-  "王先生": "Ông Vương",
-  "王女士": "Cô Vương",
-  "一碗螺蛳粉，两颗卤蛋，三五好友，柳州的记忆，简单而美好。": "Một bát bún ốc, hai quả trứng kho, vài người bạn thân—ký ức về Liễu Châu giản dị mà đẹp đẽ.",
-  "先嗦一碗老友粉，再逛一夜市，這纔是邕城正確打開方式。": "Trước hết hãy xì xụp một bát bún Lão Hữu, rồi dạo chợ đêm—đó mới là cách đúng điệu để khám phá Ung Thành.",
-  "桂林天氣多變，一定要提前查看天氣預報，找個好點的天氣去。": "Thời tiết Quế Lâm thay đổi thất thường, vì vậy nhất định phải xem dự báo trước và chọn ngày đẹp trời để đi.",
-  "景點很分散，別一天排太滿，慢逛更舒服。": "Các điểm tham quan nằm khá rải rác, đừng xếp lịch một ngày quá kín; thong thả khám phá sẽ dễ chịu hơn.",
-  "建議早晨前往，避開人流高峰並感受當地生活氣息。": "Nên đi buổi sáng, tránh đông đúc và cảm nhận cuộc sống địa phương.",
-  "可乘坐纜車上山，再徒步登臨北四樓或好漢坡。": "Đi cáp treo lên, rồi đi bộ đến Bắc Tứ Lâu hoặc Hảo Hán Pha.",
-  "可乘遊船穿行昆明湖，體驗不同的觀景視角。": "Đi thuyền qua hồ Côn Minh để có góc nhìn khác.",
-  "可安排白天逛古城巷道與木府，夜晚感受古城燈光與在地音樂，整體體驗會更完整。": "Khám phá ngõ cổ và Mộc Phủ ban ngày, thưởng thức ánh đèn và âm nhạc ban đêm.",
-  "可結合中國國家博物館一併安排，博物館免費但需提前預約。": "Kết hợp với Bảo tàng Quốc gia Trung Quốc — vào cửa miễn phí nhưng cần đặt trước.",
-  "可體驗趕海（捕捉魚蝦、撿拾貝殼，通常在下午5點後開始）。": "Bạn có thể trải nghiệm bắt hải sản khi thủy triều rút (bắt cá tôm, nhặt vỏ sò, thường bắt đầu sau 5 giờ chiều).",
-  "建議避開週末和節假日，清晨或下午較晚時段人流較少。": "Tránh cuối tuần và ngày lễ — sáng sớm hoặc chiều muộn ít đông đúc hơn.",
-  "建議至少留出半天時間，沿著中軸線從午門到神武門緩步穿行。": "Dành ít nhất nửa ngày đi dọc trục trung tâm từ Ngọ Môn đến Thần Võ Môn.",
-  "山上溫差較大，春秋季節備一件薄外套。": "Nhiệt độ trên núi chênh lệch lớn — mang áo khoác mỏng vào mùa xuân và thu.",
-  "四季皆宜，春秋兩季景色尤佳。": "Đẹp quanh năm, đặc biệt là mùa xuân và mùa thu.",
-  "園區較大，建議預留2-3小時遊覽時間。": "Công viên rộng — dành 2-3 giờ tham quan.",
-  "園區較大，建議預留半天以上時間。": "Khuôn viên khá rộng, nên dành ít nhất nửa ngày.",
-  "園區面積大，建議預留半天時間悠閒遊覽。": "Khuôn viên rộng — dành nửa ngày tham quan thong thả.",
-  "春季（3-5月）和秋季（9-11月）是桂林旅遊的最佳時間。": "Mùa xuân (tháng 3-5) và mùa thu (tháng 9-11) là thời điểm đẹp nhất để du lịch Quế Lâm.",
-  "每日升旗儀式時間隨日出而定，建議提前查詢並提早到場。": "Lễ thượng cờ hàng ngày thay đổi theo bình minh — kiểm tra trước và đến sớm.",
-  "進入廣場需安檢，請隨身攜帶身份證件。": "Cần kiểm tra an ninh để vào quảng trường — vui lòng mang theo giấy tờ tùy thân.",
-  "避開週末和節假日高峰，工作日早上開門時段人流相對較少。": "Tránh giờ cao điểm cuối tuần và ngày lễ — sáng ngày thường ít người hơn.",
-  "故宮門票需提前在官方渠道預約，現場不售票。": "Vé Cố Cung phải đặt trước qua kênh chính thức — không bán tại chỗ.",
-  "祈年殿、迴音壁、圜丘壇為核心看點，不可錯過。": "Điện Kỳ Niên, Tường Hồi Âm và Viên Khâu Đàn là những điểm không thể bỏ qua.",
-  "如果天氣晴好，建議重點停留觀景台區域；若遇雲海天氣，天子山的峰林觀感會非常震撼，出片率也更高。": "Vào những ngày trời quang, hãy dành thêm thời gian ở các đài quan sát chính. Nếu may mắn gặp ngày có biển mây, khung cảnh rừng đỉnh núi ở đây sẽ vô cùng ngoạn mục — và rất đáng để chụp ảnh.",
-  "如果想在海南行程中加入文化元素，南山是非常值得安排的一站，長輩和家庭游客普遍評價較高。": "Nếu muốn thêm yếu tố văn hóa vào hành trình Trùng Khánh, Thành Xủ Vu Cửu Lê là điểm dừng rất đáng để sắp xếp — được du khách lớn tuổi và gia đình đánh giá cao.",
-  "記住，放慢腳步、用心感受，才能真正領略天生三橋的震撼與神奇，是「輕觀光」的理想目的地。": "Hãy nhớ — chậm lại và cảm nhận bằng trái tim, bạn sẽ thấy trọn vẹn sự choáng ngợp và kỳ diệu của Tam Kiều Thiên Sinh. Đây là điểm đến lý tưởng cho du lịch nhẹ nhàng.",
-  "當夕陽爲仙女山披上金紗，林間的風聲與鳥鳴漸漸低吟，這一天的旅程不僅是眼睛的盛宴，更是心靈的治癒。": "Khi hoàng hôn phủ tấm lụa vàng lên Nữ Tiên Sơn, tiếng gió rừng và tiếng chim dần hạ giọng — hành trình ngày hôm đó không chỉ là bữa tiệc cho đôi mắt, mà còn là sự chữa lành cho tâm hồn.",
-  "總要去趟桂林吧，吹吹漓江邊上的風，走一走興坪古鎮，去趟陽朔漓江二十元人民幣風景區，感受下桂林山水甲天下的魅力。": "Hãy một lần đến Quế Lâm, đón gió bên bờ sông Ly, dạo bước qua thị trấn cổ Hưng Bình, ghé thắng cảnh sông Ly ở Dương Sóc in trên tờ hai mươi nhân dân tệ và cảm nhận sức hút của non nước Quế Lâm đẹp nhất thiên hạ.",
-  "若你偏好安靜慢遊，束河比大研更適合長時間停留，喝咖啡、拍照、散步的體驗都更從容。": "Nếu bạn thích du lịch chậm yên tĩnh, Thúc Hà tốt hơn Đại Nghiên cho kỳ nghỉ dài hơn.",
-  "放慢节奏——当晨雾中的渔火与暮色里的船歌成为记忆坐标时，乌江的魂便悄然入心。": "Hãy chậm lại — khi ánh đèn đánh cá trong sương sớm và điệu hát trên thuyền lúc hoàng hôn trở thành dấu mốc ký ức, linh hồn sông Ô lặng lẽ thấm vào lòng bạn.",
-  "九寨溝是一條被森林所覆蓋的山溝，因有九個藏族村寨坐落在這片高山湖泊群中而得名。世界自然遺產、國家AAAAA級旅遊景區。九寨溝以高山湖泊群、瀑布、彩林、雪峰、藍冰和藏族風情並稱「九寨溝六絕」，號稱「水景之王」。": "Cửu Trại Câu là một thung lũng núi phủ rừng, được đặt tên theo chín ngôi làng Tây Tạng nằm giữa quần thể hồ núi cao. Là Di sản Thiên nhiên Thế giới và Khu thắng cảnh AAAAA quốc gia, Cửu Trại Câu nổi tiếng với \"Lục Tuyệt\" — quần thể hồ trên núi, thác nước, rừng sắc màu, đỉnh phủ tuyết, băng xanh và văn hóa Tây Tạng — xứng danh \"Vua của cảnh thủy\".",
-  "位於張家界國家森林公園的北部，東臨索溪峪景區，因明初土家族領袖向大坤自號「向王天子」而得名。最高點海拔約1262.5米，最低點海拔約534米，在這裏有機會可以觀賞到雲霧、月夜、霞日、冬雪四大奇觀。": "Located in northern Zhangjiajie National Forest Park, Tianzi Mountain was named after a Ming-era Tujia leader. It rises 1,262.5m at its peak with four wonders: sea of clouds, moonlit nights, rosy dawns, and winter snow.",
-  "作為世界第八大奇蹟，這裏出土了數以千計與真人等高的陶俑、陶馬，每一尊兵俑的面容神態都獨一無二，陣列森嚴，氣勢磅礴，生動再現了兩千多年前大秦帝國的虎狼之師與皇家儀仗。": "The 8th wonder of the world — thousands of life-sized terracotta soldiers and horses, each with unique facial features, standing in solemn formation. They vividly recreate the mighty army and royal guard of the Qin Empire from 2,000 years ago.",
-  "南寧，一座將自然風光、歷史底蘊與市井煙火完美融合的城市。這裏既有青山的秀美與江水的靈動，也有街巷的古老與夜市的沸騰。": "Nam Ninh là thành phố kết hợp hoàn hảo cảnh sắc thiên nhiên, chiều sâu lịch sử và nhịp sống dân dã. Nơi đây vừa có vẻ đẹp của núi xanh cùng dòng sông uyển chuyển, vừa có những ngõ phố cổ kính và chợ đêm náo nhiệt.",
-  "南寧天氣溼熱，防曬 + 雨傘必備。": "Thời tiết Nam Ninh nóng ẩm, vì vậy đồ chống nắng + ô là những vật dụng không thể thiếu.",
-  "南寧以其包容的姿態，將山水之秀、歷史之厚與生活之趣編織在一起，等待旅行者前來細細品味。": "Với dáng vẻ rộng mở và bao dung, Nam Ninh đan xen vẻ đẹp non nước, chiều sâu lịch sử cùng niềm vui cuộc sống, chờ du khách đến chậm rãi cảm nhận.",
-  "大雁塔本身是方形樓閣式磚塔，古樸莊重，內藏貝葉經等珍貴佛教文物，登塔可俯瞰南郊全景。如今以大雁塔為中心，南北廣場延伸出巨大的文化休閒空間：北廣場擁有亞洲最大的矩陣音樂噴泉，夜晚燈光變幻、水柱隨樂舞動；南廣場則正對塔身，是拍攝塔影倒映水池的經典機位，整片區域古塔、綠蔭、雕塑與遊人交織，充滿生活氣息。": "Big Wild Goose Pagoda is a square brick pagoda housing rare Buddhist relics. Climb for panoramic southern views. The north square hosts Asia's largest musical fountain; the south square is perfect for photos. The whole area blends ancient charm with lively leisure.",
-  "天壇是明清兩代皇帝「祭天」「祈穀」的場所，是中國現存最大的古代祭祀性建築群。世界文化遺產、國家AAAAA級旅遊景區。園內的祈年殿、迴音壁、圜丘壇以精巧的力學與聲學設計聞名，古柏森森，莊嚴肅穆。建議早晨前往，看當地市民在此晨練下棋，感受皇家祭壇與市井煙火併存的獨特氛圍。": "The Temple of Heaven was where Ming and Qing emperors offered sacrifices for good harvests — the largest ancient sacrificial complex in China. A UNESCO site featuring the Hall of Prayer, Echo Wall, and Circular Mound Altar. Visit in the morning to see locals exercising.",
-  "天安門廣場位於北京城市中軸線上，是世界上最大的城市廣場，國家象徵和政治活動的重要場所。廣場中央矗立著人民英雄紀念碑，北端是莊嚴的天安門城樓，東側為中國國家博物館，西側為人民大會堂。每日升旗儀式莊重肅穆，吸引無數人徹夜守候。": "Tiananmen Square — the world's largest city square, located on Beijing's central axis. The Monument to the People's Heroes stands at its center, with Tiananmen Tower to the north. Daily flag-raising ceremonies draw crowds who wait through the night.",
-  "洪崖洞集巴渝文化、魔幻景觀、市井煙火於一體，合理規劃可避開人流高峯，深度體驗山城魅力。": "Hồng Nhai Động quy tụ văn hóa Ba Dư, cảnh quan huyền ảo và nhịp sống đô thị. Lên kế hoạch hợp lý để tránh giờ cao điểm, bạn sẽ cảm nhận trọn vẹn sức hút của thành phố miền núi.",
-  "其魅力不止於一碗鮮香熱辣的螺螄粉，更在於江流曲似九迴腸的百里柳江風光、滿城綻放的春日紫荊，以及深厚的歷史文脈與濃郁的民族風情。": "Its charm goes beyond a bowl of spicy luosifen — it's the winding Liujiang River, spring bauhinia blossoms, deep history, and rich ethnic culture.",
-  "初次到訪可優先雙橋溝觀光線路，體力友好且景觀密度高；重度徒步玩家再安排長坪溝深度路線。": "Du khách lần đầu nên bắt đầu với tuyến tham quan Thung lũng Song Kiều, vừa sức và có mật độ phong cảnh dày đặc; những người đi bộ đường dài nghiêm túc có thể thêm tuyến sâu vào Thung lũng Trường Bình.",
-  "位於麗江古城西北，依山傍水，比大研古鎮幽靜古樸。古鎮後山是玉龍雪山的余脈，山巒青秀纏綿，林木蒼翠。鎮內大石橋、大覺宮保留完好，壁畫描繪了佛教中的人物形象。是世界文化遺產麗江古城的重要組成部分，於2005年入選CCTV「中國魅力名鎮」。": "Shuhe Ancient Town lies northwest of Lijiang, nestled by mountains and water — quieter than Dayan. Backed by the Jade Dragon Snow Mountain foothills, it features well-preserved stone bridges and temples. Part of the Lijiang UNESCO World Heritage site.",
-  "茶馬古道上最著名的城鎮之一，已有八九百年歷史。古城內木樓青瓦，古街石巷，小橋流水，站在古城東大街上，舉頭即可遙望玉龍雪山。中國以整座古城申報世界文化遺產獲得成功的兩座古城之一，是中國民居中具有鮮明特色和風格的類型之一。": "One of the most famous towns on the Ancient Tea Horse Road with 800-900 years of history. Wooden buildings with grey tiles, stone lanes, bridges over streams — look up from East Street and see Jade Dragon Snow Mountain. One of two ancient towns in China successfully inscribed as UNESCO World Heritage sites in their entirety.",
-  "荔波小七孔是一片以七孔古橋為核心的喀斯特地貌奇觀，因清代一座七孔石橋橫跨響水河而得名。國家AAAAA級旅遊景區，世界自然遺產「中國南方喀斯特」的重要組成部分。以碧水幽潭、疊水飛瀑、水上森林、溶洞暗河和布依族風情並稱「小七孔五韻」，被譽為「地球腰帶上的綠寶石」。": "Tiểu Thất Khổng, Lệ Ba là kỳ quan địa mạo karst lấy cây cầu cổ bảy nhịp làm trung tâm, được đặt tên theo cây cầu đá bảy nhịp thời Thanh bắc qua sông Hưởng Thủy. Đây là khu du lịch cấp AAAAA quốc gia và là bộ phận quan trọng của Di sản Thiên nhiên Thế giới「Karst Nam Trung Quốc」. Nước biếc hồ sâu, thác tầng tung bay, rừng trên nước, hang động đá vôi cùng sông ngầm và bản sắc dân tộc Bố Y hợp thành「Ngũ vận Tiểu Thất Khổng」, khiến nơi đây được ca ngợi là「Viên ngọc lục bảo trên vành đai Trái Đất」.",
-  "黃果樹瀑布是中國最大、世界知名的大瀑布，因當地廣泛分佈的黃葛榕而得名。國家AAAAA級旅遊景區，世界自然遺產預備名錄。以雄渾的水勢、六向觀瀑的奇觀、水簾洞內外的變幻以及喀斯特峽谷風光並稱「黃果樹四絕」，被譽為「中華第一瀑」。": "Thác Hoàng Quả Thụ là thác nước lớn nhất Trung Quốc và nổi tiếng trên thế giới, được đặt tên theo loài đa Hoàng Cát mọc phổ biến tại địa phương. Đây là khu du lịch cấp AAAAA quốc gia và nằm trong danh sách dự kiến của Di sản Thiên nhiên Thế giới. Dòng nước hùng tráng, kỳ quan ngắm thác từ sáu hướng, cảnh sắc biến đổi trong ngoài động Thủy Liêm cùng phong quang hẻm núi karst hợp thành「Tứ tuyệt Hoàng Quả Thụ」, khiến nơi đây được ca ngợi là「Đệ nhất thác Trung Hoa」.",
-  "赤水丹霞是中國面積最大的丹霞地貌區之一，因赤紅砂岩與翠竹飛瀑交相輝映而得名。世界自然遺產「中國丹霞」組成部分，國家AAAAA級旅遊景區。以丹霞絕壁、瀑布群、竹海森林、桫欏遺存和紅色文化並稱「赤水五絕」，被譽為「丹霞之冠、千瀑之市」。": "Chishui Danxia is one of China's largest Danxia landform areas — named for its red sandstone cliffs contrasting with green bamboo and waterfalls. Part of the UNESCO China Danxia site. Known for Danxia cliffs, waterfalls, bamboo forests, cycad fossils, and red culture.",
-  "集山、水、洞於一身的張家界地貌的博物館，在此可觀賞到北溫帶喀斯特地形的全部風景。峽谷裏植被茂盛，空氣清新，飛流瀑布、小溪泉水隨處可見，猶如一個天然大氧吧。除了欣賞大自然風光，景區最值得一玩的就是目前世界最高、跨度最長的玻璃橋。站在張家界大峽谷玻璃橋上，腳下400米處的谷底風光盡收眼底。": "Bảo tàng tự nhiên thu nhỏ của phong cảnh Trương Gia Giới — núi, nước và hang động tất cả trong một nơi — nơi du khách có thể chiêm ngưỡng toàn bộ vẻ đẹp của địa hình karst ôn đới phía bắc chỉ trong một chuyến đi. Hẻm núi rậm rạp thảm thực vật tươi tốt và không khí trong lành, với những thác nước đổ xuống và những dòng suối rì rào gần như khắp mọi nơi — một quán bar oxy tự nhiên đích thực. Ngoài phong cảnh ngoạn mục, điểm nhấn không thể bỏ qua của công viên là cây cầu kính cao nhất và dài nhất thế giới. Đứng trên Cầu Kính Hẻm Núi Lớn Trương Gia Giới, bạn nhìn thẳng xuống đáy hẻm núi cách 400 mét bên dưới.",
-  "熱爾大草原是僅次於呼倫貝爾草原的中國第二大草原，著名的天然濕地花湖就在熱爾大草原上。草原上湖泊密布，牛羊遍地，路上遇到一些牧民的藏家樂可以提供吃飯和騎馬等活動。夏季七八月份是來這裏最好的時間，可以看到漫山遍野的野花。": "Đồng cỏ Nhiệt Nhĩ là đồng cỏ lớn thứ hai của Trung Quốc, chỉ sau Đồng cỏ Hô Luân Bu Bắc, và là nơi có Hồ Hoa — vùng đất ngập nước tự nhiên nổi tiếng. Đồng cỏ có nhiều hồ rải rác, đầy gia súc như bò và cừu; dọc đường, các homestay phong cách Tây Tạng của người chăn gia súc phục vụ ăn uống và cưỡi ngựa. Thời điểm đẹp nhất để đến thăm là tháng Bảy và tháng Tám mùa hè, khi các sườn đồi nở rộ hoa dại.",
-  "故宮是明清兩代的皇家宮殿，又稱紫禁城，是世界現存規模最大、保存最完整的木質結構古建築群。作為世界文化遺產和國家AAAAA級旅遊景區，故宮珍藏文物超百萬件，凝固著中華文明的頂級工藝與美學。建議至少留出半天時間，沿著中軸線從午門到神武門緩步穿行，感受六百年宮廷歲月的厚重與迴響。": "The Forbidden City — the imperial palace of the Ming and Qing dynasties — is the world's largest and best-preserved ancient wooden architectural complex. A UNESCO World Heritage site housing over a million cultural relics. Stroll along the central axis from the Meridian Gate to the Gate of Divine Prowess and feel the weight of 600 years of history.",
-  "頤和園是清朝乾隆、光緒年間營建的皇家行宮御苑，以昆明湖、萬壽山為基址，汲取江南園林造景手法而成，是中國現存規模最大、保存最完整的皇家園林。世界文化遺產、國家AAAAA級旅遊景區。佛香閣、長廊、十七孔橋等景點錯落有致，四季皆宜，春秋尤佳。可乘遊船穿行湖上，或在長廊下慢行細賞彩繪故事。": "The Summer Palace — built during the Qianlong and Guangxu reigns — is China's largest and best-preserved imperial garden, centered on Kunming Lake and Longevity Hill with Jiangnan-style landscaping. A UNESCO site featuring the Tower of Buddhist Incense, the Long Corridor, and the Seventeen-Arch Bridge.",
-  "這座國家級博物館擁有37萬餘件藏品，從史前陶器、商周青銅重器，到漢代瓦當、唐代金銀器和壁畫，序列完整且精品率極高，其中鑲金獸首瑪瑙杯、舞馬銜杯紋銀壺等國寶級文物更是舉世聞名。展廳按時間軸鋪陳，行走其間，如同翻閱一部立體的中國古代史，每一件器物都承載著周秦漢唐的輝煌記憶。": "This national museum houses 370,000+ artifacts spanning from prehistoric pottery to Shang-Zhou bronzes, Han tiles, Tang gold and silverware, and murals. The agate cup with gold animal head and the silver pot with dancing horse are world-famous national treasures. Walking through the time-ordered halls is like reading a three-dimensional history of ancient China.",
-  "這座環繞古城中心的明代城牆，全長約13.7公里，牆頂寬闊平坦，可以步行、騎行或乘坐電瓶車漫遊。青磚灰瓦間，垛口、敵樓、甕城等防禦設施保存完好，立於城頭，向內是古色古香的街巷民居，向外是高樓林立的現代都市，古今對望的畫面令人感慨萬千。": "This Ming Dynasty city wall encircles the ancient center for 13.7km — its broad top is perfect for walking, cycling, or taking an electric car. Battlements, watchtowers, and barbicans remain well-preserved. Standing on the wall, you see ancient streets inside and modern skyscrapers outside — a striking contrast of past and present.",
-  "這座邊城不靠大廣場和商圈熱鬧，也不靠網紅打卡的噱頭，真正抓住人的，是山水裡天然的靜。轉個彎就撞見的風景，像藏在口袋裡的私房錢，放心又踏實。": "Thành phố biên giới này không dựa vào quảng trường lớn hay khu thương mại náo nhiệt, cũng chẳng cần chiêu trò chụp ảnh thịnh hành; điều thực sự níu chân người ta là sự tĩnh lặng tự nhiên giữa non nước. Cảnh đẹp bất chợt hiện ra sau mỗi khúc quanh giống như khoản tiền riêng giấu trong túi, khiến lòng yên tâm và vững chãi.",
-  "門票免費但需提前數日在「陝西歷史博物館」官方公眾號實名預約，憑身份證入館；館內文物密集，信息量極大，建議租用講解器或跟團人工講解，否則容易走馬觀花，至少預留2.5小時參觀時間。": "Free entry but requires real-name reservation days in advance via the official Shaanxi History Museum WeChat account. ID required for entry. The densely packed exhibits merit an audio guide or tour guide — otherwise easy to skim. Allow at least 2.5 hours.",
-  "在這裏，你可以感受到大自然的獨特魅力。無論是德天跨國大瀑布的壯觀景象，還是明仕田園的寧靜美好，都能讓你流連忘返。每一處風景都有其獨特的魅力，讓你的旅行充滿驚喜和感動。": "Tại đây, bạn có thể cảm nhận sức hút độc đáo của thiên nhiên. Dù là vẻ hùng vĩ của thác xuyên biên giới Đức Thiên hay nét thanh bình tươi đẹp của đồng quê Minh Sĩ, tất cả đều khiến bạn lưu luyến chẳng muốn rời. Mỗi cảnh sắc mang một vẻ cuốn hút riêng, làm hành trình của bạn tràn đầy bất ngờ và xúc động.",
-  "德天的水霧、明仕的稻田、花山的巖畫，都是崇左寫給世界的詩。": "Sương nước Đức Thiên、ruộng lúa Minh Sĩ、tranh đá Hoa Sơn, tất cả đều là những vần thơ Sùng Tả viết tặng thế giới.",
-  "銀灘如星河傾灑，潿洲島演繹海與火山的千年戀歌，老街煙火與海上日出交織成最治癒的浪漫。": "Ngân Than lấp lánh như dải ngân hà đổ xuống, đảo Vi Châu kể khúc tình ca nghìn năm giữa biển và núi lửa, còn nhịp sống nơi phố cổ hòa cùng bình minh trên biển thành nét lãng mạn chữa lành nhất.",
-  "柳候公園，與風共舞，登山賞綠，盡享自然之美。": "Tại Công viên Liễu Hầu, hãy hòa mình cùng gió, leo núi ngắm sắc xanh và tận hưởng trọn vẹn vẻ đẹp thiên nhiên.",
-  "柳州工业博物馆，探寻岁月痕迹，感悟时光流转。": "Tại Bảo tàng Công nghiệp Liễu Châu, hãy tìm dấu vết năm tháng và cảm nhận dòng thời gian trôi.",
-  "夏季是赤水大瀑布和佛光岩的最佳觀賞期，建議穿防滑涼鞋以便親水體驗，三大景段間距離較遠，自駕或包車遊玩更自由，全程需預留完整一天。": "Summer is the best season for Chishui Waterfall and Foguang Rock — wear non-slip sandals for water access. The three scenic sections are far apart, so driving or chartering is best. Reserve a full day.",
-  "潿洲島船票提前15天搶，銀灘日出6點人最少。": "Hãy săn vé tàu ra đảo Vi Châu trước 15 ngày; lúc 6 giờ sáng ngắm bình minh ở Ngân Than là khi ít người nhất.",
-  "推薦入住湖畔客棧，清晨看湖面薄霧、傍晚看落日，是瀘沽湖最具氛圍的兩個時段。": "Stay at a lakeside inn — morning mist on the lake and evening sunset are Lugu Lake's most atmospheric moments.",
-  "推薦將索道、玻璃棧道與天門洞連線安排，拍照時段以上午或傍晚為佳，雲霧與山體層次更有氛圍。": "Hãy sắp xếp một tuyến kết hợp nối cáp treo, cầu đi bộ bằng kính và động Thiên Môn — và chọn buổi sáng hoặc chiều muộn để chụp ảnh, khi sương mờ ảo tạo thêm chiều sâu tuyệt đẹp cho núi.",
-  "建議按「步行觀洞 + 暗河乘船」順序體驗，整體節奏更舒適，也能更完整感受溶洞燈光與岩溶地貌細節。": "Experience in this order: walk through the cave first, then take the underground river boat — a more comfortable pace that lets you fully appreciate the cave lighting and karst details.",
-  "建議搭配黃河九曲第一灣一同遊覽，傍晚光線與草原天際線非常出片，適合安排日落時段拍攝。": "Nên kết hợp với Khúc đầu tiên của Cửu Khúc Hoàng Hà — ánh sáng chiều hòa với đường chân trời đồng cỏ rất đẹp để chụp ảnh, vì vậy hãy sắp xếp thời gian vào lúc hoàng hôn.",
-  "春梯疊翠，夏夜流螢；秋收金浪，冬火映樓": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
-  "春湍夏瀑，水霧生煙；秋清冬凝，別樣洞天": "Xuân dòng xiết, hạ thác reo, hơi nước hóa sương；thu trong vắt, đông ngưng đọng, động trời mang một vẻ riêng",
-  "春潭凝翠，夏林探幽；秋霧鎖橋，冬水如鏡": "Xuân hồ đọng sắc biếc, hạ rừng gọi bước tìm u tịch；thu sương giăng kín cầu, đông nước phẳng như gương",
-  "春竹滴翠，夏瀑生涼；秋林盡染，冬霧迷蒙": "Spring bamboo drips emerald, summer waterfalls bring coolness; autumn forests blaze with color, winter mist veils everything.",
-  "春雲漫卷，夏翠欲滴；秋高氣爽，冬雪披紗": "Xuân mây cuộn miên man, hạ xanh non mơn mởn；thu trời cao khí mát, đông tuyết phủ như voan",
-  "春秋兩季天氣最穩定，雲海出現概率高，登紅雲金頂需手腳並用攀援鐵索，務必穿防滑鞋並關注天氣預警，門票需提前在官方平台預約。": "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform.",
-  "傍晚時分登城最佳，可同時欣賞落日餘暉與城市燈火；城牆騎行非常受歡迎，但路面為磚石鋪就，略有不平，騎行時注意安全，南門（永寧門）段夜景最為璀璨。": "Best to ascend at dusk to enjoy both sunset glow and city lights. Cycling on the wall is popular but the brick surface is uneven — be careful. The South Gate (Yongning Gate) section has the most brilliant night views.",
-  "傍晚時分登觀景台可同時捕捉日落餘暉與燈火初上的交接瞬間，建議住一晚深度體驗苗家生活，清晨的寨子煙霧繚繞比夜景更顯寧靜。": "Lên đài quan sát vào lúc hoàng hôn để bắt ngay khoảnh khắc ánh nắng hoàng hôn gặp những ánh đèn đầu tiên. Khuyến nghị ở lại một đêm để trải nghiệm sâu sắc cuộc sống của người Miao—sương sớm quanh làng tạo không khí yên bình hơn cả cảnh đêm.",
-  "建議晚上19:30之後前往，燈光完全點亮後才進入最佳觀賞狀態；想與不倒翁小姐姐互動合影，需提前在官方平台查看當日表演時間並排隊，週末人流量極大，注意保管隨身物品。": "Go after 19:30 when the lights are fully on for the best experience. To interact and take photos with the roly-poly performers, check the schedule on the official platform and queue up. Weekends are extremely crowded — mind your belongings.",
-  "建議環海騎行或包車慢遊，將雙廊、喜洲、才村串聯，一天即可體驗湖景、人文與在地美食三種節奏。": "Cycle around Erhai or take a leisurely charter to connect Shuanglang, Xizhou, and Caicun — experience lake views, local culture, and regional cuisine all in one day.",
-  "必遊景點：漓江、象鼻山、陽朔西街、龍脊梯田以及兩江四湖。": "Các điểm nhất định phải ghé thăm: sông Ly, Núi Vòi Voi, Phố Tây Dương Sóc, ruộng bậc thang Long Tích và Hai Sông Bốn Hồ.",
-  "高海拔區域建議按景區提示逐步適應，並搭配藍月谷等低海拔景點，行程舒適度更高。": "At high altitudes, acclimatize gradually following park guidance. Pair with lower-altitude spots like Blue Moon Valley for a more comfortable itinerary.",
-  "江面温差较大，需备防风外套；雨季关注景区实时通航公告。": "Nhiệt độ trên mặt sông chênh lệch lớn, cần chuẩn bị áo khoác chắn gió; mùa mưa nên theo dõi thông báo tàu chạy thời gian thực của khu thắng cảnh.",
-  "雨季路滑，鞋子要防滑，雨衣比雨傘好用，手要空出來扶欄杆。": "Đường trơn vào mùa mưa, vì vậy hãy mang giày chống trượt; áo mưa tiện hơn ô và giúp bạn rảnh tay để bám lan can.",
-  "邊境有管制，拍照避開軍警和哨所，聽工作人員安排不逞能。": "Khu vực biên giới có kiểm soát; khi chụp ảnh hãy tránh quân nhân, cảnh sát và trạm gác, đồng thời nghe theo hướng dẫn của nhân viên, đừng liều lĩnh.",
-  "晴天逆光時段可拍到更通透的海面層次。": "Vào những ngày nắng, chụp ngược sáng sẽ làm nổi rõ các lớp mặt nước trong vắt hơn.",
-  "黃龍海拔相對較高，建議放慢節奏並注意補水，晴天中午前後觀彩池色彩效果通常更佳。": "Hoàng Long nằm ở độ cao tương đối lớn — hãy đi chậm lại, uống đủ nước, và nên đến vào khoảng giữa trưa những ngày trời quang để ngắm sắc màu rực rỡ nhất của các hồ.",
-  "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的\"人在畫中游\"。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。": "Dòng nước xanh như ngọc bích, thuyền nhỏ lướt trong sương khói mênh mang — đây mới đích thực là \"đi trong tranh\". Núi cao, vực sâu, ghềnh thác nối tiếp, thác nước tung bay, suối chảy róc rách, cổ thụ và dây leo xanh mướt — tạo nên một kỳ quan thiên nhiên đáng kinh ngạc.",
-  "游览古镇时，记得穿一双舒适的鞋子，这样才能在青石板路上轻松行走。": "Khi dạo phố cổ, hãy mang một đôi giày thoải mái để dễ dàng bước trên đường đá xanh.",
-  "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閒度假於一體的大型原生態旅遊風景區。": "Phía đông giáp với Khu bảo tồn thiên nhiên Wolong, phía nam giáp với Khu thắng cảnh Núi Tứ Cô Nương; cùng với Núi Tứ Cô Nương và Wolong tạo nên \"Di sản Thế giới Hành lang Gấu trúc Khổng lồ\". Khu thắng cảnh có 82 danh thắng tự nhiên, rải rác như những viên ngọc trai lấp lánh trong sáu khu vực phụ của Bích Bình Câu. Đây là một điểm du lịch sinh thái lớn kết hợp ngắm cảnh nguyên sinh, leo núi xuyên rặng, khám phá vùng cực, trượt tuyết và trượt băng, cùng nghỉ dưỡng thư thái.",
-  "中國唯一保護完好的高原濕地，以彩池、雪山、峽谷、森林「四絕」著稱於世。景區內的鈣化池池水隨著周圍景色和陽光照射角度，能變幻出五彩的顏色，又被譽為「人間瑤池」。黃龍以規模宏大、結構奇巧、色彩豐艷的地表鈣華景觀為主景，以罕見的巖溶地貌蜚聲中外。": "Vùng đất ngập nước trên cao nguyên được bảo tồn nguyên vẹn duy nhất của Trung Quốc, nổi tiếng thế giới với \"Tứ Kỳ\" — các hồ đầy màu sắc, những ngọn núi phủ tuyết, hẻm núi sâu và rừng cổ thụ. Những hồ đá vôi thay đổi sắc cầu vồng khi phong cảnh xung quanh và góc ánh sáng mặt trời thay đổi, được mệnh danh là \"Ao Tiên trên Trần gian\". Hoàng Long nổi tiếng với quy mô đồ sộ, cấu trúc tinh xảo, cảnh quan đá vôi trên mặt đất đầy màu sắc rực rỡ, cùng các dạng địa hình karst hiếm có được cả thế giới biết đến.",
-  "有「中國阿爾卑斯山」之稱的高海拔雪山，徒步愛好者的天堂": "Những đỉnh núi tuyết ở độ cao lớn được mệnh danh là \"Alpes của Trung Quốc\" — thiên đường của những người yêu thích đi bộ đường dài",
-  "四姑娘山是橫斷山脈東部邊緣邛崍山系的最高峰，由四座連綿不斷的山峰組成，這四座山峰長年冰雪覆蓋，如同頭披白紗的四位少女，依次屹立在長坪溝和海子溝兩道銀河之上。四姑娘山一直是徒步愛好者的天堂，峽谷山道崎嶇狹長，冰山上融化的瀑布溪水慢慢流過；而翻過了山谷，則是寬闊的、開滿鮮花的高山草甸，景色非常柔美。": "Núi Tứ Cô Nương là đỉnh cao nhất của dãy Qung Lãi ở rìa phía đông dãy Hoành Đoán, gồm bốn đỉnh núi liền kề luôn phủ tuyết, đứng như bốn thiếu nữ khoác khăn trắng, lần lượt sừng sững trên hai dòng sông bạc của thung lũng Trường Bình và thung lũng Hải Tử. Đây từ lâu đã là thiên đường của những người đi bộ đường dài — các con đường mòn trong hẻm núi quanh co và hẹp, nước từ tuyết trên đỉnh núi tan ra chảy nhẹ qua các suối nhỏ; vượt qua sườn núi là những đồng cỏ trên núi rộng lớn phủ đầy hoa dại, vẽ nên bức tranh dịu dàng và tinh tế.",
-  "張家界的核心景區為武陵源風景名勝區，一般說到張家界旅遊主要是遊武陵源。武陵源風景名勝區由張家界國家森林公園、天子山自然保護區、索溪峪自然保護區、楊家界自然保護區組成。市區內著名的熱門景點還有天門山國家森林公園，心跳刺激的玻璃棧道和神奇迷幻的天門洞始終為遊客所津津樂道，被喻為「張家界新傳奇」。距離市郊不遠的「中華最佳洞府」黃龍洞、「人間瑤池」寶峰湖等也可乘公交車或打的到達。此外，市郊處的「百裏畫廊」茅巖河漂流，桑植縣的「亞洲第一大洞」九天洞，芙蓉鎮及「天下第一漂」的猛洞河漂流都是觀光遊覽的佳處。": "Khu thắng cảnh chính của Trương Gia Giới là Khu thắng cảnh Vũ Lăng Nguyên — khi nói đến du lịch Trương Gia Giới, người ta thường muốn nói đến Vũ Lăng Nguyên. Khu thắng cảnh Vũ Lăng Nguyên gồm Vườn Quốc gia Trương Gia Giới, Khu bảo tồn thiên nhiên Núi Thiên Tử, Khu bảo tồn thiên nhiên Tác Tây Dụ và Khu bảo tồn thiên nhiên Dương Gia Giới. Các điểm tham quan nổi tiếng khác trong thành phố còn có Vườn Quốc gia Núi Thiên Môn, nơi có những cầu đi bộ bằng kính khiến tim đập thình thịch và động Thiên Môn huyền ảo, kỳ diệu — luôn được du khách yêu thích và ca ngợi là \"huyền thoại mới của Trương Gia Giới\". Cách thành phố không xa, \"Động đẹp nhất Trung Hoa\" — Động Hoàng Long — và \"Ao Tiên trên Trần gian\" Hồ Bảo Phong có thể đến bằng xe buýt hoặc taxi. Ngoài ra, \"Phòng tranh trăm dặm\" chèo thuyền trên sông Mao Nham, \"Động số một châu Á\" Cửu Thiên Động ở huyện Tang Trực, thị trấn Phù Những và \"Chèo thuyền số một thế giới\" chèo thuyền trên sông Mãnh Động đều là những nơi tuyệt vời cho tham quan.",
-  "中國第一個國家森林公園，是「縮小的仙境，擴大的盆景」": "Vườn Quốc gia đầu tiên của Trung Quốc — \"tiên cảnh thu nhỏ và chậu cảnh phóng to\"",
-  "分為黃石寨、琵琶溪、金鞭溪、鷂子寨、畬刀溝、袁家界等景區，是遊玩張家界不可不去的核心景點。處於峰林演化史的青年期，地貌奇特，石峰林立，形態各異，樹木茂盛；坡陡溝深，氣候暖濕。黃石寨是張家界國家森林公園境內最著名的景區，素有「不到黃石寨，枉到張家界」之說。": "Được chia thành các khu vực phụ gồm Hoàng Thạch Trại, Tỳ Bà Khê, Kim Biên Khê, Yến Tử Trại, Shudaogou và Viên Gia Giới, đây là phần cốt lõi không thể bỏ qua trong bất kỳ chuyến đi Trương Gia Giới nào. Về mặt địa chất, khu vực đang ở giai đoạn trẻ trong sự tiến hóa của rừng đỉnh núi, các dạng địa hình kỳ lạ: các cột đá mọc san sát với muôn hình vạn trạng, thảm thực vật tươi tốt, sườn dốc đứng, khe suối sâu thăm thẳm, khí hậu ấm áp và ẩm ướt. Hoàng Thạch Trại là khu vực nổi tiếng nhất trong Vườn Quốc gia Trương Gia Giới — có câu nói rằng \"Chưa đến Hoàng Thạch Trại thì chưa thực sự đến Trương Gia Giới\".",
-  "天門山因自然奇觀「天門洞」而得名。遊覽天門山時，可以在纜車中俯瞰腳山中美景。核心景點是天門山寺。一定要體驗建在懸崖峭壁上的玻璃棧道，看到腳下的萬丈深谷，膽戰心驚之余，感受淩空行走的快樂。天門山有三條遊覽線可以選擇，都是景區中的經典景色。": "Núi Thiên Môn được đặt tên theo kỳ quan tự nhiên \"Động Cổng Trời\". Khi đi cáp treo lên, phong cảnh ngọn núi phía dưới hiện ra dưới chân bạn. Điểm nhấn chính là Chùa Núi Thiên Môn. Cầu đi bộ bằng kính, xây dựng dọc theo các vách đá dựng đứng, là điều không thể bỏ qua — nhìn xuống những thung lũng sâu thăm thẳm trong khi bước đi giữa không trung mang đến cảm giác phấn khích có một không hai. Núi Thiên Môn cung cấp ba tuyến tham quan cổ điển, mỗi tuyến đều có những điểm nhấn riêng biệt.",
-  "位於張家界國家森林公園的北部，東臨索溪峪景區，因明初土家族領袖向大坤自號「向王天子」而得名。最高點海拔約1262.5米，最低點海拔約534米，在這裏有機會可以觀賞到雲霧、月夜、霞日、冬雪四大奇觀。億萬年前的天子山是一片汪洋大海，後來經過複雜而漫長的地質過程，形成了御筆峰等奇異的地質景觀。": "Nằm ở phía bắc Vườn Quốc gia Trương Gia Giới và giáp khu thắng cảnh Tác Tây Dụ về phía đông, Núi Thiên Tử được đặt tên theo nhà lãnh đạo người Thổ Gia đầu nhà Minh Tương Đại Khôn, người tự xưng là \"Vương Tương, Thiên Tử\". Điểm cao nhất đạt khoảng 1.262,5 mét và điểm thấp nhất khoảng 534 mét; du khách đến đây có thể chiêm ngưỡng bốn kỳ quan đặc trưng — mây mù trôi, những đêm trăng, bầu trời nhuốm hoàng hôn và tuyết mùa đông. Hàng trăm triệu năm trước, Núi Thiên Tử từng nằm dưới đại dương mênh mông; qua các quá trình địa chất lâu dài và phức tạp, nó đã vươn lên thành những dạng địa hình kỳ vĩ như ngày nay, bao gồm đỉnh Yubi (Bút Lông Hoàng gia) nổi tiếng.",
-  "黃龍洞以高闊的洞天、幽深的暗河、密集的石筍而出名，洞中最高處垂直高度約100多米，整個洞內洞中有洞，洞中有河。標誌性景點是已生長了二十萬年的「定海神針」，高達20米的石筍柱，最細處直徑只有10厘米，景區為此投保了一億元保險金。洞中有「水陸兼備」的遊覽觀光線路。": "Động Hoàng Long nổi tiếng với trần hang rộng và cao, dòng sông ngầm sâu thẳm và rừng măng đá dày đặc. Hang cao tới hơn 100 mét tại điểm cao nhất — và toàn bộ hệ thống hang chứa hang trong hang, sông chảy xuyên qua. Điểm nhấn đặc trưng là \"Định Hải Thần Châm\" (Cây châm giữ biển), một măng đá đã phát triển 200.000 năm, cao 20 mét — nhưng chỗ mỏng nhất chỉ rộng 10 cm — có giá trị đến mức công viên đã bảo hiểm 100 triệu nhân dân tệ. Hang cung cấp cả tuyến đi bộ và đi thuyền, để du khách khám phá cả trên cạn lẫn dưới nước.",
-  "建議按「步行觀洞 + 暗河乘船」順序體驗，整體節奏更舒適，也能更完整感受溶洞燈光與巖溶地貌細節。": "Để có nhịp trải nghiệm thoải mái nhất — và có cơ hội chiêm ngưỡng ánh sáng trong hang cùng các chi tiết karst một cách trọn vẹn — hãy đi bộ khám phá trước, sau đó đi thuyền trên sông ngầm.",
-  "玻璃橋建議提前預約時段，並預留充足排隊與步行時間；若偏好拍照，可選非高峰時段上橋體驗更佳。": "Nên đặt khung giờ cho cầu kính trước và dành đủ thời gian xếp hàng và đi bộ. Những người thích chụp ảnh sẽ tận hưởng cầu kính nhất vào giờ thấp điểm.",
-  "\"桂林山水甲天下，陽朔山水甲桂林\"是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!": "\"Sơn thủy Quế Lâm đệ nhất thiên hạ, sơn thủy Dương Thuế đệ nhất Quế Lâm\" là lời tóm tắt chính xác nhất cho vùng đất này. Sông Lý là tinh hoa và linh hồn của Quảng Tây — dòng nước trong vắt uốn lượn quanh rừng đỉnh karst xanh thẫm, mở ra một bức tranh phong cảnh sống động.",
-  "北海，一個被許多人忽視的旅遊勝地，卻足以讓人“待着就不想走”。它的魅力不在於“驚豔”，而在於“舒服”——那種讓人身心放鬆，迴歸生活本真的感受。": "Bắc Hải là một điểm du lịch bị nhiều người bỏ quên, nhưng lại đủ sức khiến người ta “đến rồi chẳng muốn rời đi”. Sức hút của nơi đây không nằm ở sự “choáng ngợp”, mà ở cảm giác “dễ chịu”——thứ cảm giác giúp cả thể chất lẫn tinh thần thư thái và đưa ta trở về với nhịp sống chân thật vốn có.",
-  "其魅力不止於一碗鮮香熱辣的螺螄粉，更在於“江流曲似九迴腸”的百里柳江風光、滿城綻放的春日紫荊，以及深厚的歷史文脈與濃郁的民族風情。": "Sức hút của nơi đây không chỉ nằm trong một bát bún ốc thơm ngon cay nồng, mà còn ở phong cảnh trải dài trăm dặm bên sông Liễu với “dòng sông uốn khúc tựa chín vòng ruột”, hoa ban tím nở khắp thành phố mỗi độ xuân về, cùng mạch nguồn lịch sử sâu dày và bản sắc dân tộc đậm đà.",
-  "這裏山清水秀，景色宜人，被譽爲“世界第一大盆景”。在這裏，能感受民族風情的濃郁氣息，嘗一口地道美食，賞一賞自然風光，美好不期而遇。": "Nơi đây non xanh nước biếc, phong cảnh hữu tình và được ca ngợi là “đại bồn cảnh lớn nhất thế giới”. Tại đây, bạn có thể cảm nhận đậm nét bản sắc dân tộc, nếm thử món ngon địa phương, thưởng ngoạn thiên nhiên và bất ngờ gặp những điều tươi đẹp.",
-  "夏季水量充沛，可在水上森林體驗「踏瀑戲水」的清涼互動，建議一早入園避開團隊高峰，步行與觀光車交替遊覽更愜意。": "Mùa hè nước dồi dào, bạn có thể trải nghiệm cảm giác mát lành khi「bước qua thác, nô đùa cùng nước」trong khu rừng trên nước. Nên vào khu du lịch từ sáng sớm để tránh lúc đông đoàn khách; xen kẽ đi bộ và xe tham quan sẽ thoải mái hơn.",
-  "我們深信，旅行是有溫度的": "Chúng tôi tin rằng du lịch có sức ấm",
-  "我們希望能在這個冰冷冷的世界裏": "Chúng tôi hy vọng rằng trong thế giới lạnh lẽo này",
-  "用我們的專業與熱情，帶給你一抹屬於旅行的溫度": "mang đến cho bạn một chút hơi ấm của du lịch bằng chuyên môn và nhiệt huyết của chúng tôi",
-  "海涛旅行定制熱枕期盼您來中國旅行！": "Haitao Travel Customization háo hức chào đón quý vị đến du lịch Trung Quốc!",
-  "琳美人": "Cô Lin",
-  "我很喜歡這次的旅行，見識了重慶的美，感受了祖國的大好河山風光，領隊們都很負責，管家小週會每天發佈溫馨提示，喜歡導遊陶子，還會推薦好吃好玩的地方，景點遊玩有些需要自費也不強求看個人意願這點我跟喜歡，一路也會給我們講解重慶的文化特色，大家一起玩很開心，會推薦想來玩的朋友們，有機會還會再來，有緣再見。": "Tôi rất thích chuyến đi này, được chiêm ngưỡng vẻ đẹp của Trùng Khánh và cảm nhận phong cảnh non nước hùng vĩ của quê hương. Các trưởng đoàn đều rất có trách nhiệm, quản gia Tiểu Châu mỗi ngày đều đăng những lời nhắc nhở ấm áp. Tôi thích hướng dẫn viên Đào Tử, anh ấy còn gợi ý những nơi ăn ngon và vui chơi thú vị. Một số hoạt động tại điểm tham quan cần tự túc chi phí nhưng không bị ép buộc — tôi rất thích điều đó. Suốt hành trình, họ còn chia sẻ những nét văn hóa đặc sắc của Trùng Khánh. Mọi người cùng nhau vui vẻ, tôi sẽ giới thiệu cho bạn bè muốn đến đây, có dịp sẽ quay lại, hẹn gặp lại!",
-  "M53****383": "M53****383",
-  "行程安排合理，不用趕路，接送機師傅準時，態度特別好，還幫着提行李，導遊業務水平高，有責任心，對大家很親切，小董和小黎還給大家講了好多關於重慶的由來等，還幫着遊客拍照，大家一起玩特別開心，酒店乾淨舒適，早餐豐盛，下次出遊還選寰遊。": "Lịch trình được sắp xếp hợp lý, không phải vội vàng. Các tài xế đưa đón sân bay đúng giờ, thái độ rất tốt, còn giúp mang hành lý. Hướng dẫn viên có trình độ chuyên môn cao, có tinh thần trách nhiệm, rất thân thiện với mọi người. Tiểu Đồng và Tiểu Ly còn kể cho mọi người nghe nhiều điều thú vị về nguồn gốc của Trùng Khánh, và giúp du khách chụp ảnh. Mọi người chơi cùng nhau rất vui, khách sạn sạch sẽ thoải mái, bữa sáng phong phú, chuyến sau vẫn chọn Hoàn Du.",
-  "匿名用户": "Người dùng ẩn danh",
-  "酒店住的很舒服，乾淨、空間也很大。 導遊講解思路清晰，好好聽就知道應該怎麼玩，一個人也完全不用怕。滿意！ 風景也很好看，景區裏邊也很乾淨。明年秋天應該還會再來。把剩下沒逛完的景點補足。這次時間不夠稍稍留了一些小遺憾！": "Khách sạn rất thoải mái, sạch sẽ và rộng rãi. Hướng dẫn viên giải thích rõ ràng, mạch lạc; chỉ cần lắng nghe là biết nên chơi thế nào, đi một mình cũng không sợ gì. Rất hài lòng! Phong cảnh cũng rất đẹp, khu thắng cảnh cũng sạch sẽ. Mùa thu năm sau chắc chắn sẽ quay lại, để bù đắp những điểm tham quan chưa đi hết. Lần này thời gian không đủ nên để lại một chút tiếc nuối nhỏ!",
-  "整體來說還是很滿意的，時間比較充裕。不算很趕時間。導遊年輕有活力，安排的也不錯。從成都出發開始，小露就給我們每個家庭發通知短信 ，注意事項 。司機開車很穩當，團餐也還行。風景確實好漂亮，累並快樂着，不虛此行。": "Nhìn chung tôi rất hài lòng, thời gian khá dư dả, không cảm thấy vội vàng. Hướng dẫn viên trẻ trung và năng động, sắp xếp cũng rất tốt. Ngay từ khi khởi hành từ Thành Đô, Tiểu Lộ đã gửi tin nhắn thông báo cho từng gia đình, kèm những lưu ý. Tài xế lái xe rất vững, bữa ăn nhóm cũng tạm được. Phong cảnh thực sự rất đẹp, vừa mệt vừa vui, chuyến đi thực sự đáng giá.",
-  "我們深信，旅行是有溫度的<br>我們希望能在這個冰冷冷的世界裏<br>用我們的專業與熱情，帶給你一抹屬於旅行的溫度<br>海涛旅行定制熱枕期盼您來中國旅行！": "Chúng tôi tin rằng du lịch có sức ấm.<br>Chúng tôi hy vọng rằng trong thế giới lạnh lẽo này<br>mang đến cho bạn một chút hơi ấm của du lịch bằng chuyên môn và nhiệt huyết của chúng tôi.<br>Haitao Travel Custom háo hức chào đón quý vị đến du lịch Trung Quốc!",
-  "中國張家界市永定區逸城公園": "Công viên Yicheng, Quận Yongding, Thành phố Trương Gia Giới, Trung Quốc",
-  "海涛旅行定制有限公司，是一家提供中高端旅遊服務的在線旅行服務商。自成立以來，一直秉承著「質量第一、信譽至上、以人為本」的經營理念服務於遊客，註重商業信譽，同時也樹立了專註品質的行業口碑。": "Haitao Custom Travel là một đại lý du lịch trực tuyến chuyên cung cấp các dịch vụ du lịch cao cấp. Kể từ khi thành lập, chúng tôi luôn kiên trì triết lý \"Chất lượng là hàng đầu, Uy tín là tối thượng, Lấy con người làm trung tâm,\" phục vụ du khách với sự tận tâm và xây dựng danh tiếng vững chắc về chất lượng.",
-  "目前在與線上旅遊平臺攜程、Facebook、Google均有深度合作。公司現有員工500余人等，其中各语种資深專業導遊270人，年接待遊客量達十萬余人次。經過數年的發展，打造了一支能力全面的運營團隊並建立了較為完善的售後服務體系，海涛旅行定制，品質無憂，純玩無購物是我們的承諾，讓旅遊回歸純粹是我們的目標。海涛旅行定制不仅仅有传统跟团游服务，集团公司旗下高奢酒店113家，高奢民宿27家，还可进行行程线路规划、酒店、当地用车导、门票等打包预定等全程旅游服务保障，也可根据您的需求进行个性化定制，区别于传统跟团游及自由行，根据您的时间、爱好等灵活定制，旅途全程更加省心安全有保障。": "Chúng tôi hợp tác sâu rộng với các nền tảng du lịch hàng đầu như Ctrip, Facebook và Google. Đội ngũ của chúng tôi có hơn 500 nhân viên, bao gồm 270 hướng dẫn viên chuyên nghiệp đa ngôn ngữ, và chào đón hơn 100.000 du khách mỗi năm. Sau nhiều năm phát triển, chúng tôi đã xây dựng được đội ngũ vận hành toàn diện và hệ thống dịch vụ hậu mãi hoàn chỉnh. Chất lượng không lo lắng và tour không mua sắm là cam kết của chúng tôi; đưa du lịch trở về với bản chất thuần túy là sứ mệnh của chúng tôi. Ngoài tour nhóm truyền thống, tập đoàn của chúng tôi vận hành 113 khách sạn sang trọng và 27 nhà nghỉ cao cấp. Chúng tôi còn cung cấp dịch vụ lập kế hoạch hành trình trọn gói bao gồm lịch trình, khách sạn, phương tiện di chuyển tại địa phương, vé tham quan và đặt chỗ theo gói — tất cả được thiết kế riêng cho bạn. Khác với tour nhóm tiêu chuẩn hay du lịch tự do, chúng tôi tạo nên hành trình linh hoạt theo lịch trình và sở thích của bạn, đảm bảo trải nghiệm an tâm và an toàn từ đầu đến cuối.",
-  "私人定制滿足您對旅行的任何需求": "Hành trình riêng biệt được thiết kế cho mọi nhu cầu bạn có thể tưởng tượng",
-  "海涛旅行定制全體員工期待您的到來！": "Toàn thể đội ngũ Haitao Custom Travel mong chờ được chào đón bạn!",
-  "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎": "Dòng nước xanh như ngọc bích, thuyền đầu rồng lướt trong sương mờ, bạn mới thực sự \" ở trong tranh\". Núi non cao vút, thung lũng sâu, thác nước tung bay, cổ thụ và dây leo tạo nên một phong cảnh kỳ vĩ.",
-  "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨": "Phía đông tiếp giáp Khu bảo tồn thiên nhiên Wolong, phía nam tiếp giáp Núi Tứ Cô Nương — cùng nhau tạo nên \"Di sản Thế giới Hành lang Gấu Trúc Khổng Lồ\". Khu thắng cảnh có 82 điểm du lịch tự nhiên.",
-  "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，": "Câu nói \"Non nước Quế Lâm đệ nhất thiên hạ, non nước Dương Thác đệ nhất Quế Lâm\" tóm tắt chính xác nhất. Sông Ly Giang là tinh hoa và linh hồn của Quảng Tây — dòng nước trong vắt uốn quanh những đỉnh núi đá vôi xanh biếc.",
-  "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。": "Núi Phạm Tịnh là đỉnh núi chính của dãy Vũ Lăng, lấy tên theo ý nghĩa Phật giáo 'Cõi Tịnh Độ của Đại Phạm Thiên'. Di sản Thiên nhiên Thế giới, khu du lịch hạng AAAAA của quốc gia, một trong năm ngọn núi Phật giáo lớn của Trung Quốc. Được mệnh danh là 'Thành phố trên bầu trời' với bốn điều kỳ lạ gọi là 'Tứ kỳ Phạm Tịnh': đỉnh Phượng Hoàng Đỏ hiểm trở, đá Nấm độc đáo, biển mây và hào quang Phật biến hóa, và khỉ mũi to Guizhou quý hiếm.",
-  "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繍工藝和苗族飛歌古歌並稱「西江五韻」，被譽爲「中國苗都」。": "Bản làng Miao Ngàn Hộ Tây Giang là khu định cư Miao lớn nhất thế giới, lấy tên từ hàng nghìn ngôi nhà sàn xếp tầng trên hai sườn núi. Điểm du lịch cấp AAAA quốc gia, thị trấn nổi tiếng về lịch sử và văn hóa Trung Quốc, được mệnh danh là 'Thủ đô Miao của Trung Quốc' với năm nét quyến rũ: cảnh đêm muôn nhà đèn lên, kiến trúc nhà sàn Miao, nghi lễ nâng ly 'núi cao nước chảy', thủ công trang sức bạc, và những bài hát cổ 'Hát bay' của người Miao.",
-  "大理「風花雪月」四大名景之一，外形如同耳朵，是由西洱河塌陷形成的高原湖泊。共有三島、四洲、五湖、九曲，湖水清澈見底，被稱作「群山間的無瑕美玉」。沿湖的人氣村落有「洱海神光」的雙廊、《心花怒放》取景地的才村、以白族民居建築為特色的喜洲。": "Một trong bốn cảnh quan nổi tiếng của Đại Lý 'Gió, Hoa, Tuyết, Nguyệt', hồ Nhị Hải có hình dạng như chiếc tai, được hình thành từ sự sụp đổ của sông Nhị Hải Tây. Được gọi là 'Ngọc ngọc nguyên chất giữa núi non' với ba đảo, bốn đảo nhỏ, năm hồ, và chín khúc cua quanh co với nước trong vắt. Các làng du lịch nổi tiếng bên hồ bao gồm Song Lang với 'Ánh sáng thần hồ Nhị Hải', Thái Thôn nơi phim 'Blueless' được quay, và Hy Châu nổi tiếng với kiến trúc nhà ở dân tộc Bạch.",
-  "瀘沽湖為川滇兩省界湖，湖周邊主要居住著摩梭人、彜族和普米族。湖水清澈蔚藍，是雲南海拔最高的湖泊，也是中國最深的淡水湖之一，充滿了神秘的色彩。景區四周崇山峻嶺，一年有三個月以上積雪期，森林資源豐富，被人們譽為「蓬萊仙境」。主要景點有格姆女神索道、小草海、瀘沽三島等，電瓶車環湖是最熱門的遊玩方式。": "Hồ Lô Cổ là hồ biên giới giữa hai tỉnh Tứ Xuyên và Vân Nam, xung quanh hồ chủ yếu cư trú người Moso, Yi và PuMi. Nước hồ trong xanh biếc, là hồ cao nhất Vân Nam và cũng là một trong những hồ nước ngọt sâu nhất Trung Quốc, đầy màu sắc huyền bí. Bốn phía khu du lịch là núi cao chót vót, có tuyết rơi hơn ba tháng một năm, rừng phong phú, được mệnh danh là \"Động đình tiên cảnh\". Điểm tham quan chính gồm cáp treo Nữ Thần, Biển Cỏ Nhỏ, Ba Đảo Lô Cổ, tour xe điện vòng quanh hồ là cách phổ biến nhất.",
-  "八達嶺長城是明長城中保存最完好、最具代表性的一段，也是萬里長城最早向遊人開放的地段，被譽為「天下九塞之一」。世界文化遺產、國家AAAAA級旅遊景區。這裏山勢險峻，城牆巍峨，敵樓密集，四季風光各異。可乘坐纜車上山，再徒步登臨北四樓或好漢坡，俯瞰層巒疊嶂間的巨龍蜿蜒。": "Đoạn Bát Đạt Lĩnh là phần được bảo tồn hoàn chỉnh nhất và mang tính đại diện nhất của Vạn Lý Trường Thành thời Minh, cũng là đoạn đầu tiên được mở cửa cho du khách, được xưng là \"một trong chín cửa ải lớn dưới gầm trời\". Di sản Thế giới, khu du lịch cấp 5A quốc gia. Nơi đây có địa hình hiểm trở, tường thành cao vời, tháp canh dày đặc, phong cảnh bốn mùa khác nhau. Có thể đi cáp treo lên núi, rồi đi bộ leo lên Tháp Bắc bốn hoặc Đồi Hảo Hán để ngắm nhìn rồng uốn mình qua dãy núi.",
-  "天安門廣場位於北京城市中軸線上，是世界上最大的城市廣場，國家象徵和政治活動的重要場所。廣場中央矗立著人民英雄紀念碑，北端是莊嚴的天安門城樓，東側為中國國家博物館，西側為人民大會堂。每日升旗儀式莊重肅穆，吸引無數人徹夜守候。可結合國博參觀一併安排，在歷史與現實中感受華夏血脈的賡續與榮光。": "Quảng Trường Thiên An Môn nằm trên trục trung tâm của Bắc Kinh, là quảng trường đô thị lớn nhất thế giới, là biểu tượng quốc gia và địa điểm quan trọng cho các hoạt động chính trị. Ở trung tâm quảng trường tọa lạc Tượng đài Liệt sĩ Nhân dân, phía bắc là Tháp Cửa Thiên An Môn trang nghiêm, phía đông là Bảo tàng Quốc gia Trung Quốc, phía tây là Đại hội đường Nhân dân. Lễ thượng cờ hàng ngày trang nghiêm và thành kính, thu hút vô số người canh đêm chờ đợi. Có thể kết hợp tham quan Bảo tàng Quốc gia để cảm nhận sự kế thừa và vinh quang của dòng máu Hoa Hạ giữa lịch sử và hiện tại.",
-  "震驚世界的「地下軍陣」和秦代軍事藝術的巔峰之作": "\"Đội quân dưới lòng đất\" gây chấn động thế giới — đỉnh cao của nghệ thuật quân sự thời Tần.",
-  "作為世界第八大奇蹟，這裏出土了數以千計與真人等高的陶俑、陶馬，每一尊兵俑的面容神態都獨一無二，陣列森嚴，氣勢磅礴，生動再現了兩千多年前大秦帝國的虎狼之師與皇家儀仗。整個遺址坑道規模宏大，細節令人嘆為觀止，是探尋中國第一個大一統王朝精神氣魄的必到之地。": "Được công nhận là Kỳ quan thứ Tám của Thế giới, nơi đây đã khai quật hàng nghìn tượng đất nung và ngựa đất có kích thước bằng người thật, mỗi tượng binh có gương mặt và thần thái riêng biệt, được sắp xếp trong đội hình chặt chẽ với khí thế hùng vĩ, tái hiện sinh động đội quân hổ lang của Đế quốc Tần lớn cách đây hơn hai nghìn năm. Toàn bộ hệ thống hang động tại di chỉ có quy mô khổng lồ và mức độ tinh xảo đáng kinh ngạc — điểm đến không thể bỏ qua cho bất kỳ ai muốn tìm hiểu tinh thần của triều đại thống nhất đầu tiên của Trung Hoa.",
-  "兵馬俑位於臨潼區，距離西安市區約1小時車程，建議單獨留出至少半天時間遊覽；參觀時請緊隨講解或使用語音導覽，否則容易「只見泥人不見歷史」。": "Đội quân Terracotta nằm ở huyện Lâm Đồng, cách trung tâm Tây An khoảng một giờ lái xe. Bạn nên dành ít nhất nửa ngày để tham quan. Hãy chắc chắn đi theo hướng dẫn viên hoặc sử dụng thiết bị nghe audio trong chuyến tham quan — nếu không, bạn có nguy cơ chỉ nhìn thấy các bức tượng đất nung mà không nắm bắt được bối cảnh lịch sử.",
-  "噴泉表演每晚固定時間上演，建議提前占位；南廣場周邊的大悅城三樓觀景台是免費拍攝塔身全貌的絕佳角度，比地面更出片。": "Biểu diễn đài phun nước diễn ra mỗi tối đúng giờ cố định — nên đến sớm chọn chỗ. Đài quan sát miễn phí tầng 3 của Joy City cạnh quảng trường phía nam là góc chụp toàn cảnh tháp đẹp nhất.",
-  "這條南北走向的仿唐街區，入夜後金碧輝煌，紅燈籠、唐風建築、巨型雕塑陣列依次鋪開，仿佛將《長安十二時辰》的畫卷直接搬到了現實。街道上穿插著不倒翁小姐姐、懸浮兵馬俑、李白對詩等免費街頭行為藝術表演，兩側商鋪售賣唐制漢服、文創和非遺小吃，無論觀賞、拍照還是沉浸式「穿越」，都能獲得極大滿足。": "Khu phố mô phỏng phong cách nhà Đường chạy theo hướng bắc–nam này trở nên lộng lẫy khi đêm xuống; đèn lồng đỏ, kiến trúc kiểu Đường và những dãy tượng khổng lồ lần lượt hiện ra, tựa như cuộn tranh trong Trường An Mười Hai Canh Giờ được đưa thẳng vào đời thực. Dọc phố xen kẽ các màn nghệ thuật đường phố miễn phí như cô gái con lật đật, tượng binh mã lơ lửng và đối thơ cùng Lý Bạch; các cửa hàng hai bên bán Hán phục kiểu Đường, sản phẩm văn hóa sáng tạo và món ăn di sản phi vật thể. Dù đến để thưởng ngoạn, chụp ảnh hay nhập vai “xuyên không”, bạn đều có thể tận hưởng một trải nghiệm vô cùng mãn nguyện.",
-  "彩雲之南，這裏有希爾頓書中的香巴拉，有洛克眼中的世外桃源，有藏族人心中神聖的梅裏雪山，這裏四季花長開，景色四季不同，高山、湖泊、花海、雪山、梯田、各种事物組成了這裏最美的風景。 昆明是雲南省的省會，四季如春，風景優美。麗江這座歷史悠久的古鎮有著很多風景名勝，是納西族人的主要聚居地。大理是雲南最早文化的發祥地，風花雪月是大理著名四景。西雙版納是一個具有著亞熱帶風情的地方，是孔雀和大象的故鄉。迪慶藏族自治州（香格裏拉）是希爾頓眼中的世外桃源，也是朝拜聖地、徒步天堂。": "Phía nam những đám mây muôn sắc—Vân Nam giấu Shangri-La từ trang sách của Hilton, và ngọn núi tuyết Meili thiêng liêng được người Tây Tạng tôn kính. Hoa nở quanh năm nơi đây với núi non, hồ nước, biển hoa, đỉnh núi phủ tuyết và ruộng bậc thang cấu thành phong cảnh tuyệt đẹp. Côn Minh, thủ phủ tỉnh, có khí hậu mùa xuân quanh năm. Lệ Giang, thị trấn cổ phong phú về cảnh đẹp tự nhiên, là nơi định cư chính của người Naxi. Đại Lý, cái nôi văn hóa sớm nhất của Vân Nam, nổi tiếng với bốn cảnh 'Gió, Hoa, Tuyết, Nguyệt.' Xishuangbanna mang đặc sắc nhiệt đới là quê hương của công và voi. Vùng tự trị Tây Tạng Đức Khánh (Shangri-La) vừa là địa điểm hành hương vừa là thiên đường cho những người đi bộ đường dài.",
-  "赤水丹霞是中國面積最大的丹霞地貌區之一，因赤紅砂岩與翠竹飛瀑交相輝映而得名。世界自然遺產「中國丹霞」組成部分，國家AAAAA級旅遊景區。以丹霞絕壁、瀑布群、竹海森林、桫欏遺存和紅色文化並稱「赤水五絕」，被譽爲「丹霞之冠、千瀑之市」。": "Đồ Sơn Đan Hà là một trong những vùng địa hình Đan Hà lớn nhất Trung Quốc, lấy tên từ sự tương phản ấn tượng giữa vách đá sa thạch đỏ thắm và rừng trúc xanh với thác nước chảy xiết. Là một phần của Di sản Thiên nhiên Thế giới 'Đan Hà Trung Quốc', khu vực du lịch hạng AAAAA này được gọi là 'Vương miện của Đan Hà, Thành phố Ngàn Thác' với năm đặc điểm tuyệt vời: vách đá Đan Hà, các thác nước, rừng tre biển, di sản tuế đài cổ, và văn hóa đỏ cách mạng.",
-  "© 2026 海涛旅行定制. All Rights Reserved.": "© 2026 Haitao Travel Custom. Đã đăng ký bản quyền.",
-  "WhatsApp": "WhatsApp",
-  "China Travel": "Du lịch Trung Quốc",
-  "私人定制滿足您對旅行的任何需求<br/>海涛旅行定制全體員工期待您的到來！": "Tour thiết kế riêng đáp ứng mọi nhu cầu du lịch của bạn<br/>Toàn thể đội ngũ Haitao Travel Custom mong được đón tiếp bạn!",
-  "旅游地点 <i class=\"fas fa-chevron-down\"></i>": "Điểm du lịch",
-  "TOP 1": "TOP 1",
-  "TOP 2": "TOP 2",
-  "TOP 3": "TOP 3",
-  "TOP 4": "TOP 4",
-  "TOP 5": "TOP 5"
+  "Metadata": {
+    "title": "Haitao Travel Custom",
+    "description": "海涛旅行定制，品質無憂，純玩無購物。提供中國著名景點的旅遊服務和攻略，包括重庆、張家界、雲南、四川、廣西等多個目的地。"
+  },
+  "Navbar": {
+    "brand": "Haitao Travel Custom",
+    "main": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ chúng tôi"
+    },
+    "travelLabel": "Điểm du lịch",
+    "travel": {
+      "chongqing": "Du lịch Trùng Khánh",
+      "sichuan": "Du lịch Tứ Xuyên",
+      "zhangjiajie": "Du lịch Trương Gia Giới",
+      "guizhou": "Du lịch Quý Châu",
+      "guangxi": "Du lịch Quảng Tây",
+      "yunnan": "Du lịch Vân Nam",
+      "beijing": "Du lịch Bắc Kinh",
+      "xian": "Du lịch Tây An"
+    },
+    "aria": {
+      "menu": "Chuyển đổi menu"
+    }
+  },
+  "Footer": {
+    "brand": "Haitao Travel Custom",
+    "tagline": "Haitao Travel Custom cam kết chất lượng không lo lắng, du lịch tinh túy không mua sắm. Mục tiêu của chúng tôi là đưa du lịch trở về với sự thuần khiết.",
+    "quickLinks": "Liên kết nhanh",
+    "quickItems": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "chongqing": "Du lịch Trùng Khánh",
+      "guangxi": "Du lịch Quảng Tây",
+      "sichuan": "Du lịch Tứ Xuyên",
+      "zhangjiajie": "Du lịch Trương Gia Giới",
+      "yunnan": "Du lịch Vân Nam",
+      "contact": "Liên hệ chúng tôi"
+    },
+    "contactHeading": "Thông tin liên hệ",
+    "phone": "193 8679 6662",
+    "whatsapp": "+852 84392791",
+    "email": "418144878@qq.com",
+    "address": "Công viên Yicheng, Quận Yongding, Thành phố Trương Gia Giới, Trung Quốc",
+    "followUs": "Theo dõi chúng tôi",
+    "copyright": "© 2026 Haitao Travel Custom. Đã đăng ký bản quyền."
+  },
+  "Home": {
+    "hero": {
+      "title": "Du lịch Trung Quốc",
+      "subtitle": "Du lịch Trung Quốc",
+      "ctaAbout": "Về chúng tôi",
+      "ctaContact": "Liên hệ chúng tôi"
+    },
+    "advantages": {
+      "items": [
+        {
+          "title": "Tích hợp tài nguyên",
+          "desc": "Cung cấp dịch vụ du lịch và cẩm nang cho các thắng cảnh nổi tiếng của Trung Quốc, bao gồm Trùng Khánh, Trương Gia Giới, Vân Nam, Tứ Xuyên, Bắc Kinh và nhiều điểm đến khác"
+        },
+        {
+          "title": "Ưu điểm dịch vụ",
+          "desc": "Cung cấp dịch vụ toàn diện, bao gồm tư vấn du lịch, thuê xe riêng, đặt phòng khách sạn, vé tham quan, hướng dẫn viên và bảo đảm hợp đồng"
+        },
+        {
+          "title": "Ưu điểm thương hiệu",
+          "desc": "Qua nhiều năm tích lũy, công ty du lịch của chúng tôi đã thiết lập hợp tác sâu rộng với hơn một trăm nhà cung cấp tài nguyên, có thể cung cấp vé máy bay, khách sạn và vé tham quan giá ưu đãi"
+        }
+      ]
+    },
+    "destinationCards": [
+      {
+        "alt": "重庆",
+        "title": "Thành phố kỳ diệu Trùng Khánh",
+        "desc": "Ánh đèn rực rỡ của Hồng Nhai Động, sự nhộn nhịp của Giải Phóng Bài, và nét cổ kính của Từ Khí Khẩu"
+      },
+      {
+        "alt": "广西",
+        "title": "Quảng Tây — Vẻ đẹp vượt trội khắp thiên hạ",
+        "desc": "Vùng đất bí ẩn nơi núi sông hùng vĩ hòa quyện hoàn hảo với khói lửa nhân gian"
+      },
+      {
+        "alt": "四川",
+        "title": "Tứ Xuyên — Núi non kỳ thú",
+        "desc": "Hội tụ văn hóa, nghệ thuật và du lịch trong một"
+      },
+      {
+        "alt": "張家界",
+        "title": "Trương Gia Giới — Tiên cảnh nhân gian",
+        "desc": "Nơi quay phim Avatar, địa hình karst độc đáo, phong cảnh thiên nhiên hùng vĩ và kỳ thú"
+      }
+    ],
+    "learnMore": "Tìm hiểu thêm",
+    "testimonialsHeading": "Đánh giá của khách hàng",
+    "testimonials": [
+      {
+        "alt": "Bà Trương",
+        "author": "Cô Lin",
+        "body": "Tôi rất thích chuyến đi này, được chiêm ngưỡng vẻ đẹp của Trùng Khánh và cảm nhận phong cảnh non nước hùng vĩ của quê hương. Các trưởng đoàn đều rất có trách nhiệm, quản gia Tiểu Châu mỗi ngày đều đăng những lời nhắc nhở ấm áp. Tôi thích hướng dẫn viên Đào Tử, anh ấy còn gợi ý những nơi ăn ngon và vui chơi thú vị. Một số hoạt động tại điểm tham quan cần tự túc chi phí nhưng không bị ép buộc — tôi rất thích điều đó. Suốt hành trình, họ còn chia sẻ những nét văn hóa đặc sắc của Trùng Khánh. Mọi người cùng nhau vui vẻ, tôi sẽ giới thiệu cho bạn bè muốn đến đây, có dịp sẽ quay lại, hẹn gặp lại!"
+      },
+      {
+        "alt": "Ông Trương",
+        "author": "M53****383",
+        "body": "Lịch trình được sắp xếp hợp lý, không phải vội vàng. Các tài xế đưa đón sân bay đúng giờ, thái độ rất tốt, còn giúp mang hành lý. Hướng dẫn viên có trình độ chuyên môn cao, có tinh thần trách nhiệm, rất thân thiện với mọi người. Tiểu Đồng và Tiểu Ly còn kể cho mọi người nghe nhiều điều thú vị về nguồn gốc của Trùng Khánh, và giúp du khách chụp ảnh. Mọi người chơi cùng nhau rất vui, khách sạn sạch sẽ thoải mái, bữa sáng phong phú, chuyến sau vẫn chọn Hoàn Du."
+      },
+      {
+        "alt": "Ông Vương",
+        "author": "Người dùng ẩn danh",
+        "body": "酒店住的很舒服，乾淨、空間也很大。導遊講解思路清晰，好好聽就知道應該怎麼玩，一個人也完全不用怕。滿意！風景也很好看，景區裏邊也很乾淨。明年秋天應該還會再來。把剩下沒逛完的景點補足。這次時間不夠稍稍留了一些小遺憾！"
+      },
+      {
+        "alt": "Cô Vương",
+        "author": "Cô Vương",
+        "body": "整體來說還是很滿意的，時間比較充裕。不算很趕時間。導遊年輕有活力，安排的也不錯。從成都出發開始，小露就給我們每個家庭發通知短信，注意事項 。司機開車很穩當，團餐也還行。風景確實好漂亮，累並快樂着，不虛此行。"
+      }
+    ],
+    "ctaHeading": "Đừng ngần ngại, hãy liên hệ với chúng tôi",
+    "ctaBody": [
+      "Chúng tôi tin rằng du lịch có sức ấm",
+      "Chúng tôi hy vọng rằng trong thế giới lạnh lẽo này",
+      "mang đến cho bạn một chút hơi ấm của du lịch bằng chuyên môn và nhiệt huyết của chúng tôi",
+      "Haitao Travel Customization háo hức chào đón quý vị đến du lịch Trung Quốc!"
+    ],
+    "ctaPhone": "193 8679 6662"
+  },
+  "About": {
+    "pageTitle": "Haitao Travel Custom — Chất lượng không lo lắng",
+    "pageSubtitle": "Chuyên gia du lịch của bạn, mong chờ được đón tiếp bạn",
+    "aboutHeading": "Về chúng tôi",
+    "aboutBody": [
+      "Haitao Custom Travel là một đại lý du lịch trực tuyến chuyên cung cấp các dịch vụ du lịch cao cấp. Kể từ khi thành lập, chúng tôi luôn kiên trì triết lý \"Chất lượng là hàng đầu, Uy tín là tối thượng, Lấy con người làm trung tâm,\" phục vụ du khách với sự tận tâm và xây dựng danh tiếng vững chắc về chất lượng.",
+      "Chúng tôi hợp tác sâu rộng với các nền tảng du lịch hàng đầu như Ctrip, Facebook và Google. Đội ngũ của chúng tôi có hơn 500 nhân viên, bao gồm 270 hướng dẫn viên chuyên nghiệp đa ngôn ngữ, và chào đón hơn 100.000 du khách mỗi năm. Sau nhiều năm phát triển, chúng tôi đã xây dựng được đội ngũ vận hành toàn diện và hệ thống dịch vụ hậu mãi hoàn chỉnh. Chất lượng không lo lắng và tour không mua sắm là cam kết của chúng tôi; đưa du lịch trở về với bản chất thuần túy là sứ mệnh của chúng tôi. Ngoài tour nhóm truyền thống, tập đoàn của chúng tôi vận hành 113 khách sạn sang trọng và 27 nhà nghỉ cao cấp. Chúng tôi còn cung cấp dịch vụ lập kế hoạch hành trình trọn gói bao gồm lịch trình, khách sạn, phương tiện di chuyển tại địa phương, vé tham quan và đặt chỗ theo gói — tất cả được thiết kế riêng cho bạn. Khác với tour nhóm tiêu chuẩn hay du lịch tự do, chúng tôi tạo nên hành trình linh hoạt theo lịch trình và sở thích của bạn, đảm bảo trải nghiệm an tâm và an toàn từ đầu đến cuối."
+    ],
+    "whyHeading": "Tại sao chọn Haitao Custom Travel",
+    "why": [
+      {
+        "title": "Dịch vụ năm sao",
+        "desc": "Nhiều năm kinh nghiệm sâu rộng trong ngành du lịch, với nguồn lực độc quyền mang lại giá trị vượt trội"
+      },
+      {
+        "title": "Quản gia 24 giờ",
+        "desc": "Là nhà cung cấp dịch vụ du lịch trực tuyến, chúng tôi cung cấp dịch vụ quản gia suốt 24 giờ để bạn yên tâm"
+      },
+      {
+        "title": "Bảo hành sau bán",
+        "desc": "Đội ngũ toàn diện hỗ trợ bạn trước, trong và sau chuyến đi — hoàn toàn không lo lắng"
+      },
+      {
+        "title": "Du lịch thuần túy, không mua sắm",
+        "desc": "Du lịch thuần túy nhất, cam kết nâng cao trải nghiệm của mọi du khách"
+      },
+      {
+        "title": "Đội xe riêng",
+        "desc": "Tất cả phương tiện đều thuộc sở hữu của công ty với giấy phép hợp lệ, có đầy đủ các loại xe từ 5 đến 55 chỗ"
+      },
+      {
+        "title": "Lối vào VIP",
+        "desc": "Bỏ qua đám đông với lối vào ưu tiên — không phải xếp hàng"
+      }
+    ],
+    "servicesHeading": "Dịch vụ của chúng tôi",
+    "services": [
+      {
+        "title": "Lập kế hoạch hành trình",
+        "desc": "Đội ngũ chuyên gia của chúng tôi thiết kế lộ trình du lịch riêng cho bạn"
+      },
+      {
+        "title": "Đặt khách sạn",
+        "desc": "Tiếp cận 113 khách sạn sang trọng và 27 nhà nghỉ cao cấp trong tập đoàn"
+      },
+      {
+        "title": "Dịch vụ hướng dẫn viên",
+        "desc": "270 hướng dẫn viên chuyên nghiệp thành thạo nhiều ngôn ngữ"
+      },
+      {
+        "title": "Dịch vụ thuê xe riêng",
+        "desc": "Đội xe riêng với tài xế chuyên nghiệp, mỗi người có hơn 5 năm kinh nghiệm"
+      }
+    ],
+    "featuresHeading": "Điểm nổi bật của chúng tôi",
+    "features": [
+      {
+        "title": "Đảm bảo chất lượng",
+        "desc": "Lựa chọn cẩn thận các nguồn lực cao cấp để đảm bảo mỗi chuyến đi đều là trải nghiệm tinh tế"
+      },
+      {
+        "title": "Đội ngũ chuyên nghiệp",
+        "desc": "Hơn 500 nhân viên và 270 hướng dẫn viên dày dạn kinh nghiệm"
+      },
+      {
+        "title": "Cá nhân hóa theo yêu cầu",
+        "desc": "Hành trình linh hoạt được thiết kế theo lịch trình và sở thích của bạn"
+      },
+      {
+        "title": "Đảm bảo an toàn",
+        "desc": "Hỗ trợ du lịch toàn diện để bạn hoàn toàn yên tâm trên mọi hành trình"
+      }
+    ],
+    "ctaTitle": "Quản gia 24 giờ, luôn sẵn sàng phục vụ bạn",
+    "ctaBody": [
+      "Hành trình riêng biệt được thiết kế cho mọi nhu cầu bạn có thể tưởng tượng",
+      "Toàn thể đội ngũ Haitao Custom Travel mong chờ được chào đón bạn!"
+    ]
+  },
+  "Contact": {
+    "title": "Liên hệ chúng tôi",
+    "cards": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "hint": "Nhấn để tư vấn ngay"
+      },
+      "wechat": {
+        "label": "WeChat",
+        "hint": ""
+      },
+      "phone": {
+        "label": "Điện thoại",
+        "hint": "193 8679 6662"
+      },
+      "email": {
+        "label": "Email",
+        "hint": "418144878@qq.com"
+      },
+      "offices": {
+        "label": "Văn phòng",
+        "hint": "Công viên Yicheng, Quận Yongding, Thành phố Trương Gia Giới, Trung Quốc"
+      }
+    },
+    "formHeading": "Gửi tin nhắn cho chúng tôi hoặc liên hệ qua mạng xã hội",
+    "formSubject": "Tin nhắn mới từ trang web chính thức",
+    "form": {
+      "nameLabel": "Tên",
+      "namePlaceholder": "Nhập tên của bạn",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Nhập email của bạn",
+      "messageLabel": "Bình luận hoặc tin nhắn",
+      "messagePlaceholder": "Nhập tin nhắn của bạn",
+      "submit": "Gửi"
+    }
+  },
+  "DestinationView": {
+    "overviewHeading": "Tổng quan thắng cảnh",
+    "topSpotsHeading": "Thắng cảnh nổi tiếng",
+    "rankLabel": "TOP {rank}",
+    "ctaTitle": "Đừng ngần ngại, hãy liên hệ với chúng tôi",
+    "ctaBody": [
+      "Chúng tôi tin rằng du lịch có sức ấm",
+      "Chúng tôi hy vọng rằng trong thế giới lạnh lẽo này",
+      "mang đến cho bạn một chút hơi ấm của du lịch bằng chuyên môn và nhiệt huyết của chúng tôi",
+      "Haitao Travel Customization háo hức chào đón quý vị đến du lịch Trung Quốc!"
+    ]
+  },
+  "Destinations": {
+    "chongqing": {
+      "title": "Du lịch Trùng Khánh",
+      "overview": "Trùng Khánh — một thành phố huyền ảo, núi non và sông nước giao hòa, văn hóa nhân văn hội tụ. Nơi đây, bạn có thể chiêm ngưỡng vẻ hùng vĩ của sông Dương Tử, cảm nhận sức hút của thành phố miền núi, thưởng thức lẩu đúng điệu và trải nghiệm văn hóa Ba Dư độc đáo. Ánh đèn rực rỡ của Hồng Nhai Động, sự nhộn nhịp của Giải Phóng Bi, nét cổ kính của Từ Khí Khẩu — mỗi nơi đều tỏa ra sức hút mê hoặc. Dù là lần đầu đến Trùng Khánh hay quay lại khám phá sâu hơn, bạn đều tìm thấy nhịp điệu du lịch phù hợp với mình.",
+      "spots": {
+        "1": {
+          "title": "Hồng Nhai Động",
+          "subtitle": "Mỗi bước đi là một cảnh đẹp, cảm nhận vẻ đẹp được thời gian tô điểm",
+          "description": "Nơi trú ngụ của tâm hồn Trùng Khánh cổ — làm sao biết được vẻ mộng ảo nếu chưa đặt chân đến. Bước vào đây, bạn tưởng như xuyên qua thời gian, hơi thở lịch sử ùa đến khiến lòng ngây ngất. Dạo bước bên sông, vẻ hùng vĩ của Hồng Nhai Động và dòng Dương Tử cuồn cuộn tôn vinh lẫn nhau, đẹp đến mức khó tả!",
+          "notes": [
+            "Nếu thời gian eo hẹp, bạn không cần vào bên trong Hồng Nhai Động.",
+            "Thời gian ngắm cảnh đẹp nhất: nên đến Hồng Nhai Động từ 19:00 đến 23:00 để ngắm cảnh đêm.",
+            "Điểm tham quan lân cận: cầu Thiên Tư Môn nằm ngay cạnh Hồng Nhai Động, đi bộ chừng mười mấy phút là đến Giải Phóng Bi."
+          ],
+          "closing": "Hồng Nhai Động quy tụ văn hóa Ba Dư, cảnh quan huyền ảo và nhịp sống đô thị. Lên kế hoạch hợp lý để tránh giờ cao điểm, bạn sẽ cảm nhận trọn vẹn sức hút của thành phố miền núi."
+        },
+        "2": {
+          "title": "Nữ Tiên Sơn",
+          "subtitle": "Dạo bước nơi đây, tưởng như lạc vào tiên cảnh, cảm nhận sự dịu dàng và tĩnh lặng của thiên nhiên",
+          "description": "Một nơi mộng mơ khiến lòng người xao xuyến! Mỗi bước chân là một cuộc gặp gỡ lãng mạn với thiên nhiên — phong cảnh thơ mộng khiến bạn quên đi ồn ào thế tục. Gió núi mát lạnh lướt qua mặt, mắt tràn ngập sắc xanh, đúng là thiên đường tránh nóng! Đồng cỏ, rừng cây, đỉnh núi — mỗi nơi đều ẩn giấu bí mật của tự nhiên, đang chờ bạn khám phá.",
+          "notes": [
+            "Hãy tránh giờ cao điểm: 10:00-12:00 vào các ngày lễ là giờ vào cổng đông nhất.",
+            "Nữ Tiên Sơn có nhiệt độ trung bình năm chỉ 18°C. Mùa hè cần mang áo khoác mỏng, mùa đông cần mặc áo lông vũ.",
+            "Có thể kết hợp với Tam Kiều Thiên Sinh Vũ Long trong một ngày."
+          ],
+          "closing": "Khi hoàng hôn phủ tấm lụa vàng lên Nữ Tiên Sơn, tiếng gió rừng và tiếng chim dần hạ giọng — hành trình ngày hôm đó không chỉ là bữa tiệc cho đôi mắt, mà còn là sự chữa lành cho tâm hồn."
+        },
+        "3": {
+          "title": "Tam Kiều Thiên Sinh",
+          "subtitle": "Kỳ quan địa chất: giải mã vẻ đẹp vượt thời gian của Tam Kiều Thiên Sinh.",
+          "description": "Là Di sản Thiên nhiên Thế giới và bối cảnh quay của Transformers: Age of Extinction, ba cây cầu đá tự nhiên hình thành cách đây hàng trăm triệu năm này là một kỳ quan địa chất đích thực. Đứng dưới cầu Thiên Long ngước nhìn thân cầu cao 235 mét, hay xuyên qua hang động tối tăm của cầu Hắc Long lắng nghe tiếng suối Trân Châu leng keng — sự choáng ngợp khó có thể diễn tả bằng lời.",
+          "notes": [
+            "Nên mang giày thoải mái, khoảng cách đi bộ trong khu thắng cảnh khá dài.",
+            "Vào những ngày nắng, chụp ngược sáng sẽ làm nổi rõ các lớp mặt nước trong vắt hơn.",
+            "Có thể kết hợp tham quan cùng ngày với khu du lịch Nữ Tiên Sơn."
+          ],
+          "closing": "Hãy nhớ — chậm lại và cảm nhận bằng trái tim, bạn sẽ thấy trọn vẹn sự choáng ngợp và kỳ diệu của Tam Kiều Thiên Sinh. Đây là điểm đến lý tưởng cho du lịch nhẹ nhàng."
+        },
+        "4": {
+          "title": "Thành Xủ Vu Cửu Lê",
+          "subtitle": "Làng Miêu lớn nhất Trùng Khánh, nổi bật với văn hóa truyền thống tộc người Miêu, quy mô đồ sộ — độc đáo bậc nhất.",
+          "description": "Cửa sổ hoàn thiện nhất về văn hóa Miêu tại Trùng Khánh, với hơn 40 công trình truyền thống ẩn chứa mật mã nghìn năm của điêu khắc gỗ, trang phục và múa sào tre. Nơi duy nhất tại Trung Quốc thờ phụng Xủ Vu — một trong \"Tam Tổ Hoa Hạ\" — và tái hiện lịch sử di cư của bộ tộc Cửu Lê. Một biểu tượng tâm linh của bản sắc văn hóa Miêu.",
+          "notes": [
+            "Khuôn viên khá rộng, nên dành ít nhất nửa ngày.",
+            "Cửu Đạo Môn, Cửu Lê Cung và Cửu Lê Thần Trụ — ba công trình đều được ghi vào Kỷ lục Guinness Thế giới.",
+            "Các hoạt động dân gian gồm rượu chặn cửa, tiệc cao sơn lưu thủy và đêm lửa trại — đều miễn phí tại khu vực ban đêm mở cửa."
+          ],
+          "closing": "Nếu muốn thêm yếu tố văn hóa vào hành trình Trùng Khánh, Thành Xủ Vu Cửu Lê là điểm dừng rất đáng để sắp xếp — được du khách lớn tuổi và gia đình đánh giá cao."
+        },
+        "5": {
+          "title": "Bức Tranh Sông Ô",
+          "subtitle": "Mê đắm vẻ hùng vĩ của sông núi, yêu thích sự tĩnh lặng của những con hẻm phố cổ.",
+          "description": "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。",
+          "notes": [
+            "Nên mang giày thể thao chống trơn, mặt đường sẽ khá ẩm sau mưa.",
+            "Nhiệt độ trên mặt sông chênh lệch lớn, cần chuẩn bị áo khoác chắn gió; mùa mưa nên theo dõi thông báo tàu chạy thời gian thực của khu thắng cảnh.",
+            "Khi dạo phố cổ, hãy mang một đôi giày thoải mái để dễ dàng bước trên đường đá xanh."
+          ],
+          "closing": "Hãy chậm lại — khi ánh đèn đánh cá trong sương sớm và điệu hát trên thuyền lúc hoàng hôn trở thành dấu mốc ký ức, linh hồn sông Ô lặng lẽ thấm vào lòng bạn."
+        }
+      }
+    },
+    "sichuan": {
+      "title": "Du lịch Tứ Xuyên",
+      "overview": "Tỉnh Tứ Xuyên, viết tắt là \"Xuyên\" hoặc \"Thục\", tổng diện tích 486.000 km², là tỉnh lớn thứ năm của Trung Quốc. Địa hình đa dạng phức tạp, chênh lệch rõ rệt giữa đông – tây, cao ở phía tây và thấp ở phía đông, gồm núi, đồi, đồng bằng, lưu vực và cao nguyên. Lưu vực Tứ Xuyên là một trong bốn lưu vực lớn của Trung Quốc, sở hữu nhiều di sản văn hóa lịch sử như Cửu Trại Câu, Hoàng Long, Đô Giang Yển, Thanh Thành Sơn, Lạc Sơn Đại Phật và Nga Mi Sơn. Ngoài ra, Tứ Xuyên còn là đại gia đình đa dân tộc, có khu vực Tây Tạng lớn thứ hai của Trung Quốc, khu vực Di lớn nhất và huyện tự trị Khương duy nhất của Trung Quốc — với vô vàn lễ hội dân tộc được tổ chức quanh năm.",
+      "spots": {
+        "1": {
+          "title": "Khu thắng cảnh Cửu Trại Câu",
+          "subtitle": "Mùa xuân tươi sáng, hoa nở lãng mạn; mùa hè xanh mướt Cửu Trại Câu, mát lạnh thỏa thích.",
+          "description": "Cửu Trại Câu là một thung lũng núi phủ rừng, được đặt tên theo chín ngôi làng Tây Tạng nằm giữa quần thể hồ núi cao. Là Di sản Thiên nhiên Thế giới và Khu thắng cảnh AAAAA quốc gia, Cửu Trại Câu nổi tiếng với \"Lục Tuyệt\" — quần thể hồ trên núi, thác nước, rừng sắc màu, đỉnh phủ tuyết, băng xanh và văn hóa Tây Tạng — xứng danh \"Vua của cảnh thủy\".",
+          "notes": [
+            "Mùa thu là lúc rừng sắc màu và mặt hồ có lớp màu phong phú nhất. Nếu có thời gian, hãy dành trọn một ngày để khám phá sâu — kết hợp đi bộ và xe du lịch sẽ cho trải nghiệm trọn vẹn nhất."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Khu thắng cảnh Bích Bình Câu",
+          "subtitle": "Thiên đường của những người yêu thích đi bộ đường dài và là một trong những địa điểm ngắm lá đỏ nổi tiếng nhất Trung Quốc",
+          "description": "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閑度假於一體的大型原生態旅遊風景區。",
+          "notes": [
+            "Mùa lá đỏ và mùa tuyết rơi đầu tiên là thời điểm cao điểm — nên đặt vé và phương tiện đi lại trước, đồng thời chuẩn bị trang phục chống gió và giữ ấm phù hợp với thời tiết."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Khu thắng cảnh danh lam thắng cảnh Hoàng Long",
+          "subtitle": "Những hồ đá vôi đầy màu sắc rực rỡ và các dạng địa hình karst hiếm có",
+          "description": "Vùng đất ngập nước trên cao nguyên được bảo tồn nguyên vẹn duy nhất của Trung Quốc, nổi tiếng thế giới với \"Tứ Kỳ\" — các hồ đầy màu sắc, những ngọn núi phủ tuyết, hẻm núi sâu và rừng cổ thụ. Những hồ đá vôi thay đổi sắc cầu vồng khi phong cảnh xung quanh và góc ánh sáng mặt trời thay đổi, được mệnh danh là \"Ao Tiên trên Trần gian\". Hoàng Long nổi tiếng với quy mô đồ sộ, cấu trúc tinh xảo, cảnh quan đá vôi trên mặt đất đầy màu sắc rực rỡ, cùng các dạng địa hình karst hiếm có được cả thế giới biết đến.",
+          "notes": [
+            "Hoàng Long nằm ở độ cao tương đối lớn — hãy đi chậm lại, uống đủ nước, và nên đến vào khoảng giữa trưa những ngày trời quang để ngắm sắc màu rực rỡ nhất của các hồ."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Khu thắng cảnh Núi Tứ Cô Nương",
+          "subtitle": "Những đỉnh núi tuyết ở độ cao lớn được mệnh danh là \"Alpes của Trung Quốc\" — thiên đường của những người yêu thích đi bộ đường dài",
+          "description": "Núi Tứ Cô Nương là đỉnh cao nhất của dãy Qung Lãi ở rìa phía đông dãy Hoành Đoán, gồm bốn đỉnh núi liền kề luôn phủ tuyết, đứng như bốn thiếu nữ khoác khăn trắng, lần lượt sừng sững trên hai dòng sông bạc của thung lũng Trường Bình và thung lũng Hải Tử. Đây từ lâu đã là thiên đường của những người đi bộ đường dài — các con đường mòn trong hẻm núi quanh co và hẹp, nước từ tuyết trên đỉnh núi tan ra chảy nhẹ qua các suối nhỏ; vượt qua sườn núi là những đồng cỏ trên núi rộng lớn phủ đầy hoa dại, vẽ nên bức tranh dịu dàng và tinh tế.",
+          "notes": [
+            "Du khách lần đầu nên bắt đầu với tuyến tham quan Thung lũng Song Kiều, vừa sức và có mật độ phong cảnh dày đặc; những người đi bộ đường dài nghiêm túc có thể thêm tuyến sâu vào Thung lũng Trường Bình."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Đồng cỏ Nhiệt Nhĩ Nhĩ Gải",
+          "subtitle": "Đồng cỏ lớn thứ hai của Trung Quốc, chỉ sau Đồng cỏ Hô Luân Bu Bắc",
+          "description": "Đồng cỏ Nhiệt Nhĩ là đồng cỏ lớn thứ hai của Trung Quốc, chỉ sau Đồng cỏ Hô Luân Bu Bắc, và là nơi có Hồ Hoa — vùng đất ngập nước tự nhiên nổi tiếng. Đồng cỏ có nhiều hồ rải rác, đầy gia súc như bò và cừu; dọc đường, các homestay phong cách Tây Tạng của người chăn gia súc phục vụ ăn uống và cưỡi ngựa. Thời điểm đẹp nhất để đến thăm là tháng Bảy và tháng Tám mùa hè, khi các sườn đồi nở rộ hoa dại.",
+          "notes": [
+            "Nên kết hợp với Khúc đầu tiên của Cửu Khúc Hoàng Hà — ánh sáng chiều hòa với đường chân trời đồng cỏ rất đẹp để chụp ảnh, vì vậy hãy sắp xếp thời gian vào lúc hoàng hôn."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "zhangjiajie": {
+      "title": "Du lịch Trương Gia Giới",
+      "overview": "Khu thắng cảnh chính của Trương Gia Giới là Khu thắng cảnh Vũ Lăng Nguyên — khi nói đến du lịch Trương Gia Giới, người ta thường muốn nói đến Vũ Lăng Nguyên. Khu thắng cảnh Vũ Lăng Nguyên gồm Vườn Quốc gia Trương Gia Giới, Khu bảo tồn thiên nhiên Núi Thiên Tử, Khu bảo tồn thiên nhiên Tác Tây Dụ và Khu bảo tồn thiên nhiên Dương Gia Giới. Các điểm tham quan nổi tiếng khác trong thành phố còn có Vườn Quốc gia Núi Thiên Môn, nơi có những cầu đi bộ bằng kính khiến tim đập thình thịch và động Thiên Môn huyền ảo, kỳ diệu — luôn được du khách yêu thích và ca ngợi là \"huyền thoại mới của Trương Gia Giới\". Cách thành phố không xa, \"Động đẹp nhất Trung Hoa\" — Động Hoàng Long — và \"Ao Tiên trên Trần gian\" Hồ Bảo Phong có thể đến bằng xe buýt hoặc taxi. Ngoài ra, \"Phòng tranh trăm dặm\" chèo thuyền trên sông Mao Nham, \"Động số một châu Á\" Cửu Thiên Động ở huyện Tang Trực, thị trấn Phù Những và \"Chèo thuyền số một thế giới\" chèo thuyền trên sông Mãnh Động đều là những nơi tuyệt vời cho tham quan.",
+      "spots": {
+        "1": {
+          "title": "Vườn Quốc gia Trương Gia Giới",
+          "subtitle": "Vườn Quốc gia đầu tiên của Trung Quốc — \"tiên cảnh thu nhỏ và chậu cảnh phóng to\"",
+          "description": "Được chia thành các khu vực phụ gồm Hoàng Thạch Trại, Tỳ Bà Khê, Kim Biên Khê, Yến Tử Trại, Shudaogou và Viên Gia Giới, đây là phần cốt lõi không thể bỏ qua trong bất kỳ chuyến đi Trương Gia Giới nào. Về mặt địa chất, khu vực đang ở giai đoạn trẻ trong sự tiến hóa của rừng đỉnh núi, các dạng địa hình kỳ lạ: các cột đá mọc san sát với muôn hình vạn trạng, thảm thực vật tươi tốt, sườn dốc đứng, khe suối sâu thăm thẳm, khí hậu ấm áp và ẩm ướt. Hoàng Thạch Trại là khu vực nổi tiếng nhất trong Vườn Quốc gia Trương Gia Giới — có câu nói rằng \"Chưa đến Hoàng Thạch Trại thì chưa thực sự đến Trương Gia Giới\".",
+          "notes": [
+            "Nên vào cổng sớm, bắt đầu với tuyến chính Viên Gia Giới và Kim Biên Khê, sau đó tùy sức mà thêm Núi Thiên Tử hoặc Dương Gia Giới — vừa tiết kiệm thời gian vừa tránh được giờ đông đúc nhất."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Vườn Quốc gia Núi Thiên Môn",
+          "subtitle": "Đỉnh núi ở độ cao lớn, vách đá dựng đứng, cầu đi bộ bằng kính — kiệt tác của tạo hóa",
+          "description": "Núi Thiên Môn được đặt tên theo kỳ quan tự nhiên \"Động Cổng Trời\". Khi đi cáp treo lên, phong cảnh ngọn núi phía dưới hiện ra dưới chân bạn. Điểm nhấn chính là Chùa Núi Thiên Môn. Cầu đi bộ bằng kính, xây dựng dọc theo các vách đá dựng đứng, là điều không thể bỏ qua — nhìn xuống những thung lũng sâu thăm thẳm trong khi bước đi giữa không trung mang đến cảm giác phấn khích có một không hai. Núi Thiên Môn cung cấp ba tuyến tham quan cổ điển, mỗi tuyến đều có những điểm nhấn riêng biệt.",
+          "notes": [
+            "Hãy sắp xếp một tuyến kết hợp nối cáp treo, cầu đi bộ bằng kính và động Thiên Môn — và chọn buổi sáng hoặc chiều muộn để chụp ảnh, khi sương mờ ảo tạo thêm chiều sâu tuyệt đẹp cho núi."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Núi Thiên Tử",
+          "subtitle": "Bốn kỳ quan đặc trưng — biển mây, ánh trăng, bầu trời hoàng hôn rực rỡ và tuyết mùa đông",
+          "description": "Nằm ở phía bắc Vườn Quốc gia Trương Gia Giới và giáp khu thắng cảnh Tác Tây Dụ về phía đông, Núi Thiên Tử được đặt tên theo nhà lãnh đạo người Thổ Gia đầu nhà Minh Tương Đại Khôn, người tự xưng là \"Vương Tương, Thiên Tử\". Điểm cao nhất đạt khoảng 1.262,5 mét và điểm thấp nhất khoảng 534 mét; du khách đến đây có thể chiêm ngưỡng bốn kỳ quan đặc trưng — mây mù trôi, những đêm trăng, bầu trời nhuốm hoàng hôn và tuyết mùa đông. Hàng trăm triệu năm trước, Núi Thiên Tử từng nằm dưới đại dương mênh mông; qua các quá trình địa chất lâu dài và phức tạp, nó đã vươn lên thành những dạng địa hình kỳ vĩ như ngày nay, bao gồm đỉnh Yubi (Bút Lông Hoàng gia) nổi tiếng.",
+          "notes": [
+            "Vào những ngày trời quang, hãy dành thêm thời gian ở các đài quan sát chính. Nếu may mắn gặp ngày có biển mây, khung cảnh rừng đỉnh núi ở đây sẽ vô cùng ngoạn mục — và rất đáng để chụp ảnh."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Động Hoàng Long Trương Gia Giới",
+          "subtitle": "Động duy nhất của Trung Quốc có thể tham quan vào ban đêm, chứa đựng vô số măng đá và thạch nhũ",
+          "description": "Động Hoàng Long nổi tiếng với trần hang rộng và cao, dòng sông ngầm sâu thẳm và rừng măng đá dày đặc. Hang cao tới hơn 100 mét tại điểm cao nhất — và toàn bộ hệ thống hang chứa hang trong hang, sông chảy xuyên qua. Điểm nhấn đặc trưng là \"Định Hải Thần Châm\" (Cây châm giữ biển), một măng đá đã phát triển 200.000 năm, cao 20 mét — nhưng chỗ mỏng nhất chỉ rộng 10 cm — có giá trị đến mức công viên đã bảo hiểm 100 triệu nhân dân tệ. Hang cung cấp cả tuyến đi bộ và đi thuyền, để du khách khám phá cả trên cạn lẫn dưới nước.",
+          "notes": [
+            "Experience in this order: walk through the cave first, then take the underground river boat — a more comfortable pace that lets you fully appreciate the cave lighting and karst details."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Hẻm núi Lớn Trương Gia Giới",
+          "subtitle": "Đứng trên Cầu Kính Hẻm Núi Lớn để ngắm toàn cảnh hẻm núi phía dưới",
+          "description": "Bảo tàng tự nhiên thu nhỏ của phong cảnh Trương Gia Giới — núi, nước và hang động tất cả trong một nơi — nơi du khách có thể chiêm ngưỡng toàn bộ vẻ đẹp của địa hình karst ôn đới phía bắc chỉ trong một chuyến đi. Hẻm núi rậm rạp thảm thực vật tươi tốt và không khí trong lành, với những thác nước đổ xuống và những dòng suối rì rào gần như khắp mọi nơi — một quán bar oxy tự nhiên đích thực. Ngoài phong cảnh ngoạn mục, điểm nhấn không thể bỏ qua của công viên là cây cầu kính cao nhất và dài nhất thế giới. Đứng trên Cầu Kính Hẻm Núi Lớn Trương Gia Giới, bạn nhìn thẳng xuống đáy hẻm núi cách 400 mét bên dưới.",
+          "notes": [
+            "Nên đặt khung giờ cho cầu kính trước và dành đủ thời gian xếp hàng và đi bộ. Những người thích chụp ảnh sẽ tận hưởng cầu kính nhất vào giờ thấp điểm."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "guangxi": {
+      "title": "Du lịch Quảng Tây",
+      "overview": "Quảng Tây là vùng đất bí ẩn nơi những ngọn núi và sông hùng vĩ hòa quyện với hơi ấm của cuộc sống đời thường. Một nửa là thiên nhiên thơ mộng, đẹp như tranh, nửa còn lại là sự nhộn nhịp của các con phố địa phương — cùng nhau dệt nên một trải nghiệm du lịch không giống bất kỳ nơi nào khác. Ở Quảng Tây, mỗi góc đều là một bức tranh phong cảnh: đồi xanh ngọc và nước trong vắt, nơi bạn trở thành một nét bút lang thang trong khung cảnh. Núi Thanh Tú của Nam Ninh lấp đầy trái tim bạn bằng sắc xanh, mỗi hơi thở đều thoảng mùi tươi mát của lá và cỏ. Lưu Châu lạo sức phấn (Luosifen) là một bữa tiệc của vị cay nồng đầy táo bạo. Núi sông Quế Lâm tựa như nét bút lông tinh tế trong một bài thơ nhà Tống — đẹp đẽ khó lòng diễn tả.",
+      "spots": {
+        "1": {
+          "title": "Quế Lâm",
+          "subtitle": "\"Đệ nhất thiên hạ\" — ngay khi bạn thốt ra những lời ấy, bạn biết mình đã thực sự đến Quế Lâm",
+          "description": "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!",
+          "notes": [
+            "Các điểm nhất định phải ghé thăm: sông Ly, Núi Vòi Voi, Phố Tây Dương Sóc, ruộng bậc thang Long Tích và Hai Sông Bốn Hồ.",
+            "Mùa xuân (tháng 3-5) và mùa thu (tháng 9-11) là thời điểm đẹp nhất để du lịch Quế Lâm.",
+            "Thời tiết Quế Lâm thay đổi thất thường, vì vậy nhất định phải xem dự báo trước và chọn ngày đẹp trời để đi."
+          ],
+          "closing": "Hãy một lần đến Quế Lâm, đón gió bên bờ sông Ly, dạo bước qua thị trấn cổ Hưng Bình, ghé thắng cảnh sông Ly ở Dương Sóc in trên tờ hai mươi nhân dân tệ và cảm nhận sức hút của non nước Quế Lâm đẹp nhất thiên hạ."
+        },
+        "2": {
+          "title": "Bắc Hải",
+          "subtitle": "Một thành phố biển nhỏ “mang tên từ biển và sinh ra cùng biển”",
+          "description": "Bắc Hải là một điểm du lịch bị nhiều người bỏ quên, nhưng lại đủ sức khiến người ta “đến rồi chẳng muốn rời đi”. Sức hút của nơi đây không nằm ở sự “choáng ngợp”, mà ở cảm giác “dễ chịu”——thứ cảm giác giúp cả thể chất lẫn tinh thần thư thái và đưa ta trở về với nhịp sống chân thật vốn có.",
+          "notes": [
+            "Hãy săn vé tàu ra đảo Vi Châu trước 15 ngày; lúc 6 giờ sáng ngắm bình minh ở Ngân Than là khi ít người nhất.",
+            "Bạn có thể trải nghiệm bắt hải sản khi thủy triều rút (bắt cá tôm, nhặt vỏ sò, thường bắt đầu sau 5 giờ chiều)."
+          ],
+          "closing": "Ngân Than lấp lánh như dải ngân hà đổ xuống, đảo Vi Châu kể khúc tình ca nghìn năm giữa biển và núi lửa, còn nhịp sống nơi phố cổ hòa cùng bình minh trên biển thành nét lãng mạn chữa lành nhất."
+        },
+        "3": {
+          "title": "Nam Ninh",
+          "subtitle": "Một nửa là hơi thở đời thường , một nửa là cõi mộng nên thơ như tranh",
+          "description": "Nam Ninh là thành phố kết hợp hoàn hảo cảnh sắc thiên nhiên, chiều sâu lịch sử và nhịp sống dân dã. Nơi đây vừa có vẻ đẹp của núi xanh cùng dòng sông uyển chuyển, vừa có những ngõ phố cổ kính và chợ đêm náo nhiệt.",
+          "notes": [
+            "Thời tiết Nam Ninh nóng ẩm, vì vậy đồ chống nắng + ô là những vật dụng không thể thiếu.",
+            "Các điểm tham quan nằm khá rải rác, đừng xếp lịch một ngày quá kín; thong thả khám phá sẽ dễ chịu hơn.",
+            "Trước hết hãy xì xụp một bát bún Lão Hữu, rồi dạo chợ đêm—đó mới là cách đúng điệu để khám phá Ung Thành."
+          ],
+          "closing": "Với dáng vẻ rộng mở và bao dung, Nam Ninh đan xen vẻ đẹp non nước, chiều sâu lịch sử cùng niềm vui cuộc sống, chờ du khách đến chậm rãi cảm nhận."
+        },
+        "4": {
+          "title": "Liễu Châu",
+          "subtitle": "Một thành phố độc đáo nơi non nước đan xen với công nghiệp, nhịp sống đời thường song hành cùng chất thơ",
+          "description": "Sức hút của nơi đây không chỉ nằm trong một bát bún ốc thơm ngon cay nồng, mà còn ở phong cảnh trải dài trăm dặm bên sông Liễu với “dòng sông uốn khúc tựa chín vòng ruột”, hoa ban tím nở khắp thành phố mỗi độ xuân về, cùng mạch nguồn lịch sử sâu dày và bản sắc dân tộc đậm đà.",
+          "notes": [
+            "Tại Công viên Liễu Hầu, hãy hòa mình cùng gió, leo núi ngắm sắc xanh và tận hưởng trọn vẹn vẻ đẹp thiên nhiên.",
+            "Tại Bảo tàng Công nghiệp Liễu Châu, hãy tìm dấu vết năm tháng và cảm nhận dòng thời gian trôi.",
+            "Một bát bún ốc, hai quả trứng kho, vài người bạn thân—ký ức về Liễu Châu giản dị mà đẹp đẽ."
+          ],
+          "closing": "Nơi đây non xanh nước biếc, phong cảnh hữu tình và được ca ngợi là “đại bồn cảnh lớn nhất thế giới”. Tại đây, bạn có thể cảm nhận đậm nét bản sắc dân tộc, nếm thử món ngon địa phương, thưởng ngoạn thiên nhiên và bất ngờ gặp những điều tươi đẹp."
+        },
+        "5": {
+          "title": "Sùng Tả",
+          "subtitle": "Nơi trọng văn chuộng lễ、kinh đô mía đường, quê xưa của Lạc Việt, thi ca và rượu viết nên áng hoa chương",
+          "description": "Thành phố biên giới này không dựa vào quảng trường lớn hay khu thương mại náo nhiệt, cũng chẳng cần chiêu trò chụp ảnh thịnh hành; điều thực sự níu chân người ta là sự tĩnh lặng tự nhiên giữa non nước. Cảnh đẹp bất chợt hiện ra sau mỗi khúc quanh giống như khoản tiền riêng giấu trong túi, khiến lòng yên tâm và vững chãi.",
+          "notes": [
+            "Sương nước Đức Thiên、ruộng lúa Minh Sĩ、tranh đá Hoa Sơn, tất cả đều là những vần thơ Sùng Tả viết tặng thế giới.",
+            "Khu vực biên giới có kiểm soát; khi chụp ảnh hãy tránh quân nhân, cảnh sát và trạm gác, đồng thời nghe theo hướng dẫn của nhân viên, đừng liều lĩnh.",
+            "Đường trơn vào mùa mưa, vì vậy hãy mang giày chống trượt; áo mưa tiện hơn ô và giúp bạn rảnh tay để bám lan can."
+          ],
+          "closing": "Tại đây, bạn có thể cảm nhận sức hút độc đáo của thiên nhiên. Dù là vẻ hùng vĩ của thác xuyên biên giới Đức Thiên hay nét thanh bình tươi đẹp của đồng quê Minh Sĩ, tất cả đều khiến bạn lưu luyến chẳng muốn rời. Mỗi cảnh sắc mang một vẻ cuốn hút riêng, làm hành trình của bạn tràn đầy bất ngờ và xúc động."
+        }
+      }
+    },
+    "guizhou": {
+      "title": "Du lịch Quý Châu",
+      "overview": "Quý Châu là miền đất bí ẩn nơi kỳ quan non nước hòa quyện hoàn hảo cùng bản sắc dân tộc. Một nửa là tạo tác thiên nhiên hùng vĩ khoáng đạt, một nửa là bức tranh văn hóa rực rỡ đậm đà, cùng tạo nên trải nghiệm du lịch độc đáo và mê hoặc. Ở Quý Châu, mỗi khung hình đều đẹp như ảnh nền màn hình; giữa núi non hùng vĩ và sông nước hữu tình, tôi hóa thành một chấm mực thỏa sức ngao du trong tranh～Tại thác Hoàng Quả Thụ ở An Thuận, hơi nước mát lạnh táp vào mặt, bên tai là tiếng thác gầm vang đầy tráng lệ. Ở Tiểu Thất Khổng, Lệ Ba, hồ biếc ngưng sắc xanh như ngọc, chèo thuyền là bước vào cõi tranh. Tại Núi Phạm Tịnh ở Đồng Nhân, đỉnh núi cô độc xuyên thẳng tầng mây; lên đến đỉnh mới cảm nhận trời đất bao la. Ở làng Miêu Tây Giang vùng Đông Nam Quý Châu, muôn nhà lên đèn tựa sao trời; khi đêm xuống, nơi đây hóa thành chốn nhân gian ấm áp nhất. Tại vùng Đan Hà Xích Thủy ở Tuân Nghĩa, vách đá đỏ và thác bay soi chiếu lẫn nhau; đi xuyên qua tựa như trở về kỷ Jura.",
+      "spots": {
+        "1": {
+          "title": "Thác Hoàng Quả Thụ",
+          "subtitle": "Xuân dòng xiết, hạ thác reo, hơi nước hóa sương；thu trong vắt, đông ngưng đọng, động trời mang một vẻ riêng",
+          "description": "Thác Hoàng Quả Thụ là thác nước lớn nhất Trung Quốc và nổi tiếng trên thế giới, được đặt tên theo loài đa Hoàng Cát mọc phổ biến tại địa phương. Đây là khu du lịch cấp AAAAA quốc gia và nằm trong danh sách dự kiến của Di sản Thiên nhiên Thế giới. Dòng nước hùng tráng, kỳ quan ngắm thác từ sáu hướng, cảnh sắc biến đổi trong ngoài động Thủy Liêm cùng phong quang hẻm núi karst hợp thành「Tứ tuyệt Hoàng Quả Thụ」, khiến nơi đây được ca ngợi là「Đệ nhất thác Trung Hoa」.",
+          "notes": [
+            "Vào mùa nước lớn (tháng 6-8), dòng thác hùng vĩ và ngoạn mục nhất. Nên tham quan buổi sáng khi ánh sáng thuận, đồng thời kết hợp cầu Thiên Tinh và Đẩu Pha Đường thành hành trình tinh hoa trong một ngày. Hãy chuẩn bị áo mưa khi đi xuyên động Thủy Liêm."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Tiểu Thất Khổng, Lệ Ba",
+          "subtitle": "Xuân hồ đọng sắc biếc, hạ rừng gọi bước tìm u tịch；thu sương giăng kín cầu, đông nước phẳng như gương",
+          "description": "Tiểu Thất Khổng, Lệ Ba là kỳ quan địa mạo karst lấy cây cầu cổ bảy nhịp làm trung tâm, được đặt tên theo cây cầu đá bảy nhịp thời Thanh bắc qua sông Hưởng Thủy. Đây là khu du lịch cấp AAAAA quốc gia và là bộ phận quan trọng của Di sản Thiên nhiên Thế giới「Karst Nam Trung Quốc」. Nước biếc hồ sâu, thác tầng tung bay, rừng trên nước, hang động đá vôi cùng sông ngầm và bản sắc dân tộc Bố Y hợp thành「Ngũ vận Tiểu Thất Khổng」, khiến nơi đây được ca ngợi là「Viên ngọc lục bảo trên vành đai Trái Đất」.",
+          "notes": [
+            "Mùa hè nước dồi dào, bạn có thể trải nghiệm cảm giác mát lành khi「bước qua thác, nô đùa cùng nước」trong khu rừng trên nước. Nên vào khu du lịch từ sáng sớm để tránh lúc đông đoàn khách; xen kẽ đi bộ và xe tham quan sẽ thoải mái hơn."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Núi Phạm Tịnh",
+          "subtitle": "Xuân mây cuộn miên man, hạ xanh non mơn mởn；thu trời cao khí mát, đông tuyết phủ như voan",
+          "description": "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區，中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。",
+          "notes": [
+            "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Làng Miêu Thiên Hộ Tây Giang",
+          "subtitle": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
+          "description": "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區，中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繡工藝和苗族飛歌古歌並稱「西江五韻」，被譽為「中國苗都」。",
+          "notes": [
+            "Lên đài quan sát vào lúc hoàng hôn để bắt ngay khoảnh khắc ánh nắng hoàng hôn gặp những ánh đèn đầu tiên. Khuyến nghị ở lại một đêm để trải nghiệm sâu sắc cuộc sống của người Miao—sương sớm quanh làng tạo không khí yên bình hơn cả cảnh đêm."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Khu du lịch Đan Hà Xích Thủy",
+          "subtitle": "Spring bamboo drips emerald, summer waterfalls bring coolness; autumn forests blaze with color, winter mist veils everything.",
+          "description": "Chishui Danxia is one of China's largest Danxia landform areas — named for its red sandstone cliffs contrasting with green bamboo and waterfalls. Part of the UNESCO China Danxia site. Known for Danxia cliffs, waterfalls, bamboo forests, cycad fossils, and red culture.",
+          "notes": [
+            "Summer is the best season for Chishui Waterfall and Foguang Rock — wear non-slip sandals for water access. The three scenic sections are far apart, so driving or chartering is best. Reserve a full day."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "yunnan": {
+      "title": "Tour Vân Nam",
+      "overview": "Phía Nam của những đám mây — Vân Nam. Nơi đây có Shangri-La, núi tuyết Meili linh thiêng. Côn Minh mùa xuân, phố cổ Lệ Giang, Đại Lý lãng mạn, Xishuangbanna nhiệt đới, và Shangri-La — thánh địa hành hương và thiên đường trekking.",
+      "spots": {
+        "1": {
+          "title": "Hồ Nhĩ Hải",
+          "subtitle": "Bên núi Thương Sơn và hồ Nhĩ Hải, giữa gió hoa tuyết nguyệt",
+          "description": "Một trong bốn cảnh quan nổi tiếng của Đại Lý 'Gió, Hoa, Tuyết, Nguyệt', hồ Nhị Hải có hình dạng như chiếc tai, được hình thành từ sự sụp đổ của sông Nhị Hải Tây. Được gọi là 'Ngọc ngọc nguyên chất giữa núi non' với ba đảo, bốn đảo nhỏ, năm hồ, và chín khúc cua quanh co với nước trong vắt. Các làng du lịch nổi tiếng bên hồ bao gồm Song Lang với 'Ánh sáng thần hồ Nhị Hải', Thái Thôn nơi phim 'Blueless' được quay, và Hy Châu nổi tiếng với kiến trúc nhà ở dân tộc Bạch.",
+          "notes": [
+            "Cycle around Erhai or take a leisurely charter to connect Shuanglang, Xizhou, and Caicun — experience lake views, local culture, and regional cuisine all in one day."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Khu thắng cảnh hồ Lô Cô",
+          "subtitle": "Phong cảnh hồ cao nguyên và văn hóa mẫu hệ Mosuo",
+          "description": "Hồ Lô Cổ là hồ biên giới giữa hai tỉnh Tứ Xuyên và Vân Nam, xung quanh hồ chủ yếu cư trú người Moso, Yi và PuMi. Nước hồ trong xanh biếc, là hồ cao nhất Vân Nam và cũng là một trong những hồ nước ngọt sâu nhất Trung Quốc, đầy màu sắc huyền bí. Bốn phía khu du lịch là núi cao chót vót, có tuyết rơi hơn ba tháng một năm, rừng phong phú, được mệnh danh là \"Động đình tiên cảnh\". Điểm tham quan chính gồm cáp treo Nữ Thần, Biển Cỏ Nhỏ, Ba Đảo Lô Cổ, tour xe điện vòng quanh hồ là cách phổ biến nhất.",
+          "notes": [
+            "Stay at a lakeside inn — morning mist on the lake and evening sunset are Lugu Lake's most atmospheric moments."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Phố cổ Lệ Giang",
+          "subtitle": "Nhà gỗ ngói xanh — ngước lên là thấy núi tuyết Ngọc Long",
+          "description": "One of the most famous towns on the Ancient Tea Horse Road with 800-900 years of history. Wooden buildings with grey tiles, stone lanes, bridges over streams — look up from East Street and see Jade Dragon Snow Mountain. One of two ancient towns in China successfully inscribed as UNESCO World Heritage sites in their entirety.",
+          "notes": [
+            "Khám phá ngõ cổ và Mộc Phủ ban ngày, thưởng thức ánh đèn và âm nhạc ban đêm."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Núi tuyết Ngọc Long",
+          "subtitle": "Dãy núi tuyết gần xích đạo nhất, cũng là núi tuyết lớn ở cực nam bán cầu bắc",
+          "description": "Ngọn núi thiêng của người Naxi — đỉnh chính Shanzidou cao 5.596m, quanh năm mây phủ, là đỉnh núi trinh nguyên chưa bị chinh phục.",
+          "notes": [
+            "At high altitudes, acclimatize gradually following park guidance. Pair with lower-altitude spots like Blue Moon Valley for a more comfortable itinerary."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Phố cổ Thúc Hà",
+          "subtitle": "So với Lệ Giang, nơi đây càng yên tĩnh hơn",
+          "description": "Shuhe Ancient Town lies northwest of Lijiang, nestled by mountains and water — quieter than Dayan. Backed by the Jade Dragon Snow Mountain foothills, it features well-preserved stone bridges and temples. Part of the Lijiang UNESCO World Heritage site.",
+          "notes": [
+            "Nếu bạn thích du lịch chậm yên tĩnh, Thúc Hà tốt hơn Đại Nghiên cho kỳ nghỉ dài hơn."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "beijing": {
+      "title": "Du lịch Bắc Kinh",
+      "overview": "Bắc Kinh — thành phố tráng lệ pha trộn giữa vẻ uy nghi ngàn năm đế đô và phong cách hiện đại. Mỗi bước chân là tiếng vọng lịch sử: Tử Cấm Thành, Vạn Lý Trường Thành, Thiên Đàn, Di Hòa Viên, Quảng trường Thiên An Môn.",
+      "spots": {
+        "1": {
+          "title": "Bảo tàng Cố Cung",
+          "subtitle": "Tường son ngói vàng, nghìn năm trong một cái nhìn",
+          "description": "The Forbidden City — the imperial palace of the Ming and Qing dynasties — is the world's largest and best-preserved ancient wooden architectural complex. A UNESCO World Heritage site housing over a million cultural relics. Stroll along the central axis from the Meridian Gate to the Gate of Divine Prowess and feel the weight of 600 years of history.",
+          "notes": [
+            "Dành ít nhất nửa ngày đi dọc trục trung tâm từ Ngọ Môn đến Thần Võ Môn.",
+            "Vé Cố Cung phải đặt trước qua kênh chính thức — không bán tại chỗ.",
+            "Tránh giờ cao điểm cuối tuần và ngày lễ — sáng ngày thường ít người hơn."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Bát Đạt Lĩnh Trường Thành",
+          "subtitle": "Rồng khổng lồ cuộn quanh núi, đứng gác phương bắc",
+          "description": "Đoạn Bát Đạt Lĩnh là phần được bảo tồn hoàn chỉnh nhất và mang tính đại diện nhất của Vạn Lý Trường Thành thời Minh, cũng là đoạn đầu tiên được mở cửa cho du khách, được xưng là \"một trong chín cửa ải lớn dưới gầm trời\". Di sản Thế giới, khu du lịch cấp 5A quốc gia. Nơi đây có địa hình hiểm trở, tường thành cao vời, tháp canh dày đặc, phong cảnh bốn mùa khác nhau. Có thể đi cáp treo lên núi, rồi đi bộ leo lên Tháp Bắc bốn hoặc Đồi Hảo Hán để ngắm nhìn rồng uốn mình qua dãy núi.",
+          "notes": [
+            "Đi cáp treo lên, rồi đi bộ đến Bắc Tứ Lâu hoặc Hảo Hán Pha.",
+            "Tránh cuối tuần và ngày lễ — sáng sớm hoặc chiều muộn ít đông đúc hơn.",
+            "Nhiệt độ trên núi chênh lệch lớn — mang áo khoác mỏng vào mùa xuân và thu."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Công viên Thiên Đàn",
+          "subtitle": "Trời tròn đất vuông, lặng lẽ cầu năm mới bội thu",
+          "description": "The Temple of Heaven was where Ming and Qing emperors offered sacrifices for good harvests — the largest ancient sacrificial complex in China. A UNESCO site featuring the Hall of Prayer, Echo Wall, and Circular Mound Altar. Visit in the morning to see locals exercising.",
+          "notes": [
+            "Nên đi buổi sáng, tránh đông đúc và cảm nhận cuộc sống địa phương.",
+            "Điện Kỳ Niên, Tường Hồi Âm và Viên Khâu Đàn là những điểm không thể bỏ qua.",
+            "Công viên rộng — dành 2-3 giờ tham quan."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Di Hòa Viên",
+          "subtitle": "Hồ núi phản chiếu — bức tranh hoàng gia sống động",
+          "description": "The Summer Palace — built during the Qianlong and Guangxu reigns — is China's largest and best-preserved imperial garden, centered on Kunming Lake and Longevity Hill with Jiangnan-style landscaping. A UNESCO site featuring the Tower of Buddhist Incense, the Long Corridor, and the Seventeen-Arch Bridge.",
+          "notes": [
+            "Đẹp quanh năm, đặc biệt là mùa xuân và mùa thu.",
+            "Đi thuyền qua hồ Côn Minh để có góc nhìn khác.",
+            "Khuôn viên rộng — dành nửa ngày tham quan thong thả."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Quảng trường Thiên An Môn",
+          "subtitle": "Trung tâm quốc gia, nơi mọi trái tim hội tụ",
+          "description": "Quảng Trường Thiên An Môn nằm trên trục trung tâm của Bắc Kinh, là quảng trường đô thị lớn nhất thế giới, là biểu tượng quốc gia và địa điểm quan trọng cho các hoạt động chính trị. Ở trung tâm quảng trường tọa lạc Tượng đài Liệt sĩ Nhân dân, phía bắc là Tháp Cửa Thiên An Môn trang nghiêm, phía đông là Bảo tàng Quốc gia Trung Quốc, phía tây là Đại hội đường Nhân dân. Lễ thượng cờ hàng ngày trang nghiêm và thành kính, thu hút vô số người canh đêm chờ đợi. Có thể kết hợp tham quan Bảo tàng Quốc gia để cảm nhận sự kế thừa và vinh quang của dòng máu Hoa Hạ giữa lịch sử và hiện tại.",
+          "notes": [
+            "Lễ thượng cờ hàng ngày thay đổi theo bình minh — kiểm tra trước và đến sớm.",
+            "Kết hợp với Bảo tàng Quốc gia Trung Quốc — vào cửa miễn phí nhưng cần đặt trước.",
+            "Cần kiểm tra an ninh để vào quảng trường — vui lòng mang theo giấy tờ tùy thân."
+          ],
+          "closing": ""
+        }
+      }
+    },
+    "xian": {
+      "title": "Du lịch Tây An",
+      "overview": "Tây An — cố đô huyền thoại với nghìn năm lịch sử. Chạm vào gạch Tần ngói Hán, lắng nghe tiếng lạc đà trên Con đường Tơ lụa, nếm súp thịt cừu, đắm mình trong sử thi mười ba triều đại.",
+      "spots": {
+        "1": {
+          "title": "Bảo tàng Tượng Binh Mã Tần Thủy Hoàng",
+          "subtitle": "\"Đội quân dưới lòng đất\" gây chấn động thế giới — đỉnh cao của nghệ thuật quân sự thời Tần.",
+          "description": "Được công nhận là Kỳ quan thứ Tám của Thế giới, nơi đây đã khai quật hàng nghìn tượng đất nung và ngựa đất có kích thước bằng người thật, mỗi tượng binh có gương mặt và thần thái riêng biệt, được sắp xếp trong đội hình chặt chẽ với khí thế hùng vĩ, tái hiện sinh động đội quân hổ lang của Đế quốc Tần lớn cách đây hơn hai nghìn năm. Toàn bộ hệ thống hang động tại di chỉ có quy mô khổng lồ và mức độ tinh xảo đáng kinh ngạc — điểm đến không thể bỏ qua cho bất kỳ ai muốn tìm hiểu tinh thần của triều đại thống nhất đầu tiên của Trung Hoa.",
+          "notes": [
+            "Đội quân Terracotta nằm ở huyện Lâm Đồng, cách trung tâm Tây An khoảng một giờ lái xe. Bạn nên dành ít nhất nửa ngày để tham quan. Hãy chắc chắn đi theo hướng dẫn viên hoặc sử dụng thiết bị nghe audio trong chuyến tham quan — nếu không, bạn có nguy cơ chỉ nhìn thấy các bức tượng đất nung mà không nắm bắt được bối cảnh lịch sử."
+          ],
+          "closing": ""
+        },
+        "2": {
+          "title": "Tường thành Tây An",
+          "subtitle": "Tường thành cổ đại hoàn chỉnh và lớn nhất còn tồn tại ở Trung Quốc",
+          "description": "This Ming Dynasty city wall encircles the ancient center for 13.7km — its broad top is perfect for walking, cycling, or taking an electric car. Battlements, watchtowers, and barbicans remain well-preserved. Standing on the wall, you see ancient streets inside and modern skyscrapers outside — a striking contrast of past and present.",
+          "notes": [
+            "Best to ascend at dusk to enjoy both sunset glow and city lights. Cycling on the wall is popular but the brick surface is uneven — be careful. The South Gate (Yongning Gate) section has the most brilliant night views."
+          ],
+          "closing": ""
+        },
+        "3": {
+          "title": "Tháp Đại Nhạn & Quảng trường",
+          "subtitle": "Nơi nhà sư Đường Huyền Trang dịch kinh — địa danh văn hóa Đường lãng mạn nhất",
+          "description": "Big Wild Goose Pagoda is a square brick pagoda housing rare Buddhist relics. Climb for panoramic southern views. The north square hosts Asia's largest musical fountain; the south square is perfect for photos. The whole area blends ancient charm with lively leisure.",
+          "notes": [
+            "Biểu diễn đài phun nước diễn ra mỗi tối đúng giờ cố định — nên đến sớm chọn chỗ. Đài quan sát miễn phí tầng 3 của Joy City cạnh quảng trường phía nam là góc chụp toàn cảnh tháp đẹp nhất."
+          ],
+          "closing": ""
+        },
+        "4": {
+          "title": "Đại Đường Bất Dạ Thành",
+          "subtitle": "Phố đi bộ phong cách Đại Đường rực rỡ ánh đèn và đông đúc",
+          "description": "Khu phố mô phỏng phong cách nhà Đường chạy theo hướng bắc–nam này trở nên lộng lẫy khi đêm xuống; đèn lồng đỏ, kiến trúc kiểu Đường và những dãy tượng khổng lồ lần lượt hiện ra, tựa như cuộn tranh trong Trường An Mười Hai Canh Giờ được đưa thẳng vào đời thực. Dọc phố xen kẽ các màn nghệ thuật đường phố miễn phí như cô gái con lật đật, tượng binh mã lơ lửng và đối thơ cùng Lý Bạch; các cửa hàng hai bên bán Hán phục kiểu Đường, sản phẩm văn hóa sáng tạo và món ăn di sản phi vật thể. Dù đến để thưởng ngoạn, chụp ảnh hay nhập vai “xuyên không”, bạn đều có thể tận hưởng một trải nghiệm vô cùng mãn nguyện.",
+          "notes": [
+            "Go after 19:30 when the lights are fully on for the best experience. To interact and take photos with the roly-poly performers, check the schedule on the official platform and queue up. Weekends are extremely crowded — mind your belongings."
+          ],
+          "closing": ""
+        },
+        "5": {
+          "title": "Bảo tàng Lịch sử Thiểm Tây",
+          "subtitle": "Kho tàng ngầm của văn minh Hoa Hạ — điện đường cô đọng 3.000 năm lịch sử",
+          "description": "This national museum houses 370,000+ artifacts spanning from prehistoric pottery to Shang-Zhou bronzes, Han tiles, Tang gold and silverware, and murals. The agate cup with gold animal head and the silver pot with dancing horse are world-famous national treasures. Walking through the time-ordered halls is like reading a three-dimensional history of ancient China.",
+          "notes": [
+            "Free entry but requires real-name reservation days in advance via the official Shaanxi History Museum WeChat account. ID required for entry. The densely packed exhibits merit an audio guide or tour guide — otherwise easy to skim. Allow at least 2.5 hours."
+          ],
+          "closing": ""
+        }
+      }
+    }
+  },
+  "Cta": {
+    "defaultLabel": "Tìm hiểu thêm",
+    "defaultPhone": "193 8679 6662"
+  },
+  "Locales": {
+    "zh-TW": "Tiếng Trung phồn thể",
+    "zh-CN": "Tiếng Trung giản thể",
+    "en": "Tiếng Anh",
+    "th": "Tiếng Thái",
+    "vi": "Tiếng Việt",
+    "ms": "Tiếng Mã Lai",
+    "id": "Bahasa Indonesia"
+  }
 }
