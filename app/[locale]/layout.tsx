@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import Script from "next/script";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import BodyHomeClassSync from "./components/BodyHomeClassSync";
+import {
+  getLocaleStaticParams,
+  resolveLocale,
+} from "./locale-bootstrap";
 import "../globals.css";
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return getLocaleStaticParams();
 }
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -43,13 +46,7 @@ export default async function LocaleLayout({
   children,
   params,
 }: LayoutProps<"/[locale]">) {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
-  // Required for static rendering — tells next-intl which locale to use
-  // when next-intl APIs are called from descendants.
-  setRequestLocale(locale);
+  const { locale } = await resolveLocale(params);
   const messages = await getMessages();
 
   return (
@@ -81,15 +78,9 @@ export default async function LocaleLayout({
             uses a system font stack — see :root font-family in globals.css. */}
       </head>
       <body suppressHydrationWarning>
-        {/* Toggle `body.home-solid-nav` for the locale root only. Segment-
-            count check works for /zh-TW, /zh-TW/, /en, /en/ (1 segment → set),
-            and rejects /zh-TW/about, /en/chongqing (2 segments → unset). */}
-        <Script id="body-home-class" strategy="beforeInteractive">
-          {`(function(){
-            var segs = location.pathname.split('/').filter(Boolean);
-            document.body.classList.toggle('home-solid-nav', segs.length === 1);
-          })();`}
-        </Script>
+        {/* 在 layout 层首屏同步 body.home-solid-nav；Navbar 继续负责后续
+            SPA 导航过程中的状态保持。 */}
+        <BodyHomeClassSync />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

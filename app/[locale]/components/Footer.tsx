@@ -1,5 +1,9 @@
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+import {
+  FOOTER_DESTINATION_SLUGS,
+  getDestinationHref,
+} from "../destinations";
 
 export default async function Footer() {
   const t = await getTranslations("Footer");
@@ -21,21 +25,13 @@ export default async function Footer() {
               <li>
                 <Link href="/about">{t("quickItems.about")}</Link>
               </li>
-              <li>
-                <Link href="/chongqing">{t("quickItems.chongqing")}</Link>
-              </li>
-              <li>
-                <Link href="/guangxi">{t("quickItems.guangxi")}</Link>
-              </li>
-              <li>
-                <Link href="/sichuan">{t("quickItems.sichuan")}</Link>
-              </li>
-              <li>
-                <Link href="/zhangjiajie">{t("quickItems.zhangjiajie")}</Link>
-              </li>
-              <li>
-                <Link href="/yunnan">{t("quickItems.yunnan")}</Link>
-              </li>
+              {FOOTER_DESTINATION_SLUGS.map((slug) => (
+                <li key={slug}>
+                  <Link href={getDestinationHref(slug)}>
+                    {t(`quickItems.${slug}`)}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <Link href="/contact">{t("quickItems.contact")}</Link>
               </li>

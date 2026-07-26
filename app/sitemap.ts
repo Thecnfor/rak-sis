@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { DESTINATION_SLUGS } from "@/app/[locale]/destinations";
 import { routing } from "@/i18n/routing";
 
 // Dynamic sitemap: enumerates every (locale, route) pair so search engines
@@ -7,17 +8,6 @@ import { routing } from "@/i18n/routing";
 // fall back to a sensible default.
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://haitao-travel.example.com";
-
-const DESTINATION_SLUGS = [
-  "chongqing",
-  "sichuan",
-  "zhangjiajie",
-  "guizhou",
-  "guangxi",
-  "yunnan",
-  "beijing",
-  "xian",
-];
 
 const STATIC_ROUTES = ["", "/about", "/contact"];
 

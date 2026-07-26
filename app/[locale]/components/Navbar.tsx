@@ -3,19 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import { DESTINATION_SLUGS, getDestinationHref } from "../destinations";
 import LangSwitcher from "./LangSwitcher";
 import MobileLangSwitcher from "./MobileLangSwitcher";
-
-const TRAVEL_SLUGS = [
-  "chongqing",
-  "sichuan",
-  "zhangjiajie",
-  "guizhou",
-  "guangxi",
-  "yunnan",
-  "beijing",
-  "xian",
-] as const;
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -34,8 +24,8 @@ export default function Navbar() {
     { href: "/contact", label: t("main.contact") },
   ];
 
-  const TRAVEL_ITEMS = TRAVEL_SLUGS.map((slug) => ({
-    href: `/${slug}`,
+  const TRAVEL_ITEMS = DESTINATION_SLUGS.map((slug) => ({
+    href: getDestinationHref(slug),
     label: t(`travel.${slug}`),
   }));
 
@@ -84,7 +74,10 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar${scrolled ? " scrolled" : ""}`} id="navbar">
+    <nav
+      className={`navbar${scrolled ? " scrolled" : ""}${open ? " menu-open" : ""}`}
+      id="navbar"
+    >
       <div className="nav-container">
         <Link className="logo" href="/">
           {/* eslint-disable-next-line @next/next/no-img-element */}

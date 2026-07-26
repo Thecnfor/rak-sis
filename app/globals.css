@@ -5,7 +5,9 @@
    installed (we never adopted Tailwind). Keeping it would break the CSS
    pipeline at build time, so just delete the line. */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,8 +26,8 @@
     --bg: #fff;
     --bg-light: #f8f9fa;
     --bg-dark: #1a1a2e;
-    --shadow: 0 4px 20px rgba(0,0,0,0.08);
-    --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.12);
     --radius: 12px;
     --transition: all 0.3s ease;
 }
@@ -54,7 +56,12 @@ body {
    body. Falls back through macOS Mincho → Windows SimSun → Times for
    Latin glyphs. The serif treatment makes headings feel like calligraphy
    rather than web defaults. */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Songti SC", "STSongti SC-Regular", "STSong", "SimSun",
         "宋体", "Hiragino Mincho ProN", "Yu Mincho", "Times New Roman", serif;
     font-weight: 500;
@@ -104,7 +111,7 @@ img {
     background: var(--primary-light);
     border-color: var(--primary-light);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(26,86,50,0.3);
+    box-shadow: 0 6px 20px rgba(26, 86, 50, 0.3);
 }
 
 .btn-outline {
@@ -132,8 +139,8 @@ img {
       state.
    3. Home (body.home-solid-nav) — dark frosted glass over the hero photo.
       White text reads against the dark tint.
-   The body.home-solid-nav class is toggled by the inline script in
-   app/[locale]/layout.tsx (true only when pathname === '/'). */
+   The body.home-solid-nav class is synced by the layout-level client
+   helper plus Navbar route effects (true only when pathname === '/'). */
 
 .navbar {
     position: fixed;
@@ -283,7 +290,9 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
     display: block;
     font-size: clamp(22px, 1.6vw, 32px);
     font-weight: 600;
-    color: #fff;
+    /* Default ink — readable over the light frosted navbar on non-home
+       pages. body.home-solid-nav override flips to white for dark frosted. */
+    color: var(--text);
     letter-spacing: 0.2px;
     line-height: 1.15;
     max-width: 260px;
@@ -296,13 +305,13 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 .logo-text {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: var(--text);
     letter-spacing: 2px;
 }
 
 .logo-sub {
     font-size: 11px;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     letter-spacing: 1px;
 }
 
@@ -396,7 +405,9 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 }
 
 .nav-dropdown-toggle {
-    color: #fff;
+    /* Default ink color — readable over light frosted navbar.
+       body.home-solid-nav override flips to white for dark frosted. */
+    color: var(--text);
     padding: 6px 8px;
     font-size: 18px;
     font-weight: 700;
@@ -486,7 +497,9 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 }
 
 .social-icons-nav a {
-    color: #fff;
+    /* Default ink color — readable over light frosted navbar.
+       body.home-solid-nav override flips to white for dark frosted. */
+    color: var(--text);
     font-size: 18px;
 }
 
@@ -542,8 +555,10 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 
 .lang-btn {
     background: none;
-    border: 1px solid rgba(255,255,255,0.3);
-    color: #fff;
+    /* Default ink border + text — readable over light frosted navbar.
+       body.home-solid-nav override flips to white for dark frosted. */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--text);
     padding: 9px 17px;
     border-radius: 20px;
     cursor: pointer;
@@ -556,7 +571,7 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 }
 
 .navbar.scrolled .lang-btn {
-    border-color: rgba(0,0,0,0.2);
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 .lang-btn:hover {
@@ -656,7 +671,7 @@ body.home-solid-nav .navbar:not(.scrolled) .lang-btn {
 .hamburger span {
     width: 24px;
     height: 2px;
-    background: #fff;
+    background: var(--text);
     transition: var(--transition);
 }
 
@@ -684,7 +699,7 @@ body.home-solid-nav .hero {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%);
 }
 
 .hero-content {
@@ -704,7 +719,7 @@ body.home-solid-nav .hero {
     font-weight: 900;
     letter-spacing: 8px;
     margin-bottom: 10px;
-    text-shadow: 2px 4px 20px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .hero-subtitle {
@@ -798,7 +813,7 @@ body.home-solid-nav .hero {
     direction: rtl;
 }
 
-.destination-card.reverse > * {
+.destination-card.reverse>* {
     direction: ltr;
 }
 
@@ -911,15 +926,16 @@ body.home-solid-nav .hero {
 .cta-overlay {
     position: absolute;
     inset: 0;
-    /* Stronger overlay (0.55 → 0.7) + gradient darker behind the text so
-       white heading + body stay legible against the busy mountain photo.
-       White text + bright sky/peak areas at 0.55 was the previous bug. */
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.72) 0%,
-        rgba(0, 0, 0, 0.55) 50%,
-        rgba(0, 0, 0, 0.78) 100%
-    );
+    /* Darker vignette behind the heading so white text pops against
+       bright background images. */
+    background:
+        radial-gradient(ellipse 60% 50% at 50% 45%,
+            rgba(0, 0, 0, 0.75) 0%,
+            rgba(0, 0, 0, 0) 70%),
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.82) 0%,
+            rgba(0, 0, 0, 0.72) 50%,
+            rgba(0, 0, 0, 0.85) 100%);
 }
 
 .cta-content {
@@ -928,19 +944,27 @@ body.home-solid-nav .hero {
 }
 
 .cta-content h2 {
+    color: #fff;
     font-size: 36px;
     margin-bottom: 20px;
-    /* Belt-and-suspenders: even if a future photo has a bright sky region
-       under the heading, the shadow keeps "別再猶豫，聯系我們吧" readable. */
-    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.65);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.02em;
 }
 
 .cta-content p {
     font-size: 16px;
     line-height: 2;
     margin-bottom: 30px;
-    opacity: 0.95;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
+    opacity: 0.96;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.cta-phone {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.75);
 }
 
 .cta-phone {
@@ -958,7 +982,7 @@ body.home-solid-nav .hero {
 /* ===== Footer ===== */
 .footer {
     background: var(--bg-dark);
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding: 60px 0 0;
 }
 
@@ -967,7 +991,7 @@ body.home-solid-nav .hero {
     grid-template-columns: 1.5fr 1fr 1.2fr 1fr;
     gap: 40px;
     padding-bottom: 40px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-col h3 {
@@ -1043,7 +1067,7 @@ body.home-solid-nav .hero {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1081,7 +1105,7 @@ body.home-solid-nav .hero {
 .page-header-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
 }
 
 .page-header-content {
@@ -1092,13 +1116,17 @@ body.home-solid-nav .hero {
 .page-header h1 {
     font-size: clamp(32px, 5vw, 52px);
     font-weight: 700;
+    color: #fff;
     letter-spacing: 4px;
     margin-bottom: 10px;
+    text-shadow: 0 3px 18px rgba(0, 0, 0, 0.35);
 }
 
 .page-header p {
+    color: rgba(255, 255, 255, 0.92);
     font-size: 18px;
     opacity: 0.9;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
 }
 
 .about-hero,
@@ -1447,7 +1475,7 @@ body.home-solid-nav .hero {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(26,86,50,0.1);
+    box-shadow: 0 0 0 3px rgba(26, 86, 50, 0.1);
 }
 
 .form-group textarea {
@@ -1509,7 +1537,7 @@ body.home-solid-nav .hero {
 
 .contact-social a:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== Destination Detail Pages ===== */
@@ -1644,21 +1672,27 @@ body.home-solid-nav .hero {
     .advantages-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .footer-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .features-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .spot-card {
         grid-template-columns: 500px 1fr;
     }
+
     .contact-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .why-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1705,12 +1739,14 @@ body.home-solid-nav .hero {
         right: -100%;
         width: 280px;
         height: 100vh;
-        background: #fff;
+        background: #f6f4ef;
         flex-direction: column;
         padding: 80px 30px 30px;
-        box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+        box-shadow: -8px 0 30px rgba(0, 0, 0, 0.12);
+        border-left: 1px solid rgba(0, 0, 0, 0.06);
         transition: right 0.3s ease;
         gap: 0;
+        z-index: 1001;
     }
 
     .nav-links.open {
@@ -1769,6 +1805,26 @@ body.home-solid-nav .hero {
 
     .hamburger {
         display: flex;
+    }
+
+    .lang-switcher-mobile {
+        position: relative;
+        z-index: 1002;
+    }
+
+    /* 菜单展开时，把语言按钮切到深色毛玻璃，避免和右侧抽屉叠在一起看不见。 */
+    body.home-solid-nav .navbar.menu-open .lang-switcher-mobile .lang-btn,
+    .navbar.menu-open .lang-switcher-mobile .lang-btn {
+        color: var(--text);
+        background: #ffffff;
+        border-color: rgba(0, 0, 0, 0.16);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    body.home-solid-nav .navbar.menu-open .lang-switcher-mobile .lang-btn:hover,
+    .navbar.menu-open .lang-switcher-mobile .lang-btn:hover {
+        background: #fcfcfc;
+        border-color: rgba(0, 0, 0, 0.2);
     }
 
     .social-icons-nav {
@@ -1847,23 +1903,49 @@ body.home-solid-nav .hero {
 /* ===== Scroll Reveal Animations ===== */
 
 @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeLeft {
-    from { opacity: 0; transform: translateX(-24px); }
-    to   { opacity: 1; transform: translateX(0); }
+    from {
+        opacity: 0;
+        transform: translateX(-24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes fadeRight {
-    from { opacity: 0; transform: translateX(24px); }
-    to   { opacity: 1; transform: translateX(0); }
+    from {
+        opacity: 0;
+        transform: translateX(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .reveal {
@@ -1876,29 +1958,40 @@ body.home-solid-nav .hero {
     animation-fill-mode: forwards;
 }
 
-.reveal--fade-up.revealed    { animation-name: fadeUp; }
-.reveal--fade-in.revealed    { animation-name: fadeIn; }
-.reveal--fade-left.revealed  { animation-name: fadeLeft; }
-.reveal--fade-right.revealed { animation-name: fadeRight; }
+.reveal--fade-up.revealed {
+    animation-name: fadeUp;
+}
+
+.reveal--fade-in.revealed {
+    animation-name: fadeIn;
+}
+
+.reveal--fade-left.revealed {
+    animation-name: fadeLeft;
+}
+
+.reveal--fade-right.revealed {
+    animation-name: fadeRight;
+}
 
 /* 修复 ScrollReveal wrapper 在 grid 中导致卡片高度不对齐的问题。
    将 wrapper 设为 flex 容器，使子元素（真正的卡片）
    能通过 align-items:stretch 撑满 grid cell 高度。 */
-.why-grid > .reveal,
-.services-grid > .reveal,
-.features-grid > .reveal,
-.advantages-grid > .reveal,
-.testimonials-grid > .reveal,
-.contact-grid > .reveal {
+.why-grid>.reveal,
+.services-grid>.reveal,
+.features-grid>.reveal,
+.advantages-grid>.reveal,
+.testimonials-grid>.reveal,
+.contact-grid>.reveal {
     display: flex;
 }
 
-.why-grid > .reveal > *,
-.services-grid > .reveal > *,
-.features-grid > .reveal > *,
-.advantages-grid > .reveal > *,
-.testimonials-grid > .reveal > *,
-.contact-grid > .reveal > * {
+.why-grid>.reveal>*,
+.services-grid>.reveal>*,
+.features-grid>.reveal>*,
+.advantages-grid>.reveal>*,
+.testimonials-grid>.reveal>*,
+.contact-grid>.reveal>* {
     width: 100%;
 }
 
@@ -1929,7 +2022,8 @@ body.home-solid-nav .hero {
     letter-spacing: 0.4em;
     text-transform: uppercase;
     color: var(--accent);
-    padding-left: 0.4em; /* visually balance the letter-spacing */
+    padding-left: 0.4em;
+    /* visually balance the letter-spacing */
     margin-bottom: 1.25rem;
     position: relative;
 }
@@ -2080,12 +2174,10 @@ body.home-solid-nav .hero {
 /* Slightly cooler hero overlay so the seal + white text reads against
    the photo without the previous 60% black-out feeling. */
 .hero-overlay {
-    background: linear-gradient(
-        135deg,
-        rgba(26, 26, 26, 0.55) 0%,
-        rgba(26, 26, 26, 0.35) 60%,
-        rgba(26, 26, 26, 0.55) 100%
-    );
+    background: linear-gradient(135deg,
+            rgba(26, 26, 26, 0.55) 0%,
+            rgba(26, 26, 26, 0.35) 60%,
+            rgba(26, 26, 26, 0.55) 100%);
 }
 
 /* card refinements — keep default white card backgrounds to match the

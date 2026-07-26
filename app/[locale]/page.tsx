@@ -1,15 +1,21 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollReveal from "./components/ScrollReveal";
+import { bootstrapLocale } from "./locale-bootstrap";
+import {
+  HOME_DESTINATION_SLUGS,
+  getDestination,
+  getDestinationHref,
+} from "./destinations";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export default async function Home({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+  await bootstrapLocale(params);
   const t = await getTranslations("Home");
+  const homeDestinations = HOME_DESTINATION_SLUGS.map((slug) => getDestination(slug));
 
   return (
     <>
@@ -89,9 +95,9 @@ export default async function Home({ params }: Props) {
           <div className="destinations-eyebrow-row">
             <span className="eyebrow">{t("destinations.eyebrow")}</span>
           </div>
-          {[0, 1, 2, 3].map((i) => (
+          {homeDestinations.map((destination, i) => (
             <ScrollReveal
-              key={i}
+              key={destination.slug}
               animation={i % 2 === 0 ? "fade-left" : "fade-right"}
               delay={i * 100}
             >
@@ -101,12 +107,7 @@ export default async function Home({ params }: Props) {
                 <div className="destination-img">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={[
-                      "/images/chongqing-1.jpg",
-                      "/images/guangxi.jpg",
-                      "/images/dest-sichuan.jpg",
-                      "/images/dest-zhangjiajie.jpg",
-                    ][i]}
+                    src={destination.homeImage}
                     alt={t(`destinationCards.${i}.alt`)}
                     loading="lazy"
                     decoding="async"
@@ -117,9 +118,7 @@ export default async function Home({ params }: Props) {
                   <p>{t(`destinationCards.${i}.desc`)}</p>
                   <Link
                     className="btn btn-primary"
-                    href={
-                      ["/chongqing", "/guangxi", "/sichuan", "/zhangjiajie"][i]
-                    }
+                    href={getDestinationHref(destination.slug)}
                   >
                     {t("learnMore")}
                   </Link>
@@ -161,7 +160,7 @@ export default async function Home({ params }: Props) {
                         "/images/avatar3.png",
                         "/images/avatar4.png",
                       ][i]}
-                      alt={t(`testimonials.${i}.alt`)}
+                      alt={t(`testimonials.items.${i}.alt`)}
                       loading="lazy"
                       decoding="async"
                       style={{
@@ -173,7 +172,7 @@ export default async function Home({ params }: Props) {
                     />
                     <div>
                       <div className="testimonial-author">
-                        {t(`testimonials.${i}.author`)}
+                        {t(`testimonials.items.${i}.author`)}
                       </div>
                       <div className="testimonial-stars">
                         <i className="fas fa-star" />
@@ -184,7 +183,7 @@ export default async function Home({ params }: Props) {
                       </div>
                     </div>
                   </div>
-                  <p>{t(`testimonials.${i}.body`)}</p>
+                  <p>{t(`testimonials.items.${i}.body`)}</p>
                 </div>
               </ScrollReveal>
             ))}

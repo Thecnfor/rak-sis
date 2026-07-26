@@ -1,14 +1,14 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Cta from "../components/Cta";
 import ScrollReveal from "../components/ScrollReveal";
+import { bootstrapLocale } from "../locale-bootstrap";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export default async function AboutPage({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+  await bootstrapLocale(params);
   const t = await getTranslations("About");
 
   // Icon mapping: WHY uses fa-star/headset/shield-alt/heart/shuttle-van/route
