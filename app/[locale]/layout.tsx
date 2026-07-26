@@ -57,7 +57,7 @@ export default async function LocaleLayout({
         <link
           rel="preload"
           as="image"
-          href="/images/main-pic.jpg"
+          href="/images/heroes/main-pic.jpg"
           fetchPriority="high"
         />
         {/* FontAwesome CDN — synchronous load with preconnect to make

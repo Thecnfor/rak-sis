@@ -32,7 +32,7 @@ Important boundaries and synchronization rules:
 | `app/[locale]/components/` | Shared Server Components and focused client interaction islands. |
 | `i18n/` | Locale routing, request-time message loading, navigation wrappers, and language display metadata. |
 | `messages/` | One schema-aligned JSON catalog per locale; `zh-TW.json` is canonical. |
-| `public/images/` | Destination photos, flags, logo, hero, avatars, and contact media. |
+| `public/images/` | Runtime assets grouped by purpose: destinations, locales, branding, heroes, people, and contact media. |
 | `.github/workflows/` | CI definition; currently lint and production build only. |
 
 There is intentionally no `src/`, API, database, scripts, migrations, or test directory.

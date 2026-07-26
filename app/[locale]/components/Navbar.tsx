@@ -81,7 +81,11 @@ export default function Navbar() {
       <div className="nav-container">
         <Link className="logo" href="/">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt={t("brand")} className="logo-img" />
+          <img
+            src="/images/branding/logo.png"
+            alt={t("brand")}
+            className="logo-img"
+          />
           <span className="logo-name">{t("brand")}</span>
         </Link>
         <ul className={`nav-links${open ? " open" : ""}`} id="navLinks" ref={navLinksRef}>

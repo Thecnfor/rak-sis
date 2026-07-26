@@ -82,10 +82,10 @@ export default async function AboutPage({ params }: Props) {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={[
-                      "/images/dest-zhangjiajie.jpg",
-                      "/images/dest-yunnan.jpg",
-                      "/images/dest-sichuan.jpg",
-                      "/images/02_Tianmen_Mountain_National_Forest_Park.jpg",
+                      "/images/destinations/zhangjiajie/dest-zhangjiajie.jpg",
+                      "/images/destinations/yunnan/dest-yunnan.jpg",
+                      "/images/destinations/sichuan/dest-sichuan.jpg",
+                      "/images/destinations/zhangjiajie/02_Tianmen_Mountain_National_Forest_Park.jpg",
                     ][i]}
                     alt={t(`services.${i}.title`)}
                     loading="lazy"
@@ -121,7 +121,7 @@ export default async function AboutPage({ params }: Props) {
 
       <ScrollReveal animation="fade-up">
         <Cta
-          bg="/images/05_Zhangjiajie_Grand_Canyon.jpg"
+          bg="/images/destinations/zhangjiajie/05_Zhangjiajie_Grand_Canyon.jpg"
           title={t("ctaTitle")}
           body={
             <>

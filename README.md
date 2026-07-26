@@ -62,13 +62,13 @@ All routes are prefixed with a locale (`/zh-TW/about`, `/en/chongqing`, etc.). T
 │   │   ├── page.tsx                  Home
 │   │   ├── about/page.tsx
 │   │   ├── contact/page.tsx
-│   │   ├── {8 destinations}/page.tsx
+│   │   ├── [slug]/page.tsx           Shared destination route shell
 │   │   ├── error.tsx, loading.tsx, not-found.tsx
 │   │   ├── opengraph-image.tsx       Dynamic OG image
 │   │   └── components/               9 components, locale-aware
 │   ├── globals.css                   All styles (~35KB, hand-written BEM)
 │   └── icon.jpg
-├── public/                           Compressed assets (logo.jpg, images/)
+├── public/                           Runtime assets grouped by purpose under images/
 ├── next.config.ts                    next-intl plugin + security headers
 ├── tsconfig.json, eslint.config.mjs, postcss.config.mjs
 ├── .editorconfig, .nvmrc, .env.example

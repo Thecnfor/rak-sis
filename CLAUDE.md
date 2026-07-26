@@ -67,7 +67,7 @@ No tests. Validate with `pnpm build` + `pnpm lint`.
 ### Add a new language
 1. Add to `routing.locales` in `i18n/routing.ts`.
 2. Add to `LANGS` in `i18n/locales.ts` (with `flag` or `glyph`).
-3. Add flag SVG to `public/images/<code>.svg` if using a flag.
+3. Add flag SVG under `public/images/locales/<code>.svg` if using a flag.
 4. Create `messages/<locale>.json` (clone an existing file and translate).
 
 ### Add a new section to a destination page

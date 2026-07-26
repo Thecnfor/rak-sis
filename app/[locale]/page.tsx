@@ -26,7 +26,7 @@ export default async function Home({ params }: Props) {
         <div className="hero-slider">
           <div
             className="hero-slide active"
-            style={{ backgroundImage: "url('/images/main-pic.jpg')" }}
+            style={{ backgroundImage: "url('/images/heroes/main-pic.jpg')" }}
           >
             <div className="hero-overlay" />
             <ScrollReveal animation="fade-in" threshold={0}>
@@ -155,10 +155,10 @@ export default async function Home({ params }: Props) {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={[
-                        "/images/avatar1.png",
-                        "/images/avatar2.png",
-                        "/images/avatar3.png",
-                        "/images/avatar4.png",
+                        "/images/people/avatar1.png",
+                        "/images/people/avatar2.png",
+                        "/images/people/avatar3.png",
+                        "/images/people/avatar4.png",
                       ][i]}
                       alt={t(`testimonials.items.${i}.alt`)}
                       loading="lazy"
@@ -196,7 +196,7 @@ export default async function Home({ params }: Props) {
         className="cta-section"
         style={{
           backgroundImage:
-            "url('/images/02_Tianmen_Mountain_National_Forest_Park.jpg')",
+            "url('/images/destinations/zhangjiajie/02_Tianmen_Mountain_National_Forest_Park.jpg')",
         }}
       >
         <div className="cta-overlay" />

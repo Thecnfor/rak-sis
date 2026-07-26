@@ -14,12 +14,12 @@ export type Lang = {
 
 export const LANGS: Lang[] = [
   { code: "zh-TW", label: "繁體中文", glyph: "繁" },
-  { code: "zh-CN", label: "简体中文", flag: "zh-CN.svg" },
-  { code: "en", label: "English", flag: "en.svg" },
-  { code: "th", label: "ภาษาไทย", flag: "th.svg" },
-  { code: "vi", label: "Tiếng Việt", flag: "vn.svg" },
-  { code: "ms", label: "Bahasa Melayu", flag: "ms.svg" },
-  { code: "id", label: "Bahasa Indonesia", flag: "id.svg" },
+  { code: "zh-CN", label: "简体中文", flag: "locales/zh-CN.svg" },
+  { code: "en", label: "English", flag: "locales/en.svg" },
+  { code: "th", label: "ภาษาไทย", flag: "locales/th.svg" },
+  { code: "vi", label: "Tiếng Việt", flag: "locales/vn.svg" },
+  { code: "ms", label: "Bahasa Melayu", flag: "locales/ms.svg" },
+  { code: "id", label: "Bahasa Indonesia", flag: "locales/id.svg" },
 ];
 
 export const labelFor = (code: Locale): string =>
