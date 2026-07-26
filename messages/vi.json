@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Haitao Travel Custom",
-    "description": "海涛旅行定制，品質無憂，純玩無購物。提供中國著名景點的旅遊服務和攻略，包括重庆、張家界、雲南、四川、廣西等多個目的地。"
+    "description": "Haitao Travel Custom - chất lượng đảm bảo, không mua sắm bắt buộc. Cung cấp dịch vụ du lịch và cẩm nang các điểm đến nổi tiếng của Trung Quốc bao gồm Trùng Khánh, Trương Gia Giới, Vân Nam, Tứ Xuyên và Quảng Tây."
   },
   "Navbar": {
     "brand": "Haitao Travel Custom",
@@ -52,9 +52,11 @@
       "title": "Du lịch Trung Quốc",
       "subtitle": "Du lịch Trung Quốc",
       "ctaAbout": "Về chúng tôi",
-      "ctaContact": "Liên hệ chúng tôi"
+      "ctaContact": "Liên hệ chúng tôi",
+      "eyebrow": "HẢI ĐÀO · ẤN"
     },
     "advantages": {
+      "eyebrow": "VÌ SAO CHỌN HẢI ĐÀO",
       "items": [
         {
           "title": "Tích hợp tài nguyên",
@@ -72,50 +74,56 @@
     },
     "destinationCards": [
       {
-        "alt": "重庆",
+        "alt": "Trùng Khánh",
         "title": "Thành phố kỳ diệu Trùng Khánh",
         "desc": "Ánh đèn rực rỡ của Hồng Nhai Động, sự nhộn nhịp của Giải Phóng Bài, và nét cổ kính của Từ Khí Khẩu"
       },
       {
-        "alt": "广西",
+        "alt": "Quảng Tây",
         "title": "Quảng Tây — Vẻ đẹp vượt trội khắp thiên hạ",
         "desc": "Vùng đất bí ẩn nơi núi sông hùng vĩ hòa quyện hoàn hảo với khói lửa nhân gian"
       },
       {
-        "alt": "四川",
+        "alt": "Tứ Xuyên",
         "title": "Tứ Xuyên — Núi non kỳ thú",
         "desc": "Hội tụ văn hóa, nghệ thuật và du lịch trong một"
       },
       {
-        "alt": "張家界",
+        "alt": "Trương Gia Giới",
         "title": "Trương Gia Giới — Tiên cảnh nhân gian",
         "desc": "Nơi quay phim Avatar, địa hình karst độc đáo, phong cảnh thiên nhiên hùng vĩ và kỳ thú"
       }
     ],
+    "destinations": {
+      "eyebrow": "ĐIỂM ĐẾN"
+    },
     "learnMore": "Tìm hiểu thêm",
     "testimonialsHeading": "Đánh giá của khách hàng",
-    "testimonials": [
-      {
-        "alt": "Cô Trương",
-        "author": "Cô Trương",
-        "body": "Quản gia Xiao Zhou rất chu đáo — gửi toàn bộ lưu ý trước chuyến đi vào nhóm chat và nhắc lịch trình cùng thời tiết mỗi sáng. Hướng dẫn viên địa phương Ah-Ming am hiểu địa chất Trương Gia Giới, kể cả chuyện dân tộc Tục Gia khi đi dọc suối Kim Bín Tây, các con mê lắm. Điều tuyệt nhất là không phải tự lên kế hoạch — Hải Đào lo hết."
-      },
-      {
-        "alt": "Anh Trần",
-        "author": "M53****383",
-        "body": "Đưa bố mẹ đi Vân Nam. Lối VIP vào thẳng thắt cả tiếng xếp hàng. Tài xế lái êm, đúng giờ từ Côn Minh đến Đại Lý đến Lệ Giang. Khách sạn đều năm sao trong hệ thống, bố mẹ ưng nhất là khách sạn Lệ Giang nhìn ra Ngọc Long. Bữa ăn cũng được sắp xếp kỹ, có cả phở xào qua cầu và tiệc nấm."
-      },
-      {
-        "alt": "Cô Lâm",
-        "author": "Cô Lâm",
-        "body": "Ban đầu sợ đi một mình sẽ buồn, nhưng quản gia Xiao Zhao thiết kế riêng lịch trình Quế Lâm đến Dương Tô theo nhịp của mình và điều chỉnh vài điểm tham quan. Du thuyền sông Ly ngồi sát cửa sổ, gió mát. Tài xế đội xe riêng am hiểu đường địa phương, tránh được mấy điểm kẹt xe. Tour không shopping như này quá hợp với dân đi một mình."
-      },
-      {
-        "alt": "Cô Vương",
-        "author": "Cô Vương",
-        "body": "Đây là lần thứ ba đặt Hải Đào — chuyến này năm ngày Vũ Long Tam Thiên Kiều cộng Tiên Nữ Sơn ở Trùng Khánh. Như hai lần trước, không có cửa hàng mua sắm, không có phụ phí ẩn, giá hợp đồng trong suốt. Gặp lại hướng dẫn viên Trùng Khánh Tao-zi — bạn cũ rồi cười ha hả. Chị kể lịch sử Từ Khẩu Khẩu sống động hơn lần trước. Rất đáng giới thiệu cho ai sợ bị chặt chém."
-      }
-    ],
+    "testimonials": {
+      "eyebrow": "ẤN TƯỢNG KHÁCH",
+      "items": [
+        {
+          "alt": "Cô Trương",
+          "author": "Cô Trương",
+          "body": "Quản gia Xiao Zhou rất chu đáo — gửi toàn bộ lưu ý trước chuyến đi vào nhóm chat và nhắc lịch trình cùng thời tiết mỗi sáng. Hướng dẫn viên địa phương Ah-Ming am hiểu địa chất Trương Gia Giới, kể cả chuyện dân tộc Tục Gia khi đi dọc suối Kim Bín Tây, các con mê lắm. Điều tuyệt nhất là không phải tự lên kế hoạch — Hải Đào lo hết."
+        },
+        {
+          "alt": "Anh Trần",
+          "author": "M53****383",
+          "body": "Đưa bố mẹ đi Vân Nam. Lối VIP vào thẳng thắt cả tiếng xếp hàng. Tài xế lái êm, đúng giờ từ Côn Minh đến Đại Lý đến Lệ Giang. Khách sạn đều năm sao trong hệ thống, bố mẹ ưng nhất là khách sạn Lệ Giang nhìn ra Ngọc Long. Bữa ăn cũng được sắp xếp kỹ, có cả phở xào qua cầu và tiệc nấm."
+        },
+        {
+          "alt": "Cô Lâm",
+          "author": "Cô Lâm",
+          "body": "Ban đầu sợ đi một mình sẽ buồn, nhưng quản gia Xiao Zhao thiết kế riêng lịch trình Quế Lâm đến Dương Tô theo nhịp của mình và điều chỉnh vài điểm tham quan. Du thuyền sông Ly ngồi sát cửa sổ, gió mát. Tài xế đội xe riêng am hiểu đường địa phương, tránh được mấy điểm kẹt xe. Tour không shopping như này quá hợp với dân đi một mình."
+        },
+        {
+          "alt": "Cô Vương",
+          "author": "Cô Vương",
+          "body": "Đây là lần thứ ba đặt Hải Đào — chuyến này năm ngày Vũ Long Tam Thiên Kiều cộng Tiên Nữ Sơn ở Trùng Khánh. Như hai lần trước, không có cửa hàng mua sắm, không có phụ phí ẩn, giá hợp đồng trong suốt. Gặp lại hướng dẫn viên Trùng Khánh Tao-zi — bạn cũ rồi cười ha hả. Chị kể lịch sử Từ Khẩu Khẩu sống động hơn lần trước. Rất đáng giới thiệu cho ai sợ bị chặt chém."
+        }
+      ]
+    },
     "ctaHeading": "Đừng ngần ngại, hãy liên hệ với chúng tôi",
     "ctaBody": [
       "Chúng tôi tin rằng du lịch có sức ấm",
@@ -123,11 +131,7 @@
       "mang đến cho bạn một chút hơi ấm của du lịch bằng chuyên môn và nhiệt huyết của chúng tôi",
       "Haitao Travel Customization háo hức chào đón quý vị đến du lịch Trung Quốc!"
     ],
-    "ctaPhone": "193 8679 6662",
-    "hero.eyebrow": "HẢI ĐÀO · ẤN",
-    "advantages.eyebrow": "VÌ SAO CHỌN HẢI ĐÀO",
-    "destinations.eyebrow": "ĐIỂM ĐẾN",
-    "testimonials.eyebrow": "ẤN TƯỢNG KHÁCH"
+    "ctaPhone": "193 8679 6662"
   },
   "About": {
     "pageTitle": "Haitao Travel Custom — Chất lượng không lo lắng",
@@ -308,7 +312,7 @@
         "5": {
           "title": "Bức Tranh Sông Ô",
           "subtitle": "Mê đắm vẻ hùng vĩ của sông núi, yêu thích sự tĩnh lặng của những con hẻm phố cổ.",
-          "description": "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。",
+          "description": "Đây là cửa sổ toàn diện nhất để khám phá văn hóa Miêu ở Trùng Khánh, với hơn 40 công trình truyền thống lưu giữ những lớp ký ức hàng nghìn năm về điêu khắc gỗ rễ, trang phục và múa sào trúc. Nơi đây cũng là thánh địa duy nhất ở Trung Quốc thờ Xi Vưu, một trong Tam Tổ Hoa Hạ, tái hiện lịch sử di cư của bộ tộc Cửu Lê và là cột mốc tinh thần của bản sắc văn hóa Miêu.",
           "notes": [
             "Nên mang giày thể thao chống trơn, mặt đường sẽ khá ẩm sau mưa.",
             "Nhiệt độ trên mặt sông chênh lệch lớn, cần chuẩn bị áo khoác chắn gió; mùa mưa nên theo dõi thông báo tàu chạy thời gian thực của khu thắng cảnh.",
@@ -334,7 +338,7 @@
         "2": {
           "title": "Khu thắng cảnh Bích Bình Câu",
           "subtitle": "Thiên đường của những người yêu thích đi bộ đường dài và là một trong những địa điểm ngắm lá đỏ nổi tiếng nhất Trung Quốc",
-          "description": "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閑度假於一體的大型原生態旅遊風景區。",
+          "description": "Cửu Trại Câu là một thung lũng núi phủ kín rừng, được đặt tên theo chín ngôi làng Tây Tạng nằm giữa quần thể hồ trên núi cao nơi đây. Đây là Di sản Thiên nhiên Thế giới và khu du lịch cấp AAAAA quốc gia. Cửu Trại Câu nổi tiếng với 'sáu tuyệt sắc': hồ núi cao, thác nước, rừng lá nhiều màu, đỉnh tuyết, băng xanh và phong tục Tây Tạng, nên còn được mệnh danh là 'vua của cảnh quan sông nước'.",
           "notes": [
             "Mùa lá đỏ và mùa tuyết rơi đầu tiên là thời điểm cao điểm — nên đặt vé và phương tiện đi lại trước, đồng thời chuẩn bị trang phục chống gió và giữ ấm phù hợp với thời tiết."
           ],
@@ -427,7 +431,7 @@
         "1": {
           "title": "Quế Lâm",
           "subtitle": "\"Đệ nhất thiên hạ\" — ngay khi bạn thốt ra những lời ấy, bạn biết mình đã thực sự đến Quế Lâm",
-          "description": "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!",
+          "description": "Câu nói 'phong cảnh Quế Lâm đẹp nhất thiên hạ, còn Dương Sóc đẹp nhất Quế Lâm' là cách khái quát chính xác nhất về vùng đất này. Sông Ly là tinh hoa và linh hồn của Quảng Tây; làn nước trong veo uốn quanh những dãy núi karst xanh thẫm, tạo nên một bức tranh thiên nhiên như đang chuyển động.",
           "notes": [
             "Các điểm nhất định phải ghé thăm: sông Ly, Núi Vòi Voi, Phố Tây Dương Sóc, ruộng bậc thang Long Tích và Hai Sông Bốn Hồ.",
             "Mùa xuân (tháng 3-5) và mùa thu (tháng 9-11) là thời điểm đẹp nhất để du lịch Quế Lâm.",
@@ -505,7 +509,7 @@
         "3": {
           "title": "Núi Phạm Tịnh",
           "subtitle": "Xuân mây cuộn miên man, hạ xanh non mơn mởn；thu trời cao khí mát, đông tuyết phủ như voan",
-          "description": "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區，中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。",
+          "description": "Núi Phạm Tịnh là đỉnh chính của dãy Vũ Lăng, được đặt tên theo ý niệm Phật giáo về 'cõi tịnh'. Đây là Di sản Thiên nhiên Thế giới, khu du lịch cấp AAAAA quốc gia và cũng là một trong năm ngọn núi Phật giáo linh thiêng của Trung Quốc. Đỉnh Vàng Mây Đỏ hiểm trở, đá Nấm kỳ lạ, biển mây cùng hào quang Phật biến ảo và loài voọc mũi hếch Quý Châu quý hiếm hợp lại thành 'bốn kỳ quan Phạm Tịnh', khiến nơi đây được mệnh danh là 'thành phố trên trời'.",
           "notes": [
             "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform."
           ],
@@ -514,7 +518,7 @@
         "4": {
           "title": "Làng Miêu Thiên Hộ Tây Giang",
           "subtitle": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
-          "description": "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區，中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繡工藝和苗族飛歌古歌並稱「西江五韻」，被譽為「中國苗都」。",
+          "description": "Làng Miêu Xijiang Qianhu là khu định cư của người Miêu lớn nhất thế giới, được đặt tên theo hơn một nghìn ngôi nhà sàn xếp tầng trên hai sườn núi. Nơi đây là khu du lịch cấp AAAA quốc gia và thị trấn lịch sử văn hóa nổi tiếng của Trung Quốc. Cảnh đêm rực ánh đèn, quần thể nhà sàn Miêu, nghi thức mời rượu 'nước chảy từ núi cao', nghề bạc và thêu, cùng những làn điệu cổ của người Miêu hợp thành 'năm nét duyên Xijiang', khiến nơi đây được mệnh danh là 'thủ phủ Miêu của Trung Quốc'.",
           "notes": [
             "Lên đài quan sát vào lúc hoàng hôn để bắt ngay khoảnh khắc ánh nắng hoàng hôn gặp những ánh đèn đầu tiên. Khuyến nghị ở lại một đêm để trải nghiệm sâu sắc cuộc sống của người Miao—sương sớm quanh làng tạo không khí yên bình hơn cả cảnh đêm."
           ],

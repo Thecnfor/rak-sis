@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Haitao Travel Custom",
-    "description": "海涛旅行定制，品質無憂，純玩無購物。提供中國著名景點的旅遊服務和攻略，包括重庆、張家界、雲南、四川、廣西等多個目的地。"
+    "description": "Haitao Travel Custom - kualitas terjamin, tanpa perhentian belanja wajib. Layanan perjalanan dan panduan ke destinasi terkenal China termasuk Chongqing, Zhangjiajie, Yunnan, Sichuan, dan Guangxi."
   },
   "Navbar": {
     "brand": "Haitao Travel Custom",
@@ -52,9 +52,11 @@
       "title": "Wisata China",
       "subtitle": "Wisata China",
       "ctaAbout": "Tentang Kami",
-      "ctaContact": "Hubungi Kami"
+      "ctaContact": "Hubungi Kami",
+      "eyebrow": "HAITAO · CAP"
     },
     "advantages": {
+      "eyebrow": "MENGAPA HAITAO",
       "items": [
         {
           "title": "Integrasi Sumber Daya",
@@ -72,50 +74,56 @@
     },
     "destinationCards": [
       {
-        "alt": "重庆",
+        "alt": "Chongqing",
         "title": "Kota Ajaib Chongqing",
         "desc": "Cahaya gemerlap Hongyadong, keramaian Jiefangbei, dan pesona bersejarah Ciqikou"
       },
       {
-        "alt": "广西",
+        "alt": "Guangxi",
         "title": "Guangxi — Keindahan Memukau",
         "desc": "Sebuah alam tersembunyi di mana pegunungan dan sungai yang megah menyatu sempurna dengan kehidupan manusia"
       },
       {
-        "alt": "四川",
+        "alt": "Sichuan",
         "title": "Sichuan — Pegunungan dan Perairan Ajaib",
         "desc": "Menggabungkan budaya, seni, dan wisata dalam satu"
       },
       {
-        "alt": "張家界",
+        "alt": "Zhangjiajie",
         "title": "Zhangjiajie — Negeri Fantasi di Bumi",
         "desc": "Lokasi syuting Avatar, bentang alam karst yang unik, pemandangan alam yang megah dan menakjubkan"
       }
     ],
+    "destinations": {
+      "eyebrow": "DESTINASI"
+    },
     "learnMore": "Pelajari Lebih Lanjut",
     "testimonialsHeading": "Ulasan Pelanggan",
-    "testimonials": [
-      {
-        "alt": "Nona Zhang",
-        "author": "Nona Zhang",
-        "body": "Concierge Xiao Zhou sangat perhatian — mengirim semua catatan pra-perjalanan ke grup chat kami dan mengingatkan rencana harian serta cuaca setiap pagi. Pemandu lokal Ah-Ming sangat paham geologi Zhangjiajie, bahkan menceritakan kisah suku Tujia selama berjalan di Jinbianxi — anak-anak kami terpikat. Bagian terbaiknya adalah tidak perlu merencanakan sendiri; Haitao mengatur semuanya."
-      },
-      {
-        "alt": "Bapak Chen",
-        "author": "M53****383",
-        "body": "Membawa orang tua ke Yunnan. Akses VIP fast-track benar-benar menghemat waktu antri. Sopir kami mengemudi dengan tenang dan tepat waktu dari Kunming ke Dali ke Lijiang. Hotel semua bintang lima grup, orang tua sangat puas terutama hotel di Lijiang yang menghadap Gunung Salju Yulong. Makanan juga tersusun rapi, termasuk mi lintas jembatan dan jamur."
-      },
-      {
-        "alt": "Nona Lin",
-        "author": "Nona Lin",
-        "body": "Awalnya khawatir jalan sendiri akan membosankan, tapi concierge Xiao Zhao menyesuaikan rute Guilin ke Yangshuo dengan irama saya dan mengatur ulang beberapa pemberhentian. Tempat duduk kapal di Sungai Li dekat jendela, angin nyaman. Sopir milik perusahaan tahu jalan lokal, menghindari beberapa kemacetan. Wisata tanpa belanja seperti ini sangat ramah untuk pelancong solo."
-      },
-      {
-        "alt": "Nyonya Wang",
-        "author": "Nyonya Wang",
-        "body": "Kali ketiga memesan dengan Haitao — paket kali ini lima hari Jembatan Tiga Liang Wulong dan Gunung Xiannu di Chongqing. Seperti dua kali sebelumnya, tanpa pemberhentian belanja, tanpa biaya tersembunyi, harga kontrak transparan. Bertemu lagi pemandu Chongqing Tao-zi — teman lama sudah, haha. Cerita sejarah Ciqikou lebih hidup dari sebelumnya. Sangat direkomendasikan untuk yang muak ditipu."
-      }
-    ],
+    "testimonials": {
+      "eyebrow": "KESAN TAMU",
+      "items": [
+        {
+          "alt": "Nona Zhang",
+          "author": "Nona Zhang",
+          "body": "Concierge Xiao Zhou sangat perhatian — mengirim semua catatan pra-perjalanan ke grup chat kami dan mengingatkan rencana harian serta cuaca setiap pagi. Pemandu lokal Ah-Ming sangat paham geologi Zhangjiajie, bahkan menceritakan kisah suku Tujia selama berjalan di Jinbianxi — anak-anak kami terpikat. Bagian terbaiknya adalah tidak perlu merencanakan sendiri; Haitao mengatur semuanya."
+        },
+        {
+          "alt": "Bapak Chen",
+          "author": "M53****383",
+          "body": "Membawa orang tua ke Yunnan. Akses VIP fast-track benar-benar menghemat waktu antri. Sopir kami mengemudi dengan tenang dan tepat waktu dari Kunming ke Dali ke Lijiang. Hotel semua bintang lima grup, orang tua sangat puas terutama hotel di Lijiang yang menghadap Gunung Salju Yulong. Makanan juga tersusun rapi, termasuk mi lintas jembatan dan jamur."
+        },
+        {
+          "alt": "Nona Lin",
+          "author": "Nona Lin",
+          "body": "Awalnya khawatir jalan sendiri akan membosankan, tapi concierge Xiao Zhao menyesuaikan rute Guilin ke Yangshuo dengan irama saya dan mengatur ulang beberapa pemberhentian. Tempat duduk kapal di Sungai Li dekat jendela, angin nyaman. Sopir milik perusahaan tahu jalan lokal, menghindari beberapa kemacetan. Wisata tanpa belanja seperti ini sangat ramah untuk pelancong solo."
+        },
+        {
+          "alt": "Nyonya Wang",
+          "author": "Nyonya Wang",
+          "body": "Kali ketiga memesan dengan Haitao — paket kali ini lima hari Jembatan Tiga Liang Wulong dan Gunung Xiannu di Chongqing. Seperti dua kali sebelumnya, tanpa pemberhentian belanja, tanpa biaya tersembunyi, harga kontrak transparan. Bertemu lagi pemandu Chongqing Tao-zi — teman lama sudah, haha. Cerita sejarah Ciqikou lebih hidup dari sebelumnya. Sangat direkomendasikan untuk yang muak ditipu."
+        }
+      ]
+    },
     "ctaHeading": "Jangan ragu lagi, hubungi kami",
     "ctaBody": [
       "Kami percaya bahwa perjalanan memiliki kehangatan",
@@ -123,11 +131,7 @@
       "memberikan Anda sedikit kehangatan perjalanan dengan keahlian dan semangat kami",
       "Haitao Travel Customization dengan penuh harapan menyambut Anda untuk berwisata ke China!"
     ],
-    "ctaPhone": "193 8679 6662",
-    "hero.eyebrow": "HAITAO · CAP",
-    "advantages.eyebrow": "MENGAPA HAITAO",
-    "destinations.eyebrow": "DESTINASI",
-    "testimonials.eyebrow": "KESAN TAMU"
+    "ctaPhone": "193 8679 6662"
   },
   "About": {
     "pageTitle": "Haitao Travel Custom — Kualitas Tanpa Khawatir",
@@ -308,7 +312,7 @@
         "5": {
           "title": "Galeri Sungai Wu",
           "subtitle": "Terpesona oleh kemegahan gunung dan danau, sekaligus jatuh cinta pada ketenangan gang-gang kota tua.",
-          "description": "江水如翡翠般碧綠，在煙波浩渺中畫舫尋幽，纔是真正的“人在畫中游”。高山深谷、峽灩相接，飛瀑流泉、古樹蒼藤，構成了令人驚歎的自然奇觀。",
+          "description": "Jendela paling lengkap untuk memahami budaya Miao di Chongqing, dengan lebih dari 40 bangunan tradisional yang menyimpan warisan ukiran akar, busana, dan tari bambu selama ribuan tahun. Ini adalah satu-satunya tempat suci di Tiongkok yang memuja Chi You, salah satu dari Tiga Leluhur Huaxia, sekaligus merekam sejarah migrasi suku Jiuli dan menjadi penanda spiritual identitas budaya Miao.",
           "notes": [
             "Kenakan sepatu olahraga anti-selip — jalurnya bisa licin setelah hujan.",
             "Suhu di permukaan sungai bisa berubah drastis — bawalah jaket tahan angin. Saat musim hujan, pantau pengumuman pelayaran langsung dari kawasan wisata.",
@@ -334,7 +338,7 @@
         "2": {
           "title": "Kawasan Wisata Bipenggou",
           "subtitle": "Surga bagi penggemar hiking dan salah satu tempat paling terkenal di China untuk menikmati dedaunan musim gugur",
-          "description": "東連臥龍自然保護區，南接四姑娘山風景區；與四姑娘山、臥龍共同構成「大熊貓走廊世界遺產地」。景區擁有自然景點82個，象璀璨的珍珠般鑲嵌在畢棚溝的六個分景區內。是一個集原生態景觀博覽、登山穿越、極地探險、滑雪滑冰、休閑度假於一體的大型原生態旅遊風景區。",
+          "description": "Jiuzhaigou adalah lembah pegunungan berhutan yang mendapat namanya dari sembilan desa Tibet yang tersebar di antara gugusan danau alpinanya. Situs Warisan Alam Dunia dan objek wisata nasional tingkat AAAAA ini terkenal dengan 'enam keajaiban Jiuzhaigou': danau pegunungan, air terjun, hutan warna-warni, puncak bersalju, es biru, dan budaya Tibet, sehingga dijuluki 'raja lanskap air'.",
           "notes": [
             "Musim dedaunan merah dan salju pertama adalah waktu puncak — pesan tiket dan transportasi terlebih dahulu, serta bawalah pakaian tahan angin dan hangat sesuai cuaca."
           ],
@@ -427,7 +431,7 @@
         "1": {
           "title": "Guilin",
           "subtitle": "\"Terbaik di bawah langit\" — saat Anda mengucapkan kata-kata itu, Anda tahu Anda benar-benar telah tiba di Guilin",
-          "description": "“桂林山水甲天下，陽朔山水甲桂林”是對這片土地最精準的概括。漓江是廣西的精華與靈魂，清澈的江水纏繞着青黛色的喀斯特峰林，構成一幅流動的天然畫卷!",
+          "description": "Ungkapan 'pemandangan Guilin terbaik di bawah langit, dan pemandangan Yangshuo terbaik di Guilin' merangkum wilayah ini dengan tepat. Sungai Li adalah inti dan jiwa Guangxi; airnya yang jernih berkelok di antara gugusan karst hijau kebiruan, membentuk gulungan lukisan alam yang seolah bergerak.",
           "notes": [
             "Destinasi wajib dikunjungi: Sungai Li, Bukit Belalai Gajah, Jalan Barat Yangshuo, Sawah Terasering Longji, serta Dua Sungai dan Empat Danau.",
             "Musim semi (Maret-Mei) dan musim gugur (September-November) adalah waktu terbaik untuk berwisata ke Guilin.",
@@ -505,7 +509,7 @@
         "3": {
           "title": "Gunung Fanjing",
           "subtitle": "Awan musim semi bergulung lembut, kehijauan musim panas tampak segar menetes；langit musim gugur tinggi dan sejuk, salju musim dingin menyelubungi bagai kain tipis",
-          "description": "梵淨山是武陵山脈主峰，因「梵天淨土」的佛教寓意而得名。世界自然遺產，國家AAAAA級旅遊景區，中國五大佛教名山之一。以紅雲金頂的險峻、蘑菇石的奇絕、雲海佛光的變幻以及黔金絲猴的珍稀並稱「梵淨四奇」，被譽為「天空之城」。",
+          "description": "Gunung Fanjing adalah puncak utama Pegunungan Wuling, dinamai dari makna Buddhis 'tanah suci Brahma'. Situs Warisan Alam Dunia ini juga merupakan objek wisata nasional tingkat AAAAA dan salah satu dari lima gunung suci Buddhis di Tiongkok. Tebing curam Puncak Emas Awan Merah, keajaiban Batu Jamur, perubahan lautan awan dan cahaya Buddha, serta langkanya monyet berhidung pesek Guizhou bersama-sama disebut 'Empat Keajaiban Fanjing', sehingga gunung ini dijuluki 'kota di langit'.",
           "notes": [
             "Spring and autumn have the most stable weather with high probability of sea of clouds. Climbing Red Cloud Golden Summit requires using chain handrails — wear non-slip shoes and check weather alerts. Tickets must be reserved in advance on the official platform."
           ],
@@ -514,7 +518,7 @@
         "4": {
           "title": "Desa Miao Xijiang",
           "subtitle": "Spring terraces gleam green, summer nights glow with fireflies, autumn harvests ripple in gold, winter fires reflect on towers.",
-          "description": "西江千戶苗寨是全世界最大的苗族聚居村寨，因上千座吊腳樓層層疊疊分佈於兩座山巒之上而得名。國家AAAA級旅遊景區，中國歷史文化名鎮。以萬家燈火的夜景、苗族吊腳樓建築群、高山流水敬酒禮、銀飾刺繡工藝和苗族飛歌古歌並稱「西江五韻」，被譽為「中國苗都」。",
+          "description": "Desa Miao Xijiang Qianhu adalah permukiman etnis Miao terbesar di dunia, dinamai dari lebih dari seribu rumah panggung yang bertingkat di dua lereng gunung. Tempat ini merupakan objek wisata nasional tingkat AAAA sekaligus kota bersejarah dan budaya terkenal di Tiongkok. Pemandangan malam dengan ribuan lampu, kompleks rumah panggung Miao, upacara bersulang 'air pegunungan mengalir', kerajinan perak dan sulam, serta nyanyian kuno suku Miao bersama-sama dikenal sebagai 'Lima Pesona Xijiang', membuatnya dijuluki 'ibu kota Miao di Tiongkok'.",
           "notes": [
             "Naiki platform pengamatan saat senja untuk menangkap momen ajaib saat cahaya matahari terbenam bertemu dengan cahaya lampu pertama di malam hari. Disarankan untuk menginap semalam untuk pengalaman mendalam kehidupan Miao—kabut pagi yang berkeliung di desa menciptakan suasana yang lebih tenang daripada pemandangan malam."
           ],
