@@ -1131,7 +1131,7 @@ body.home-solid-nav .hero {
 
 .about-hero,
 .contact-hero {
-    background-image: url('/images/main-pic.jpg');
+    background-image: url('/images/heroes/main-pic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
