@@ -4,6 +4,7 @@ import {
   FOOTER_DESTINATION_SLUGS,
   getDestinationHref,
 } from "../destinations";
+import TrackedWhatsAppLink from "./analytics/TrackedWhatsAppLink";
 
 export default async function Footer() {
   const t = await getTranslations("Footer");
@@ -57,17 +58,19 @@ export default async function Footer() {
           <div className="footer-col">
             <h3>{t("followUs")}</h3>
             <div className="footer-social">
-              <a href="https://wa.me/85284392791" target="_blank" title="WhatsApp">
+              <TrackedWhatsAppLink ctaLocation="footer" title="WhatsApp">
                 <i className="fab fa-whatsapp" />
-              </a>
-              <a href="mailto:418144878@qq.com" title="Email">
+              </TrackedWhatsAppLink>
+              <a href="mailto:tofofo@pixelinbox.com" title="Email">
                 <i className="fas fa-envelope" />
               </a>
-              <a href="#" title="Facebook">
+              <a
+                href="https://www.facebook.com/profile.php?id=61550484293539"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              >
                 <i className="fab fa-facebook-f" />
-              </a>
-              <a href="#" title="Instagram">
-                <i className="fab fa-instagram" />
               </a>
             </div>
           </div>

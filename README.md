@@ -1,145 +1,243 @@
-# 海涛旅行定制 — China Inbound Travel Marketing Site
+# 海涛旅行定制官网
 
-A static, server-rendered marketing site for **海涛旅行定制** (Haitao Travel Custom), a China inbound travel agency. Ships in Traditional Chinese (`zh-TW`) as the source language and renders server-side in 6 additional locales via [`next-intl`](https://next-intl.dev).
+`rak-sis` 是海涛旅行定制的多语言官网项目，用于承接海外用户流量、展示目的地内容，并引导用户通过 WhatsApp 或表单完成咨询。
 
-**Stack:** Next.js 16 (App Router) · React 19 · TypeScript 5 · ESLint 9 · next-intl 4 · hand-written BEM CSS · pnpm 10 · Node ≥ 22
+当前技术栈：
 
----
+- Next.js 16 App Router
+- React 19
+- TypeScript 5
+- next-intl 4
+- 原生 BEM 风格 CSS
+- pnpm 10
+- Node 22+
 
-## Quick start
+## 快速开始
+
+### 1. 安装依赖
 
 ```bash
-pnpm install      # install dependencies
-pnpm dev          # start dev server on http://localhost:3000
+pnpm install
 ```
 
-> **pnpm is required.** `pnpm-workspace.yaml` enables native builds for `sharp` and `unrs-resolver`; `npm install` will fail.
-> **Node 22+** is required by Next 16. The repo pins this via `.nvmrc`.
+### 2. 启动开发环境
 
-## Scripts
+```bash
+pnpm dev
+```
 
-| Script | Purpose |
-|---|---|
-| `pnpm dev` | Start dev server with hot reload |
-| `pnpm build` | Production build (type-checks too) — run before any commit that touches `app/` or `i18n/` |
-| `pnpm start` | Serve the production build |
-| `pnpm lint` | ESLint (extends `eslint-config-next/core-web-vitals` + `typescript`) |
+启动后访问：
 
-There are **no tests**. Validate changes with `pnpm build` + `pnpm lint`.
+```text
+http://localhost:3000
+```
 
-## Routes
+### 3. 常用检查命令
 
-All routes are prefixed with a locale (`/zh-TW/about`, `/en/chongqing`, etc.). The root `/` 307-redirects to `/zh-TW/`.
+```bash
+pnpm lint
+pnpm build
+```
 
-| Path | Source |
-|---|---|
-| `/[locale]` | `app/[locale]/page.tsx` — Home (hero, advantages, destinations, testimonials, CTA) |
+说明：
+
+- 本项目必须使用 `pnpm`
+- Node 版本要求为 `22` 及以上
+- `pnpm build` 同时承担生产构建和类型检查职责
+
+## 项目定位
+
+这是一个以静态生成内容为主的营销站点，核心职责包括：
+
+- 展示首页品牌信息与核心卖点
+- 展示各目的地详情页
+- 提供多语言访问能力
+- 承接联系咨询与广告投放流量
+
+当前站点支持 7 个语言版本：
+
+- `zh-TW`
+- `zh-CN`
+- `en`
+- `th`
+- `vi`
+- `ms`
+- `id`
+
+其中 `messages/zh-TW.json` 是文案主版本。
+
+## 路由说明
+
+所有页面都带语言前缀，例如：
+
+- `/zh-TW/about`
+- `/en/contact`
+- `/en/chongqing`
+
+主要页面如下：
+
+| 路由 | 文件 |
+| --- | --- |
+| `/[locale]` | `app/[locale]/page.tsx` |
 | `/[locale]/about` | `app/[locale]/about/page.tsx` |
 | `/[locale]/contact` | `app/[locale]/contact/page.tsx` |
-| `/[locale]/{chongqing,sichuan,zhangjiajie,guizhou,guangxi,yunnan,beijing,xian}` | Destination pages, metadata-only + translations from `messages/<locale>.json` |
-| `/sitemap.xml`, `/robots.txt` | `app/sitemap.ts`, `app/robots.ts` |
-| `/[locale]/opengraph-image` | `app/[locale]/opengraph-image.tsx` (1200×630 PNG generated at build) |
-| `/[locale]/error`, `/[locale]/loading`, `/[locale]/not-found` | App Router UX conventions |
+| `/[locale]/contact/success` | `app/[locale]/contact/success/page.tsx` |
+| `/[locale]/[slug]` | `app/[locale]/[slug]/page.tsx` |
+| `/sitemap.xml` | `app/sitemap.ts` |
+| `/robots.txt` | `app/robots.ts` |
 
-## Architecture
+## 目录结构
 
-```
+```text
 .
-├── proxy.ts                          Locale-aware routing (root-level, Next 16)
-├── i18n/                             next-intl config
-│   ├── routing.ts                    defineRouting({...})
-│   ├── request.ts                    getRequestConfig (per-request locale)
-│   ├── navigation.ts                 createNavigation(routing) → Link/useRouter/usePathname
-│   └── locales.ts                    LANGS list + labelFor
-├── messages/                         Translation catalogs (7 files, nested namespaces)
-│   └── zh-TW.json, zh-CN.json, en.json, th.json, vi.json, ms.json, id.json
 ├── app/
-│   ├── sitemap.ts, robots.ts         SEO
-│   ├── icon.jpg                      Favicon (Next.js `app/icon.jpg` convention)
-│   ├── [locale]/
-│   │   ├── layout.tsx                Root locale layout + generateStaticParams
-│   │   ├── destinations.ts           Metadata-only (slug, ctaBg, spots[{rank, image}])
-│   │   ├── page.tsx                  Home
-│   │   ├── about/page.tsx
-│   │   ├── contact/page.tsx
-│   │   ├── [slug]/page.tsx           Shared destination route shell
-│   │   ├── error.tsx, loading.tsx, not-found.tsx
-│   │   ├── opengraph-image.tsx       Dynamic OG image
-│   │   └── components/               9 components, locale-aware
-│   ├── globals.css                   All styles (~35KB, hand-written BEM)
-│   └── icon.jpg
-├── public/                           Runtime assets grouped by purpose under images/
-├── next.config.ts                    next-intl plugin + security headers
-├── tsconfig.json, eslint.config.mjs, postcss.config.mjs
-├── .editorconfig, .nvmrc, .env.example
-└── .github/workflows/ci.yml          Build + lint on push/PR
+│   ├── globals.css
+│   ├── sitemap.ts
+│   ├── robots.ts
+│   └── [locale]/
+│       ├── layout.tsx
+│       ├── page.tsx
+│       ├── destinations.ts
+│       ├── about/
+│       ├── contact/
+│       ├── [slug]/
+│       └── components/
+│           ├── analytics/         广告归因与事件回传
+│           ├── i18n/              语言切换相关组件
+│           ├── ui/                通用交互与展示辅助组件
+│           ├── ContactView.tsx
+│           ├── Cta.tsx
+│           ├── DestinationView.tsx
+│           ├── Footer.tsx
+│           └── Navbar.tsx
+├── i18n/                          语言路由、导航与 locale 配置
+├── messages/                      多语言文案
+├── public/images/                 运行时静态图片资源
+├── proxy.ts                       Next 16 多语言代理入口
+├── next.config.ts                 Next 配置与安全头
+├── .env.example                   环境变量示例
+└── README.md
 ```
 
-## Translation system
+## 组件目录约定
 
-The site ships in Traditional Chinese (`zh-TW`) as the source. Translations live in `messages/<locale>.json` under nested namespaces:
+`app/[locale]/components` 当前按职责拆为 4 类：
 
+### 1. 页面级共享组件
+
+直接服务于页面结构与内容展示：
+
+- `Navbar.tsx`
+- `Footer.tsx`
+- `ContactView.tsx`
+- `DestinationView.tsx`
+- `Cta.tsx`
+
+### 2. `analytics/`
+
+用于广告归因、事件追踪和埋点逻辑：
+
+- `MetaPixelProvider.tsx`
+- `MetaPixelRouteTracker.tsx`
+- `MetaPixelNoscript.tsx`
+- `TrackedWhatsAppLink.tsx`
+- `LeadPageTracker.tsx`
+- `meta-pixel-client.ts`
+
+### 3. `i18n/`
+
+用于语言切换与语言标识：
+
+- `LangSwitcher.tsx`
+- `MobileLangSwitcher.tsx`
+- `LangFlag.tsx`
+
+### 4. `ui/`
+
+用于通用界面行为：
+
+- `ScrollReveal.tsx`
+- `BodyHomeClassSync.tsx`
+
+这样整理后，页面组件、语言组件、动效组件、埋点组件的边界更清楚，后续继续扩展时不会全部堆在一个目录里。
+
+## 多语言机制
+
+多语言能力基于 `next-intl` 实现：
+
+1. `proxy.ts` 负责语言前缀路由
+2. `i18n/request.ts` 按请求加载对应语言包
+3. `app/[locale]/layout.tsx` 在布局层注入 `NextIntlClientProvider`
+4. 页面结构数据放在 `destinations.ts`
+5. 页面文案放在 `messages/*.json`
+
+约定如下：
+
+- 与语言无关的结构数据放 `destinations.ts`
+- 与语言有关的文本内容放 `messages/*.json`
+- 新增语言时，要同步更新 `i18n/routing.ts`、`i18n/locales.ts` 与对应语言包
+
+## Facebook / Meta Pixel 事件回传
+
+当前站点已经接入浏览器端 Meta Pixel，并为后续接入 CAPI 预留了结构。
+
+当前已覆盖事件：
+
+- `PageView`：所有页面浏览
+- `ViewContent`：目的地详情页浏览
+- `Contact`：点击 WhatsApp 联系
+- `WhatsAppClick`：WhatsApp 入口细分分析
+- `Lead`：联系表单提交成功后触发
+
+实现位置：
+
+- `app/[locale]/components/analytics/`
+
+说明：
+
+- 如果没有配置 `NEXT_PUBLIC_META_PIXEL_ID`，埋点层会自动静默停用
+- 不会影响页面正常访问和提交流程
+
+## 环境变量
+
+请参考 `.env.example`。
+
+当前实际使用的环境变量主要有：
+
+| 变量名 | 作用 |
+| --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | 站点正式域名，用于 metadata、sitemap、robots 和表单成功回跳链接 |
+| `NEXT_PUBLIC_META_PIXEL_ID` | Meta Pixel ID，用于 Facebook 广告事件回传 |
+
+## 交付与部署
+
+常见部署方式：
+
+- Vercel
+- 自托管 Node 服务
+- Docker / standalone 输出
+
+标准上线前检查：
+
+```bash
+pnpm lint
+NEXT_PUBLIC_SITE_URL=https://haitao-travel.example.com pnpm build
 ```
-Metadata              { title, description }
-Navbar                { brand, main.{home,about,contact}, travel.{8 slugs}, travelLabel, aria.menu }
-Footer                { brand, tagline, quickLinks, quickItems.{8 keys}, contactHeading,
-                       phone, whatsapp, email, address, followUs, copyright }
-Home                  { hero.{...}, advantages.items[3], destinationCards[4], testimonials[4],
-                       ctaHeading, ctaBody[4], ctaPhone, ... }
-About                 { why[6], services[4], features[4], aboutBody[2], ... }
-Contact               { cards.{5}.{label,hint}, form.{7 fields}, formHeading, formSubject }
-DestinationView       { overviewHeading, topSpotsHeading, rankLabel="TOP {rank}", ctaTitle, ctaBody[4] }
-Destinations          { chongqing.{title,overview,spots.1-5.{title,subtitle,description,notes[3],closing}}, /* ×8 */ }
-Cta                   { defaultLabel, defaultPhone }
-Locales               { zh-TW, zh-CN, en, th, vi, ms, id → native names }
+
+如果需要同时验证 Meta Pixel，可额外带上：
+
+```bash
+NEXT_PUBLIC_META_PIXEL_ID=123456789012345
 ```
 
-Server Components use `getTranslations("Section")` + dotted paths (`t("hero.title")`). Client Components use `useTranslations("Section")`. ICU MessageFormat placeholders work out of the box (e.g. `t("rankLabel", { rank: 5 })`).
+## 业务联系方式
 
-## Performance decisions (load-bearing)
+- 电话：`193 8679 6662`
+- WhatsApp：`85284392791`
+- 邮箱：`tofofo@pixelinbox.com`
+- Facebook：`https://www.facebook.com/profile.php?id=61550484293539`
+- 地址：中国张家界市永定区逸城公园
 
-These are deliberate and preserved across edits:
+## 版权说明
 
-- **System font stack only** — `fonts.googleapis.com` frequently times out in mainland China. See `:root` font-family in `globals.css`.
-- **No Tailwind, BEM-only CSS** — `postcss.config.mjs` is intentionally empty; `@tailwindcss/postcss` is a leftover from `create-next-next`.
-- **FontAwesome 6.5.1 from cdnjs** with `<link rel="preconnect">` (no `media="print" onload=` — doesn't work in React JSX).
-- **`<img>` over `next/image`** by project choice. Below-fold images use `loading="lazy" decoding="async"`.
-- **Hero image preloaded** via `<link rel="preload" as="image">` in the root locale layout.
-- **`output: "standalone"`** in `next.config.ts` — smaller Docker images for self-hosted deploy.
-
-## Security
-
-`next.config.ts` sets these headers on every response:
-
-- `X-Content-Type-Options: nosniff`
-- `X-Frame-Options: DENY`
-- `Referrer-Policy: strict-origin-when-cross-origin`
-- `Permissions-Policy: camera=(), microphone=(), geolocation=()`
-- `Strict-Transport-Security: max-age=31536000; includeSubDomains` (only meaningful over HTTPS)
-
-`poweredByHeader: false` removes the `X-Powered-By: Next.js` header.
-
-## CI
-
-`.github/workflows/ci.yml` runs `pnpm install → pnpm lint → pnpm build` on every push to `main` and every PR. Build artifacts (`.next/`) are uploaded for inspection.
-
-## Deployment
-
-Any Next.js 16-compatible host works:
-
-- **Vercel** — push to a Vercel-connected repo, set `NEXT_PUBLIC_SITE_URL` env var, done.
-- **Self-hosted Node** — `pnpm build && pnpm start` (standard Next.js server, no special handling).
-- **Docker / standalone** — if you containerize later, add `output: "standalone"` to `next.config.ts`, then `node .next/standalone/server.js` (with `public/` and `.next/static/` copied alongside).
-
-Set `NEXT_PUBLIC_SITE_URL` to your production hostname (used by sitemap, robots, OG metadata).
-
-## Contact (business)
-
-- Phone: **193 8679 6662**
-- WhatsApp: **+852 84392791**
-- Email: **418144878@qq.com**
-- Address: 中國張家界市永定區逸城公園
-
-## License
-
-Private / proprietary. © 2026 海涛旅行定制.
+本项目为私有商业项目，版权归海涛旅行定制所有。

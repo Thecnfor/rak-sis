@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ScrollReveal from "./components/ScrollReveal";
+import ScrollReveal from "./components/ui/ScrollReveal";
 import { bootstrapLocale } from "./locale-bootstrap";
 import {
   HOME_DESTINATION_SLUGS,
@@ -21,7 +21,7 @@ export default async function Home({ params }: Props) {
     <>
       <Navbar />
 
-      {/* Hero Section */}
+      {/* 首屏主视觉区 */}
       <section className="hero">
         <div className="hero-slider">
           <div
@@ -57,7 +57,7 @@ export default async function Home({ params }: Props) {
 
       <div className="scroll-divider" aria-hidden="true" />
 
-      {/* Advantages Section */}
+      {/* 核心优势区 */}
       <section className="advantages">
         <div className="container">
           <div className="advantages-eyebrow-row">
@@ -89,7 +89,7 @@ export default async function Home({ params }: Props) {
 
       <div className="scroll-divider" aria-hidden="true" />
 
-      {/* Destinations Section */}
+      {/* 目的地区域 */}
       <section className="destinations">
         <div className="container">
           <div className="destinations-eyebrow-row">
@@ -131,7 +131,7 @@ export default async function Home({ params }: Props) {
 
       <div className="scroll-divider" aria-hidden="true" />
 
-      {/* Testimonials Section */}
+      {/* 用户评价区 */}
       <section className="testimonials">
         <div className="container">
           <div className="testimonials-heading-row">
@@ -191,7 +191,7 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* 转化引导区 */}
       <section
         className="cta-section"
         style={{
@@ -212,8 +212,13 @@ export default async function Home({ params }: Props) {
               <br />
               {t("ctaBody.3")}
             </p>
-            <div className="cta-phone">
-              <i className="fas fa-phone-alt" /> {t("ctaPhone")}
+            <div className="cta-contact-list">
+              <div className="cta-phone">
+                <i className="fas fa-phone-alt" /> {t("ctaPhone")}
+              </div>
+              <div className="cta-phone">
+                <i className="fab fa-whatsapp" /> 85284392791
+              </div>
             </div>
             <Link className="btn btn-primary btn-lg" href="/contact">
               {t.raw("learnMore")}

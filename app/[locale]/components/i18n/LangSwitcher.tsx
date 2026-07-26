@@ -16,16 +16,14 @@ export default function LangSwitcher() {
   const switchTo = (newLocale: Locale) => {
     setOpen(false);
     if (newLocale === locale) return;
-    // Pass the locale-stripped pathname with an explicit `locale` option so
-    // next-intl's router doesn't double-prefix with the current locale.
-    // (`router.replace("/zh-TW/about")` would be treated as a relative
-    // path and get prefixed with the current locale → "/zh-CN/zh-TW/about".)
+    // 这里传入“去掉 locale 前缀”的 pathname，并显式指定 locale，
+    // 避免 next-intl 在当前语言前缀外再拼一层，变成重复前缀路径。
     router.replace(pathname === "/" ? "/" : pathname, {
       locale: newLocale,
     });
   };
 
-  // Close dropdown when clicking outside the wrapper.
+  // 点击组件外部区域时，自动关闭下拉菜单。
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       if (

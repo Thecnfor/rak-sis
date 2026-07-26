@@ -41,8 +41,8 @@
     },
     "contactHeading": "Contact Info",
     "phone": "193 8679 6662",
-    "whatsapp": "+852 84392791",
-    "email": "418144878@qq.com",
+    "whatsapp": "85284392791",
+    "email": "tofofo@pixelinbox.com",
     "address": "Yicheng Park, Yongding District, Zhangjiajie City, China",
     "followUs": "Follow Us",
     "copyright": "© 2026 Haitao Travel Custom. All Rights Reserved."
@@ -217,7 +217,7 @@
     "cards": {
       "whatsapp": {
         "label": "WhatsApp",
-        "hint": "Tap to Inquire Now"
+        "hint": "85284392791"
       },
       "wechat": {
         "label": "WeChat",
@@ -229,7 +229,7 @@
       },
       "email": {
         "label": "Email",
-        "hint": "418144878@qq.com"
+        "hint": "tofofo@pixelinbox.com"
       },
       "offices": {
         "label": "Offices",
@@ -246,6 +246,16 @@
       "messageLabel": "Comment or Message",
       "messagePlaceholder": "Enter your message",
       "submit": "Submit"
+    },
+    "success": {
+      "title": "Message Sent",
+      "heading": "Thank you for reaching out",
+      "body": [
+        "We have received your message and will review it as soon as possible.",
+        "If your request is urgent, you can also return to the contact page and reach us on WhatsApp."
+      ],
+      "backHome": "Back to Home",
+      "backContact": "Back to Contact"
     }
   },
   "DestinationView": {

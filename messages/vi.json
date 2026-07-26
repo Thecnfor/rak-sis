@@ -41,8 +41,8 @@
     },
     "contactHeading": "Thông tin liên hệ",
     "phone": "193 8679 6662",
-    "whatsapp": "+852 84392791",
-    "email": "418144878@qq.com",
+    "whatsapp": "85284392791",
+    "email": "tofofo@pixelinbox.com",
     "address": "Công viên Yicheng, Quận Yongding, Thành phố Trương Gia Giới, Trung Quốc",
     "followUs": "Theo dõi chúng tôi",
     "copyright": "© 2026 Haitao Travel Custom. Đã đăng ký bản quyền."
@@ -217,7 +217,7 @@
     "cards": {
       "whatsapp": {
         "label": "WhatsApp",
-        "hint": "Nhấn để tư vấn ngay"
+        "hint": "85284392791"
       },
       "wechat": {
         "label": "WeChat",
@@ -229,7 +229,7 @@
       },
       "email": {
         "label": "Email",
-        "hint": "418144878@qq.com"
+        "hint": "tofofo@pixelinbox.com"
       },
       "offices": {
         "label": "Văn phòng",
@@ -246,6 +246,16 @@
       "messageLabel": "Bình luận hoặc tin nhắn",
       "messagePlaceholder": "Nhập tin nhắn của bạn",
       "submit": "Gửi"
+    },
+    "success": {
+      "title": "Đã gửi tin nhắn",
+      "heading": "Cảm ơn bạn đã liên hệ",
+      "body": [
+        "Chúng tôi đã nhận được tin nhắn của bạn và sẽ xem xét trong thời gian sớm nhất.",
+        "Nếu nhu cầu của bạn khá gấp, bạn cũng có thể quay lại trang liên hệ và liên hệ với chúng tôi qua WhatsApp."
+      ],
+      "backHome": "Quay về Trang chủ",
+      "backContact": "Quay lại Trang liên hệ"
     }
   },
   "DestinationView": {

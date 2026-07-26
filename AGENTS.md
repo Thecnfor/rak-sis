@@ -91,7 +91,7 @@ No `test`, `typecheck`, `format`, or `lint:fix` script is configured. Do not inv
 - Framework versions are Next.js `16.2.10`, React `19.2.4`, next-intl `4.13.4`, and TypeScript 5. This Next.js version has breaking API and file-convention changes. **Read the relevant guide in `node_modules/next/dist/docs/` before writing Next.js code and heed deprecation notices.** In particular, locale middleware belongs in root `proxy.ts`, not `middleware.ts`.
 - `tsconfig.json` maps `@/*` to the repository root and uses bundler resolution, isolated modules, and no emit.
 - No formatter is configured. Follow `.editorconfig`; do not apply unrelated reformatting.
-- `NEXT_PUBLIC_SITE_URL` is the only active environment variable. It controls canonical metadata, robots, and sitemap URLs and has a local fallback documented in `.env.example`.
+- `NEXT_PUBLIC_SITE_URL` controls canonical metadata, robots, sitemap URLs, and the localized FormSubmit success redirect. `NEXT_PUBLIC_META_PIXEL_ID` enables browser-side Meta Pixel tracking. Both are documented in `.env.example`.
 - Production output uses `output: "standalone"`. Preserve the response security headers in `next.config.ts`.
 - `next-env.d.ts` and `.next/` are generated; never edit them.
 

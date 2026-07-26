@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Cta from "../components/Cta";
-import ScrollReveal from "../components/ScrollReveal";
+import ScrollReveal from "../components/ui/ScrollReveal";
 import { bootstrapLocale } from "../locale-bootstrap";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -11,9 +11,10 @@ export default async function AboutPage({ params }: Props) {
   await bootstrapLocale(params);
   const t = await getTranslations("About");
 
-  // Icon mapping: WHY uses fa-star/headset/shield-alt/heart/shuttle-van/route
-  // SERVICES have no icons in original (only images)
-  // FEATURES uses fa-gem/user-tie/hand-holding-heart/lock
+  // 图标映射约定：
+  // WHY 使用 fa-star/headset/shield-alt/heart/shuttle-van/route
+  // SERVICES 原稿只有图片，没有单独图标
+  // FEATURES 使用 fa-gem/user-tie/hand-holding-heart/lock
   const WHY_ICONS = [
     "fa-star",
     "fa-headset",

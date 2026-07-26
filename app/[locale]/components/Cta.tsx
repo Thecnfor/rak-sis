@@ -7,6 +7,7 @@ type Props = {
   ctaHref?: string;
   ctaLabel?: string;
   phone?: string;
+  whatsapp?: string;
 };
 
 export default function Cta({
@@ -16,6 +17,7 @@ export default function Cta({
   ctaHref = "/contact",
   ctaLabel = "了解更多",
   phone = "193 8679 6662",
+  whatsapp = "85284392791",
 }: Props) {
   return (
     <section
@@ -26,8 +28,13 @@ export default function Cta({
       <div className="container cta-content">
         <h2>{title}</h2>
         <p>{body}</p>
-        <div className="cta-phone">
-          <i className="fas fa-phone-alt" /> {phone}
+        <div className="cta-contact-list">
+          <div className="cta-phone">
+            <i className="fas fa-phone-alt" /> {phone}
+          </div>
+          <div className="cta-phone">
+            <i className="fab fa-whatsapp" /> {whatsapp}
+          </div>
         </div>
         <Link className="btn btn-primary btn-lg" href={ctaHref}>
           {ctaLabel}

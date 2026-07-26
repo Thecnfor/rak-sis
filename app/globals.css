@@ -959,10 +959,17 @@ body.home-solid-nav .hero {
     text-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
 }
 
+.cta-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
 .cta-phone {
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     letter-spacing: 1px;
     text-shadow: 0 1px 12px rgba(0, 0, 0, 0.75);
 }
@@ -970,7 +977,7 @@ body.home-solid-nav .hero {
 .cta-phone {
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     letter-spacing: 1px;
 }
 
@@ -1881,6 +1888,10 @@ body.home-solid-nav .hero {
 
     .cta-phone {
         font-size: 22px;
+    }
+
+    .cta-contact-list {
+        gap: 10px;
     }
 }
 

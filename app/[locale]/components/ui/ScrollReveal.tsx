@@ -23,7 +23,7 @@ export default function ScrollReveal({
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Honour reduced-motion preference — show everything immediately
+    // 尊重用户的“减少动态效果”偏好，此时直接展示内容。
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setVisible(true);
       return;

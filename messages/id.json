@@ -41,8 +41,8 @@
     },
     "contactHeading": "Informasi Kontak",
     "phone": "193 8679 6662",
-    "whatsapp": "+852 84392791",
-    "email": "418144878@qq.com",
+    "whatsapp": "85284392791",
+    "email": "tofofo@pixelinbox.com",
     "address": "Taman Yicheng, Distrik Yongding, Kota Zhangjiajie, China",
     "followUs": "Ikuti Kami",
     "copyright": "© 2026 Haitao Travel Custom. Hak Cipta Dilindungi."
@@ -217,7 +217,7 @@
     "cards": {
       "whatsapp": {
         "label": "WhatsApp",
-        "hint": "Klik untuk Tanya Sekarang"
+        "hint": "85284392791"
       },
       "wechat": {
         "label": "WeChat",
@@ -229,7 +229,7 @@
       },
       "email": {
         "label": "Email",
-        "hint": "418144878@qq.com"
+        "hint": "tofofo@pixelinbox.com"
       },
       "offices": {
         "label": "Kantor",
@@ -246,6 +246,16 @@
       "messageLabel": "Komentar atau Pesan",
       "messagePlaceholder": "Masukkan pesan Anda",
       "submit": "Kirim"
+    },
+    "success": {
+      "title": "Pesan Terkirim",
+      "heading": "Terima kasih telah menghubungi kami",
+      "body": [
+        "Kami telah menerima pesan Anda dan akan meninjaunya secepat mungkin.",
+        "Jika kebutuhan Anda mendesak, Anda juga dapat kembali ke halaman kontak dan menghubungi kami melalui WhatsApp."
+      ],
+      "backHome": "Kembali ke Beranda",
+      "backContact": "Kembali ke Halaman Kontak"
     }
   },
   "DestinationView": {

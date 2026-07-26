@@ -4,8 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { DESTINATION_SLUGS, getDestinationHref } from "../destinations";
-import LangSwitcher from "./LangSwitcher";
-import MobileLangSwitcher from "./MobileLangSwitcher";
+import TrackedWhatsAppLink from "./analytics/TrackedWhatsAppLink";
+import LangSwitcher from "./i18n/LangSwitcher";
+import MobileLangSwitcher from "./i18n/MobileLangSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -36,7 +37,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Keep <body class="home-solid-nav"> in sync with the current route.
+  // 让 <body class="home-solid-nav"> 始终与当前路由保持同步。
   useEffect(() => {
     document.body.classList.toggle("home-solid-nav", isHome);
   }, [isHome]);
@@ -47,13 +48,13 @@ export default function Navbar() {
       pathname.startsWith(item.href + "/"),
   );
 
-  // close menus when route changes
+  // 路由变化后自动收起菜单状态。
   useEffect(() => {
     setOpen(false);
     setDropdownOpen(false);
   }, [pathname]);
 
-  // close mobile menu and dropdown on outside click
+  // 点击导航外部区域时，关闭移动菜单和下拉菜单。
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       const target = e.target as Node;
@@ -133,10 +134,13 @@ export default function Navbar() {
         <div className="nav-right">
           <LangSwitcher />
           <div className="social-icons-nav">
-            <a href="https://wa.me/85284392791" target="_blank" title="WhatsApp">
+            <TrackedWhatsAppLink
+              ctaLocation="navbar"
+              title="WhatsApp"
+            >
               <i className="fab fa-whatsapp" />
-            </a>
-            <a href="mailto:418144878@qq.com" title="Email">
+            </TrackedWhatsAppLink>
+            <a href="mailto:tofofo@pixelinbox.com" title="Email">
               <i className="fas fa-envelope" />
             </a>
           </div>

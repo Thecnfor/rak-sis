@@ -1,6 +1,5 @@
-// Renders the little leading icon for a language row: either a flag image
-// or a text badge (glyph). 繁體中文 uses a glyph so no national flag is
-// implied for Traditional Chinese.
+// 语言项前面的视觉标识统一在这里渲染：
+// 有国旗素材时显示小图标；繁体中文使用字形徽标，避免隐含国家指向。
 import type { Lang } from "@/i18n/locales";
 
 export default function LangFlag({ lang }: { lang: Lang }) {
@@ -11,6 +10,6 @@ export default function LangFlag({ lang }: { lang: Lang }) {
       </span>
     );
   }
-  // eslint-disable-next-line @next/next/no-img-element -- tiny static flag icons
+  // eslint-disable-next-line @next/next/no-img-element -- 这里使用极小的静态旗帜图标
   return <img src={`/images/${lang.flag}`} alt="" />;
 }

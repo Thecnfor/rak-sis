@@ -16,8 +16,8 @@ export default function MobileLangSwitcher() {
   const switchTo = (newLocale: Locale) => {
     setOpen(false);
     if (newLocale === locale) return;
-    // Pass the locale-stripped pathname with an explicit `locale` option so
-    // next-intl's router doesn't double-prefix with the current locale.
+    // 这里同样传入去掉语言前缀后的 pathname，避免切换语言时
+    // 生成带双重 locale 前缀的错误路径。
     router.replace(pathname === "/" ? "/" : pathname, {
       locale: newLocale,
     });

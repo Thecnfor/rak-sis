@@ -41,8 +41,8 @@
     },
     "contactHeading": "联系方式",
     "phone": "193 8679 6662",
-    "whatsapp": "+852 84392791",
-    "email": "418144878@qq.com",
+    "whatsapp": "85284392791",
+    "email": "tofofo@pixelinbox.com",
     "address": "中国张家界市永定区逸城公园",
     "followUs": "关注我们",
     "copyright": "© 2026 海涛旅行定制. All Rights Reserved."
@@ -217,7 +217,7 @@
     "cards": {
       "whatsapp": {
         "label": "WhatsApp",
-        "hint": "点击立即咨询"
+        "hint": "85284392791"
       },
       "wechat": {
         "label": "WeChat 微信",
@@ -229,7 +229,7 @@
       },
       "email": {
         "label": "Email 邮箱",
-        "hint": "418144878@qq.com"
+        "hint": "tofofo@pixelinbox.com"
       },
       "offices": {
         "label": "Offices 地址",
@@ -246,6 +246,16 @@
       "messageLabel": "评论或消息",
       "messagePlaceholder": "请输入您的消息",
       "submit": "提交"
+    },
+    "success": {
+      "title": "消息已发送",
+      "heading": "感谢您的咨询",
+      "body": [
+        "我们已经收到您的留言，会尽快查看并与您联系。",
+        "如果您的需求比较紧急，也可以返回联系页面，通过 WhatsApp 直接联系。"
+      ],
+      "backHome": "返回首页",
+      "backContact": "返回联系页面"
     }
   },
   "DestinationView": {

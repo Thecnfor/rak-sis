@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Footer from "./Footer";
 import Cta from "./Cta";
-import ScrollReveal from "./ScrollReveal";
+import ScrollReveal from "./ui/ScrollReveal";
 import type { DestinationMeta } from "../destinations";
 
 type Props = {
@@ -9,10 +9,9 @@ type Props = {
 };
 
 export default async function DestinationView({ data }: Props) {
-  // Look up all destination text via the locale-aware JSON under
-  // `Destinations.<slug>`. The slug is the namespace root, spots are
-  // nested under `spots.<rank>.<field>`, and `notes` is an array under
-  // `spots.<rank>.notes`.
+  // 目的地文案统一从 `Destinations.<slug>` 命名空间读取。
+  // slug 是根节点，景点字段位于 `spots.<rank>.<field>`，
+  // 备注数组位于 `spots.<rank>.notes`。
   const td = await getTranslations(`Destinations.${data.slug}`);
   const t = await getTranslations("DestinationView");
 
@@ -53,8 +52,8 @@ export default async function DestinationView({ data }: Props) {
         <div className="container">
           <h2>{t("topSpotsHeading")}</h2>
           {data.spots.map((s, i) => {
-            // Read the notes array via t.raw so next-intl returns the
-            // underlying array (not a formatted string).
+            // 这里用 t.raw 读取 notes，确保拿到的是原始数组，
+            // 而不是被格式化后的字符串。
             const notes = td.raw(`spots.${s.rank}.notes`) as string[];
             const closing = td(`spots.${s.rank}.closing`);
 
