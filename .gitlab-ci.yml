@@ -2,6 +2,7 @@ stages: [build]
 
 variables:
   IMAGE: harbor.app.xrak.top/tenants/rak-sis
+  DOCKER_CONFIG: /kaniko/.docker
 
 build:
   stage: build
@@ -9,12 +10,7 @@ build:
     name: harbor.app.xrak.top/tenants/kaniko:debug
     entrypoint: [""]
   script:
-    - echo "len user=${#HARBOR_USER} pass=${#HARBOR_PASS}"
-    - echo "user starts: $(echo $HARBOR_USER | head -c 8)"
-    - mkdir -p /kaniko/.docker
-    - echo "{\"auths\":{\"harbor.app.xrak.top\":{\"auth\":\"$(printf '%s' "$HARBOR_USER:$HARBOR_PASS" | base64 | tr -d '\n')\"}}}" > /kaniko/.docker/config.json
-    - echo "config.json bytes: $(wc -c < /kaniko/.docker/config.json)"
-    - cat /kaniko/.docker/config.json
-    - /kaniko/executor --context=$CI_PROJECT_DIR --dockerfile=$CI_PROJECT_DIR/Dockerfile --destination=$IMAGE:latest --registry-mirror=docker.m.daocloud.io --snapshot-mode=redo --verbosity=debug
+    - cp "$HARBOR_CONFIG_JSON" /kaniko/.docker/config.json
+    - /kaniko/executor --context=$CI_PROJECT_DIR --dockerfile=$CI_PROJECT_DIR/Dockerfile --destination=$IMAGE:latest --destination=$IMAGE:$CI_COMMIT_SHORT_SHA --registry-mirror=docker.m.daocloud.io --snapshot-mode=redo
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
