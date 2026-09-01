@@ -1,4 +1,4 @@
-stages: [build]
+stages: [build, deploy]
 
 variables:
   IMAGE: harbor.app.xrak.top/tenants/rak-sis
@@ -12,5 +12,32 @@ build:
   script:
     - cp "$HARBOR_CONFIG_JSON" /kaniko/.docker/config.json
     - /kaniko/executor --context=$CI_PROJECT_DIR --dockerfile=$CI_PROJECT_DIR/Dockerfile --destination=$IMAGE:latest --destination=$IMAGE:$CI_COMMIT_SHORT_SHA --registry-mirror=docker.m.daocloud.io --snapshot-mode=redo
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+# 灰度闭环: 更新 argocd-apps 镜像 tag -> ArgoCD sync -> Rollout 金丝雀 25%/60%/100%
+update-gitops:
+  stage: deploy
+  image: alpine:3.21
+  script:
+    - apk add --no-cache curl python3 >/dev/null
+    - |
+      python3 - <<'PY'
+      import json, os, urllib.request
+      tok = os.environ["GITOPS_TOKEN"]
+      sha = os.environ["CI_COMMIT_SHORT_SHA"]
+      base = "https://gitlab.app.xrak.top/api/v4/projects/2/repository"
+      req = urllib.request.Request(f"{base}/files/apps%2Frak-sis%2Frollout.yaml/raw?ref=main",
+                                   headers={"PRIVATE-TOKEN": tok})
+      cur = urllib.request.urlopen(req).read().decode()
+      import re
+      new = re.sub(r"(harbor\.app\.xrak\.top/tenants/rak-sis):[a-zA-Z0-9._-]+", rf"\1:{sha}", cur)
+      body = json.dumps({"branch": "main", "commit_message": f"deploy: rak-sis {sha}",
+                         "actions": [{"action": "update", "file_path": "apps/rak-sis/rollout.yaml", "content": new}]}).encode()
+      req = urllib.request.Request(f"{base}/commits", data=body,
+                                   headers={"PRIVATE-TOKEN": tok, "Content-Type": "application/json"})
+      urllib.request.urlopen(req)
+      print("argocd-apps updated ->", sha)
+      PY
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
