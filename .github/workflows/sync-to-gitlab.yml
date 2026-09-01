@@ -1,0 +1,21 @@
+name: Sync stable to GitLab
+
+on:
+  push:
+    branches: [stable]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Mirror push to GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.app.xrak.top/xrak/rak-sis.git"
+          git push gitlab HEAD:main --force
+          echo "synced to GitLab xrak/rak-sis"

@@ -20,6 +20,8 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // K8s 部署: 产出独立 server (kaniko 镜像用)
+  output: "standalone",
   // Don't advertise the framework version in the response header.
   poweredByHeader: false,
 
