@@ -1,0 +1,16 @@
+stages: [build]
+
+variables:
+  IMAGE: harbor.app.xrak.top/tenants/rak-sis
+
+build:
+  stage: build
+  image:
+    name: harbor.app.xrak.top/tenants/kaniko:debug
+    entrypoint: [""]
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"harbor.app.xrak.top\":{\"auth\":\"$(printf '%s' "$HARBOR_USER:$HARBOR_PASS" | base64 -w0)\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context=$CI_PROJECT_DIR --dockerfile=$CI_PROJECT_DIR/Dockerfile --destination=$IMAGE:latest --destination=$IMAGE:$CI_COMMIT_SHORT_SHA --registry-mirror=docker.m.daocloud.io --snapshot-mode=redo
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
